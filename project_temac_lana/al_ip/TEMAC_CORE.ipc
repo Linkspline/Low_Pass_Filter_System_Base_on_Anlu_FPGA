@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEMACConfig>
+    <GeneralConfig>
+        <Type>EG_LOGIC_TEMAC</Type>
+        <Device>EG4D20EG176</Device>
+        <create_VHDL>false</create_VHDL>
+        <inst>TEMAC_CORE</inst>
+        <Speed_Type>TRI</Speed_Type>
+        <Duplex_Mode>FD_HD</Duplex_Mode>
+        <Management_Configuration>AXI4</Management_Configuration>
+        <Address_Filter>1</Address_Filter>
+        <Num_Addr>0</Num_Addr>
+    </GeneralConfig>
+</TEMACConfig>

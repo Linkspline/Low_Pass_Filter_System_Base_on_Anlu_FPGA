@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SoftDDSConfig>
+    <Config>
+        <CE>0</CE>
+        <FM>0</FM>
+        <FREC_OUT>0.006</FREC_OUT>
+        <FREC_SYS>25</FREC_SYS>
+        <LATENCY_ROM>1</LATENCY_ROM>
+        <PHASE_JITTER>0</PHASE_JITTER>
+        <PHASE_OUT>0</PHASE_OUT>
+        <PM>0</PM>
+        <RDY>0</RDY>
+        <RST_LL>low</RST_LL>
+        <SIN_WAVE>cos</SIN_WAVE>
+        <SYN_CLEAR>0</SYN_CLEAR>
+        <W_DOUT>8</W_DOUT>
+        <W_JITTER>0</W_JITTER>
+        <W_PHASE>32</W_PHASE>
+        <W_PHASE_ANGLE>12</W_PHASE_ANGLE>
+    </Config>
+    <GeneralConfig>
+        <Device>PH1A90SBG484</Device>
+        <Type>DDS</Type>
+        <Version>1.0</Version>
+        <create_VHDL>false</create_VHDL>
+        <inst>dds_gen1</inst>
+    </GeneralConfig>
+    <GeneratedFiles>
+        <GateVerilog Enable="true">dds_gen1_gate.v</GateVerilog>
+    </GeneratedFiles>
+</SoftDDSConfig>

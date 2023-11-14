@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEMACConfig>
+    <GeneralConfig>
+        <Type>PH1_LOGIC_TEMAC</Type>
+        <Device>PH1A400SFG900</Device>
+        <create_VHDL>true</create_VHDL>
+        <inst>TEMAC_CORE</inst>
+        <Speed_Type>TRI</Speed_Type>
+        <Duplex_Mode>FD_HD</Duplex_Mode>
+        <Management_Configuration>AXI4</Management_Configuration>
+        <Address_Filter>1</Address_Filter>
+        <Num_Addr>3</Num_Addr>
+    </GeneralConfig>
+    <GeneratedFiles>
+        <GateVerilog Enable="true">trimac_core_gate.v</GateVerilog>
+    </GeneratedFiles>
+</TEMACConfig>
