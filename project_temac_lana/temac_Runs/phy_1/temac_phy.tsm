@@ -1,0 +1,579 @@
+ph1_90
+13 2556 33 2091 9394 58274 0 1
+2.451 -0.014 al_temac_example_design ph1_90 PH1A90SBG484 Detail 2 28 6
+clock: clkin
+15 0 0 0
+
+clock: CLK125
+23 33000 5010 4
+Setup check
+33 3
+Endpoint: trimac_locallink/u_client_FIFO/tx_fifo/reg1_syn_49
+33 2.451000 44 3
+Timing path: trimac_locallink/u_client_FIFO/tx_fifo/reg10_syn_19.clk->trimac_locallink/u_client_FIFO/tx_fifo/reg1_syn_49
+trimac_locallink/u_client_FIFO/tx_fifo/reg10_syn_19.clk
+trimac_locallink/u_client_FIFO/tx_fifo/reg1_syn_49
+35 2.451000 9.163000 6.712000 5 5
+trimac_locallink/u_client_FIFO/tx_fifo/rd_state[2] trimac_locallink/u_client_FIFO/tx_fifo/reg6_syn_37.ic
+trimac_locallink/u_client_FIFO/tx_fifo/rd_addr_b2[2]_syn_6 trimac_locallink/u_client_FIFO/tx_fifo/reg10_syn_17.ia
+trimac_locallink/u_client_FIFO/tx_fifo/rd_nxt_state[0] trimac_locallink/u_client_FIFO/tx_fifo/rd_eof_reg1_syn_4.ic
+trimac_locallink/u_client_FIFO/tx_fifo/rd_addr_b2[2]_syn_20 trimac_locallink/u_client_FIFO/tx_fifo/reg15_syn_12.ic
+trimac_locallink/u_client_FIFO/tx_fifo/rd_addr_b4[7] trimac_locallink/u_client_FIFO/tx_fifo/reg1_syn_49.ima
+
+Timing path: trimac_locallink/u_client_FIFO/tx_fifo/reg10_syn_19.clk->trimac_locallink/u_client_FIFO/tx_fifo/reg1_syn_49
+trimac_locallink/u_client_FIFO/tx_fifo/reg10_syn_19.clk
+trimac_locallink/u_client_FIFO/tx_fifo/reg1_syn_49
+89 2.465000 9.163000 6.698000 5 5
+trimac_locallink/u_client_FIFO/tx_fifo/rd_state[2] trimac_locallink/u_client_FIFO/tx_fifo/reg6_syn_31.ic
+trimac_locallink/u_client_FIFO/tx_fifo/rd_addr_b2[2]_syn_2 trimac_locallink/u_client_FIFO/tx_fifo/reg10_syn_17.imb
+trimac_locallink/u_client_FIFO/tx_fifo/rd_nxt_state[0] trimac_locallink/u_client_FIFO/tx_fifo/rd_eof_reg1_syn_4.ic
+trimac_locallink/u_client_FIFO/tx_fifo/rd_addr_b2[2]_syn_20 trimac_locallink/u_client_FIFO/tx_fifo/reg15_syn_12.ic
+trimac_locallink/u_client_FIFO/tx_fifo/rd_addr_b4[7] trimac_locallink/u_client_FIFO/tx_fifo/reg1_syn_49.ima
+
+Timing path: trimac_locallink/u_client_FIFO/tx_fifo/reg10_syn_15.clk->trimac_locallink/u_client_FIFO/tx_fifo/reg1_syn_49
+trimac_locallink/u_client_FIFO/tx_fifo/reg10_syn_15.clk
+trimac_locallink/u_client_FIFO/tx_fifo/reg1_syn_49
+143 2.962000 9.163000 6.201000 5 5
+trimac_locallink/u_client_FIFO/tx_fifo/rd_state[1] u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_16ad90bc_syn_6.ib
+trimac_locallink/u_client_FIFO/tx_fifo/rd_addr_b2[2]_syn_13 trimac_locallink/u_client_FIFO/tx_fifo/reg10_syn_19.ic
+trimac_locallink/u_client_FIFO/tx_fifo/rd_nxt_state[2] trimac_locallink/u_client_FIFO/tx_fifo/rd_eof_reg1_syn_4.ie
+trimac_locallink/u_client_FIFO/tx_fifo/rd_addr_b2[2]_syn_20 trimac_locallink/u_client_FIFO/tx_fifo/reg15_syn_12.ic
+trimac_locallink/u_client_FIFO/tx_fifo/rd_addr_b4[7] trimac_locallink/u_client_FIFO/tx_fifo/reg1_syn_49.ima
+
+
+Endpoint: trimac_locallink/u_client_FIFO/tx_fifo/reg1_syn_49
+197 2.459000 44 3
+Timing path: trimac_locallink/u_client_FIFO/tx_fifo/reg10_syn_19.clk->trimac_locallink/u_client_FIFO/tx_fifo/reg1_syn_49
+trimac_locallink/u_client_FIFO/tx_fifo/reg10_syn_19.clk
+trimac_locallink/u_client_FIFO/tx_fifo/reg1_syn_49
+199 2.459000 9.163000 6.704000 5 5
+trimac_locallink/u_client_FIFO/tx_fifo/rd_state[2] trimac_locallink/u_client_FIFO/tx_fifo/reg6_syn_37.ic
+trimac_locallink/u_client_FIFO/tx_fifo/rd_addr_b2[2]_syn_6 trimac_locallink/u_client_FIFO/tx_fifo/reg10_syn_17.ia
+trimac_locallink/u_client_FIFO/tx_fifo/rd_nxt_state[0] trimac_locallink/u_client_FIFO/tx_fifo/rd_eof_reg1_syn_4.ic
+trimac_locallink/u_client_FIFO/tx_fifo/rd_addr_b2[2]_syn_20 trimac_locallink/u_client_FIFO/tx_fifo/reg15_syn_12.ic
+trimac_locallink/u_client_FIFO/tx_fifo/rd_addr_b4[6] trimac_locallink/u_client_FIFO/tx_fifo/reg1_syn_49.ie
+
+Timing path: trimac_locallink/u_client_FIFO/tx_fifo/reg10_syn_19.clk->trimac_locallink/u_client_FIFO/tx_fifo/reg1_syn_49
+trimac_locallink/u_client_FIFO/tx_fifo/reg10_syn_19.clk
+trimac_locallink/u_client_FIFO/tx_fifo/reg1_syn_49
+253 2.473000 9.163000 6.690000 5 5
+trimac_locallink/u_client_FIFO/tx_fifo/rd_state[2] trimac_locallink/u_client_FIFO/tx_fifo/reg6_syn_31.ic
+trimac_locallink/u_client_FIFO/tx_fifo/rd_addr_b2[2]_syn_2 trimac_locallink/u_client_FIFO/tx_fifo/reg10_syn_17.imb
+trimac_locallink/u_client_FIFO/tx_fifo/rd_nxt_state[0] trimac_locallink/u_client_FIFO/tx_fifo/rd_eof_reg1_syn_4.ic
+trimac_locallink/u_client_FIFO/tx_fifo/rd_addr_b2[2]_syn_20 trimac_locallink/u_client_FIFO/tx_fifo/reg15_syn_12.ic
+trimac_locallink/u_client_FIFO/tx_fifo/rd_addr_b4[6] trimac_locallink/u_client_FIFO/tx_fifo/reg1_syn_49.ie
+
+Timing path: trimac_locallink/u_client_FIFO/tx_fifo/reg10_syn_15.clk->trimac_locallink/u_client_FIFO/tx_fifo/reg1_syn_49
+trimac_locallink/u_client_FIFO/tx_fifo/reg10_syn_15.clk
+trimac_locallink/u_client_FIFO/tx_fifo/reg1_syn_49
+307 2.970000 9.163000 6.193000 5 5
+trimac_locallink/u_client_FIFO/tx_fifo/rd_state[1] u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_16ad90bc_syn_6.ib
+trimac_locallink/u_client_FIFO/tx_fifo/rd_addr_b2[2]_syn_13 trimac_locallink/u_client_FIFO/tx_fifo/reg10_syn_19.ic
+trimac_locallink/u_client_FIFO/tx_fifo/rd_nxt_state[2] trimac_locallink/u_client_FIFO/tx_fifo/rd_eof_reg1_syn_4.ie
+trimac_locallink/u_client_FIFO/tx_fifo/rd_addr_b2[2]_syn_20 trimac_locallink/u_client_FIFO/tx_fifo/reg15_syn_12.ic
+trimac_locallink/u_client_FIFO/tx_fifo/rd_addr_b4[6] trimac_locallink/u_client_FIFO/tx_fifo/reg1_syn_49.ie
+
+
+Endpoint: trimac_locallink/u_client_FIFO/tx_fifo/reg1_syn_46
+361 2.590000 44 3
+Timing path: trimac_locallink/u_client_FIFO/tx_fifo/reg10_syn_19.clk->trimac_locallink/u_client_FIFO/tx_fifo/reg1_syn_46
+trimac_locallink/u_client_FIFO/tx_fifo/reg10_syn_19.clk
+trimac_locallink/u_client_FIFO/tx_fifo/reg1_syn_46
+363 2.590000 9.161000 6.571000 5 5
+trimac_locallink/u_client_FIFO/tx_fifo/rd_state[2] trimac_locallink/u_client_FIFO/tx_fifo/reg6_syn_37.ic
+trimac_locallink/u_client_FIFO/tx_fifo/rd_addr_b2[2]_syn_6 trimac_locallink/u_client_FIFO/tx_fifo/reg10_syn_17.ia
+trimac_locallink/u_client_FIFO/tx_fifo/rd_nxt_state[0] trimac_locallink/u_client_FIFO/tx_fifo/rd_eof_reg1_syn_4.ic
+trimac_locallink/u_client_FIFO/tx_fifo/rd_addr_b2[2]_syn_20 trimac_locallink/u_client_FIFO/tx_fifo/reg15_syn_10.ia
+trimac_locallink/u_client_FIFO/tx_fifo/rd_addr_b4[8] trimac_locallink/u_client_FIFO/tx_fifo/reg1_syn_46.ic
+
+Timing path: trimac_locallink/u_client_FIFO/tx_fifo/reg10_syn_19.clk->trimac_locallink/u_client_FIFO/tx_fifo/reg1_syn_46
+trimac_locallink/u_client_FIFO/tx_fifo/reg10_syn_19.clk
+trimac_locallink/u_client_FIFO/tx_fifo/reg1_syn_46
+417 2.604000 9.161000 6.557000 5 5
+trimac_locallink/u_client_FIFO/tx_fifo/rd_state[2] trimac_locallink/u_client_FIFO/tx_fifo/reg6_syn_31.ic
+trimac_locallink/u_client_FIFO/tx_fifo/rd_addr_b2[2]_syn_2 trimac_locallink/u_client_FIFO/tx_fifo/reg10_syn_17.imb
+trimac_locallink/u_client_FIFO/tx_fifo/rd_nxt_state[0] trimac_locallink/u_client_FIFO/tx_fifo/rd_eof_reg1_syn_4.ic
+trimac_locallink/u_client_FIFO/tx_fifo/rd_addr_b2[2]_syn_20 trimac_locallink/u_client_FIFO/tx_fifo/reg15_syn_10.ia
+trimac_locallink/u_client_FIFO/tx_fifo/rd_addr_b4[8] trimac_locallink/u_client_FIFO/tx_fifo/reg1_syn_46.ic
+
+Timing path: trimac_locallink/u_client_FIFO/tx_fifo/reg10_syn_15.clk->trimac_locallink/u_client_FIFO/tx_fifo/reg1_syn_46
+trimac_locallink/u_client_FIFO/tx_fifo/reg10_syn_15.clk
+trimac_locallink/u_client_FIFO/tx_fifo/reg1_syn_46
+471 3.101000 9.161000 6.060000 5 5
+trimac_locallink/u_client_FIFO/tx_fifo/rd_state[1] u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_16ad90bc_syn_6.ib
+trimac_locallink/u_client_FIFO/tx_fifo/rd_addr_b2[2]_syn_13 trimac_locallink/u_client_FIFO/tx_fifo/reg10_syn_19.ic
+trimac_locallink/u_client_FIFO/tx_fifo/rd_nxt_state[2] trimac_locallink/u_client_FIFO/tx_fifo/rd_eof_reg1_syn_4.ie
+trimac_locallink/u_client_FIFO/tx_fifo/rd_addr_b2[2]_syn_20 trimac_locallink/u_client_FIFO/tx_fifo/reg15_syn_10.ia
+trimac_locallink/u_client_FIFO/tx_fifo/rd_addr_b4[8] trimac_locallink/u_client_FIFO/tx_fifo/reg1_syn_46.ic
+
+
+
+Hold check
+525 3
+Endpoint: u_client_loopback/reg3_syn_24
+527 0.118000 1 1
+Timing path: u_client_loopback/reg3_syn_22.clk->u_client_loopback/reg3_syn_24
+u_client_loopback/reg3_syn_22.clk
+u_client_loopback/reg3_syn_24
+529 0.118000 0.705000 0.823000 0 1
+u_client_loopback/rdy_sr_content[3] u_client_loopback/reg3_syn_24.ima
+
+
+Endpoint: trimac_locallink/trimac_block/trimac_core/al_a7d784b9_syn_3
+575 0.142000 1 1
+Timing path: trimac_locallink/trimac_block/u_tx_clk_en_gen/client_txc_en_reg_syn_16.clk->trimac_locallink/trimac_block/trimac_core/al_a7d784b9_syn_3
+trimac_locallink/trimac_block/u_tx_clk_en_gen/client_txc_en_reg_syn_16.clk
+trimac_locallink/trimac_block/trimac_core/al_a7d784b9_syn_3
+577 0.142000 0.668000 0.810000 0 1
+trimac_locallink/trimac_block/trimac_core/tx_clk_en_dup_7 trimac_locallink/trimac_block/trimac_core/al_a7d784b9_syn_3.ceb
+
+
+Endpoint: trimac_locallink/trimac_block/trimac_core/al_3d967daf_syn_4
+623 0.142000 1 1
+Timing path: trimac_locallink/trimac_block/u_tx_clk_en_gen/client_txc_en_reg_syn_16.clk->trimac_locallink/trimac_block/trimac_core/al_3d967daf_syn_4
+trimac_locallink/trimac_block/u_tx_clk_en_gen/client_txc_en_reg_syn_16.clk
+trimac_locallink/trimac_block/trimac_core/al_3d967daf_syn_4
+625 0.142000 0.668000 0.810000 0 1
+trimac_locallink/trimac_block/trimac_core/tx_clk_en_dup_7 trimac_locallink/trimac_block/trimac_core/al_3d967daf_syn_4.cea
+
+
+
+Recovery check
+671 3
+Endpoint: u_test_send/u_fake_top/u_top_fir/reg0_syn_53
+673 3.964000 1 1
+Timing path: tx_ll_reset_reg_syn_4.clk->u_test_send/u_fake_top/u_top_fir/reg0_syn_53
+tx_ll_reset_reg_syn_4.clk
+u_test_send/u_fake_top/u_top_fir/reg0_syn_53
+675 3.964000 9.185000 5.221000 0 1
+trimac_locallink/u_client_FIFO/tx_fifo/wr_sreset u_test_send/u_fake_top/u_top_fir/reg0_syn_53.asr
+
+
+Endpoint: u_test_send/u_fake_top/u_top_fir/reg0_syn_51
+721 3.964000 1 1
+Timing path: tx_ll_reset_reg_syn_4.clk->u_test_send/u_fake_top/u_top_fir/reg0_syn_51
+tx_ll_reset_reg_syn_4.clk
+u_test_send/u_fake_top/u_top_fir/reg0_syn_51
+723 3.964000 9.185000 5.221000 0 1
+trimac_locallink/u_client_FIFO/tx_fifo/wr_sreset u_test_send/u_fake_top/u_top_fir/reg0_syn_51.asr
+
+
+Endpoint: u_test_send/u_fake_top/u_top_fir/reg0_syn_43
+769 3.964000 1 1
+Timing path: tx_ll_reset_reg_syn_4.clk->u_test_send/u_fake_top/u_top_fir/reg0_syn_43
+tx_ll_reset_reg_syn_4.clk
+u_test_send/u_fake_top/u_top_fir/reg0_syn_43
+771 3.964000 9.185000 5.221000 0 1
+trimac_locallink/u_client_FIFO/tx_fifo/wr_sreset u_test_send/u_fake_top/u_top_fir/reg0_syn_43.asr
+
+
+
+Removal check
+817 3
+Endpoint: u_test_send/u_data_fifo/empty_flag_r1_reg_syn_3
+819 0.134000 1 1
+Timing path: u_test_send/u_data_fifo/asy_r_rst0_reg_syn_4.clk->u_test_send/u_data_fifo/empty_flag_r1_reg_syn_3
+u_test_send/u_data_fifo/asy_r_rst0_reg_syn_4.clk
+u_test_send/u_data_fifo/empty_flag_r1_reg_syn_3
+821 0.134000 0.752000 0.886000 0 1
+u_test_send/u_data_fifo/asy_r_rst1 u_test_send/u_data_fifo/empty_flag_r1_reg_syn_3.asr
+
+
+Endpoint: u_test_send/u_data_fifo/wr_to_rd_cross_inst/reg3_syn_49
+867 0.134000 1 1
+Timing path: u_test_send/u_data_fifo/asy_r_rst0_reg_syn_4.clk->u_test_send/u_data_fifo/wr_to_rd_cross_inst/reg3_syn_49
+u_test_send/u_data_fifo/asy_r_rst0_reg_syn_4.clk
+u_test_send/u_data_fifo/wr_to_rd_cross_inst/reg3_syn_49
+869 0.134000 0.752000 0.886000 0 1
+u_test_send/u_data_fifo/asy_r_rst1 u_test_send/u_data_fifo/wr_to_rd_cross_inst/reg3_syn_49.asr
+
+
+Endpoint: u_test_send/u_data_fifo/reg0_syn_52
+915 0.184000 1 1
+Timing path: u_test_send/u_data_fifo/asy_r_rst0_reg_syn_4.clk->u_test_send/u_data_fifo/reg0_syn_52
+u_test_send/u_data_fifo/asy_r_rst0_reg_syn_4.clk
+u_test_send/u_data_fifo/reg0_syn_52
+917 0.184000 0.746000 0.930000 0 1
+u_test_send/u_data_fifo/asy_r_rst1 u_test_send/u_data_fifo/reg0_syn_52.asr
+
+
+
+
+clock: CLK50
+963 15732 2024 2
+Setup check
+973 3
+Endpoint: u_axi_master_cfg/reg4_syn_173
+973 13.816000 21 3
+Timing path: u_axi_master_cfg/reg0_syn_73.clk->u_axi_master_cfg/reg4_syn_173
+u_axi_master_cfg/reg0_syn_73.clk
+u_axi_master_cfg/reg4_syn_173
+975 13.816000 21.173000 7.357000 5 5
+u_axi_master_cfg/axi_araddr[7] trimac_locallink/trimac_block/trimac_core/al_3577737c_syn_3.ib
+trimac_locallink/trimac_block/trimac_core/al_175588ec trimac_locallink/trimac_block/trimac_core/al_9e2a5d83_syn_3.ia
+trimac_locallink/trimac_block/trimac_core/al_627de329 trimac_locallink/trimac_block/trimac_core/al_ac9167d_syn_1.ia
+trimac_locallink/trimac_block/trimac_core/al_67074a64 trimac_locallink/trimac_block/trimac_core/al_5832c5e6_syn_7.id
+u_axi_master_cfg/m_axi_rdata[28] u_axi_master_cfg/reg4_syn_173.ib
+
+Timing path: u_axi_master_cfg/reg0_syn_71.clk->u_axi_master_cfg/reg4_syn_173
+u_axi_master_cfg/reg0_syn_71.clk
+u_axi_master_cfg/reg4_syn_173
+1029 14.023000 21.173000 7.150000 5 5
+u_axi_master_cfg/axi_araddr[6] trimac_locallink/trimac_block/trimac_core/al_3577737c_syn_3.ima
+trimac_locallink/trimac_block/trimac_core/al_175588ec trimac_locallink/trimac_block/trimac_core/al_9e2a5d83_syn_3.ia
+trimac_locallink/trimac_block/trimac_core/al_627de329 trimac_locallink/trimac_block/trimac_core/al_ac9167d_syn_1.ia
+trimac_locallink/trimac_block/trimac_core/al_67074a64 trimac_locallink/trimac_block/trimac_core/al_5832c5e6_syn_7.id
+u_axi_master_cfg/m_axi_rdata[28] u_axi_master_cfg/reg4_syn_173.ib
+
+Timing path: u_axi_master_cfg/reg5_syn_69.clk->u_axi_master_cfg/reg4_syn_173
+u_axi_master_cfg/reg5_syn_69.clk
+u_axi_master_cfg/reg4_syn_173
+1083 14.276000 21.173000 6.897000 5 5
+u_axi_master_cfg/axi_araddr[5] trimac_locallink/trimac_block/trimac_core/al_3577737c_syn_3.id
+trimac_locallink/trimac_block/trimac_core/al_175588ec trimac_locallink/trimac_block/trimac_core/al_9e2a5d83_syn_3.ia
+trimac_locallink/trimac_block/trimac_core/al_627de329 trimac_locallink/trimac_block/trimac_core/al_ac9167d_syn_1.ia
+trimac_locallink/trimac_block/trimac_core/al_67074a64 trimac_locallink/trimac_block/trimac_core/al_5832c5e6_syn_7.id
+u_axi_master_cfg/m_axi_rdata[28] u_axi_master_cfg/reg4_syn_173.ib
+
+
+Endpoint: u_axi_master_cfg/reg4_syn_173
+1137 13.844000 21 3
+Timing path: u_axi_master_cfg/reg0_syn_73.clk->u_axi_master_cfg/reg4_syn_173
+u_axi_master_cfg/reg0_syn_73.clk
+u_axi_master_cfg/reg4_syn_173
+1139 13.844000 21.173000 7.329000 5 5
+u_axi_master_cfg/axi_araddr[7] trimac_locallink/trimac_block/trimac_core/al_3577737c_syn_3.ib
+trimac_locallink/trimac_block/trimac_core/al_175588ec trimac_locallink/trimac_block/trimac_core/al_9e2a5d83_syn_3.ia
+trimac_locallink/trimac_block/trimac_core/al_627de329 trimac_locallink/trimac_block/trimac_core/al_ac9167d_syn_1.ia
+trimac_locallink/trimac_block/trimac_core/al_67074a64 trimac_locallink/trimac_block/trimac_core/al_5832c5e6_syn_7.id
+u_axi_master_cfg/m_axi_rdata[28] u_axi_master_cfg/reg4_syn_173.ib
+
+Timing path: u_axi_master_cfg/reg0_syn_71.clk->u_axi_master_cfg/reg4_syn_173
+u_axi_master_cfg/reg0_syn_71.clk
+u_axi_master_cfg/reg4_syn_173
+1193 14.051000 21.173000 7.122000 5 5
+u_axi_master_cfg/axi_araddr[6] trimac_locallink/trimac_block/trimac_core/al_3577737c_syn_3.ima
+trimac_locallink/trimac_block/trimac_core/al_175588ec trimac_locallink/trimac_block/trimac_core/al_9e2a5d83_syn_3.ia
+trimac_locallink/trimac_block/trimac_core/al_627de329 trimac_locallink/trimac_block/trimac_core/al_ac9167d_syn_1.ia
+trimac_locallink/trimac_block/trimac_core/al_67074a64 trimac_locallink/trimac_block/trimac_core/al_5832c5e6_syn_7.id
+u_axi_master_cfg/m_axi_rdata[28] u_axi_master_cfg/reg4_syn_173.ib
+
+Timing path: u_axi_master_cfg/reg5_syn_69.clk->u_axi_master_cfg/reg4_syn_173
+u_axi_master_cfg/reg5_syn_69.clk
+u_axi_master_cfg/reg4_syn_173
+1247 14.304000 21.173000 6.869000 5 5
+u_axi_master_cfg/axi_araddr[5] trimac_locallink/trimac_block/trimac_core/al_3577737c_syn_3.id
+trimac_locallink/trimac_block/trimac_core/al_175588ec trimac_locallink/trimac_block/trimac_core/al_9e2a5d83_syn_3.ia
+trimac_locallink/trimac_block/trimac_core/al_627de329 trimac_locallink/trimac_block/trimac_core/al_ac9167d_syn_1.ia
+trimac_locallink/trimac_block/trimac_core/al_67074a64 trimac_locallink/trimac_block/trimac_core/al_5832c5e6_syn_7.id
+u_axi_master_cfg/m_axi_rdata[28] u_axi_master_cfg/reg4_syn_173.ib
+
+
+Endpoint: u_axi_master_cfg/reg4_syn_170
+1301 14.022000 19 3
+Timing path: u_axi_master_cfg/reg0_syn_73.clk->u_axi_master_cfg/reg4_syn_170
+u_axi_master_cfg/reg0_syn_73.clk
+u_axi_master_cfg/reg4_syn_170
+1303 14.022000 21.167000 7.145000 5 5
+u_axi_master_cfg/axi_araddr[7] trimac_locallink/trimac_block/trimac_core/al_3577737c_syn_3.ib
+trimac_locallink/trimac_block/trimac_core/al_175588ec trimac_locallink/trimac_block/trimac_core/al_9e2a5d83_syn_3.ia
+trimac_locallink/trimac_block/trimac_core/al_627de329 trimac_locallink/trimac_block/trimac_core/al_7c9f1912_syn_1.ia
+trimac_locallink/trimac_block/trimac_core/al_737a8715 trimac_locallink/trimac_block/trimac_core/al_b6bb6ae6_syn_2.ic
+u_axi_master_cfg/m_axi_rdata[29] u_axi_master_cfg/reg4_syn_170.ima
+
+Timing path: u_axi_master_cfg/reg0_syn_71.clk->u_axi_master_cfg/reg4_syn_170
+u_axi_master_cfg/reg0_syn_71.clk
+u_axi_master_cfg/reg4_syn_170
+1357 14.229000 21.167000 6.938000 5 5
+u_axi_master_cfg/axi_araddr[6] trimac_locallink/trimac_block/trimac_core/al_3577737c_syn_3.ima
+trimac_locallink/trimac_block/trimac_core/al_175588ec trimac_locallink/trimac_block/trimac_core/al_9e2a5d83_syn_3.ia
+trimac_locallink/trimac_block/trimac_core/al_627de329 trimac_locallink/trimac_block/trimac_core/al_7c9f1912_syn_1.ia
+trimac_locallink/trimac_block/trimac_core/al_737a8715 trimac_locallink/trimac_block/trimac_core/al_b6bb6ae6_syn_2.ic
+u_axi_master_cfg/m_axi_rdata[29] u_axi_master_cfg/reg4_syn_170.ima
+
+Timing path: u_axi_master_cfg/reg5_syn_69.clk->u_axi_master_cfg/reg4_syn_170
+u_axi_master_cfg/reg5_syn_69.clk
+u_axi_master_cfg/reg4_syn_170
+1411 14.482000 21.167000 6.685000 5 5
+u_axi_master_cfg/axi_araddr[5] trimac_locallink/trimac_block/trimac_core/al_3577737c_syn_3.id
+trimac_locallink/trimac_block/trimac_core/al_175588ec trimac_locallink/trimac_block/trimac_core/al_9e2a5d83_syn_3.ia
+trimac_locallink/trimac_block/trimac_core/al_627de329 trimac_locallink/trimac_block/trimac_core/al_7c9f1912_syn_1.ia
+trimac_locallink/trimac_block/trimac_core/al_737a8715 trimac_locallink/trimac_block/trimac_core/al_b6bb6ae6_syn_2.ic
+u_axi_master_cfg/m_axi_rdata[29] u_axi_master_cfg/reg4_syn_170.ima
+
+
+
+Hold check
+1465 3
+Endpoint: trimac_locallink/trimac_block/trimac_core/al_818403ad_syn_4
+1467 0.172000 1 1
+Timing path: trimac_locallink/trimac_block/trimac_core/al_818403ad_syn_4.clk->trimac_locallink/trimac_block/trimac_core/al_818403ad_syn_4
+trimac_locallink/trimac_block/trimac_core/al_818403ad_syn_4.clk
+trimac_locallink/trimac_block/trimac_core/al_818403ad_syn_4
+1469 0.172000 0.639000 0.811000 0 1
+trimac_locallink/trimac_block/trimac_core/al_59850dc4 trimac_locallink/trimac_block/trimac_core/al_818403ad_syn_4.ima
+
+
+Endpoint: u_axi_master_cfg/reg4_syn_165
+1515 0.191000 1 1
+Timing path: u_axi_master_cfg/reg4_syn_165.clk->u_axi_master_cfg/reg4_syn_165
+u_axi_master_cfg/reg4_syn_165.clk
+u_axi_master_cfg/reg4_syn_165
+1517 0.191000 0.643000 0.834000 1 1
+u_axi_master_cfg/rd_data_val[1] u_axi_master_cfg/reg4_syn_165.ie
+
+
+Endpoint: u_axi_master_cfg/reg4_syn_181
+1563 0.191000 1 1
+Timing path: u_axi_master_cfg/reg4_syn_181.clk->u_axi_master_cfg/reg4_syn_181
+u_axi_master_cfg/reg4_syn_181.clk
+u_axi_master_cfg/reg4_syn_181
+1565 0.191000 0.641000 0.832000 1 1
+u_axi_master_cfg/rd_data_val[18] u_axi_master_cfg/reg4_syn_181.ie
+
+
+
+
+clock: rgmii_rx_clk
+1611 9522 2340 4
+Setup check
+1621 3
+Endpoint: trimac_locallink/trimac_block/trimac_core/al_59b8947d_syn_3
+1621 2.887000 10 3
+Timing path: trimac_locallink/trimac_block/trimac_core/al_22f890a4_syn_3.clk->trimac_locallink/trimac_block/trimac_core/al_59b8947d_syn_3
+trimac_locallink/trimac_block/trimac_core/al_22f890a4_syn_3.clk
+trimac_locallink/trimac_block/trimac_core/al_59b8947d_syn_3
+1623 2.887000 10.188000 7.301000 4 4
+trimac_locallink/trimac_block/trimac_core/al_7bce675b trimac_locallink/trimac_block/trimac_core/al_576e007e_syn_6.ie
+trimac_locallink/trimac_block/trimac_core/al_132ae268 trimac_locallink/trimac_block/trimac_core/al_9f8b70a2_syn_1.ic
+trimac_locallink/trimac_block/trimac_core/al_3a736cff[2] trimac_locallink/trimac_block/trimac_core/al_699b40f5_syn_1.ic
+trimac_locallink/trimac_block/trimac_core/al_ab134353 trimac_locallink/trimac_block/trimac_core/al_59b8947d_syn_3.ia
+
+Timing path: trimac_locallink/trimac_block/trimac_core/al_22f890a4_syn_3.clk->trimac_locallink/trimac_block/trimac_core/al_59b8947d_syn_3
+trimac_locallink/trimac_block/trimac_core/al_22f890a4_syn_3.clk
+trimac_locallink/trimac_block/trimac_core/al_59b8947d_syn_3
+1675 3.232000 10.188000 6.956000 4 4
+trimac_locallink/trimac_block/trimac_core/al_7bce675b trimac_locallink/trimac_block/trimac_core/al_576e007e_syn_6.ie
+trimac_locallink/trimac_block/trimac_core/al_132ae268_dup_3 trimac_locallink/trimac_block/trimac_core/al_5298bf68_syn_1.ic
+trimac_locallink/trimac_block/trimac_core/al_3a736cff[4] trimac_locallink/trimac_block/trimac_core/al_699b40f5_syn_1.ib
+trimac_locallink/trimac_block/trimac_core/al_ab134353 trimac_locallink/trimac_block/trimac_core/al_59b8947d_syn_3.ia
+
+Timing path: trimac_locallink/trimac_block/trimac_core/al_22f890a4_syn_3.clk->trimac_locallink/trimac_block/trimac_core/al_59b8947d_syn_3
+trimac_locallink/trimac_block/trimac_core/al_22f890a4_syn_3.clk
+trimac_locallink/trimac_block/trimac_core/al_59b8947d_syn_3
+1727 3.432000 10.188000 6.756000 3 3
+trimac_locallink/trimac_block/trimac_core/al_7bce675b trimac_locallink/trimac_block/trimac_core/al_576e007e_syn_6.ie
+trimac_locallink/trimac_block/trimac_core/al_132ae268_dup_3 trimac_locallink/u_client_FIFO/tx_fifo/reg20_syn_48.ib
+trimac_locallink/trimac_block/trimac_core/al_9b5719ae trimac_locallink/trimac_block/trimac_core/al_59b8947d_syn_3.imf
+
+
+Endpoint: trimac_locallink/trimac_block/trimac_core/al_a36db9a3_syn_3
+1777 3.054000 10 3
+Timing path: trimac_locallink/trimac_block/trimac_core/al_22f890a4_syn_3.clk->trimac_locallink/trimac_block/trimac_core/al_a36db9a3_syn_3
+trimac_locallink/trimac_block/trimac_core/al_22f890a4_syn_3.clk
+trimac_locallink/trimac_block/trimac_core/al_a36db9a3_syn_3
+1779 3.054000 10.189000 7.135000 4 4
+trimac_locallink/trimac_block/trimac_core/al_7bce675b trimac_locallink/trimac_block/trimac_core/al_576e007e_syn_6.ie
+trimac_locallink/trimac_block/trimac_core/al_132ae268_dup_3 trimac_locallink/trimac_block/trimac_core/al_fea6d7b_syn_1.ic
+trimac_locallink/trimac_block/trimac_core/al_3a736cff[13] trimac_locallink/trimac_block/trimac_core/al_d2c0145a_syn_1.imb
+trimac_locallink/trimac_block/trimac_core/al_1e78f688 trimac_locallink/trimac_block/trimac_core/al_a36db9a3_syn_3.id
+
+Timing path: trimac_locallink/trimac_block/trimac_core/al_22f890a4_syn_3.clk->trimac_locallink/trimac_block/trimac_core/al_a36db9a3_syn_3
+trimac_locallink/trimac_block/trimac_core/al_22f890a4_syn_3.clk
+trimac_locallink/trimac_block/trimac_core/al_a36db9a3_syn_3
+1831 3.085000 10.189000 7.104000 3 3
+trimac_locallink/trimac_block/trimac_core/al_7bce675b trimac_locallink/trimac_block/trimac_core/al_576e007e_syn_6.ie
+trimac_locallink/trimac_block/trimac_core/al_132ae268_dup_3 trimac_locallink/u_client_FIFO/tx_fifo/reg20_syn_48.ib
+trimac_locallink/trimac_block/trimac_core/al_9b5719ae trimac_locallink/trimac_block/trimac_core/al_a36db9a3_syn_3.ia
+
+Timing path: trimac_locallink/trimac_block/trimac_core/al_22f890a4_syn_3.clk->trimac_locallink/trimac_block/trimac_core/al_a36db9a3_syn_3
+trimac_locallink/trimac_block/trimac_core/al_22f890a4_syn_3.clk
+trimac_locallink/trimac_block/trimac_core/al_a36db9a3_syn_3
+1881 3.137000 10.189000 7.052000 4 4
+trimac_locallink/trimac_block/trimac_core/al_7bce675b trimac_locallink/trimac_block/trimac_core/al_576e007e_syn_6.ie
+trimac_locallink/trimac_block/trimac_core/al_132ae268_dup_3 trimac_locallink/trimac_block/trimac_core/al_9e4670f2_syn_1.ic
+trimac_locallink/trimac_block/trimac_core/al_3a736cff[12] trimac_locallink/trimac_block/trimac_core/al_39c5fae9_syn_1.ic
+trimac_locallink/trimac_block/trimac_core/al_13600bf4 trimac_locallink/trimac_block/trimac_core/al_a36db9a3_syn_3.imf
+
+
+Endpoint: trimac_locallink/trimac_block/trimac_core/al_a0342538_syn_3
+1933 3.164000 11 3
+Timing path: trimac_locallink/trimac_block/trimac_core/al_22f890a4_syn_3.clk->trimac_locallink/trimac_block/trimac_core/al_a0342538_syn_3
+trimac_locallink/trimac_block/trimac_core/al_22f890a4_syn_3.clk
+trimac_locallink/trimac_block/trimac_core/al_a0342538_syn_3
+1935 3.164000 10.184000 7.020000 3 3
+trimac_locallink/trimac_block/trimac_core/al_7bce675b trimac_locallink/trimac_block/trimac_core/al_576e007e_syn_6.ie
+trimac_locallink/trimac_block/trimac_core/al_132ae268_dup_3 trimac_locallink/u_client_FIFO/tx_fifo/reg20_syn_48.ib
+trimac_locallink/trimac_block/trimac_core/al_9b5719ae trimac_locallink/trimac_block/trimac_core/al_a0342538_syn_3.imf
+
+Timing path: trimac_locallink/trimac_block/trimac_core/al_22f890a4_syn_3.clk->trimac_locallink/trimac_block/trimac_core/al_a0342538_syn_3
+trimac_locallink/trimac_block/trimac_core/al_22f890a4_syn_3.clk
+trimac_locallink/trimac_block/trimac_core/al_a0342538_syn_3
+1985 3.270000 10.184000 6.914000 4 4
+trimac_locallink/trimac_block/trimac_core/al_7bce675b trimac_locallink/trimac_block/trimac_core/al_576e007e_syn_6.ie
+trimac_locallink/trimac_block/trimac_core/al_132ae268_dup_3 trimac_locallink/trimac_block/trimac_core/al_7575be31_syn_1.ic
+trimac_locallink/trimac_block/trimac_core/al_221dcd70 trimac_locallink/u_client_FIFO/tx_fifo/wr_frames_b1[7]_syn_10.ic
+trimac_locallink/trimac_block/trimac_core/al_8d6efaba trimac_locallink/trimac_block/trimac_core/al_a0342538_syn_3.id
+
+Timing path: trimac_locallink/trimac_block/trimac_core/al_22f890a4_syn_3.clk->trimac_locallink/trimac_block/trimac_core/al_a0342538_syn_3
+trimac_locallink/trimac_block/trimac_core/al_22f890a4_syn_3.clk
+trimac_locallink/trimac_block/trimac_core/al_a0342538_syn_3
+2037 3.392000 10.184000 6.792000 4 4
+trimac_locallink/trimac_block/trimac_core/al_7bce675b trimac_locallink/trimac_block/trimac_core/al_576e007e_syn_6.ie
+trimac_locallink/trimac_block/trimac_core/al_132ae268_dup_3 trimac_locallink/trimac_block/trimac_core/al_27ca78dc_syn_1.ic
+trimac_locallink/trimac_block/trimac_core/al_3a736cff[18] trimac_locallink/trimac_block/trimac_core/al_620b959f_syn_1.ic
+trimac_locallink/trimac_block/trimac_core/al_a0e3e4ed trimac_locallink/trimac_block/trimac_core/al_a0342538_syn_3.ia
+
+
+
+Hold check
+2089 3
+Endpoint: cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[7]$bus_nodes/din_r1_reg_syn_4
+2091 -0.014000 1 1
+Timing path: cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[4]$bus_nodes/din_r1_reg_syn_4.clk->cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[7]$bus_nodes/din_r1_reg_syn_4
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[4]$bus_nodes/din_r1_reg_syn_4.clk
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[7]$bus_nodes/din_r1_reg_syn_4
+2093 -0.014000 2.096000 2.082000 0 1
+cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[4]$bus_nodes/din_r1 cw_top/wrapper_cwc_top/trigger_inst/bus_inst/BUS_DETECTOR[7]$bus_nodes/din_r1_reg_syn_4.imb
+
+
+Endpoint: cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/reg1_syn_58
+2131 0.004000 1 1
+Timing path: cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/reg0_syn_65.clk->cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/reg1_syn_58
+cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/reg0_syn_65.clk
+cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/reg1_syn_58
+2133 0.004000 1.703000 1.707000 0 1
+cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/addr_long[4] cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/reg1_syn_58.ima
+
+
+Endpoint: cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/reg1_syn_52
+2171 0.018000 1 1
+Timing path: cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/reg0_syn_62.clk->cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/reg1_syn_52
+cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/reg0_syn_62.clk
+cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/reg1_syn_52
+2173 0.018000 1.703000 1.721000 0 1
+cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/addr_long[5] cw_top/wrapper_cwc_top/trigger_inst/emb_ctrl_inst/reg1_syn_52.imb
+
+
+
+Recovery check
+2211 1
+Endpoint: trimac_locallink/trimac_block/trimac_core/al_358a0deb_syn_3
+2213 7.406000 1 1
+Timing path: trimac_locallink/trimac_block/trimac_core/al_3bade7b8_syn_4.clk->trimac_locallink/trimac_block/trimac_core/al_358a0deb_syn_3
+trimac_locallink/trimac_block/trimac_core/al_3bade7b8_syn_4.clk
+trimac_locallink/trimac_block/trimac_core/al_358a0deb_syn_3
+2215 7.406000 10.322000 2.916000 0 1
+trimac_locallink/trimac_block/trimac_core/al_d407324e trimac_locallink/trimac_block/trimac_core/al_358a0deb_syn_3.asr
+
+
+
+Removal check
+2261 1
+Endpoint: trimac_locallink/trimac_block/trimac_core/al_358a0deb_syn_3
+2263 0.147000 1 1
+Timing path: trimac_locallink/trimac_block/trimac_core/al_3bade7b8_syn_4.clk->trimac_locallink/trimac_block/trimac_core/al_358a0deb_syn_3
+trimac_locallink/trimac_block/trimac_core/al_3bade7b8_syn_4.clk
+trimac_locallink/trimac_block/trimac_core/al_358a0deb_syn_3
+2265 0.147000 1.458000 1.605000 0 1
+trimac_locallink/trimac_block/trimac_core/al_d407324e trimac_locallink/trimac_block/trimac_core/al_358a0deb_syn_3.asr
+
+
+
+
+Path delay: 7.7ns max
+2311 11 11 1
+Max path
+2321 3
+Endpoint: u_test_send/u_data_fifo/rd_to_wr_cross_inst/reg3_syn_43
+2321 6.906000 1 1
+Timing path: u_test_send/u_data_fifo/rd_to_wr_cross_inst/reg0_syn_43.clk->u_test_send/u_data_fifo/rd_to_wr_cross_inst/reg3_syn_43
+u_test_send/u_data_fifo/rd_to_wr_cross_inst/reg0_syn_43.clk
+u_test_send/u_data_fifo/rd_to_wr_cross_inst/reg3_syn_43
+2323 6.906000 9.009000 2.103000 0 1
+u_test_send/u_data_fifo/rd_to_wr_cross_inst/primary_addr_gray_reg[5] u_test_send/u_data_fifo/rd_to_wr_cross_inst/reg3_syn_43.imb
+
+
+Endpoint: u_test_send/u_data_fifo/rd_to_wr_cross_inst/reg3_syn_40
+2357 6.938000 1 1
+Timing path: u_test_send/u_data_fifo/wr_to_rd_cross_inst/reg3_syn_31.clk->u_test_send/u_data_fifo/rd_to_wr_cross_inst/reg3_syn_40
+u_test_send/u_data_fifo/wr_to_rd_cross_inst/reg3_syn_31.clk
+u_test_send/u_data_fifo/rd_to_wr_cross_inst/reg3_syn_40
+2359 6.938000 9.005000 2.067000 0 1
+u_test_send/u_data_fifo/rd_to_wr_cross_inst/primary_addr_gray_reg[2] u_test_send/u_data_fifo/rd_to_wr_cross_inst/reg3_syn_40.imb
+
+
+Endpoint: u_test_send/u_data_fifo/rd_to_wr_cross_inst/reg3_syn_46
+2393 6.980000 1 1
+Timing path: u_test_send/u_data_fifo/rd_to_wr_cross_inst/reg0_syn_37.clk->u_test_send/u_data_fifo/rd_to_wr_cross_inst/reg3_syn_46
+u_test_send/u_data_fifo/rd_to_wr_cross_inst/reg0_syn_37.clk
+u_test_send/u_data_fifo/rd_to_wr_cross_inst/reg3_syn_46
+2395 6.980000 9.003000 2.023000 0 1
+u_test_send/u_data_fifo/rd_to_wr_cross_inst/primary_addr_gray_reg[6] u_test_send/u_data_fifo/rd_to_wr_cross_inst/reg3_syn_46.ima
+
+
+
+
+Path delay: 7.7ns max
+2431 9 9 1
+Max path
+2441 3
+Endpoint: u_test_send/u_data_fifo/wr_to_rd_cross_inst/reg3_syn_49
+2441 6.619000 1 1
+Timing path: u_test_send/u_data_fifo/wr_to_rd_cross_inst/reg0_syn_34.clk->u_test_send/u_data_fifo/wr_to_rd_cross_inst/reg3_syn_49
+u_test_send/u_data_fifo/wr_to_rd_cross_inst/reg0_syn_34.clk
+u_test_send/u_data_fifo/wr_to_rd_cross_inst/reg3_syn_49
+2443 6.619000 7.635000 1.016000 0 1
+u_test_send/u_data_fifo/wr_to_rd_cross_inst/primary_addr_gray_reg[0] u_test_send/u_data_fifo/wr_to_rd_cross_inst/reg3_syn_49.ima
+
+
+Endpoint: u_test_send/u_data_fifo/wr_to_rd_cross_inst/reg3_syn_43
+2478 6.782000 1 1
+Timing path: u_test_send/u_data_fifo/wr_to_rd_cross_inst/reg0_syn_43.clk->u_test_send/u_data_fifo/wr_to_rd_cross_inst/reg3_syn_43
+u_test_send/u_data_fifo/wr_to_rd_cross_inst/reg0_syn_43.clk
+u_test_send/u_data_fifo/wr_to_rd_cross_inst/reg3_syn_43
+2480 6.782000 7.635000 0.853000 0 1
+u_test_send/u_data_fifo/wr_to_rd_cross_inst/primary_addr_gray_reg[2] u_test_send/u_data_fifo/wr_to_rd_cross_inst/reg3_syn_43.ima
+
+
+Endpoint: u_test_send/u_data_fifo/wr_to_rd_cross_inst/reg3_syn_31
+2515 6.790000 1 1
+Timing path: u_test_send/u_data_fifo/wr_to_rd_cross_inst/reg0_syn_31.clk->u_test_send/u_data_fifo/wr_to_rd_cross_inst/reg3_syn_31
+u_test_send/u_data_fifo/wr_to_rd_cross_inst/reg0_syn_31.clk
+u_test_send/u_data_fifo/wr_to_rd_cross_inst/reg3_syn_31
+2517 6.790000 7.635000 0.845000 0 1
+u_test_send/u_data_fifo/wr_to_rd_cross_inst/primary_addr_gray_reg[8] u_test_send/u_data_fifo/wr_to_rd_cross_inst/reg3_syn_31.ima
+
+
+
+
+
+Timing group statistics: 
+	Clock constraints: 
+	  Clock Name                                  Min Period     Max Freq           Skew      Fanout            TNS
+	  CLK125 (125.0MHz)                              5.549ns     180.213MHz        0.283ns       798        0.000ns
+	  rgmii_rx_clk (125.0MHz)                        5.113ns     195.580MHz        1.045ns       371        0.000ns
+	  CLK50 (50.0MHz)                                6.184ns     161.708MHz        0.086ns       339        0.000ns
+	Minimum input arrival time before clock: no constraint path
+	Maximum output required time after clock: no constraint path
+	Maximum combinational path delay: no constraint path
+Warning: No clock constraint on 10 clock net(s): 
+	config_inst_syn_10
+	config_inst_syn_9
+	trimac_locallink/trimac_block/trimac_core/al_6aaeddf4
+	trimac_locallink/trimac_block/trimac_core/al_6aaeddf4_syn_1
+	u_test_send/u_data_fifo/clkw
+	u_test_send/u_data_fifo/clkw_syn_3
+	u_test_send/u_fake_top/u_top_fir/u_AD7266/SCK
+	u_test_send/u_fake_top/u_top_fir/u_AD7266/SCK_syn_3
+	u_test_send/u_fake_top/u_top_fir/u_AD7266/spi_clk
+	u_test_send/u_fake_top/u_top_fir/u_AD7266/spi_clk_syn_3
+
+	Exceptions:
+
+		Check Type:	MIN
+		----------------------------------------------------------------------------------------------------
+		       Path Num     Constraint                                                                      
+		             11     set_false_path -hold -from [ get_regs {rd_to_wr_cross_inst/primary_addr_gray_reg[*]} ] -to [ get_regs {rd_to_wr_cross_inst/sync_r1[*]} ]
+		              9     set_false_path -hold -from [ get_regs {wr_to_rd_cross_inst/primary_addr_gray_reg[*]} ] -to [ get_regs {wr_to_rd_cross_inst/sync_r1[*]} ]
+

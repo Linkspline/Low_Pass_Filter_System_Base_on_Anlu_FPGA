@@ -1,0 +1,2092 @@
+
+
+Clock Region s_0_l
+ |    Bank 0: Net u_test_send/u_data_fifo/clkw_syn_3: 3(3)  out of 160(160)
+ |    Bank 1: Net u_rx_pll/clk0_out: 1(1)  out of 1(1)
+ |    Bank 2:
+ |    Bank 3:
+ |    Bank 4:
+ |    Bank 5:
+ |    Bank 6:
+ |    Bank 7:
+ |    Bank 8:
+ |    Bank 9:
+ |    Bank 10:
+ |    Bank 11:
+
+
+Clock Region s_0_r
+ |    Bank 0:
+ |    Bank 1:
+ |    Bank 2:
+ |    Bank 3:
+ |    Bank 4:
+ |    Bank 5:
+ |    Bank 6:
+ |    Bank 7:
+ |    Bank 8:
+ |    Bank 9:
+ |    Bank 10:
+ |    Bank 11:
+
+
+Clock Region s_1_l
+ |    Bank 0: Net trimac_locallink/trimac_block/trimac_core/tx_mac_clk: 464(464)  out of 791(791)
+ |    Bank 1: Net trimac_locallink/trimac_block/trimac_core/s_axi_aclk_syn_1: 10(10)  out of 339(339)
+ |    Bank 2: Net trimac_locallink/rgmii_rxc_syn_1: 47(47)  out of 286(286)
+ |    Bank 3: Net config_inst_syn_10: 13(13)  out of 189(189)
+ |    Bank 4: Net u_test_send/u_data_fifo/clkw_syn_3: 138(138)  out of 160(160)
+ |    Bank 5: Net u_test_send/u_fake_top/u_top_fir/u_AD7266/spi_clk_syn_3: 11(11)  out of 23(23)
+ |    Bank 6: Net u_test_send/u_fake_top/u_top_fir/u_AD7266/SCK_syn_3: 14(14)  out of 18(17)
+ |    Bank 7:
+ |    Bank 8:
+ |    Bank 9:
+ |    Bank 10:
+ |    Bank 11:
+
+
+Clock Region s_1_r
+ |    Bank 0: Net trimac_locallink/trimac_block/trimac_core/tx_mac_clk: 177(177)  out of 791(791)
+ |    Bank 1: Net trimac_locallink/trimac_block/trimac_core/s_axi_aclk_syn_1: 329(329)  out of 339(339)
+ |    Bank 2: Net trimac_locallink/rgmii_rxc_syn_1: 239(239)  out of 286(286)
+ |    Bank 3: Net trimac_locallink/trimac_block/trimac_core/al_6aaeddf4_syn_1: 25(25)  out of 25(25)
+ |    Bank 4: Net u_test_send/u_fake_top/u_top_fir/u_AD7266/spi_clk_syn_3: 11(11)  out of 23(23)
+ |    Bank 5:
+ |    Bank 6:
+ |    Bank 7:
+ |    Bank 8:
+ |    Bank 9:
+ |    Bank 10:
+ |    Bank 11:
+
+
+Clock Region s_2_l
+ |    Bank 0: Net trimac_locallink/trimac_block/trimac_core/tx_mac_clk: 119(119)  out of 791(791)
+ |    Bank 1: Net config_inst_syn_10: 56(56)  out of 189(189)
+ |    Bank 2: Net u_test_send/u_data_fifo/clkw_syn_3: 19(19)  out of 160(160)
+ |    Bank 3: Net u_test_send/u_fake_top/u_top_fir/u_AD7266/spi_clk_syn_3: 1(1)  out of 23(23)
+ |    Bank 4:
+ |    Bank 5:
+ |    Bank 6:
+ |    Bank 7:
+ |    Bank 8:
+ |    Bank 9:
+ |    Bank 10:
+ |    Bank 11:
+
+
+Clock Region s_2_r
+ |    Bank 0: Net trimac_locallink/trimac_block/trimac_core/tx_mac_clk: 31(31)  out of 791(791)
+ |    Bank 1: Net config_inst_syn_10: 120(120)  out of 189(189)
+ |    Bank 2: Net u_test_send/u_fake_top/u_top_fir/u_AD7266/SCK_syn_3: 3(3)  out of 18(17)
+ |    Bank 3:
+ |    Bank 4:
+ |    Bank 5:
+ |    Bank 6:
+ |    Bank 7:
+ |    Bank 8:
+ |    Bank 9:
+ |    Bank 10:
+ |    Bank 11:
+
+
+Clock Region s_3_l
+ |    Bank 0:
+ |    Bank 1:
+ |    Bank 2:
+ |    Bank 3:
+ |    Bank 4:
+ |    Bank 5:
+ |    Bank 6:
+ |    Bank 7:
+ |    Bank 8:
+ |    Bank 9:
+ |    Bank 10:
+ |    Bank 11:
+
+
+Clock Region s_3_r
+ |    Bank 0:
+ |    Bank 1:
+ |    Bank 2:
+ |    Bank 3:
+ |    Bank 4:
+ |    Bank 5:
+ |    Bank 6:
+ |    Bank 7:
+ |    Bank 8:
+ |    Bank 9:
+ |    Bank 10:
+ |    Bank 11:
+
+
+Clock Region s_0_l
+ |    Bank 0:
+ |    |    Net u_test_send/u_data_fifo/clkw_syn_3: 3(3)  out of 160(160)
+ |    |    |    1: (mult18) u_test_send/u_fake_top/u_top_fir/u_fir_filter/mult42_syn_49.clk;
+ |    |    |    2: (mult18) u_test_send/u_fake_top/u_top_fir/u_fir_filter/mult40_syn_49.clk;
+ |    |    |    3: (mult18) u_test_send/u_fake_top/u_top_fir/u_fir_filter/mult41_syn_50.clk;
+ |    Bank 1:
+ |    |    Net u_rx_pll/clk0_out: 1(1)  out of 1(1)
+ |    |    |    1: (pll) u_rx_pll/pll_inst.fbclk;
+ |    Bank 2:
+ |    Bank 3:
+ |    Bank 4:
+ |    Bank 5:
+ |    Bank 6:
+ |    Bank 7:
+ |    Bank 8:
+ |    Bank 9:
+ |    Bank 10:
+ |    Bank 11:
+
+
+Clock Region s_0_r
+ |    Bank 0:
+ |    Bank 1:
+ |    Bank 2:
+ |    Bank 3:
+ |    Bank 4:
+ |    Bank 5:
+ |    Bank 6:
+ |    Bank 7:
+ |    Bank 8:
+ |    Bank 9:
+ |    Bank 10:
+ |    Bank 11:
+
+
+Clock Region s_1_l
+ |    Bank 0:
+ |    |    Net trimac_locallink/trimac_block/trimac_core/tx_mac_clk: 464(464)  out of 791(791)
+ |    |    |    1: (lslice) trimac_locallink/trimac_block/trimac_core/al_26be93f9_syn_3.clk;
+ |    |    |    2: (lslice) trimac_locallink/trimac_block/trimac_core/al_8ccff14c_syn_4.clk;
+ |    |    |    3: (lslice) trimac_locallink/trimac_block/tx_stop_reg_reg_syn_6.clk;
+ |    |    |    4: (lslice) trimac_locallink/trimac_block/trimac_core/al_893deeb5_syn_3.clk;
+ |    |    |    5: (lslice) trimac_locallink/trimac_block/trimac_core/al_d9775949_syn_4.clk;
+ |    |    |    6: (lslice) trimac_locallink/trimac_block/trimac_core/al_989f6200_syn_3.clk;
+ |    |    |    7: (lslice) trimac_locallink/trimac_block/trimac_core/al_da2bbb84_syn_4.clk;
+ |    |    |    8: (lslice) trimac_locallink/trimac_block/trimac_core/al_5fe64dd0_syn_4.clk;
+ |    |    |    9: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_b4cd3408_syn_7.clk;
+ |    |    |    10: (lslice) trimac_locallink/trimac_block/trimac_core/al_a9378f0a_syn_3.clk;
+ |    |    |    11: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_e7cc423c_syn_7.clk;
+ |    |    |    12: (lslice) trimac_locallink/trimac_block/trimac_core/al_24194b25_syn_4.clk;
+ |    |    |    13: (lslice) trimac_locallink/trimac_block/u_tx_clk_en_gen/client_txc_en_reg_syn_30.clk;
+ |    |    |    14: (lslice) trimac_locallink/trimac_block/trimac_core/al_43745815_syn_4.clk;
+ |    |    |    15: (lslice) trimac_locallink/trimac_block/trimac_core/al_8ead11f1_syn_4.clk;
+ |    |    |    16: (lslice) trimac_locallink/trimac_block/trimac_core/al_a3c47b1e_syn_3.clk;
+ |    |    |    17: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_4990808d_syn_7.clk;
+ |    |    |    18: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_bed75354_syn_7.clk;
+ |    |    |    19: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_14fec9f5_syn_7.clk;
+ |    |    |    20: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_ba745b34_syn_7.clk;
+ |    |    |    21: (lslice) u_test_send/u_data_fifo/wr_to_rd_cross_inst/reg3_syn_31.clk;
+ |    |    |    22: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_5a8019b7_syn_7.clk;
+ |    |    |    23: (lslice) u_test_send/reg0_syn_37.clk;
+ |    |    |    24: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_73573309_syn_7.clk;
+ |    |    |    25: (lslice) trimac_locallink/trimac_block/u_tx_clk_en_gen/client_txc_en_reg_syn_22.clk;
+ |    |    |    26: (lslice) trimac_locallink/trimac_block/trimac_core/al_fd22e68d_syn_4.clk;
+ |    |    |    27: (lslice) trimac_locallink/trimac_block/reg1_syn_34.clk;
+ |    |    |    28: (lslice) trimac_locallink/trimac_block/trimac_core/al_7eeb2607_syn_4.clk;
+ |    |    |    29: (lslice) trimac_locallink/trimac_block/trimac_core/al_6bdafb61_syn_4.clk;
+ |    |    |    30: (lslice) trimac_locallink/trimac_block/trimac_core/al_43028ed6_syn_4.clk;
+ |    |    |    31: (lslice) trimac_locallink/trimac_block/trimac_core/al_f151ce08_syn_3.clk;
+ |    |    |    32: (lslice) trimac_locallink/trimac_block/trimac_core/al_cdcb5978_syn_4.clk;
+ |    |    |    33: (lslice) trimac_locallink/trimac_block/trimac_core/al_c37b4171_syn_4.clk;
+ |    |    |    34: (lslice) trimac_locallink/trimac_block/trimac_core/al_42596519_syn_4.clk;
+ |    |    |    35: (lslice) trimac_locallink/trimac_block/trimac_core/al_86f15ce7_syn_4.clk;
+ |    |    |    36: (lslice) trimac_locallink/trimac_block/trimac_core/al_7575b1ec_syn_4.clk;
+ |    |    |    37: (lslice) trimac_locallink/trimac_block/trimac_core/al_632d0da7_syn_4.clk;
+ |    |    |    38: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg11_syn_31.clk;
+ |    |    |    39: (lslice) trimac_locallink/trimac_block/trimac_core/al_77577bd0_syn_4.clk;
+ |    |    |    40: (lslice) trimac_locallink/trimac_block/trimac_core/al_b58b0998_syn_4.clk;
+ |    |    |    41: (lslice) trimac_locallink/trimac_block/add0_syn_125.clk;
+ |    |    |    42: (lslice) trimac_locallink/trimac_block/trimac_core/al_505a5c4f_syn_4.clk;
+ |    |    |    43: (lslice) trimac_locallink/trimac_block/trimac_core/al_a55541a1_syn_4.clk;
+ |    |    |    44: (lslice) trimac_locallink/trimac_block/trimac_core/al_85e2468d_syn_4.clk;
+ |    |    |    45: (lslice) trimac_locallink/trimac_block/trimac_core/al_fe8817d5_syn_4.clk;
+ |    |    |    46: (lslice) trimac_locallink/trimac_block/trimac_core/al_ae070c3c_syn_4.clk;
+ |    |    |    47: (lslice) trimac_locallink/trimac_block/trimac_core/al_ab47471e_syn_4.clk;
+ |    |    |    48: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_f8178b2c_syn_7.clk;
+ |    |    |    49: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/rd_retransmit_reg_syn_4.clk;
+ |    |    |    50: (lslice) u_test_send/u_data_fifo/reg0_syn_37.clk;
+ |    |    |    51: (lslice) trimac_locallink/trimac_block/trimac_core/al_7dcd668a_syn_3.clk;
+ |    |    |    52: (lslice) trimac_locallink/trimac_block/trimac_core/al_1adbf48e_syn_3.clk;
+ |    |    |    53: (lslice) u_test_send/u_data_fifo/reg0_syn_43.clk;
+ |    |    |    54: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg11_syn_33.clk;
+ |    |    |    55: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_58535df1_syn_7.clk;
+ |    |    |    56: (lslice) trimac_locallink/trimac_block/trimac_core/al_c58ed4da_syn_9.clk;
+ |    |    |    57: (lslice) trimac_locallink/trimac_block/trimac_core/al_d264eb83_syn_4.clk;
+ |    |    |    58: (lslice) trimac_locallink/trimac_block/trimac_core/al_46077bc7_syn_4.clk;
+ |    |    |    59: (lslice) trimac_locallink/trimac_block/trimac_core/al_7733ac1c_syn_4.clk;
+ |    |    |    60: (lslice) trimac_locallink/trimac_block/trimac_core/al_7d62b7cd_syn_4.clk;
+ |    |    |    61: (lslice) trimac_locallink/trimac_block/u_tx_clk_en_gen/gmii_txc_en_reg_syn_4.clk;
+ |    |    |    62: (lslice) trimac_locallink/trimac_block/trimac_core/al_ddfca1e7_syn_4.clk;
+ |    |    |    63: (lslice) trimac_locallink/trimac_block/trimac_core/al_77444f13_syn_3.clk;
+ |    |    |    64: (lslice) trimac_locallink/trimac_block/trimac_core/al_a1ceefea_syn_4.clk;
+ |    |    |    65: (lslice) trimac_locallink/trimac_block/trimac_core/al_622545d0_syn_4.clk;
+ |    |    |    66: (lslice) trimac_locallink/trimac_block/trimac_core/al_1bfc3162_syn_4.clk;
+ |    |    |    67: (lslice) trimac_locallink/trimac_block/trimac_core/al_3d967daf_syn_4.clk;
+ |    |    |    68: (lslice) trimac_locallink/trimac_block/trimac_core/al_28b4b361_syn_3.clk;
+ |    |    |    69: (lslice) trimac_locallink/trimac_block/trimac_core/al_966b3545_syn_4.clk;
+ |    |    |    70: (lslice) trimac_locallink/trimac_block/add0_syn_122.clk;
+ |    |    |    71: (lslice) trimac_locallink/trimac_block/add0_syn_124.clk;
+ |    |    |    72: (lslice) trimac_locallink/trimac_block/trimac_core/al_74305ea_syn_3.clk;
+ |    |    |    73: (lslice) trimac_locallink/trimac_block/trimac_core/al_638e8f14_syn_3.clk;
+ |    |    |    74: (lslice) trimac_locallink/trimac_block/trimac_core/al_14bf1f49_syn_3.clk;
+ |    |    |    75: (lslice) trimac_locallink/trimac_block/trimac_core/al_e6fd2871_syn_4.clk;
+ |    |    |    76: (lslice) trimac_locallink/trimac_block/trimac_core/al_65a4d32f_syn_4.clk;
+ |    |    |    77: (lslice) trimac_locallink/trimac_block/trimac_core/al_40272ffa_syn_4.clk;
+ |    |    |    78: (lslice) trimac_locallink/trimac_block/trimac_core/al_5a211588_syn_3.clk;
+ |    |    |    79: (lslice) trimac_locallink/trimac_block/trimac_core/al_8aa94dc9_syn_4.clk;
+ |    |    |    80: (lslice) trimac_locallink/trimac_block/trimac_core/al_fe533efe_syn_3.clk;
+ |    |    |    81: (lslice) trimac_locallink/trimac_block/trimac_core/al_bac0c66_syn_4.clk;
+ |    |    |    82: (lslice) trimac_locallink/trimac_block/trimac_core/al_83b314d3_syn_4.clk;
+ |    |    |    83: (lslice) trimac_locallink/trimac_block/trimac_core/al_6e6cc291_syn_4.clk;
+ |    |    |    84: (lslice) trimac_locallink/trimac_block/trimac_core/al_c4e1e590_syn_4.clk;
+ |    |    |    85: (lslice) trimac_locallink/trimac_block/trimac_core/al_eff0f77_syn_4.clk;
+ |    |    |    86: (lslice) trimac_locallink/trimac_block/u_tx_clk_en_gen/client_txc_en_reg_syn_16.clk;
+ |    |    |    87: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg10_syn_19.clk;
+ |    |    |    88: (lslice) trimac_locallink/trimac_block/trimac_core/al_cc635404_syn_4.clk;
+ |    |    |    89: (lslice) trimac_locallink/trimac_block/trimac_core/al_c235bb63_syn_4.clk;
+ |    |    |    90: (lslice) trimac_locallink/trimac_block/trimac_core/al_3bfd73dd_syn_4.clk;
+ |    |    |    91: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg10_syn_21.clk;
+ |    |    |    92: (lslice) trimac_locallink/trimac_block/trimac_core/al_cf81f2fe_syn_4.clk;
+ |    |    |    93: (lslice) trimac_locallink/trimac_block/trimac_core/al_fa4512c3_syn_3.clk;
+ |    |    |    94: (lslice) trimac_locallink/trimac_block/trimac_core/al_f46abc38_syn_4.clk;
+ |    |    |    95: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg6_syn_34.clk;
+ |    |    |    96: (lslice) trimac_locallink/trimac_block/trimac_core/al_4f8a7c6_syn_4.clk;
+ |    |    |    97: (lslice) trimac_locallink/trimac_block/trimac_core/al_e2dc3752_syn_4.clk;
+ |    |    |    98: (lslice) trimac_locallink/trimac_block/trimac_core/al_f9098a67_syn_4.clk;
+ |    |    |    99: (lslice) trimac_locallink/trimac_block/reg1_syn_28.clk;
+ |    |    |    100: (lslice) trimac_locallink/trimac_block/trimac_core/al_67a5c223_syn_4.clk;
+ |    |    |    101: (lslice) trimac_locallink/trimac_block/tx_reset_gen/reset_sync1/q_o_reg_syn_4.clk;
+ |    |    |    102: (lslice) trimac_locallink/trimac_block/add0_syn_123.clk;
+ |    |    |    103: (lslice) trimac_locallink/trimac_block/u_tx_clk_en_gen/speed_100_sync/data_sync/q_o_reg_syn_3.clk;
+ |    |    |    104: (lslice) trimac_locallink/trimac_block/trimac_core/al_e9d559ed_syn_4.clk;
+ |    |    |    105: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_b2c2a4b7_syn_7.clk;
+ |    |    |    106: (lslice) u_test_send/u_data_fifo/wr_to_rd_cross_inst/reg3_syn_40.clk;
+ |    |    |    107: (lslice) trimac_locallink/trimac_block/u_tx_clk_en_gen/client_txc_en_int_reg_syn_8.clk;
+ |    |    |    108: (lslice) trimac_locallink/trimac_block/trimac_core/al_e41223f_syn_4.clk;
+ |    |    |    109: (lslice) trimac_locallink/trimac_block/trimac_core/al_75a2ae36_syn_4.clk;
+ |    |    |    110: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg10_syn_15.clk;
+ |    |    |    111: (lslice) trimac_locallink/trimac_block/trimac_core/al_98dd875f_syn_4.clk;
+ |    |    |    112: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg11_syn_39.clk;
+ |    |    |    113: (lslice) reg0_syn_25.clk;
+ |    |    |    114: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg11_syn_37.clk;
+ |    |    |    115: (lslice) trimac_locallink/trimac_block/trimac_core/al_c16c8f4f_syn_4.clk;
+ |    |    |    116: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg11_syn_35.clk;
+ |    |    |    117: (lslice) trimac_locallink/trimac_block/trimac_core/al_c3e18a5a_syn_4.clk;
+ |    |    |    118: (lslice) trimac_locallink/trimac_block/trimac_core/al_4717599_syn_4.clk;
+ |    |    |    119: (lslice) trimac_locallink/trimac_block/trimac_core/al_e0338f92_syn_4.clk;
+ |    |    |    120: (lslice) trimac_locallink/trimac_block/trimac_core/al_2f0d49cd_syn_4.clk;
+ |    |    |    121: (lslice) trimac_locallink/trimac_block/trimac_core/al_66c3f19d_syn_3.clk;
+ |    |    |    122: (lslice) trimac_locallink/trimac_block/trimac_core/al_57367d97_syn_3.clk;
+ |    |    |    123: (lslice) trimac_locallink/trimac_block/trimac_core/al_314d4832_syn_3.clk;
+ |    |    |    124: (lslice) trimac_locallink/trimac_block/trimac_core/al_3a21f74a_syn_3.clk;
+ |    |    |    125: (lslice) trimac_locallink/trimac_block/trimac_core/al_5dc14581_syn_3.clk;
+ |    |    |    126: (lslice) trimac_locallink/trimac_block/trimac_core/al_54c0610d_syn_3.clk;
+ |    |    |    127: (lslice) trimac_locallink/trimac_block/trimac_core/al_a95c96df_syn_3.clk;
+ |    |    |    128: (lslice) trimac_locallink/trimac_block/trimac_core/al_39fdb056_syn_3.clk;
+ |    |    |    129: (lslice) trimac_locallink/trimac_block/trimac_core/al_543ba014_syn_3.clk;
+ |    |    |    130: (lslice) trimac_locallink/trimac_block/trimac_core/al_d3f27480_syn_3.clk;
+ |    |    |    131: (lslice) trimac_locallink/trimac_block/trimac_core/al_fbd60f69_syn_3.clk;
+ |    |    |    132: (lslice) trimac_locallink/trimac_block/trimac_core/al_4e45259e_syn_3.clk;
+ |    |    |    133: (lslice) trimac_locallink/trimac_block/trimac_core/al_93fd36e3_syn_3.clk;
+ |    |    |    134: (lslice) trimac_locallink/trimac_block/trimac_core/al_84e5c58a_syn_3.clk;
+ |    |    |    135: (lslice) trimac_locallink/trimac_block/trimac_core/al_4ec412c4_syn_3.clk;
+ |    |    |    136: (lslice) trimac_locallink/trimac_block/u_tx_clk_en_gen/client_txc_en_reg_syn_25.clk;
+ |    |    |    137: (lslice) trimac_locallink/trimac_block/trimac_core/al_6c0c811c_syn_4.clk;
+ |    |    |    138: (lslice) trimac_locallink/trimac_block/trimac_core/al_14f65a23_syn_3.clk;
+ |    |    |    139: (lslice) trimac_locallink/trimac_block/trimac_core/al_dcb33971_syn_4.clk;
+ |    |    |    140: (lslice) trimac_locallink/trimac_block/trimac_core/al_822c34ee_syn_3.clk;
+ |    |    |    141: (lslice) trimac_locallink/trimac_block/trimac_core/al_3233e361_syn_3.clk;
+ |    |    |    142: (lslice) trimac_locallink/trimac_block/trimac_core/al_ea4464c5_syn_3.clk;
+ |    |    |    143: (lslice) trimac_locallink/trimac_block/trimac_core/al_3eecc52_syn_3.clk;
+ |    |    |    144: (lslice) trimac_locallink/trimac_block/trimac_core/al_c220aa3f_syn_3.clk;
+ |    |    |    145: (lslice) trimac_locallink/trimac_block/u_tx_clk_en_gen/rgmii_txc_en_shift_int_reg_syn_3.clk;
+ |    |    |    146: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_e1044ec0_syn_7.clk;
+ |    |    |    147: (lslice) trimac_locallink/trimac_block/trimac_core/al_f38c789a_syn_4.clk;
+ |    |    |    148: (lslice) trimac_locallink/trimac_block/trimac_core/al_58a4a279_syn_3.clk;
+ |    |    |    149: (lslice) trimac_locallink/trimac_block/reg4_syn_28.clk;
+ |    |    |    150: (lslice) trimac_locallink/trimac_block/trimac_core/al_e17f306c_syn_4.clk;
+ |    |    |    151: (lslice) trimac_locallink/trimac_block/trimac_core/al_ecabd58a_syn_4.clk;
+ |    |    |    152: (lslice) trimac_locallink/trimac_block/trimac_core/al_d169b1ff_syn_3.clk;
+ |    |    |    153: (lslice) trimac_locallink/trimac_block/reg4_syn_31.clk;
+ |    |    |    154: (lslice) trimac_locallink/trimac_block/trimac_core/al_9d5c2a3d_syn_4.clk;
+ |    |    |    155: (lslice) trimac_locallink/trimac_block/trimac_core/al_93d93e76_syn_3.clk;
+ |    |    |    156: (lslice) trimac_locallink/trimac_block/trimac_core/al_d3b0a930_syn_3.clk;
+ |    |    |    157: (lslice) u_client_loopback/rdy_sr_content_out_reg_syn_9.clk;
+ |    |    |    158: (lslice) trimac_locallink/trimac_block/trimac_core/al_e4e63ab7_syn_4.clk;
+ |    |    |    159: (lslice) trimac_locallink/trimac_block/trimac_core/al_b09582d1_syn_4.clk;
+ |    |    |    160: (lslice) trimac_locallink/trimac_block/reg4_syn_34.clk;
+ |    |    |    161: (lslice) trimac_locallink/trimac_block/trimac_core/al_a8251b34_syn_3.clk;
+ |    |    |    162: (lslice) trimac_locallink/trimac_block/trimac_core/al_e430d3b4_syn_4.clk;
+ |    |    |    163: (lslice) u_test_send/u_data_fifo/reg0_syn_52.clk;
+ |    |    |    164: (lslice) u_test_send/u_data_fifo/reg0_syn_48.clk;
+ |    |    |    165: (lslice) trimac_locallink/trimac_block/u_tx_clk_en_gen/speed_10_100_sync/data_sync/q_o_reg_syn_4.clk;
+ |    |    |    166: (lslice) u_test_send/u_data_fifo/reg0_syn_50.clk;
+ |    |    |    167: (lslice) trimac_locallink/trimac_block/trimac_core/al_e1da6a12_syn_4.clk;
+ |    |    |    168: (lslice) trimac_locallink/trimac_block/trimac_core/al_7d1f3a58_syn_4.clk;
+ |    |    |    169: (lslice) trimac_locallink/trimac_block/trimac_core/al_73a764e2_syn_4.clk;
+ |    |    |    170: (lslice) trimac_locallink/trimac_block/trimac_core/al_d397d3b8_syn_4.clk;
+ |    |    |    171: (lslice) trimac_locallink/trimac_block/trimac_core/al_ee7fdb39_syn_3.clk;
+ |    |    |    172: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg4_syn_37.clk;
+ |    |    |    173: (lslice) trimac_locallink/trimac_block/trimac_core/al_bf5f6743_syn_4.clk;
+ |    |    |    174: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_de040350_syn_7.clk;
+ |    |    |    175: (lslice) trimac_locallink/trimac_block/trimac_core/al_cd41d57e_syn_3.clk;
+ |    |    |    176: (lslice) trimac_locallink/trimac_block/trimac_core/al_46fefaf5_syn_4.clk;
+ |    |    |    177: (lslice) trimac_locallink/trimac_block/trimac_core/al_f8c18f8f_syn_4.clk;
+ |    |    |    178: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_31c2c18_syn_7.clk;
+ |    |    |    179: (lslice) trimac_locallink/trimac_block/trimac_core/al_ff226a4_syn_4.clk;
+ |    |    |    180: (lslice) trimac_locallink/trimac_block/trimac_core/al_4ec4e657_syn_3.clk;
+ |    |    |    181: (lslice) u_test_send/u_data_fifo/wr_to_rd_cross_inst/reg1_syn_40.clk;
+ |    |    |    182: (lslice) trimac_locallink/trimac_block/trimac_core/al_13a6df02_syn_3.clk;
+ |    |    |    183: (lslice) trimac_locallink/trimac_block/trimac_core/al_c30ea28d_syn_3.clk;
+ |    |    |    184: (lslice) trimac_locallink/trimac_block/trimac_core/al_aa7e42b_syn_3.clk;
+ |    |    |    185: (lslice) trimac_locallink/trimac_block/trimac_core/al_e2ab8394_syn_3.clk;
+ |    |    |    186: (lslice) trimac_locallink/trimac_block/trimac_core/al_90e811e0_syn_4.clk;
+ |    |    |    187: (lslice) trimac_locallink/trimac_block/trimac_core/al_cf1af11a_syn_4.clk;
+ |    |    |    188: (lslice) trimac_locallink/trimac_block/trimac_core/al_6415bfdc_syn_3.clk;
+ |    |    |    189: (lslice) trimac_locallink/trimac_block/trimac_core/al_62b7fded_syn_3.clk;
+ |    |    |    190: (lslice) trimac_locallink/trimac_block/add0_syn_137.clk;
+ |    |    |    191: (lslice) trimac_locallink/trimac_block/trimac_core/al_f60d5c07_syn_4.clk;
+ |    |    |    192: (lslice) trimac_locallink/trimac_block/reg1_syn_31.clk;
+ |    |    |    193: (lslice) trimac_locallink/trimac_block/trimac_core/al_2c129b43_syn_4.clk;
+ |    |    |    194: (lslice) trimac_locallink/trimac_block/trimac_core/al_fc308f43_syn_4.clk;
+ |    |    |    195: (lslice) trimac_locallink/trimac_block/u_tx_clk_en_gen/reg0_syn_47.clk;
+ |    |    |    196: (lslice) trimac_locallink/trimac_block/add0_syn_127.clk;
+ |    |    |    197: (lslice) trimac_locallink/trimac_block/trimac_core/al_8e36fb89_syn_4.clk;
+ |    |    |    198: (lslice) trimac_locallink/trimac_block/trimac_core/al_343bc1fb_syn_3.clk;
+ |    |    |    199: (lslice) trimac_locallink/trimac_block/trimac_core/al_e7bd4dcb_syn_4.clk;
+ |    |    |    200: (lslice) trimac_locallink/trimac_block/trimac_core/al_59b21843_syn_3.clk;
+ |    |    |    201: (lslice) u_test_send/u_data_fifo/wr_to_rd_cross_inst/reg1_syn_34.clk;
+ |    |    |    202: (lslice) trimac_locallink/trimac_block/trimac_core/al_1e3b5ca8_syn_4.clk;
+ |    |    |    203: (lslice) trimac_locallink/trimac_block/trimac_core/al_b10b45ed_syn_4.clk;
+ |    |    |    204: (lslice) trimac_locallink/trimac_block/trimac_core/al_cf825408_syn_4.clk;
+ |    |    |    205: (lslice) trimac_locallink/trimac_block/trimac_core/al_fcba3f8a_syn_4.clk;
+ |    |    |    206: (lslice) trimac_locallink/trimac_block/trimac_core/al_743699e3_syn_4.clk;
+ |    |    |    207: (lslice) trimac_locallink/trimac_block/trimac_core/al_cd281a4c_syn_4.clk;
+ |    |    |    208: (lslice) trimac_locallink/trimac_block/trimac_core/al_fe622681_syn_3.clk;
+ |    |    |    209: (lslice) trimac_locallink/trimac_block/trimac_core/al_65fd9e60_syn_3.clk;
+ |    |    |    210: (lslice) trimac_locallink/trimac_block/trimac_core/al_5cd8ec3_syn_4.clk;
+ |    |    |    211: (lslice) trimac_locallink/trimac_block/trimac_core/al_de9aedd5_syn_3.clk;
+ |    |    |    212: (lslice) trimac_locallink/trimac_block/trimac_core/al_63773dbe_syn_4.clk;
+ |    |    |    213: (lslice) trimac_locallink/trimac_block/trimac_core/al_e66208e8_syn_4.clk;
+ |    |    |    214: (lslice) trimac_locallink/trimac_block/trimac_core/al_64a3ee71_syn_3.clk;
+ |    |    |    215: (lslice) trimac_locallink/trimac_block/trimac_core/al_516ca590_syn_3.clk;
+ |    |    |    216: (lslice) trimac_locallink/trimac_block/trimac_core/al_af5588d8_syn_3.clk;
+ |    |    |    217: (lslice) trimac_locallink/trimac_block/trimac_core/al_aefc4972_syn_3.clk;
+ |    |    |    218: (lslice) trimac_locallink/trimac_block/add0_syn_139.clk;
+ |    |    |    219: (lslice) trimac_locallink/trimac_block/trimac_core/al_653c0943_syn_3.clk;
+ |    |    |    220: (lslice) trimac_locallink/trimac_block/trimac_core/al_10fe28ee_syn_4.clk;
+ |    |    |    221: (lslice) trimac_locallink/trimac_block/trimac_core/al_86f41d7e_syn_3.clk;
+ |    |    |    222: (lslice) trimac_locallink/trimac_block/trimac_core/al_864e1fb1_syn_3.clk;
+ |    |    |    223: (lslice) trimac_locallink/trimac_block/trimac_core/al_a7d784b9_syn_3.clk;
+ |    |    |    224: (lslice) trimac_locallink/trimac_block/trimac_core/al_c361ba4b_syn_3.clk;
+ |    |    |    225: (lslice) trimac_locallink/trimac_block/trimac_core/al_12b68c12_syn_4.clk;
+ |    |    |    226: (lslice) trimac_locallink/trimac_block/u_tx_clk_en_gen/client_txc_en_reg_syn_27.clk;
+ |    |    |    227: (lslice) trimac_locallink/trimac_block/trimac_core/al_5855ed95_syn_3.clk;
+ |    |    |    228: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_16ad90bc_syn_7.clk;
+ |    |    |    229: (lslice) trimac_locallink/trimac_block/trimac_core/al_53011a0d_syn_3.clk;
+ |    |    |    230: (lslice) trimac_locallink/trimac_block/trimac_core/al_aceaebac_syn_3.clk;
+ |    |    |    231: (lslice) trimac_locallink/trimac_block/trimac_core/al_efe8e24c_syn_4.clk;
+ |    |    |    232: (lslice) trimac_locallink/trimac_block/trimac_core/al_2e5c085_syn_3.clk;
+ |    |    |    233: (lslice) trimac_locallink/trimac_block/trimac_core/al_da8e0c62_syn_4.clk;
+ |    |    |    234: (lslice) trimac_locallink/trimac_block/trimac_core/al_f9a1e727_syn_4.clk;
+ |    |    |    235: (lslice) trimac_locallink/trimac_block/gmii_tx_en_reg_reg_syn_3.clk;
+ |    |    |    236: (lslice) trimac_locallink/trimac_block/trimac_core/al_a4e4ee24_syn_4.clk;
+ |    |    |    237: (lslice) trimac_locallink/trimac_block/trimac_core/al_e316e1db_syn_4.clk;
+ |    |    |    238: (lslice) trimac_locallink/trimac_block/trimac_core/al_a1095b11_syn_4.clk;
+ |    |    |    239: (lslice) trimac_locallink/trimac_block/trimac_core/al_23581d37_syn_3.clk;
+ |    |    |    240: (lslice) trimac_locallink/trimac_block/trimac_core/al_2b477cd2_syn_3.clk;
+ |    |    |    241: (lslice) trimac_locallink/trimac_block/trimac_core/al_908722eb_syn_3.clk;
+ |    |    |    242: (lslice) trimac_locallink/trimac_block/trimac_core/al_65acc8cd_syn_3.clk;
+ |    |    |    243: (lslice) trimac_locallink/trimac_block/trimac_core/al_1d422ad7_syn_4.clk;
+ |    |    |    244: (lslice) trimac_locallink/trimac_block/trimac_core/al_3b50f921_syn_3.clk;
+ |    |    |    245: (lslice) trimac_locallink/trimac_block/trimac_core/al_76403bf8_syn_4.clk;
+ |    |    |    246: (lslice) trimac_locallink/trimac_block/trimac_core/al_1fc77a49_syn_3.clk;
+ |    |    |    247: (lslice) trimac_locallink/trimac_block/trimac_core/al_d6135a30_syn_3.clk;
+ |    |    |    248: (lslice) trimac_locallink/trimac_block/u_tx_clk_en_gen/reg0_syn_49.clk;
+ |    |    |    249: (lslice) trimac_locallink/trimac_block/trimac_core/al_3417e8c4_syn_4.clk;
+ |    |    |    250: (lslice) u_test_send/u_data_fifo/re_r1_reg_syn_3.clk;
+ |    |    |    251: (lslice) trimac_locallink/trimac_block/trimac_core/al_c772c33c_syn_3.clk;
+ |    |    |    252: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_4990808d_syn_7.clk;
+ |    |    |    253: (lslice) trimac_locallink/trimac_block/trimac_core/al_9151909c_syn_4.clk;
+ |    |    |    254: (lslice) reg0_syn_23.clk;
+ |    |    |    255: (lslice) trimac_locallink/trimac_block/trimac_core/al_d4a708bf_syn_4.clk;
+ |    |    |    256: (lslice) trimac_locallink/trimac_block/trimac_core/al_75d5369f_syn_4.clk;
+ |    |    |    257: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_10074c95_syn_7.clk;
+ |    |    |    258: (lslice) trimac_locallink/trimac_block/trimac_core/al_8efdc5fa_syn_4.clk;
+ |    |    |    259: (lslice) trimac_locallink/trimac_block/add0_syn_136.clk;
+ |    |    |    260: (lslice) trimac_locallink/trimac_block/add0_syn_133.clk;
+ |    |    |    261: (lslice) trimac_locallink/trimac_block/trimac_core/al_e0ac01a7_syn_4.clk;
+ |    |    |    262: (lslice) trimac_locallink/trimac_block/trimac_core/al_80218e37_syn_4.clk;
+ |    |    |    263: (lslice) trimac_locallink/trimac_block/trimac_core/al_f49cbe46_syn_4.clk;
+ |    |    |    264: (lslice) trimac_locallink/trimac_block/trimac_core/al_afbaf412_syn_4.clk;
+ |    |    |    265: (lslice) trimac_locallink/trimac_block/add0_syn_132.clk;
+ |    |    |    266: (lslice) trimac_locallink/trimac_block/add0_syn_128.clk;
+ |    |    |    267: (lslice) trimac_locallink/trimac_block/add0_syn_130.clk;
+ |    |    |    268: (lslice) trimac_locallink/trimac_block/trimac_core/al_821f228e_syn_4.clk;
+ |    |    |    269: (lslice) reg0_syn_30.clk;
+ |    |    |    270: (lslice) trimac_locallink/trimac_block/add0_syn_134.clk;
+ |    |    |    271: (lslice) trimac_locallink/trimac_block/trimac_core/al_ef384259_syn_4.clk;
+ |    |    |    272: (lslice) trimac_locallink/trimac_block/add0_syn_129.clk;
+ |    |    |    273: (lslice) trimac_locallink/trimac_block/trimac_core/al_8d8da18e_syn_4.clk;
+ |    |    |    274: (lslice) trimac_locallink/trimac_block/add0_syn_135.clk;
+ |    |    |    275: (pad) rgmii_txd[0]_syn_2.osclk;
+ |    |    |    276: (lslice) trimac_locallink/trimac_block/trimac_core/al_bac6a4_syn_4.clk;
+ |    |    |    277: (lslice) trimac_locallink/trimac_block/add0_syn_131.clk;
+ |    |    |    278: (lslice) trimac_locallink/trimac_block/trimac_core/al_a09d44ee_syn_4.clk;
+ |    |    |    279: (lslice) trimac_locallink/trimac_block/trimac_core/al_f0ed4056_syn_4.clk;
+ |    |    |    280: (lslice) trimac_locallink/trimac_block/trimac_core/al_baaafe79_syn_3.clk;
+ |    |    |    281: (pad) rgmii_txc_syn_2.osclk;
+ |    |    |    282: (lslice) trimac_locallink/trimac_block/trimac_core/al_cc372baa_syn_4.clk;
+ |    |    |    283: (lslice) trimac_locallink/trimac_block/tx_rdy_reg_reg_syn_4.clk;
+ |    |    |    284: (lslice) trimac_locallink/trimac_block/u_tx_clk_en_gen/reg0_syn_45.clk;
+ |    |    |    285: (lslice) trimac_locallink/trimac_block/tx_data_en_reg_reg_syn_3.clk;
+ |    |    |    286: (lslice) trimac_locallink/trimac_block/trimac_core/al_552d4cd_syn_19.clk;
+ |    |    |    287: (lslice) trimac_locallink/trimac_block/trimac_core/al_5bfe08db_syn_3.clk;
+ |    |    |    288: (lslice) trimac_locallink/trimac_block/add0_syn_138.clk;
+ |    |    |    289: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_40ebe0d4_syn_7.clk;
+ |    |    |    290: (lslice) trimac_locallink/trimac_block/trimac_core/al_17bf3296_syn_3.clk;
+ |    |    |    291: (lslice) trimac_locallink/trimac_block/trimac_core/al_d9776907_syn_4.clk;
+ |    |    |    292: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_6c993e82_syn_7.clk;
+ |    |    |    293: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_bc18c7fd_syn_7.clk;
+ |    |    |    294: (lslice) trimac_locallink/trimac_block/reg1_syn_37.clk;
+ |    |    |    295: (lslice) trimac_locallink/trimac_block/trimac_core/al_31f2bc3d_syn_4.clk;
+ |    |    |    296: (lslice) trimac_locallink/trimac_block/gmii_tx_er_reg_reg_syn_3.clk;
+ |    |    |    297: (lslice) trimac_locallink/trimac_block/u_tx_clk_en_gen/reg0_syn_42.clk;
+ |    |    |    298: (lslice) trimac_locallink/trimac_block/trimac_core/al_83511fc4_syn_4.clk;
+ |    |    |    299: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg11_syn_27.clk;
+ |    |    |    300: (lslice) trimac_locallink/trimac_block/u_tx_clk_en_gen/rgmii_txc_en_int_reg_syn_17.clk;
+ |    |    |    301: (lslice) trimac_locallink/trimac_block/add0_syn_141.clk;
+ |    |    |    302: (pad) rgmii_txd[2]_syn_2.osclk;
+ |    |    |    303: (lslice) trimac_locallink/trimac_block/trimac_core/al_565c9074_syn_3.clk;
+ |    |    |    304: (lslice) trimac_locallink/trimac_block/trimac_core/al_cb886a26_syn_4.clk;
+ |    |    |    305: (lslice) trimac_locallink/trimac_block/trimac_core/al_9fc7cf4a_syn_4.clk;
+ |    |    |    306: (lslice) trimac_locallink/trimac_block/trimac_core/al_fd866596_syn_4.clk;
+ |    |    |    307: (pll) u_pll/pll_inst.fbclk;
+ |    |    |    308: (lslice) trimac_locallink/trimac_block/trimac_core/al_aad72f5d_syn_3.clk;
+ |    |    |    309: (lslice) u_test_send/reg0_syn_43.clk;
+ |    |    |    310: (lslice) trimac_locallink/trimac_block/trimac_core/al_df9cdf27_syn_4.clk;
+ |    |    |    311: (lslice) trimac_locallink/trimac_block/trimac_core/al_640f467a_syn_4.clk;
+ |    |    |    312: (lslice) trimac_locallink/trimac_block/trimac_core/al_552d4cd_syn_25.clk;
+ |    |    |    313: (lslice) trimac_locallink/trimac_block/trimac_core/al_b8d64715_syn_4.clk;
+ |    |    |    314: (pad) rgmii_txd[3]_syn_2.osclk;
+ |    |    |    315: (lslice) trimac_locallink/trimac_block/trimac_core/al_6cfd9ec2_syn_4.clk;
+ |    |    |    316: (pad) rgmii_txd[1]_syn_2.osclk;
+ |    |    |    317: (lslice) trimac_locallink/trimac_block/trimac_core/al_31d7dfb8_syn_3.clk;
+ |    |    |    318: (lslice) trimac_locallink/trimac_block/trimac_core/al_700c8006_syn_3.clk;
+ |    |    |    319: (lslice) trimac_locallink/trimac_block/trimac_core/al_d318fb15_syn_3.clk;
+ |    |    |    320: (lslice) trimac_locallink/trimac_block/trimac_core/al_873bb722_syn_4.clk;
+ |    |    |    321: (lslice) trimac_locallink/trimac_block/trimac_core/al_fa471567_syn_4.clk;
+ |    |    |    322: (lslice) trimac_locallink/trimac_block/trimac_core/al_ecaa6e15_syn_4.clk;
+ |    |    |    323: (lslice) trimac_locallink/trimac_block/trimac_core/al_7d08bc32_syn_4.clk;
+ |    |    |    324: (lslice) trimac_locallink/trimac_block/trimac_core/al_dbb18bdb_syn_4.clk;
+ |    |    |    325: (lslice) trimac_locallink/trimac_block/trimac_core/al_a0d3b26a_syn_3.clk;
+ |    |    |    326: (lslice) trimac_locallink/trimac_block/trimac_core/al_f37ed438_syn_4.clk;
+ |    |    |    327: (lslice) trimac_locallink/trimac_block/trimac_core/al_ec59eca7_syn_4.clk;
+ |    |    |    328: (lslice) u_client_loopback/reg3_syn_24.clk;
+ |    |    |    329: (lslice) trimac_locallink/trimac_block/trimac_core/al_3ecc0937_syn_4.clk;
+ |    |    |    330: (lslice) trimac_locallink/trimac_block/trimac_core/al_a2295bf5_syn_3.clk;
+ |    |    |    331: (lslice) trimac_locallink/trimac_block/trimac_core/al_b1a3f44b_syn_3.clk;
+ |    |    |    332: (lslice) u_test_send/reg0_syn_41.clk;
+ |    |    |    333: (lslice) trimac_locallink/trimac_block/u_tx_clk_en_gen/rgmii_txc_en_reg_syn_3.clk;
+ |    |    |    334: (lslice) trimac_locallink/trimac_block/trimac_core/al_53496a4b_syn_3.clk;
+ |    |    |    335: (lslice) trimac_locallink/trimac_block/u_tx_clk_en_gen/rgmii_txc_en_shift_reg_syn_3.clk;
+ |    |    |    336: (pad) rgmii_tx_ctl_syn_2.osclk;
+ |    |    |    337: (lslice) trimac_locallink/trimac_block/tx_retransmit_reg_reg_syn_4.clk;
+ |    |    |    338: (lslice) trimac_locallink/trimac_block/trimac_core/al_f003aeb7_syn_3.clk;
+ |    |    |    339: (lslice) trimac_locallink/trimac_block/trimac_core/al_9306903c_syn_4.clk;
+ |    |    |    340: (lslice) trimac_locallink/trimac_block/trimac_core/al_552d4cd_syn_22.clk;
+ |    |    |    341: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/tx_data_valid_reg_syn_3.clk;
+ |    |    |    342: (lslice) u_client_loopback/reg2_syn_28.clk;
+ |    |    |    343: (lslice) trimac_locallink/trimac_block/trimac_core/al_429ade15_syn_3.clk;
+ |    |    |    344: (lslice) trimac_locallink/trimac_block/trimac_core/al_9d18d43d_syn_4.clk;
+ |    |    |    345: (lslice) trimac_locallink/trimac_block/trimac_core/al_1c968819_syn_4.clk;
+ |    |    |    346: (lslice) trimac_locallink/trimac_block/trimac_core/al_30417ce8_syn_8.clk;
+ |    |    |    347: (lslice) trimac_locallink/trimac_block/trimac_core/al_1234a145_syn_3.clk;
+ |    |    |    348: (lslice) trimac_locallink/trimac_block/trimac_core/al_7c53e4e8_syn_4.clk;
+ |    |    |    349: (lslice) trimac_locallink/trimac_block/trimac_core/al_552d4cd_syn_14.clk;
+ |    |    |    350: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg5_syn_36.clk;
+ |    |    |    351: (lslice) trimac_locallink/trimac_block/add0_syn_140.clk;
+ |    |    |    352: (lslice) u_test_send/u_data_fifo/rd_to_wr_cross_inst/reg0_syn_37.clk;
+ |    |    |    353: (lslice) trimac_locallink/trimac_block/trimac_core/al_eaa51de5_syn_4.clk;
+ |    |    |    354: (lslice) trimac_locallink/trimac_block/add0_syn_126.clk;
+ |    |    |    355: (lslice) trimac_locallink/trimac_block/trimac_core/al_552d4cd_syn_27.clk;
+ |    |    |    356: (lslice) trimac_locallink/trimac_block/trimac_core/al_3d2737bb_syn_4.clk;
+ |    |    |    357: (eram) trimac_locallink/u_client_FIFO/tx_fifo/ramgen_l/inst_syn_1.clka;
+ |    |    |    358: (eram) trimac_locallink/u_client_FIFO/tx_fifo/ramgen_u/inst_syn_1.clka;
+ |    |    |    359: (lslice) trimac_locallink/trimac_block/trimac_core/al_26b6b40e_syn_3.clk;
+ |    |    |    360: (lslice) u_client_loopback/reg4_syn_25.clk;
+ |    |    |    361: (lslice) trimac_locallink/trimac_block/trimac_core/al_de380fb_syn_4.clk;
+ |    |    |    362: (lslice) u_client_loopback/reg2_syn_22.clk;
+ |    |    |    363: (lslice) u_test_send/u_data_fifo/wr_to_rd_cross_inst/reg3_syn_43.clk;
+ |    |    |    364: (lslice) trimac_locallink/trimac_block/u_tx_clk_en_gen/speed_100_sync/data_sync_reg/q_o_reg_syn_3.clk;
+ |    |    |    365: (lslice) trimac_locallink/trimac_block/trimac_core/al_c2641827_syn_4.clk;
+ |    |    |    366: (lslice) trimac_locallink/trimac_block/trimac_core/al_8fea456d_syn_3.clk;
+ |    |    |    367: (lslice) trimac_locallink/trimac_block/trimac_core/al_552d4cd_syn_16.clk;
+ |    |    |    368: (lslice) u_test_send/u_data_fifo/wr_to_rd_cross_inst/reg2_syn_43.clk;
+ |    |    |    369: (lslice) trimac_locallink/trimac_block/trimac_core/al_a2c9ce3a_syn_3.clk;
+ |    |    |    370: (lslice) trimac_locallink/trimac_block/reg4_syn_36.clk;
+ |    |    |    371: (lslice) u_test_send/u_data_fifo/wr_to_rd_cross_inst/reg2_syn_34.clk;
+ |    |    |    372: (lslice) tx_ll_reset_reg_syn_4.clk;
+ |    |    |    373: (lslice) u_test_send/reg0_syn_35.clk;
+ |    |    |    374: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_1c037ee8_syn_7.clk;
+ |    |    |    375: (lslice) u_test_send/u_data_fifo/rd_to_wr_cross_inst/reg0_syn_43.clk;
+ |    |    |    376: (lslice) trimac_locallink/trimac_block/trimac_core/al_b120568a_syn_4.clk;
+ |    |    |    377: (lslice) u_test_send/u_data_fifo/rd_to_wr_cross_inst/reg0_syn_40.clk;
+ |    |    |    378: (eram) u_test_send/u_data_fifo/ram_inst/ramread0_syn_9.clkb;
+ |    |    |    379: (lslice) trimac_locallink/trimac_block/trimac_core/al_a630f64b_syn_3.clk;
+ |    |    |    380: (lslice) u_test_send/u_data_fifo/empty_flag_r1_reg_syn_3.clk;
+ |    |    |    381: (lslice) u_test_send/reg0_syn_49.clk;
+ |    |    |    382: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_b8b592bf_syn_7.clk;
+ |    |    |    383: (lslice) u_test_send/reg0_syn_39.clk;
+ |    |    |    384: (lslice) u_test_send/src_rdy_reg_syn_7.clk;
+ |    |    |    385: (lslice) trimac_locallink/trimac_block/u_tx_clk_en_gen/client_txc_en_reg_syn_19.clk;
+ |    |    |    386: (lslice) u_test_send/dst_rdy_reg_syn_7.clk;
+ |    |    |    387: (lslice) trimac_locallink/trimac_block/trimac_core/al_70d8f890_syn_3.clk;
+ |    |    |    388: (lslice) u_test_send/reg1_syn_20.clk;
+ |    |    |    389: (lslice) u_test_send/u_data_fifo/wr_to_rd_cross_inst/reg1_syn_37.clk;
+ |    |    |    390: (lslice) u_test_send/u_data_fifo/wr_to_rd_cross_inst/reg3_syn_37.clk;
+ |    |    |    391: (eram) trimac_locallink/u_client_FIFO/tx_fifo/ramgen_l/inst_syn_1.clkb;
+ |    |    |    392: (eram) trimac_locallink/u_client_FIFO/tx_fifo/ramgen_u/inst_syn_1.clkb;
+ |    |    |    393: (lslice) u_client_loopback/reg2_syn_25.clk;
+ |    |    |    394: (eram) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_82f1a528_syn_2.clka;
+ |    |    |    395: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_146e96d3_syn_7.clk;
+ |    |    |    396: (lslice) u_test_send/u_data_fifo/wr_to_rd_cross_inst/reg2_syn_31.clk;
+ |    |    |    397: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_b89d9b42_syn_7.clk;
+ |    |    |    398: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_bf3dee16_syn_1.clk;
+ |    |    |    399: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_4566af8_syn_1.clk;
+ |    |    |    400: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_de040350_syn_7.clk;
+ |    |    |    401: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_39b541bd_syn_1.clk;
+ |    |    |    402: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_4c65cb8e_syn_1.clk;
+ |    |    |    403: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_6eb318e4_syn_7.clk;
+ |    |    |    404: (lslice) u_test_send/u_data_fifo/wr_to_rd_cross_inst/reg3_syn_34.clk;
+ |    |    |    405: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_4e97fc42_syn_1.clk;
+ |    |    |    406: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_2ca84eaf_syn_1.clk;
+ |    |    |    407: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_76b20766_syn_7.clk;
+ |    |    |    408: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_e56607bb_syn_1.clk;
+ |    |    |    409: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_e1044ec0_syn_7.clk;
+ |    |    |    410: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_5e4e1242_syn_1.clk;
+ |    |    |    411: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_fdf401f2_syn_7.clk;
+ |    |    |    412: (lslice) reg0_syn_21.clk;
+ |    |    |    413: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_90b1a19d_syn_1.clk;
+ |    |    |    414: (lslice) u_test_send/u_data_fifo/reg0_syn_40.clk;
+ |    |    |    415: (lslice) trimac_locallink/trimac_block/trimac_core/al_fccb2998_syn_4.clk;
+ |    |    |    416: (lslice) trimac_locallink/trimac_block/trimac_core/al_7915f0c5_syn_4.clk;
+ |    |    |    417: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_252ea06e_syn_7.clk;
+ |    |    |    418: (lslice) u_test_send/u_data_fifo/wr_to_rd_cross_inst/reg2_syn_37.clk;
+ |    |    |    419: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_33f9013e_syn_1.clk;
+ |    |    |    420: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_bed75354_syn_7.clk;
+ |    |    |    421: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_16ad90bc_syn_6.clk;
+ |    |    |    422: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_40ebe0d4_syn_6.clk;
+ |    |    |    423: (lslice) trimac_locallink/trimac_block/trimac_core/al_b6db5f5a_syn_3.clk;
+ |    |    |    424: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg5_syn_34.clk;
+ |    |    |    425: (lslice) trimac_locallink/trimac_block/trimac_core/al_19c97f36_syn_4.clk;
+ |    |    |    426: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_4c05617e_syn_7.clk;
+ |    |    |    427: (lslice) u_test_send/u_data_fifo/wr_to_rd_cross_inst/reg1_syn_31.clk;
+ |    |    |    428: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_2a369922_syn_1.clk;
+ |    |    |    429: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_7d5110c4_syn_1.clk;
+ |    |    |    430: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_f8178b2c_syn_7.clk;
+ |    |    |    431: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_6ef4721c_syn_7.clk;
+ |    |    |    432: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_470a2ab8_syn_7.clk;
+ |    |    |    433: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_dc5daab3_syn_7.clk;
+ |    |    |    434: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_bf982701_syn_7.clk;
+ |    |    |    435: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_e3895fe2_syn_7.clk;
+ |    |    |    436: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_23963ea6_syn_6.clk;
+ |    |    |    437: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_fd544ba8_syn_7.clk;
+ |    |    |    438: (lslice) reg0_syn_27.clk;
+ |    |    |    439: (lslice) u_client_loopback/reg4_syn_31.clk;
+ |    |    |    440: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_31c2c18_syn_7.clk;
+ |    |    |    441: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_f04e2943_syn_1.clk;
+ |    |    |    442: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_3918e059_syn_7.clk;
+ |    |    |    443: (lslice) trimac_locallink/trimac_block/trimac_core/al_6c5c23e_syn_4.clk;
+ |    |    |    444: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_b8b592bf_syn_7.clk;
+ |    |    |    445: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_2e8a2570_syn_7.clk;
+ |    |    |    446: (lslice) u_test_send/u_data_fifo/reg0_syn_46.clk;
+ |    |    |    447: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_29d0fe45_syn_1.clk;
+ |    |    |    448: (lslice) u_test_send/reg3_syn_15.clk;
+ |    |    |    449: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_5fb1cf51_syn_7.clk;
+ |    |    |    450: (lslice) u_test_send/u_data_fifo/wr_to_rd_cross_inst/reg3_syn_49.clk;
+ |    |    |    451: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_73573309_syn_7.clk;
+ |    |    |    452: (lslice) u_test_send/u_data_fifo/wr_to_rd_cross_inst/reg3_syn_46.clk;
+ |    |    |    453: (lslice) u_test_send/u_data_fifo/wr_to_rd_cross_inst/reg2_syn_40.clk;
+ |    |    |    454: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_da4d991f_syn_1.clk;
+ |    |    |    455: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_5a8019b7_syn_7.clk;
+ |    |    |    456: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_b168a924_syn_1.clk;
+ |    |    |    457: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_5394044a_syn_7.clk;
+ |    |    |    458: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_b2c2a4b7_syn_7.clk;
+ |    |    |    459: (lslice) trimac_locallink/trimac_block/trimac_core/al_6a29f89b_syn_3.clk;
+ |    |    |    460: (lslice) trimac_locallink/trimac_block/trimac_core/al_9ba52cac_syn_4.clk;
+ |    |    |    461: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_1c037ee8_syn_7.clk;
+ |    |    |    462: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_fd544ba8_syn_7.clk;
+ |    |    |    463: (eram) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_82f1a528_syn_2.clkb;
+ |    |    |    464: (lslice) trimac_locallink/trimac_block/trimac_core/al_54aeeda9_syn_3.clk;
+ |    Bank 1:
+ |    |    Net trimac_locallink/trimac_block/trimac_core/s_axi_aclk_syn_1: 10(10)  out of 339(339)
+ |    |    |    1: (lslice) trimac_locallink/trimac_block/trimac_core/al_5940691_syn_6.clk;
+ |    |    |    2: (lslice) trimac_locallink/trimac_block/trimac_core/al_55ac0271_syn_6.clk;
+ |    |    |    3: (lslice) trimac_locallink/trimac_block/trimac_core/al_28356984_syn_6.clk;
+ |    |    |    4: (lslice) trimac_locallink/trimac_block/trimac_core/al_818403ad_syn_4.clk;
+ |    |    |    5: (lslice) trimac_locallink/trimac_block/trimac_core/al_ec87a88_syn_6.clk;
+ |    |    |    6: (lslice) trimac_locallink/trimac_block/trimac_core/al_9aa6335b_syn_6.clk;
+ |    |    |    7: (lslice) trimac_locallink/trimac_block/trimac_core/al_e07284fe_syn_7.clk;
+ |    |    |    8: (lslice) trimac_locallink/trimac_block/trimac_core/al_a559606c_syn_27.clk;
+ |    |    |    9: (lslice) trimac_locallink/trimac_block/trimac_core/al_4cfc1aa4_syn_6.clk;
+ |    |    |    10: (lslice) trimac_locallink/trimac_block/trimac_core/al_682a90fd_syn_6.clk;
+ |    Bank 2:
+ |    |    Net trimac_locallink/rgmii_rxc_syn_1: 47(47)  out of 286(286)
+ |    |    |    1: (pad) rgmii_rxd[1]_syn_2.ipclk;
+ |    |    |    2: (pad) rgmii_rxd[2]_syn_2.ipclk;
+ |    |    |    3: (pad) rgmii_rxd[3]_syn_2.ipclk;
+ |    |    |    4: (pad) rgmii_rx_ctl_syn_2.ipclk;
+ |    |    |    5: (lslice) trimac_locallink/trimac_block/trimac_core/al_96ca5ab2_syn_4.clk;
+ |    |    |    6: (lslice) trimac_locallink/trimac_block/trimac_core/al_f57b00c4_syn_4.clk;
+ |    |    |    7: (lslice) trimac_locallink/trimac_block/trimac_core/al_d76ed390_syn_4.clk;
+ |    |    |    8: (lslice) trimac_locallink/trimac_block/trimac_core/al_f81e09fc_syn_4.clk;
+ |    |    |    9: (lslice) trimac_locallink/trimac_block/trimac_core/al_c8332e2e_syn_4.clk;
+ |    |    |    10: (lslice) trimac_locallink/trimac_block/trimac_core/al_af6f34e7_syn_4.clk;
+ |    |    |    11: (lslice) trimac_locallink/trimac_block/trimac_core/al_bbdf49a6_syn_4.clk;
+ |    |    |    12: (lslice) trimac_locallink/trimac_block/trimac_core/al_bea0dfa3_syn_4.clk;
+ |    |    |    13: (lslice) trimac_locallink/trimac_block/trimac_core/al_f24a52ea_syn_4.clk;
+ |    |    |    14: (lslice) trimac_locallink/trimac_block/reg0_syn_34.clk;
+ |    |    |    15: (lslice) trimac_locallink/trimac_block/reg0_syn_37.clk;
+ |    |    |    16: (lslice) trimac_locallink/trimac_block/trimac_core/al_f9a17bc9_syn_4.clk;
+ |    |    |    17: (lslice) trimac_locallink/trimac_block/trimac_core/al_70ddf8f8_syn_3.clk;
+ |    |    |    18: (lslice) trimac_locallink/trimac_block/trimac_core/al_977a9e43_syn_4.clk;
+ |    |    |    19: (lslice) trimac_locallink/trimac_block/trimac_core/al_3bade7b8_syn_4.clk;
+ |    |    |    20: (lslice) trimac_locallink/trimac_block/trimac_core/al_6eefe3b5_syn_18.clk;
+ |    |    |    21: (lslice) trimac_locallink/trimac_block/trimac_core/al_d30cd802_syn_4.clk;
+ |    |    |    22: (lslice) trimac_locallink/trimac_block/trimac_core/al_a19e5da5_syn_4.clk;
+ |    |    |    23: (lslice) trimac_locallink/trimac_block/trimac_core/al_5492b5e1_syn_4.clk;
+ |    |    |    24: (lslice) trimac_locallink/trimac_block/gmii_rx_dv_reg_reg_syn_4.clk;
+ |    |    |    25: (lslice) trimac_locallink/trimac_block/trimac_core/al_cd1ed96a_syn_4.clk;
+ |    |    |    26: (lslice) trimac_locallink/trimac_block/trimac_core/al_8173e3e1_syn_4.clk;
+ |    |    |    27: (lslice) trimac_locallink/trimac_block/trimac_core/al_b890aec3_syn_4.clk;
+ |    |    |    28: (lslice) trimac_locallink/trimac_block/trimac_core/al_90efb6ce_syn_4.clk;
+ |    |    |    29: (lslice) trimac_locallink/trimac_block/client_rxc_en_int_reg_syn_29.clk;
+ |    |    |    30: (lslice) trimac_locallink/trimac_block/trimac_core/al_81a4b840_syn_4.clk;
+ |    |    |    31: (lslice) trimac_locallink/trimac_block/trimac_core/al_9c013c6b_syn_4.clk;
+ |    |    |    32: (pad) rgmii_rxd[0]_syn_2.ipclk;
+ |    |    |    33: (lslice) trimac_locallink/trimac_block/trimac_core/al_5c9ffeb5_syn_4.clk;
+ |    |    |    34: (lslice) trimac_locallink/trimac_block/speed_10_100_rx_sync/data_sync/q_o_reg_syn_3.clk;
+ |    |    |    35: (lslice) trimac_locallink/trimac_block/trimac_core/al_ab1d15a7_syn_4.clk;
+ |    |    |    36: (lslice) trimac_locallink/trimac_block/reg0_syn_28.clk;
+ |    |    |    37: (lslice) trimac_locallink/trimac_block/rx_reset_gen/reset_sync1/q_o_reg_syn_4.clk;
+ |    |    |    38: (lslice) trimac_locallink/trimac_block/trimac_core/al_c41a1e51_syn_4.clk;
+ |    |    |    39: (lslice) trimac_locallink/trimac_block/trimac_core/al_74dd52e4_syn_4.clk;
+ |    |    |    40: (lslice) trimac_locallink/trimac_block/trimac_core/al_923d20ef_syn_4.clk;
+ |    |    |    41: (lslice) trimac_locallink/trimac_block/trimac_core/al_e243cfa1_syn_4.clk;
+ |    |    |    42: (lslice) trimac_locallink/trimac_block/client_rxc_en_int_reg_syn_27.clk;
+ |    |    |    43: (lslice) trimac_locallink/trimac_block/trimac_core/al_358a0deb_syn_3.clk;
+ |    |    |    44: (lslice) trimac_locallink/trimac_block/trimac_core/al_7260aef1_syn_4.clk;
+ |    |    |    45: (lslice) trimac_locallink/trimac_block/trimac_core/al_7965f091_syn_3.clk;
+ |    |    |    46: (lslice) trimac_locallink/trimac_block/reg0_syn_31.clk;
+ |    |    |    47: (lslice) trimac_locallink/trimac_block/speed_10_100_rx_sync/data_sync_reg/q_o_reg_syn_3.clk;
+ |    Bank 3:
+ |    |    Net config_inst_syn_10: 13(13)  out of 189(189)
+ |    |    |    1: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_734.clk;
+ |    |    |    2: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r_reg_syn_3.clk;
+ |    |    |    3: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_746.clk;
+ |    |    |    4: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_737.clk;
+ |    |    |    5: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_734.clk;
+ |    |    |    6: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_731.clk;
+ |    |    |    7: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_728.clk;
+ |    |    |    8: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_725.clk;
+ |    |    |    9: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_722.clk;
+ |    |    |    10: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_499.clk;
+ |    |    |    11: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/rst_reg_syn_3.clk;
+ |    |    |    12: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_511.clk;
+ |    |    |    13: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_508.clk;
+ |    Bank 4:
+ |    |    Net u_test_send/u_data_fifo/clkw_syn_3: 138(138)  out of 160(160)
+ |    |    |    1: (mslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/buffer[0][0]_syn_203.clk;
+ |    |    |    2: (mult18) u_test_send/u_fake_top/u_top_fir/u_fir_filter/mult23_syn_50.clk;
+ |    |    |    3: (mslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/buffer[0][0]_syn_171.clk;
+ |    |    |    4: (lslice) u_test_send/u_data_fifo/reg1_syn_42.clk;
+ |    |    |    5: (lslice) u_test_send/u_data_fifo/wr_to_rd_cross_inst/reg0_syn_43.clk;
+ |    |    |    6: (lslice) u_test_send/u_data_fifo/afull_reg_syn_4.clk;
+ |    |    |    7: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_985.clk;
+ |    |    |    8: (mslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/buffer[0][0]_syn_204.clk;
+ |    |    |    9: (lslice) u_test_send/u_data_fifo/wr_to_rd_cross_inst/reg0_syn_34.clk;
+ |    |    |    10: (lslice) u_test_send/u_data_fifo/rd_to_wr_cross_inst/reg2_syn_42.clk;
+ |    |    |    11: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/accumulator[50][5]_syn_194.clk;
+ |    |    |    12: (eram) u_test_send/u_data_fifo/ram_inst/ramread0_syn_9.clka;
+ |    |    |    13: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/accumulator[50][5]_syn_204.clk;
+ |    |    |    14: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/accumulator[50][5]_syn_187.clk;
+ |    |    |    15: (lslice) u_test_send/u_data_fifo/reg1_syn_34.clk;
+ |    |    |    16: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/buffer[0][0]_syn_258.clk;
+ |    |    |    17: (lslice) u_test_send/u_data_fifo/reg1_syn_31.clk;
+ |    |    |    18: (mslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/buffer[0][0]_syn_176.clk;
+ |    |    |    19: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_928.clk;
+ |    |    |    20: (lslice) u_test_send/u_data_fifo/reg1_syn_40.clk;
+ |    |    |    21: (mult18) u_test_send/u_fake_top/u_top_fir/u_fir_filter/mult46_syn_50.clk;
+ |    |    |    22: (lslice) u_test_send/u_data_fifo/reg1_syn_37.clk;
+ |    |    |    23: (shifterhardcon) u_test_send/u_fake_top/u_top_fir/u_fir_filter/buffer[0][0]_syn_205.sclk;
+ |    |    |    24: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/accumulator[50][5]_syn_195.clk;
+ |    |    |    25: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/accumulator[50][5]_syn_193.clk;
+ |    |    |    26: (mult18) u_test_send/u_fake_top/u_top_fir/u_fir_filter/mult0_syn_50.clk;
+ |    |    |    27: (lslice) u_test_send/u_data_fifo/rd_to_wr_cross_inst/reg1_syn_39.clk;
+ |    |    |    28: (lslice) u_test_send/u_data_fifo/rd_to_wr_cross_inst/reg1_syn_36.clk;
+ |    |    |    29: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/accumulator[50][5]_syn_197.clk;
+ |    |    |    30: (lslice) u_test_send/u_data_fifo/rd_to_wr_cross_inst/reg2_syn_45.clk;
+ |    |    |    31: (mslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/buffer[0][0]_syn_202.clk;
+ |    |    |    32: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/accumulator[50][5]_syn_198.clk;
+ |    |    |    33: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/accumulator[50][5]_syn_196.clk;
+ |    |    |    34: (mslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/buffer[0][0]_syn_201.clk;
+ |    |    |    35: (lslice) u_test_send/u_data_fifo/rd_to_wr_cross_inst/reg3_syn_51.clk;
+ |    |    |    36: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1718.clk;
+ |    |    |    37: (lslice) u_test_send/u_data_fifo/rd_to_wr_cross_inst/reg2_syn_39.clk;
+ |    |    |    38: (lslice) u_test_send/u_data_fifo/rd_to_wr_cross_inst/reg2_syn_36.clk;
+ |    |    |    39: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/buffer[0][0]_syn_243.clk;
+ |    |    |    40: (mult18) u_test_send/u_fake_top/u_top_fir/u_fir_filter/mult18_syn_50.clk;
+ |    |    |    41: (lslice) u_test_send/u_data_fifo/rd_to_wr_cross_inst/reg2_syn_33.clk;
+ |    |    |    42: (mult18) u_test_send/u_fake_top/u_top_fir/u_fir_filter/mult2_syn_50.clk;
+ |    |    |    43: (lslice) u_test_send/u_data_fifo/rd_to_wr_cross_inst/reg3_syn_49.clk;
+ |    |    |    44: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_970.clk;
+ |    |    |    45: (lslice) u_test_send/u_data_fifo/rd_to_wr_cross_inst/reg3_syn_46.clk;
+ |    |    |    46: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/accumulator[50][5]_syn_188.clk;
+ |    |    |    47: (lslice) u_test_send/u_data_fifo/rd_to_wr_cross_inst/reg3_syn_43.clk;
+ |    |    |    48: (lslice) u_test_send/u_data_fifo/rd_to_wr_cross_inst/reg3_syn_40.clk;
+ |    |    |    49: (lslice) u_test_send/u_data_fifo/rd_to_wr_cross_inst/reg3_syn_37.clk;
+ |    |    |    50: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_916.clk;
+ |    |    |    51: (lslice) u_test_send/u_data_fifo/wr_to_rd_cross_inst/reg0_syn_31.clk;
+ |    |    |    52: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/buffer[0][0]_syn_234.clk;
+ |    |    |    53: (lslice) u_test_send/u_data_fifo/wr_to_rd_cross_inst/reg0_syn_40.clk;
+ |    |    |    54: (mult18) u_test_send/u_fake_top/u_top_fir/u_fir_filter/mult22_syn_49.clk;
+ |    |    |    55: (lslice) u_test_send/u_data_fifo/wr_to_rd_cross_inst/reg0_syn_37.clk;
+ |    |    |    56: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/accumulator[50][5]_syn_189.clk;
+ |    |    |    57: (lslice) u_test_send/u_data_fifo/rd_to_wr_cross_inst/reg1_syn_33.clk;
+ |    |    |    58: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_949.clk;
+ |    |    |    59: (mult18) u_test_send/u_fake_top/u_top_fir/u_fir_filter/mult3_syn_50.clk;
+ |    |    |    60: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/accumulator[50][5]_syn_190.clk;
+ |    |    |    61: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/accumulator[50][5]_syn_202.clk;
+ |    |    |    62: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/accumulator[50][5]_syn_203.clk;
+ |    |    |    63: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_979.clk;
+ |    |    |    64: (mult18) u_test_send/u_fake_top/u_top_fir/u_fir_filter/mult28_syn_49.clk;
+ |    |    |    65: (mult18) u_test_send/u_fake_top/u_top_fir/u_fir_filter/mult24_syn_50.clk;
+ |    |    |    66: (mult18) u_test_send/u_fake_top/u_top_fir/u_fir_filter/mult1_syn_49.clk;
+ |    |    |    67: (mult18) u_test_send/u_fake_top/u_top_fir/u_fir_filter/mult43_syn_49.clk;
+ |    |    |    68: (mult18) u_test_send/u_fake_top/u_top_fir/u_fir_filter/mult25_syn_50.clk;
+ |    |    |    69: (mult18) u_test_send/u_fake_top/u_top_fir/u_fir_filter/mult19_syn_50.clk;
+ |    |    |    70: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_967.clk;
+ |    |    |    71: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/buffer[0][0]_syn_225.clk;
+ |    |    |    72: (mult18) u_test_send/u_fake_top/u_top_fir/u_fir_filter/mult17_syn_49.clk;
+ |    |    |    73: (mult18) u_test_send/u_fake_top/u_top_fir/u_fir_filter/mult27_syn_50.clk;
+ |    |    |    74: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/buffer[0][0]_syn_246.clk;
+ |    |    |    75: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1706.clk;
+ |    |    |    76: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_976.clk;
+ |    |    |    77: (mult18) u_test_send/u_fake_top/u_top_fir/u_fir_filter/mult5_syn_50.clk;
+ |    |    |    78: (mult18) u_test_send/u_fake_top/u_top_fir/u_fir_filter/mult26_syn_50.clk;
+ |    |    |    79: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_931.clk;
+ |    |    |    80: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/accumulator[50][5]_syn_199.clk;
+ |    |    |    81: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_925.clk;
+ |    |    |    82: (mslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/buffer[0][0]_syn_177.clk;
+ |    |    |    83: (mult18) u_test_send/u_fake_top/u_top_fir/u_fir_filter/mult45_syn_50.clk;
+ |    |    |    84: (mult18) u_test_send/u_fake_top/u_top_fir/u_fir_filter/mult4_syn_50.clk;
+ |    |    |    85: (mslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/buffer[0][0]_syn_197.clk;
+ |    |    |    86: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_919.clk;
+ |    |    |    87: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/accumulator[50][5]_syn_192.clk;
+ |    |    |    88: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/buffer[0][0]_syn_231.clk;
+ |    |    |    89: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_943.clk;
+ |    |    |    90: (mult18) u_test_send/u_fake_top/u_top_fir/u_fir_filter/mult13_syn_50.clk;
+ |    |    |    91: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_961.clk;
+ |    |    |    92: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1709.clk;
+ |    |    |    93: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1712.clk;
+ |    |    |    94: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/accumulator[50][5]_syn_200.clk;
+ |    |    |    95: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1715.clk;
+ |    |    |    96: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_937.clk;
+ |    |    |    97: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1700.clk;
+ |    |    |    98: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/buffer[0][0]_syn_237.clk;
+ |    |    |    99: (mslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/buffer[0][0]_syn_175.clk;
+ |    |    |    100: (mult18) u_test_send/u_fake_top/u_top_fir/u_fir_filter/mult16_syn_50.clk;
+ |    |    |    101: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/buffer[0][0]_syn_240.clk;
+ |    |    |    102: (mslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/buffer[0][0]_syn_178.clk;
+ |    |    |    103: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_973.clk;
+ |    |    |    104: (mslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/buffer[0][0]_syn_198.clk;
+ |    |    |    105: (mult18) u_test_send/u_fake_top/u_top_fir/u_fir_filter/mult47_syn_50.clk;
+ |    |    |    106: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/accumulator[50][5]_syn_201.clk;
+ |    |    |    107: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/buffer[0][0]_syn_228.clk;
+ |    |    |    108: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_958.clk;
+ |    |    |    109: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/accumulator[50][5]_syn_191.clk;
+ |    |    |    110: (mult18) u_test_send/u_fake_top/u_top_fir/u_fir_filter/mult15_syn_49.clk;
+ |    |    |    111: (mslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/buffer[0][0]_syn_174.clk;
+ |    |    |    112: (mslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/buffer[0][0]_syn_200.clk;
+ |    |    |    113: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_940.clk;
+ |    |    |    114: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/buffer[0][0]_syn_252.clk;
+ |    |    |    115: (mult18) u_test_send/u_fake_top/u_top_fir/u_fir_filter/mult50_syn_50.clk;
+ |    |    |    116: (mult18) u_test_send/u_fake_top/u_top_fir/u_fir_filter/mult48_syn_50.clk;
+ |    |    |    117: (mult18) u_test_send/u_fake_top/u_top_fir/u_fir_filter/mult14_syn_50.clk;
+ |    |    |    118: (mult18) u_test_send/u_fake_top/u_top_fir/u_fir_filter/mult6_syn_50.clk;
+ |    |    |    119: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_934.clk;
+ |    |    |    120: (mult18) u_test_send/u_fake_top/u_top_fir/u_fir_filter/mult44_syn_50.clk;
+ |    |    |    121: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_955.clk;
+ |    |    |    122: (mult18) u_test_send/u_fake_top/u_top_fir/u_fir_filter/mult21_syn_49.clk;
+ |    |    |    123: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1703.clk;
+ |    |    |    124: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_952.clk;
+ |    |    |    125: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/buffer[0][0]_syn_255.clk;
+ |    |    |    126: (mult18) u_test_send/u_fake_top/u_top_fir/u_fir_filter/mult20_syn_49.clk;
+ |    |    |    127: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_982.clk;
+ |    |    |    128: (mslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/buffer[0][0]_syn_173.clk;
+ |    |    |    129: (mslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/buffer[0][0]_syn_172.clk;
+ |    |    |    130: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_922.clk;
+ |    |    |    131: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_946.clk;
+ |    |    |    132: (shifterhardcon) u_test_send/u_fake_top/u_top_fir/u_fir_filter/buffer[0][0]_syn_179.sclk;
+ |    |    |    133: (mult18) u_test_send/u_fake_top/u_top_fir/u_fir_filter/mult49_syn_49.clk;
+ |    |    |    134: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/buffer[0][0]_syn_249.clk;
+ |    |    |    135: (lslice) u_test_send/u_data_fifo/asy_w_rst0_reg_syn_4.clk;
+ |    |    |    136: (mslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/buffer[0][0]_syn_199.clk;
+ |    |    |    137: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_964.clk;
+ |    |    |    138: (lslice) u_test_send/u_data_fifo/rd_to_wr_cross_inst/reg1_syn_41.clk;
+ |    Bank 5:
+ |    |    Net u_test_send/u_fake_top/u_top_fir/u_AD7266/spi_clk_syn_3: 11(11)  out of 23(23)
+ |    |    |    1: (lslice) u_test_send/u_fake_top/u_top_fir/u_AD7266/reg1_syn_55.clk;
+ |    |    |    2: (lslice) u_test_send/u_fake_top/u_top_fir/u_AD7266/reg22_syn_22.clk;
+ |    |    |    3: (lslice) u_test_send/u_fake_top/u_top_fir/u_AD7266/spi_rd_done_reg_syn_3.clk;
+ |    |    |    4: (lslice) u_test_send/u_fake_top/u_top_fir/u_AD7266/reg22_syn_29.clk;
+ |    |    |    5: (lslice) u_test_send/u_fake_top/u_top_fir/u_AD7266/reg22_syn_27.clk;
+ |    |    |    6: (lslice) u_test_send/u_fake_top/u_top_fir/u_AD7266/reg22_syn_25.clk;
+ |    |    |    7: (lslice) u_test_send/u_fake_top/u_top_fir/u_AD7266/reg1_syn_52.clk;
+ |    |    |    8: (lslice) u_test_send/u_fake_top/u_top_fir/u_AD7266/reg1_syn_49.clk;
+ |    |    |    9: (lslice) u_test_send/u_fake_top/u_top_fir/u_AD7266/reg1_syn_46.clk;
+ |    |    |    10: (lslice) u_test_send/u_fake_top/u_top_fir/u_AD7266/reg1_syn_43.clk;
+ |    |    |    11: (lslice) u_test_send/u_fake_top/u_top_fir/u_AD7266/reg1_syn_40.clk;
+ |    Bank 6:
+ |    |    Net u_test_send/u_fake_top/u_top_fir/u_AD7266/SCK_syn_3: 14(14)  out of 18(17)
+ |    |    |    1: (lslice) u_test_send/u_fake_top/u_top_fir/u_AD7266/reg20_syn_30.clk;
+ |    |    |    2: (lslice) u_test_send/u_fake_top/u_top_fir/u_AD7266/reg0_syn_122.clk;
+ |    |    |    3: (lslice) u_test_send/u_fake_top/u_top_fir/u_AD7266/reg20_syn_32.clk;
+ |    |    |    4: (lslice) u_test_send/u_fake_top/u_top_fir/u_AD7266/reg0_syn_119.clk;
+ |    |    |    5: (lslice) u_test_send/u_fake_top/u_top_fir/u_AD7266/reg0_syn_116.clk;
+ |    |    |    6: (lslice) u_test_send/u_fake_top/u_top_fir/u_AD7266/reg20_syn_28.clk;
+ |    |    |    7: (lslice) u_test_send/u_fake_top/u_top_fir/u_AD7266/reg0_syn_114.clk;
+ |    |    |    8: (lslice) u_test_send/u_fake_top/u_top_fir/u_AD7266/reg0_syn_105.clk;
+ |    |    |    9: (lslice) u_test_send/u_fake_top/u_top_fir/u_AD7266/reg0_syn_107.clk;
+ |    |    |    10: (lslice) u_test_send/u_fake_top/u_top_fir/u_AD7266/reg0_syn_109.clk;
+ |    |    |    11: (lslice) u_test_send/u_fake_top/u_top_fir/u_AD7266/reg0_syn_111.clk;
+ |    |    |    12: (lslice) u_test_send/u_fake_top/u_singal_gen/DOUTA_reg_syn_16.clk;
+ |    |    |    13: (lslice) u_test_send/u_fake_top/u_top_fir/u_AD7266/reg20_syn_35.clk;
+ |    |    |    14: (lslice) u_test_send/u_fake_top/u_top_fir/u_AD7266/reg0_syn_124.clk;
+ |    Bank 7:
+ |    Bank 8:
+ |    Bank 9:
+ |    Bank 10:
+ |    Bank 11:
+
+
+Clock Region s_1_r
+ |    Bank 0:
+ |    |    Net trimac_locallink/trimac_block/trimac_core/tx_mac_clk: 177(177)  out of 791(791)
+ |    |    |    1: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg0_syn_16.clk;
+ |    |    |    2: (lslice) u_test_send/reg3_syn_12.clk;
+ |    |    |    3: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg14_syn_39.clk;
+ |    |    |    4: (lslice) trimac_locallink/trimac_block/trimac_core/al_f306acd9_syn_4.clk;
+ |    |    |    5: (lslice) trimac_locallink/trimac_block/trimac_core/al_f15b9b9d_syn_4.clk;
+ |    |    |    6: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg17_syn_58.clk;
+ |    |    |    7: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg16_syn_28.clk;
+ |    |    |    8: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg17_syn_55.clk;
+ |    |    |    9: (lslice) trimac_locallink/trimac_block/trimac_core/al_9e2e282_syn_4.clk;
+ |    |    |    10: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg17_syn_52.clk;
+ |    |    |    11: (lslice) trimac_locallink/trimac_block/trimac_core/al_4951beba_syn_4.clk;
+ |    |    |    12: (lslice) trimac_locallink/trimac_block/trimac_core/al_3facc4e0_syn_3.clk;
+ |    |    |    13: (lslice) trimac_locallink/trimac_block/trimac_core/al_9965bf31_syn_4.clk;
+ |    |    |    14: (lslice) trimac_locallink/trimac_block/trimac_core/al_56678233_syn_3.clk;
+ |    |    |    15: (lslice) trimac_locallink/trimac_block/trimac_core/al_4fff4dc7_syn_3.clk;
+ |    |    |    16: (lslice) trimac_locallink/trimac_block/trimac_core/al_f196c5ca_syn_4.clk;
+ |    |    |    17: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg14_syn_41.clk;
+ |    |    |    18: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg20_syn_37.clk;
+ |    |    |    19: (lslice) trimac_locallink/trimac_block/trimac_core/al_e319034d_syn_4.clk;
+ |    |    |    20: (lslice) trimac_locallink/trimac_block/trimac_core/al_9b0f747d_syn_4.clk;
+ |    |    |    21: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg14_syn_57.clk;
+ |    |    |    22: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/wr_eof_state_reg_reg_syn_3.clk;
+ |    |    |    23: (lslice) trimac_locallink/trimac_block/trimac_core/al_6facc640_syn_4.clk;
+ |    |    |    24: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg14_syn_43.clk;
+ |    |    |    25: (lslice) trimac_locallink/trimac_block/trimac_core/al_ac70782e_syn_4.clk;
+ |    |    |    26: (lslice) trimac_locallink/trimac_block/trimac_core/al_b957fd10_syn_4.clk;
+ |    |    |    27: (lslice) trimac_locallink/trimac_block/trimac_core/al_922a2537_syn_4.clk;
+ |    |    |    28: (lslice) trimac_locallink/trimac_block/trimac_core/al_e175076f_syn_4.clk;
+ |    |    |    29: (lslice) u_test_send/reg0_syn_45.clk;
+ |    |    |    30: (lslice) trimac_locallink/trimac_block/trimac_core/al_f28cca76_syn_4.clk;
+ |    |    |    31: (lslice) trimac_locallink/trimac_block/trimac_core/al_d11be325_syn_4.clk;
+ |    |    |    32: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg16_syn_34.clk;
+ |    |    |    33: (lslice) trimac_locallink/trimac_block/trimac_core/al_eb3becc5_syn_4.clk;
+ |    |    |    34: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg16_syn_31.clk;
+ |    |    |    35: (lslice) trimac_locallink/trimac_block/trimac_core/al_41bbe2e1_syn_4.clk;
+ |    |    |    36: (lslice) u_test_send/reg2_syn_62.clk;
+ |    |    |    37: (lslice) trimac_locallink/trimac_block/trimac_core/al_a2f82364_syn_4.clk;
+ |    |    |    38: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg4_syn_34.clk;
+ |    |    |    39: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/sub3_syn_68.clk;
+ |    |    |    40: (lslice) u_test_send/u_fake_top/u_top_fir/u_AD7266/spi_clk_reg_syn_10.clk;
+ |    |    |    41: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg14_syn_49.clk;
+ |    |    |    42: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg14_syn_45.clk;
+ |    |    |    43: (lslice) trimac_locallink/trimac_block/trimac_core/al_3f13e4de_syn_3.clk;
+ |    |    |    44: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg14_syn_51.clk;
+ |    |    |    45: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg14_syn_47.clk;
+ |    |    |    46: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg8_syn_39.clk;
+ |    |    |    47: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg2_syn_49.clk;
+ |    |    |    48: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/rd_bram_u_reg_reg_syn_3.clk;
+ |    |    |    49: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg8_syn_41.clk;
+ |    |    |    50: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg6_syn_28.clk;
+ |    |    |    51: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/sub2_syn_81.clk;
+ |    |    |    52: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/sub2_syn_82.clk;
+ |    |    |    53: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg8_syn_46.clk;
+ |    |    |    54: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/sub2_syn_86.clk;
+ |    |    |    55: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/sub2_syn_83.clk;
+ |    |    |    56: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/sub2_syn_79.clk;
+ |    |    |    57: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/sub2_syn_80.clk;
+ |    |    |    58: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/sub2_syn_76.clk;
+ |    |    |    59: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg6_syn_37.clk;
+ |    |    |    60: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/sub2_syn_78.clk;
+ |    |    |    61: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg6_syn_31.clk;
+ |    |    |    62: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/sub2_syn_77.clk;
+ |    |    |    63: (lslice) trimac_locallink/trimac_block/trimac_core/al_67e559ac_syn_4.clk;
+ |    |    |    64: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/rd_eof_pipe_reg_syn_4.clk;
+ |    |    |    65: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg20_syn_44.clk;
+ |    |    |    66: (lslice) trimac_locallink/trimac_block/trimac_core/al_eef3b243_syn_4.clk;
+ |    |    |    67: (lslice) trimac_locallink/trimac_block/trimac_core/al_f2828325_syn_4.clk;
+ |    |    |    68: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/add2_syn_74.clk;
+ |    |    |    69: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg1_syn_49.clk;
+ |    |    |    70: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg1_syn_52.clk;
+ |    |    |    71: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/wr_eof_bram_reg[0]_reg_syn_4.clk;
+ |    |    |    72: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg14_syn_55.clk;
+ |    |    |    73: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/add2_syn_83.clk;
+ |    |    |    74: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg4_syn_28.clk;
+ |    |    |    75: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/resync_rd_tran_frame_tog/data_sync/q_o_reg_syn_3.clk;
+ |    |    |    76: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg16_syn_36.clk;
+ |    |    |    77: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/sub3_syn_74.clk;
+ |    |    |    78: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg8_syn_37.clk;
+ |    |    |    79: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/add2_syn_84.clk;
+ |    |    |    80: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg8_syn_44.clk;
+ |    |    |    81: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg21_syn_49.clk;
+ |    |    |    82: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/add2_syn_78.clk;
+ |    |    |    83: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/add2_syn_81.clk;
+ |    |    |    84: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg3_syn_12.clk;
+ |    |    |    85: (lslice) u_test_send/reg2_syn_51.clk;
+ |    |    |    86: (lslice) u_test_send/reg0_syn_47.clk;
+ |    |    |    87: (lslice) trimac_locallink/trimac_block/trimac_core/al_e1e00dd8_syn_4.clk;
+ |    |    |    88: (lslice) trimac_locallink/trimac_block/trimac_core/al_a8e0b69a_syn_4.clk;
+ |    |    |    89: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg5_syn_28.clk;
+ |    |    |    90: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/rd_bram_u_reg1_syn_3.clk;
+ |    |    |    91: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg1_syn_46.clk;
+ |    |    |    92: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg1_syn_40.clk;
+ |    |    |    93: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg20_syn_42.clk;
+ |    |    |    94: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg1_syn_54.clk;
+ |    |    |    95: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg8_syn_48.clk;
+ |    |    |    96: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/wr_transmit_frame_reg_syn_4.clk;
+ |    |    |    97: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/add2_syn_82.clk;
+ |    |    |    98: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg21_syn_40.clk;
+ |    |    |    99: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/sub2_syn_84.clk;
+ |    |    |    100: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg14_syn_61.clk;
+ |    |    |    101: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg11_syn_29.clk;
+ |    |    |    102: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/sub3_syn_67.clk;
+ |    |    |    103: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg2_syn_52.clk;
+ |    |    |    104: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg21_syn_46.clk;
+ |    |    |    105: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg0_syn_19.clk;
+ |    |    |    106: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/sub3_syn_71.clk;
+ |    |    |    107: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/sub3_syn_70.clk;
+ |    |    |    108: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg2_syn_55.clk;
+ |    |    |    109: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/sub3_syn_72.clk;
+ |    |    |    110: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/add2_syn_79.clk;
+ |    |    |    111: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg14_syn_53.clk;
+ |    |    |    112: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/sub2_syn_85.clk;
+ |    |    |    113: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg21_syn_52.clk;
+ |    |    |    114: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg1_syn_56.clk;
+ |    |    |    115: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/add2_syn_76.clk;
+ |    |    |    116: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg8_syn_34.clk;
+ |    |    |    117: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg2_syn_40.clk;
+ |    |    |    118: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg1_syn_43.clk;
+ |    |    |    119: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg2_syn_46.clk;
+ |    |    |    120: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg2_syn_43.clk;
+ |    |    |    121: (lslice) trimac_locallink/trimac_block/trimac_core/al_2b541ccb_syn_4.clk;
+ |    |    |    122: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/add2_syn_80.clk;
+ |    |    |    123: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg18_syn_10.clk;
+ |    |    |    124: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/add2_syn_77.clk;
+ |    |    |    125: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/add2_syn_75.clk;
+ |    |    |    126: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg9_syn_56.clk;
+ |    |    |    127: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/sub3_syn_69.clk;
+ |    |    |    128: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg11_syn_41.clk;
+ |    |    |    129: (lslice) u_test_send/u_data_fifo/asy_r_rst0_reg_syn_4.clk;
+ |    |    |    130: (lslice) trimac_locallink/trimac_block/trimac_core/al_42e988dc_syn_4.clk;
+ |    |    |    131: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/rd_tran_frame_tog_reg_syn_9.clk;
+ |    |    |    132: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/rd_eof_reg1_syn_4.clk;
+ |    |    |    133: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/rd_col_window_expire_reg_syn_3.clk;
+ |    |    |    134: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg21_syn_43.clk;
+ |    |    |    135: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/sub3_syn_73.clk;
+ |    |    |    136: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/sub2_syn_87.clk;
+ |    |    |    137: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg10_syn_17.clk;
+ |    |    |    138: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg14_syn_59.clk;
+ |    |    |    139: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/wr_ovflow_dst_rdy_reg_syn_11.clk;
+ |    |    |    140: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg20_syn_48.clk;
+ |    |    |    141: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg21_syn_54.clk;
+ |    |    |    142: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/wr_accept_bram_reg_syn_3.clk;
+ |    |    |    143: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg12_syn_10.clk;
+ |    |    |    144: (lslice) u_test_send/reg1_syn_22.clk;
+ |    |    |    145: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg24_syn_11.clk;
+ |    |    |    146: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg15_syn_10.clk;
+ |    |    |    147: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/wr_retran_frame_delay_reg_syn_3.clk;
+ |    |    |    148: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/wr_txfer_tog_delay_reg_syn_4.clk;
+ |    |    |    149: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/resync_rd_txfer_tog/data_sync_reg/q_o_reg_syn_4.clk;
+ |    |    |    150: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/wr_tran_frame_delay_reg_syn_4.clk;
+ |    |    |    151: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/wr_fifo_full_reg_syn_4.clk;
+ |    |    |    152: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg20_syn_40.clk;
+ |    |    |    153: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/add2_syn_85.clk;
+ |    |    |    154: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg18_syn_13.clk;
+ |    |    |    155: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg17_syn_61.clk;
+ |    |    |    156: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg3_syn_14.clk;
+ |    |    |    157: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg20_syn_50.clk;
+ |    |    |    158: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/resync_wr_frame_in_fifo/data_sync/q_o_reg_syn_4.clk;
+ |    |    |    159: (lslice) u_test_send/reg1_syn_24.clk;
+ |    |    |    160: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/sub3_syn_75.clk;
+ |    |    |    161: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/wr_frame_in_fifo_reg_syn_3.clk;
+ |    |    |    162: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg24_syn_9.clk;
+ |    |    |    163: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/resync_rd_tran_frame_tog/data_sync_reg/q_o_reg_syn_4.clk;
+ |    |    |    164: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg4_syn_31.clk;
+ |    |    |    165: (lslice) u_test_send/u_fake_top/u_singal_gen/CS_pre_reg_syn_6.clk;
+ |    |    |    166: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg9_syn_43.clk;
+ |    |    |    167: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg20_syn_46.clk;
+ |    |    |    168: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg5_syn_31.clk;
+ |    |    |    169: (lslice) u_test_send/reg2_syn_57.clk;
+ |    |    |    170: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg9_syn_48.clk;
+ |    |    |    171: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg9_syn_51.clk;
+ |    |    |    172: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg9_syn_46.clk;
+ |    |    |    173: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg9_syn_40.clk;
+ |    |    |    174: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/sub3_syn_66.clk;
+ |    |    |    175: (lslice) u_test_send/reg2_syn_48.clk;
+ |    |    |    176: (lslice) u_test_send/reg2_syn_60.clk;
+ |    |    |    177: (lslice) u_test_send/reg2_syn_54.clk;
+ |    Bank 1:
+ |    |    Net trimac_locallink/trimac_block/trimac_core/s_axi_aclk_syn_1: 329(329)  out of 339(339)
+ |    |    |    1: (lslice) trimac_locallink/trimac_block/trimac_core/al_1d022814_syn_7.clk;
+ |    |    |    2: (lslice) trimac_locallink/trimac_block/trimac_core/al_e91bead3_syn_7.clk;
+ |    |    |    3: (lslice) u_axi_master_cfg/start_single_read_reg_syn_12.clk;
+ |    |    |    4: (lslice) trimac_locallink/trimac_block/trimac_core/al_4479a350_syn_7.clk;
+ |    |    |    5: (lslice) trimac_locallink/trimac_block/trimac_core/al_44140212_syn_7.clk;
+ |    |    |    6: (lslice) trimac_locallink/trimac_block/trimac_core/al_d091317d_syn_7.clk;
+ |    |    |    7: (lslice) trimac_locallink/trimac_block/trimac_core/al_5b71aff3_syn_7.clk;
+ |    |    |    8: (lslice) trimac_locallink/trimac_block/trimac_core/al_f69fa14d_syn_7.clk;
+ |    |    |    9: (lslice) trimac_locallink/trimac_block/trimac_core/al_853c2d30_syn_7.clk;
+ |    |    |    10: (lslice) trimac_locallink/trimac_block/trimac_core/al_68c15bf5_syn_7.clk;
+ |    |    |    11: (lslice) trimac_locallink/trimac_block/trimac_core/al_398e6346_syn_6.clk;
+ |    |    |    12: (lslice) trimac_locallink/trimac_block/trimac_core/al_d7cebac8_syn_7.clk;
+ |    |    |    13: (lslice) trimac_locallink/trimac_block/trimac_core/al_b0c360af_syn_6.clk;
+ |    |    |    14: (lslice) trimac_locallink/trimac_block/trimac_core/al_db52d76d_syn_7.clk;
+ |    |    |    15: (lslice) trimac_locallink/trimac_block/trimac_core/al_2caf7fb7_syn_7.clk;
+ |    |    |    16: (lslice) trimac_locallink/trimac_block/trimac_core/al_a4490d70_syn_7.clk;
+ |    |    |    17: (lslice) trimac_locallink/trimac_block/trimac_core/al_cce5ec27_syn_7.clk;
+ |    |    |    18: (lslice) u_axi_master_cfg/reg2_syn_131.clk;
+ |    |    |    19: (lslice) trimac_locallink/trimac_block/trimac_core/al_4be618f2_syn_6.clk;
+ |    |    |    20: (lslice) trimac_locallink/trimac_block/trimac_core/al_30acd42b_syn_7.clk;
+ |    |    |    21: (lslice) u_axi_master_cfg/reg4_syn_173.clk;
+ |    |    |    22: (lslice) trimac_locallink/trimac_block/trimac_core/al_deccbb34_syn_7.clk;
+ |    |    |    23: (lslice) trimac_locallink/trimac_block/trimac_core/al_b55ecd13_syn_7.clk;
+ |    |    |    24: (lslice) trimac_locallink/trimac_block/trimac_core/al_8f4456c4_syn_6.clk;
+ |    |    |    25: (lslice) trimac_locallink/trimac_block/trimac_core/al_5e02a189_syn_7.clk;
+ |    |    |    26: (lslice) trimac_locallink/trimac_block/trimac_core/al_ba6b982f_syn_7.clk;
+ |    |    |    27: (lslice) u_axi_master_cfg/reg3_syn_18.clk;
+ |    |    |    28: (lslice) u_axi_master_cfg/reg0_syn_68.clk;
+ |    |    |    29: (lslice) u_axi_master_cfg/reg2_syn_129.clk;
+ |    |    |    30: (lslice) trimac_locallink/trimac_block/trimac_core/al_d8deb4ea_syn_7.clk;
+ |    |    |    31: (lslice) u_axi_master_cfg/reg5_syn_66.clk;
+ |    |    |    32: (lslice) trimac_locallink/trimac_block/trimac_core/al_4dddfffa_syn_7.clk;
+ |    |    |    33: (lslice) trimac_locallink/trimac_block/trimac_core/al_c1f42121_syn_6.clk;
+ |    |    |    34: (lslice) trimac_locallink/trimac_block/trimac_core/al_e86d906b_syn_7.clk;
+ |    |    |    35: (lslice) trimac_locallink/trimac_block/trimac_core/al_9a1c2c9f_syn_7.clk;
+ |    |    |    36: (lslice) u_axi_master_cfg/writes_done_reg_syn_11.clk;
+ |    |    |    37: (lslice) trimac_locallink/trimac_block/trimac_core/al_63682572_syn_6.clk;
+ |    |    |    38: (lslice) trimac_locallink/trimac_block/trimac_core/al_ebb40327_syn_7.clk;
+ |    |    |    39: (lslice) trimac_locallink/trimac_block/trimac_core/al_8991048d_syn_7.clk;
+ |    |    |    40: (lslice) trimac_locallink/trimac_block/trimac_core/al_b769f9e9_syn_6.clk;
+ |    |    |    41: (lslice) trimac_locallink/trimac_block/trimac_core/al_daf0bc3f_syn_7.clk;
+ |    |    |    42: (lslice) u_axi_master_cfg/reg4_syn_168.clk;
+ |    |    |    43: (lslice) trimac_locallink/trimac_block/trimac_core/al_a826fb12_syn_7.clk;
+ |    |    |    44: (lslice) trimac_locallink/trimac_block/trimac_core/al_c5ff4e47_syn_7.clk;
+ |    |    |    45: (lslice) trimac_locallink/trimac_block/trimac_core/al_9fc4226_syn_6.clk;
+ |    |    |    46: (lslice) u_axi_master_cfg/reg1_syn_39.clk;
+ |    |    |    47: (lslice) u_axi_master_cfg/reg1_syn_29.clk;
+ |    |    |    48: (lslice) u_axi_master_cfg/reg1_syn_31.clk;
+ |    |    |    49: (lslice) u_axi_master_cfg/reg2_syn_153.clk;
+ |    |    |    50: (lslice) trimac_locallink/trimac_block/trimac_core/al_e780f4d8_syn_7.clk;
+ |    |    |    51: (lslice) u_axi_master_cfg/write_issued_reg_syn_17.clk;
+ |    |    |    52: (lslice) trimac_locallink/trimac_block/trimac_core/al_83e0a1e1_syn_7.clk;
+ |    |    |    53: (lslice) trimac_locallink/trimac_block/trimac_core/al_25b08a88_syn_6.clk;
+ |    |    |    54: (lslice) u_axi_master_cfg/reg1_syn_35.clk;
+ |    |    |    55: (lslice) trimac_locallink/trimac_block/trimac_core/al_e0310e1c_syn_7.clk;
+ |    |    |    56: (lslice) trimac_locallink/trimac_block/trimac_core/al_4b642686_syn_6.clk;
+ |    |    |    57: (lslice) trimac_locallink/trimac_block/trimac_core/al_28cd96e8_syn_6.clk;
+ |    |    |    58: (lslice) trimac_locallink/trimac_block/trimac_core/al_806a6559_syn_6.clk;
+ |    |    |    59: (lslice) trimac_locallink/trimac_block/trimac_core/al_9972f7c5_syn_7.clk;
+ |    |    |    60: (lslice) trimac_locallink/trimac_block/trimac_core/al_cc2a365f_syn_7.clk;
+ |    |    |    61: (lslice) trimac_locallink/trimac_block/trimac_core/al_d76513f6_syn_6.clk;
+ |    |    |    62: (lslice) trimac_locallink/trimac_block/trimac_core/al_f71dbb93_syn_7.clk;
+ |    |    |    63: (lslice) trimac_locallink/trimac_block/trimac_core/al_2b8a3861_syn_6.clk;
+ |    |    |    64: (lslice) u_axi_master_cfg/reg4_syn_170.clk;
+ |    |    |    65: (lslice) trimac_locallink/trimac_block/trimac_core/al_e2030f6_syn_6.clk;
+ |    |    |    66: (lslice) u_axi_master_cfg/reg2_syn_125.clk;
+ |    |    |    67: (lslice) trimac_locallink/trimac_block/trimac_core/al_482e6132_syn_6.clk;
+ |    |    |    68: (lslice) u_axi_master_cfg/reg4_syn_144.clk;
+ |    |    |    69: (lslice) trimac_locallink/trimac_block/trimac_core/al_79effd38_syn_7.clk;
+ |    |    |    70: (lslice) trimac_locallink/trimac_block/trimac_core/al_d8f6be17_syn_6.clk;
+ |    |    |    71: (lslice) trimac_locallink/trimac_block/trimac_core/al_c4bdeede_syn_7.clk;
+ |    |    |    72: (lslice) trimac_locallink/trimac_block/trimac_core/al_172ff953_syn_7.clk;
+ |    |    |    73: (lslice) trimac_locallink/trimac_block/trimac_core/al_990fc3de_syn_7.clk;
+ |    |    |    74: (lslice) trimac_locallink/trimac_block/trimac_core/al_c4188c82_syn_6.clk;
+ |    |    |    75: (lslice) trimac_locallink/trimac_block/trimac_core/al_c8a885f4_syn_7.clk;
+ |    |    |    76: (lslice) u_axi_master_cfg/reg3_syn_20.clk;
+ |    |    |    77: (lslice) trimac_locallink/trimac_block/trimac_core/al_f19ef88f_syn_7.clk;
+ |    |    |    78: (lslice) trimac_locallink/trimac_block/trimac_core/al_a559606c_syn_20.clk;
+ |    |    |    79: (lslice) trimac_locallink/trimac_block/trimac_core/al_e8b9f205_syn_7.clk;
+ |    |    |    80: (lslice) u_axi_master_cfg/reg4_syn_150.clk;
+ |    |    |    81: (lslice) u_axi_master_cfg/reg4_syn_147.clk;
+ |    |    |    82: (lslice) trimac_locallink/trimac_block/trimac_core/al_ec53ec7b_syn_7.clk;
+ |    |    |    83: (lslice) trimac_locallink/trimac_block/trimac_core/al_18aa9b96_syn_6.clk;
+ |    |    |    84: (lslice) trimac_locallink/trimac_block/trimac_core/al_79656483_syn_6.clk;
+ |    |    |    85: (lslice) trimac_locallink/trimac_block/trimac_core/al_64af99fb_syn_7.clk;
+ |    |    |    86: (lslice) trimac_locallink/trimac_block/trimac_core/al_d165124d_syn_6.clk;
+ |    |    |    87: (lslice) u_axi_master_cfg/reg4_syn_153.clk;
+ |    |    |    88: (lslice) trimac_locallink/trimac_block/trimac_core/al_18e0716d_syn_6.clk;
+ |    |    |    89: (lslice) trimac_locallink/trimac_block/trimac_core/al_707ae6f3_syn_7.clk;
+ |    |    |    90: (lslice) trimac_locallink/trimac_block/trimac_core/al_8fe85d65_syn_6.clk;
+ |    |    |    91: (lslice) trimac_locallink/trimac_block/trimac_core/al_4d8a64b1_syn_6.clk;
+ |    |    |    92: (lslice) u_axi_master_cfg/reg2_syn_121.clk;
+ |    |    |    93: (lslice) trimac_locallink/trimac_block/trimac_core/al_bd227e8b_syn_6.clk;
+ |    |    |    94: (lslice) trimac_locallink/trimac_block/trimac_core/al_99c65a0e_syn_6.clk;
+ |    |    |    95: (lslice) trimac_locallink/trimac_block/trimac_core/al_a559606c_syn_25.clk;
+ |    |    |    96: (lslice) trimac_locallink/trimac_block/trimac_core/al_7aac7f3f_syn_6.clk;
+ |    |    |    97: (lslice) trimac_locallink/trimac_block/trimac_core/al_b9096d88_syn_7.clk;
+ |    |    |    98: (lslice) trimac_locallink/trimac_block/trimac_core/al_df65b5da_syn_6.clk;
+ |    |    |    99: (lslice) u_axi_master_cfg/reg2_syn_147.clk;
+ |    |    |    100: (lslice) trimac_locallink/trimac_block/trimac_core/al_744a0366_syn_7.clk;
+ |    |    |    101: (lslice) trimac_locallink/trimac_block/trimac_core/al_b884dfe7_syn_6.clk;
+ |    |    |    102: (lslice) trimac_locallink/trimac_block/trimac_core/al_d446d779_syn_6.clk;
+ |    |    |    103: (lslice) trimac_locallink/trimac_block/trimac_core/al_c0b5f642_syn_7.clk;
+ |    |    |    104: (lslice) trimac_locallink/trimac_block/trimac_core/al_ddaff75b_syn_6.clk;
+ |    |    |    105: (lslice) u_axi_master_cfg/reg5_syn_63.clk;
+ |    |    |    106: (lslice) trimac_locallink/trimac_block/trimac_core/al_22be2317_syn_7.clk;
+ |    |    |    107: (lslice) trimac_locallink/trimac_block/trimac_core/al_b1228db6_syn_6.clk;
+ |    |    |    108: (lslice) trimac_locallink/trimac_block/trimac_core/al_45f13ce_syn_6.clk;
+ |    |    |    109: (lslice) u_axi_master_cfg/reg2_syn_141.clk;
+ |    |    |    110: (lslice) u_axi_master_cfg/reg2_syn_139.clk;
+ |    |    |    111: (lslice) u_axi_master_cfg/reg2_syn_137.clk;
+ |    |    |    112: (lslice) trimac_locallink/trimac_block/trimac_core/al_a16cf221_syn_7.clk;
+ |    |    |    113: (lslice) trimac_locallink/trimac_block/trimac_core/al_3e2a87d7_syn_6.clk;
+ |    |    |    114: (lslice) u_axi_master_cfg/reg2_syn_143.clk;
+ |    |    |    115: (lslice) trimac_locallink/trimac_block/trimac_core/al_70f52f4e_syn_7.clk;
+ |    |    |    116: (lslice) u_axi_master_cfg/reg2_syn_145.clk;
+ |    |    |    117: (lslice) u_axi_master_cfg/reg2_syn_127.clk;
+ |    |    |    118: (lslice) trimac_locallink/trimac_block/trimac_core/al_b792488e_syn_7.clk;
+ |    |    |    119: (lslice) trimac_locallink/trimac_block/trimac_core/al_d886c61d_syn_6.clk;
+ |    |    |    120: (lslice) u_axi_master_cfg/reg2_syn_135.clk;
+ |    |    |    121: (lslice) trimac_locallink/trimac_block/trimac_core/al_b2f0bc26_syn_7.clk;
+ |    |    |    122: (lslice) trimac_locallink/trimac_block/trimac_core/al_6ed3b5a8_syn_6.clk;
+ |    |    |    123: (lslice) trimac_locallink/trimac_block/trimac_core/al_26390d2e_syn_6.clk;
+ |    |    |    124: (lslice) trimac_locallink/trimac_block/trimac_core/al_9d074962_syn_7.clk;
+ |    |    |    125: (lslice) trimac_locallink/trimac_block/trimac_core/al_20c389f7_syn_7.clk;
+ |    |    |    126: (lslice) trimac_locallink/trimac_block/trimac_core/al_48b5500e_syn_6.clk;
+ |    |    |    127: (lslice) trimac_locallink/trimac_block/trimac_core/al_fd3fdbc8_syn_7.clk;
+ |    |    |    128: (lslice) trimac_locallink/trimac_block/trimac_core/al_40a38860_syn_6.clk;
+ |    |    |    129: (lslice) trimac_locallink/trimac_block/trimac_core/al_35f62c44_syn_7.clk;
+ |    |    |    130: (lslice) trimac_locallink/trimac_block/trimac_core/al_ca9bce13_syn_6.clk;
+ |    |    |    131: (lslice) trimac_locallink/trimac_block/trimac_core/al_8c782e1b_syn_6.clk;
+ |    |    |    132: (lslice) u_axi_master_cfg/reg4_syn_141.clk;
+ |    |    |    133: (lslice) trimac_locallink/trimac_block/trimac_core/al_c8580d45_syn_7.clk;
+ |    |    |    134: (lslice) trimac_locallink/trimac_block/trimac_core/al_b7e4b655_syn_6.clk;
+ |    |    |    135: (lslice) trimac_locallink/trimac_block/trimac_core/al_a1e701e5_syn_7.clk;
+ |    |    |    136: (lslice) trimac_locallink/trimac_block/trimac_core/al_94077685_syn_7.clk;
+ |    |    |    137: (lslice) trimac_locallink/trimac_block/trimac_core/al_ee3f784f_syn_6.clk;
+ |    |    |    138: (lslice) u_axi_master_cfg/reg4_syn_138.clk;
+ |    |    |    139: (lslice) trimac_locallink/trimac_block/trimac_core/al_a3c9cf25_syn_6.clk;
+ |    |    |    140: (lslice) u_axi_master_cfg/reg2_syn_115.clk;
+ |    |    |    141: (lslice) u_axi_master_cfg/reg2_syn_113.clk;
+ |    |    |    142: (lslice) trimac_locallink/trimac_block/trimac_core/al_4e8d120c_syn_7.clk;
+ |    |    |    143: (lslice) u_axi_master_cfg/reg2_syn_109.clk;
+ |    |    |    144: (lslice) u_axi_master_cfg/reg2_syn_117.clk;
+ |    |    |    145: (lslice) trimac_locallink/trimac_block/trimac_core/al_a76d0050_syn_6.clk;
+ |    |    |    146: (lslice) trimac_locallink/trimac_block/trimac_core/al_157363e3_syn_6.clk;
+ |    |    |    147: (lslice) trimac_locallink/trimac_block/trimac_core/al_88b6b6ea_syn_7.clk;
+ |    |    |    148: (lslice) trimac_locallink/trimac_block/trimac_core/al_fc3ebbb0_syn_7.clk;
+ |    |    |    149: (lslice) trimac_locallink/trimac_block/trimac_core/al_88479f6b_syn_7.clk;
+ |    |    |    150: (lslice) u_axi_master_cfg/reg2_syn_111.clk;
+ |    |    |    151: (lslice) trimac_locallink/trimac_block/trimac_core/al_25e82dde_syn_7.clk;
+ |    |    |    152: (lslice) trimac_locallink/trimac_block/trimac_core/al_48b59abf_syn_6.clk;
+ |    |    |    153: (lslice) trimac_locallink/trimac_block/trimac_core/al_c25655c0_syn_6.clk;
+ |    |    |    154: (lslice) trimac_locallink/trimac_block/trimac_core/al_a3c3c524_syn_6.clk;
+ |    |    |    155: (lslice) trimac_locallink/trimac_block/trimac_core/al_bdca02d4_syn_7.clk;
+ |    |    |    156: (lslice) trimac_locallink/trimac_block/trimac_core/al_7c582a46_syn_6.clk;
+ |    |    |    157: (lslice) trimac_locallink/trimac_block/trimac_core/al_177962f3_syn_6.clk;
+ |    |    |    158: (lslice) trimac_locallink/trimac_block/trimac_core/al_9511645c_syn_6.clk;
+ |    |    |    159: (lslice) u_axi_master_cfg/reg2_syn_133.clk;
+ |    |    |    160: (lslice) trimac_locallink/trimac_block/trimac_core/al_2caa66e6_syn_7.clk;
+ |    |    |    161: (lslice) trimac_locallink/trimac_block/trimac_core/al_46fbf6c1_syn_7.clk;
+ |    |    |    162: (lslice) u_axi_master_cfg/reg5_syn_60.clk;
+ |    |    |    163: (lslice) trimac_locallink/trimac_block/trimac_core/al_5d043718_syn_7.clk;
+ |    |    |    164: (lslice) trimac_locallink/trimac_block/trimac_core/al_af0193a7_syn_7.clk;
+ |    |    |    165: (lslice) trimac_locallink/trimac_block/trimac_core/al_d9fd720b_syn_7.clk;
+ |    |    |    166: (lslice) trimac_locallink/trimac_block/trimac_core/al_d3d20149_syn_7.clk;
+ |    |    |    167: (lslice) trimac_locallink/trimac_block/trimac_core/al_8f85979d_syn_6.clk;
+ |    |    |    168: (lslice) trimac_locallink/trimac_block/trimac_core/al_65033afe_syn_6.clk;
+ |    |    |    169: (lslice) trimac_locallink/trimac_block/trimac_core/al_b09b0d1f_syn_6.clk;
+ |    |    |    170: (lslice) trimac_locallink/trimac_block/trimac_core/al_2ea447f6_syn_7.clk;
+ |    |    |    171: (lslice) trimac_locallink/trimac_block/trimac_core/al_7e50db2e_syn_7.clk;
+ |    |    |    172: (lslice) u_axi_master_cfg/reg2_syn_123.clk;
+ |    |    |    173: (lslice) trimac_locallink/trimac_block/trimac_core/al_a1d35d32_syn_6.clk;
+ |    |    |    174: (lslice) trimac_locallink/trimac_block/trimac_core/al_5ee9dd42_syn_7.clk;
+ |    |    |    175: (lslice) u_axi_master_cfg/reg0_syn_71.clk;
+ |    |    |    176: (lslice) trimac_locallink/trimac_block/trimac_core/al_76ee72de_syn_6.clk;
+ |    |    |    177: (lslice) trimac_locallink/trimac_block/trimac_core/al_2a1693a7_syn_7.clk;
+ |    |    |    178: (lslice) trimac_locallink/trimac_block/trimac_core/al_6dffff0e_syn_7.clk;
+ |    |    |    179: (lslice) u_axi_master_cfg/axi_arvalid_reg_syn_6.clk;
+ |    |    |    180: (lslice) trimac_locallink/trimac_block/trimac_core/al_f711b2f9_syn_7.clk;
+ |    |    |    181: (lslice) trimac_locallink/trimac_block/trimac_core/al_83dba831_syn_6.clk;
+ |    |    |    182: (lslice) trimac_locallink/trimac_block/trimac_core/al_92415293_syn_7.clk;
+ |    |    |    183: (lslice) u_axi_master_cfg/reg1_syn_33.clk;
+ |    |    |    184: (lslice) trimac_locallink/trimac_block/trimac_core/al_e976fac2_syn_7.clk;
+ |    |    |    185: (lslice) trimac_locallink/trimac_block/trimac_core/al_b2bf06c8_syn_7.clk;
+ |    |    |    186: (lslice) u_axi_master_cfg/start_single_write_reg_syn_12.clk;
+ |    |    |    187: (lslice) u_axi_master_cfg/reg4_syn_165.clk;
+ |    |    |    188: (lslice) trimac_locallink/trimac_block/trimac_core/al_cff59033_syn_7.clk;
+ |    |    |    189: (lslice) trimac_locallink/trimac_block/trimac_core/al_96b7734e_syn_7.clk;
+ |    |    |    190: (lslice) trimac_locallink/trimac_block/trimac_core/al_c338f8b0_syn_7.clk;
+ |    |    |    191: (lslice) trimac_locallink/trimac_block/trimac_core/al_6014c805_syn_6.clk;
+ |    |    |    192: (lslice) trimac_locallink/trimac_block/trimac_core/al_e47d66e_syn_7.clk;
+ |    |    |    193: (lslice) trimac_locallink/trimac_block/trimac_core/al_5955e9e_syn_6.clk;
+ |    |    |    194: (lslice) trimac_locallink/trimac_block/trimac_core/al_e459b75c_syn_7.clk;
+ |    |    |    195: (lslice) trimac_locallink/trimac_block/trimac_core/al_ea24b8ae_syn_7.clk;
+ |    |    |    196: (lslice) trimac_locallink/trimac_block/trimac_core/al_8a34dba7_syn_7.clk;
+ |    |    |    197: (lslice) u_axi_master_cfg/reg2_syn_119.clk;
+ |    |    |    198: (lslice) trimac_locallink/trimac_block/trimac_core/al_56f2a50b_syn_6.clk;
+ |    |    |    199: (lslice) u_axi_master_cfg/reg6_syn_67.clk;
+ |    |    |    200: (lslice) trimac_locallink/trimac_block/trimac_core/al_1d8665d1_syn_7.clk;
+ |    |    |    201: (lslice) trimac_locallink/trimac_block/trimac_core/al_f9d65d2f_syn_7.clk;
+ |    |    |    202: (lslice) u_axi_master_cfg/axi_rready_reg_syn_6.clk;
+ |    |    |    203: (lslice) trimac_locallink/trimac_block/trimac_core/al_1d12639a_syn_6.clk;
+ |    |    |    204: (lslice) trimac_locallink/trimac_block/trimac_core/al_2c4c4eeb_syn_6.clk;
+ |    |    |    205: (lslice) u_axi_master_cfg/reg6_syn_65.clk;
+ |    |    |    206: (lslice) trimac_locallink/trimac_block/trimac_core/al_5172ac84_syn_7.clk;
+ |    |    |    207: (lslice) trimac_locallink/trimac_block/trimac_core/al_cbdea2a3_syn_6.clk;
+ |    |    |    208: (lslice) trimac_locallink/trimac_block/trimac_core/al_f119555b_syn_7.clk;
+ |    |    |    209: (lslice) trimac_locallink/trimac_block/trimac_core/al_a5e82312_syn_7.clk;
+ |    |    |    210: (lslice) trimac_locallink/trimac_block/trimac_core/al_f96bcb86_syn_7.clk;
+ |    |    |    211: (lslice) trimac_locallink/trimac_block/trimac_core/al_9f92ae4a_syn_7.clk;
+ |    |    |    212: (lslice) u_axi_master_cfg/reg4_syn_132.clk;
+ |    |    |    213: (lslice) trimac_locallink/trimac_block/trimac_core/al_86681e08_syn_6.clk;
+ |    |    |    214: (lslice) trimac_locallink/trimac_block/trimac_core/al_841ebb0f_syn_7.clk;
+ |    |    |    215: (lslice) trimac_locallink/trimac_block/trimac_core/al_3decaa3c_syn_6.clk;
+ |    |    |    216: (lslice) trimac_locallink/trimac_block/trimac_core/al_dcbc3968_syn_7.clk;
+ |    |    |    217: (lslice) u_axi_master_cfg/reg2_syn_107.clk;
+ |    |    |    218: (lslice) u_axi_master_cfg/init_txn_ff_reg_syn_10.clk;
+ |    |    |    219: (lslice) trimac_locallink/trimac_block/trimac_core/al_df828bec_syn_7.clk;
+ |    |    |    220: (lslice) trimac_locallink/trimac_block/trimac_core/al_c4d3b150_syn_7.clk;
+ |    |    |    221: (lslice) trimac_locallink/trimac_block/trimac_core/al_a3d8173a_syn_7.clk;
+ |    |    |    222: (lslice) trimac_locallink/trimac_block/trimac_core/al_fdc08dee_syn_7.clk;
+ |    |    |    223: (lslice) trimac_locallink/trimac_block/trimac_core/al_c314d5c0_syn_6.clk;
+ |    |    |    224: (lslice) trimac_locallink/trimac_block/trimac_core/al_f0636598_syn_6.clk;
+ |    |    |    225: (lslice) trimac_locallink/trimac_block/trimac_core/al_e7085f15_syn_7.clk;
+ |    |    |    226: (lslice) trimac_locallink/trimac_block/trimac_core/al_7d1cc482_syn_6.clk;
+ |    |    |    227: (lslice) trimac_locallink/trimac_block/trimac_core/al_7ff01e2d_syn_7.clk;
+ |    |    |    228: (lslice) trimac_locallink/trimac_block/trimac_core/al_3f9147bf_syn_6.clk;
+ |    |    |    229: (lslice) trimac_locallink/trimac_block/trimac_core/al_2ffd93ed_syn_7.clk;
+ |    |    |    230: (lslice) trimac_locallink/trimac_block/trimac_core/al_f33caacf_syn_6.clk;
+ |    |    |    231: (lslice) trimac_locallink/trimac_block/trimac_core/al_6af9af6f_syn_6.clk;
+ |    |    |    232: (lslice) trimac_locallink/trimac_block/trimac_core/al_2df377fb_syn_7.clk;
+ |    |    |    233: (lslice) trimac_locallink/trimac_block/trimac_core/al_93230eeb_syn_7.clk;
+ |    |    |    234: (lslice) trimac_locallink/trimac_block/trimac_core/al_a559606c_syn_23.clk;
+ |    |    |    235: (lslice) trimac_locallink/trimac_block/trimac_core/al_7ecd582c_syn_6.clk;
+ |    |    |    236: (lslice) trimac_locallink/trimac_block/trimac_core/al_b9c823d3_syn_6.clk;
+ |    |    |    237: (lslice) trimac_locallink/trimac_block/trimac_core/al_9556d7db_syn_6.clk;
+ |    |    |    238: (lslice) trimac_locallink/trimac_block/trimac_core/al_e0ca9824_syn_6.clk;
+ |    |    |    239: (lslice) trimac_locallink/trimac_block/trimac_core/al_a559606c_syn_17.clk;
+ |    |    |    240: (lslice) trimac_locallink/trimac_block/trimac_core/al_73b6e493_syn_6.clk;
+ |    |    |    241: (lslice) trimac_locallink/trimac_block/trimac_core/al_614df6af_syn_7.clk;
+ |    |    |    242: (lslice) trimac_locallink/trimac_block/trimac_core/al_e6c73aa1_syn_7.clk;
+ |    |    |    243: (lslice) u_axi_master_cfg/reg4_syn_181.clk;
+ |    |    |    244: (lslice) trimac_locallink/trimac_block/trimac_core/al_65d0a199_syn_7.clk;
+ |    |    |    245: (lslice) trimac_locallink/trimac_block/trimac_core/al_f22402a4_syn_6.clk;
+ |    |    |    246: (lslice) trimac_locallink/trimac_block/trimac_core/al_32d7a679_syn_6.clk;
+ |    |    |    247: (lslice) trimac_locallink/trimac_block/trimac_core/al_ca0b60d2_syn_6.clk;
+ |    |    |    248: (lslice) trimac_locallink/trimac_block/trimac_core/al_4a5ad6fb_syn_6.clk;
+ |    |    |    249: (lslice) trimac_locallink/trimac_block/trimac_core/al_43088097_syn_7.clk;
+ |    |    |    250: (lslice) trimac_locallink/trimac_block/trimac_core/al_a9ba1a3d_syn_7.clk;
+ |    |    |    251: (lslice) trimac_locallink/trimac_block/trimac_core/al_a559606c_syn_15.clk;
+ |    |    |    252: (lslice) trimac_locallink/trimac_block/trimac_core/al_cecf5c1b_syn_6.clk;
+ |    |    |    253: (lslice) u_axi_master_cfg/axi_bready_reg_syn_6.clk;
+ |    |    |    254: (lslice) trimac_locallink/trimac_block/trimac_core/al_ad993ec1_syn_7.clk;
+ |    |    |    255: (lslice) trimac_locallink/trimac_block/trimac_core/al_336c1a01_syn_7.clk;
+ |    |    |    256: (lslice) trimac_locallink/trimac_block/trimac_core/al_a08dab40_syn_7.clk;
+ |    |    |    257: (lslice) trimac_locallink/trimac_block/trimac_core/al_ee33bb06_syn_7.clk;
+ |    |    |    258: (lslice) trimac_locallink/trimac_block/trimac_core/al_53765b68_syn_6.clk;
+ |    |    |    259: (lslice) trimac_locallink/trimac_block/trimac_core/al_12e272e5_syn_7.clk;
+ |    |    |    260: (lslice) trimac_locallink/trimac_block/trimac_core/al_db2f7aab_syn_6.clk;
+ |    |    |    261: (lslice) trimac_locallink/trimac_block/trimac_core/al_95f7d71e_syn_6.clk;
+ |    |    |    262: (lslice) u_axi_master_cfg/reg4_syn_158.clk;
+ |    |    |    263: (lslice) u_axi_master_cfg/reg4_syn_161.clk;
+ |    |    |    264: (lslice) trimac_locallink/trimac_block/trimac_core/al_4390f4e8_syn_7.clk;
+ |    |    |    265: (lslice) u_axi_master_cfg/reg4_syn_155.clk;
+ |    |    |    266: (lslice) u_axi_master_cfg/reg2_syn_149.clk;
+ |    |    |    267: (lslice) trimac_locallink/trimac_block/trimac_core/al_649a52f4_syn_6.clk;
+ |    |    |    268: (lslice) trimac_locallink/trimac_block/trimac_core/al_2aa3963_syn_6.clk;
+ |    |    |    269: (lslice) trimac_locallink/trimac_block/trimac_core/al_ad73dfca_syn_7.clk;
+ |    |    |    270: (lslice) u_axi_master_cfg/reg4_syn_163.clk;
+ |    |    |    271: (lslice) trimac_locallink/trimac_block/trimac_core/al_c28b1c09_syn_6.clk;
+ |    |    |    272: (lslice) trimac_locallink/trimac_block/trimac_core/al_bb42c111_syn_6.clk;
+ |    |    |    273: (lslice) trimac_locallink/trimac_block/trimac_core/al_3035e536_syn_7.clk;
+ |    |    |    274: (lslice) trimac_locallink/trimac_block/trimac_core/al_edfcc04c_syn_7.clk;
+ |    |    |    275: (lslice) trimac_locallink/trimac_block/trimac_core/al_58e76ebb_syn_7.clk;
+ |    |    |    276: (lslice) u_axi_master_cfg/reg0_syn_73.clk;
+ |    |    |    277: (lslice) trimac_locallink/trimac_block/trimac_core/al_6cce0f4a_syn_7.clk;
+ |    |    |    278: (lslice) trimac_locallink/trimac_block/trimac_core/al_6eec50c4_syn_7.clk;
+ |    |    |    279: (lslice) trimac_locallink/trimac_block/trimac_core/al_ffc85075_syn_6.clk;
+ |    |    |    280: (lslice) trimac_locallink/trimac_block/trimac_core/al_c19aa374_syn_6.clk;
+ |    |    |    281: (lslice) u_axi_master_cfg/reg6_syn_63.clk;
+ |    |    |    282: (lslice) trimac_locallink/trimac_block/trimac_core/al_b02933e5_syn_6.clk;
+ |    |    |    283: (lslice) trimac_locallink/trimac_block/trimac_core/al_fcfa6d0e_syn_7.clk;
+ |    |    |    284: (lslice) trimac_locallink/trimac_block/trimac_core/al_f1b05caf_syn_7.clk;
+ |    |    |    285: (lslice) trimac_locallink/trimac_block/trimac_core/al_d5d921c8_syn_7.clk;
+ |    |    |    286: (lslice) u_axi_master_cfg/reg5_syn_69.clk;
+ |    |    |    287: (lslice) trimac_locallink/trimac_block/trimac_core/al_ee82d183_syn_6.clk;
+ |    |    |    288: (lslice) trimac_locallink/trimac_block/trimac_core/al_33016709_syn_7.clk;
+ |    |    |    289: (lslice) trimac_locallink/trimac_block/trimac_core/al_47f08e9c_syn_7.clk;
+ |    |    |    290: (lslice) trimac_locallink/trimac_block/trimac_core/al_11816c09_syn_7.clk;
+ |    |    |    291: (lslice) trimac_locallink/trimac_block/trimac_core/al_c54785f_syn_7.clk;
+ |    |    |    292: (lslice) u_axi_master_cfg/reads_done_reg_syn_12.clk;
+ |    |    |    293: (lslice) u_axi_master_cfg/reg4_syn_135.clk;
+ |    |    |    294: (lslice) u_axi_master_cfg/reg2_syn_151.clk;
+ |    |    |    295: (lslice) trimac_locallink/trimac_block/trimac_core/al_21a36285_syn_7.clk;
+ |    |    |    296: (lslice) u_axi_master_cfg/reg1_syn_37.clk;
+ |    |    |    297: (lslice) trimac_locallink/trimac_block/trimac_core/al_41623954_syn_6.clk;
+ |    |    |    298: (lslice) trimac_locallink/trimac_block/trimac_core/al_643d23fe_syn_6.clk;
+ |    |    |    299: (lslice) trimac_locallink/trimac_block/trimac_core/al_f3ed6b2a_syn_7.clk;
+ |    |    |    300: (lslice) trimac_locallink/trimac_block/trimac_core/al_3c4ff597_syn_7.clk;
+ |    |    |    301: (lslice) u_axi_master_cfg/reg4_syn_179.clk;
+ |    |    |    302: (lslice) trimac_locallink/trimac_block/trimac_core/al_d4de155a_syn_7.clk;
+ |    |    |    303: (lslice) trimac_locallink/trimac_block/trimac_core/al_5832c5e6_syn_7.clk;
+ |    |    |    304: (lslice) trimac_locallink/trimac_block/trimac_core/al_bee0e0d2_syn_7.clk;
+ |    |    |    305: (lslice) trimac_locallink/trimac_block/trimac_core/al_287a92ec_syn_6.clk;
+ |    |    |    306: (lslice) trimac_locallink/trimac_block/trimac_core/al_3825819c_syn_7.clk;
+ |    |    |    307: (lslice) trimac_locallink/trimac_block/trimac_core/al_663bd4c1_syn_6.clk;
+ |    |    |    308: (lslice) trimac_locallink/trimac_block/trimac_core/al_8f568dea_syn_7.clk;
+ |    |    |    309: (lslice) trimac_locallink/trimac_block/trimac_core/al_769e813c_syn_7.clk;
+ |    |    |    310: (lslice) u_axi_master_cfg/reg4_syn_175.clk;
+ |    |    |    311: (lslice) trimac_locallink/trimac_block/trimac_core/al_299a02e8_syn_7.clk;
+ |    |    |    312: (lslice) trimac_locallink/trimac_block/trimac_core/al_c5476c96_syn_7.clk;
+ |    |    |    313: (lslice) trimac_locallink/trimac_block/trimac_core/al_3a49df15_syn_7.clk;
+ |    |    |    314: (lslice) trimac_locallink/trimac_block/trimac_core/al_a9ab2895_syn_7.clk;
+ |    |    |    315: (lslice) trimac_locallink/trimac_block/trimac_core/al_de3ccacb_syn_6.clk;
+ |    |    |    316: (lslice) u_axi_master_cfg/init_txn_ff2_reg_syn_9.clk;
+ |    |    |    317: (lslice) trimac_locallink/trimac_block/trimac_core/al_7ab54f34_syn_7.clk;
+ |    |    |    318: (lslice) trimac_locallink/trimac_block/trimac_core/al_2bb485ff_syn_6.clk;
+ |    |    |    319: (lslice) trimac_locallink/trimac_block/trimac_core/al_cf45c72e_syn_6.clk;
+ |    |    |    320: (lslice) trimac_locallink/trimac_block/trimac_core/al_88c572fc_syn_7.clk;
+ |    |    |    321: (lslice) trimac_locallink/trimac_block/trimac_core/al_994b49a6_syn_7.clk;
+ |    |    |    322: (lslice) trimac_locallink/trimac_block/trimac_core/al_14eef1ee_syn_7.clk;
+ |    |    |    323: (lslice) u_axi_master_cfg/reg4_syn_177.clk;
+ |    |    |    324: (lslice) trimac_locallink/trimac_block/trimac_core/al_adffd074_syn_6.clk;
+ |    |    |    325: (lslice) u_axi_master_cfg/reg6_syn_60.clk;
+ |    |    |    326: (lslice) u_axi_master_cfg/axi_awvalid_reg_syn_6.clk;
+ |    |    |    327: (lslice) trimac_locallink/trimac_block/trimac_core/al_df7dc927_syn_7.clk;
+ |    |    |    328: (lslice) trimac_locallink/trimac_block/trimac_core/al_bf59d3c8_syn_7.clk;
+ |    |    |    329: (lslice) init_axi_txn_reg_reg_syn_9.clk;
+ |    Bank 2:
+ |    |    Net trimac_locallink/rgmii_rxc_syn_1: 239(239)  out of 286(286)
+ |    |    |    1: (lslice) trimac_locallink/trimac_block/reg3_syn_28.clk;
+ |    |    |    2: (lslice) trimac_locallink/trimac_block/trimac_core/al_44dba831_syn_3.clk;
+ |    |    |    3: (lslice) trimac_locallink/trimac_block/trimac_core/al_613c987f_syn_3.clk;
+ |    |    |    4: (lslice) trimac_locallink/trimac_block/trimac_core/al_d169d3be_syn_4.clk;
+ |    |    |    5: (lslice) trimac_locallink/trimac_block/trimac_core/al_91fa8105_syn_4.clk;
+ |    |    |    6: (lslice) trimac_locallink/trimac_block/trimac_core/al_e5b35c6a_syn_4.clk;
+ |    |    |    7: (lslice) trimac_locallink/trimac_block/trimac_core/al_ce67489_syn_4.clk;
+ |    |    |    8: (lslice) trimac_locallink/trimac_block/trimac_core/al_d377c341_syn_4.clk;
+ |    |    |    9: (lslice) trimac_locallink/trimac_block/trimac_core/al_7a0f4a21_syn_4.clk;
+ |    |    |    10: (lslice) trimac_locallink/trimac_block/trimac_core/al_f1e68919_syn_3.clk;
+ |    |    |    11: (lslice) trimac_locallink/trimac_block/trimac_core/al_d22ea1e3_syn_4.clk;
+ |    |    |    12: (lslice) trimac_locallink/trimac_block/trimac_core/al_3e9ff589_syn_3.clk;
+ |    |    |    13: (lslice) trimac_locallink/trimac_block/trimac_core/al_f8a67a68_syn_4.clk;
+ |    |    |    14: (lslice) trimac_locallink/trimac_block/trimac_core/al_d59d370c_syn_3.clk;
+ |    |    |    15: (lslice) trimac_locallink/trimac_block/trimac_core/al_ec9d500d_syn_4.clk;
+ |    |    |    16: (lslice) trimac_locallink/trimac_block/trimac_core/al_d10721e3_syn_4.clk;
+ |    |    |    17: (lslice) trimac_locallink/trimac_block/trimac_core/al_fafbf17d_syn_4.clk;
+ |    |    |    18: (lslice) trimac_locallink/trimac_block/trimac_core/al_8f6374a6_syn_4.clk;
+ |    |    |    19: (lslice) trimac_locallink/trimac_block/trimac_core/al_3bcccf83_syn_3.clk;
+ |    |    |    20: (lslice) trimac_locallink/trimac_block/trimac_core/al_fbda843c_syn_4.clk;
+ |    |    |    21: (lslice) trimac_locallink/trimac_block/trimac_core/al_8c953167_syn_4.clk;
+ |    |    |    22: (lslice) trimac_locallink/trimac_block/trimac_core/al_6eefe3b5_syn_13.clk;
+ |    |    |    23: (lslice) trimac_locallink/trimac_block/trimac_core/al_f2621fde_syn_4.clk;
+ |    |    |    24: (lslice) trimac_locallink/trimac_block/trimac_core/al_1bdc6fe1_syn_3.clk;
+ |    |    |    25: (lslice) trimac_locallink/trimac_block/trimac_core/al_d735eed0_syn_4.clk;
+ |    |    |    26: (lslice) trimac_locallink/trimac_block/reg3_syn_31.clk;
+ |    |    |    27: (lslice) trimac_locallink/trimac_block/trimac_core/al_b90d537c_syn_4.clk;
+ |    |    |    28: (lslice) trimac_locallink/trimac_block/trimac_core/al_a327e535_syn_4.clk;
+ |    |    |    29: (lslice) trimac_locallink/trimac_block/trimac_core/al_1626a421_syn_3.clk;
+ |    |    |    30: (lslice) trimac_locallink/trimac_block/trimac_core/al_28ab72ac_syn_4.clk;
+ |    |    |    31: (lslice) trimac_locallink/trimac_block/trimac_core/al_b0075a80_syn_3.clk;
+ |    |    |    32: (lslice) trimac_locallink/trimac_block/trimac_core/al_4ca88e55_syn_4.clk;
+ |    |    |    33: (lslice) trimac_locallink/trimac_block/trimac_core/al_13ee25a3_syn_4.clk;
+ |    |    |    34: (lslice) trimac_locallink/trimac_block/trimac_core/al_1b495dda_syn_3.clk;
+ |    |    |    35: (lslice) trimac_locallink/trimac_block/trimac_core/al_c33646d8_syn_4.clk;
+ |    |    |    36: (lslice) trimac_locallink/trimac_block/trimac_core/al_a04c53c7_syn_4.clk;
+ |    |    |    37: (lslice) trimac_locallink/trimac_block/trimac_core/al_9ebd276_syn_3.clk;
+ |    |    |    38: (lslice) trimac_locallink/trimac_block/trimac_core/al_7239193_syn_4.clk;
+ |    |    |    39: (lslice) trimac_locallink/trimac_block/trimac_core/al_be2afad5_syn_3.clk;
+ |    |    |    40: (lslice) trimac_locallink/trimac_block/trimac_core/al_c62b6cf0_syn_4.clk;
+ |    |    |    41: (lslice) trimac_locallink/trimac_block/trimac_core/al_e62d1f2a_syn_4.clk;
+ |    |    |    42: (lslice) trimac_locallink/trimac_block/trimac_core/al_6ed82bec_syn_3.clk;
+ |    |    |    43: (lslice) trimac_locallink/trimac_block/trimac_core/al_e90cf8c7_syn_4.clk;
+ |    |    |    44: (lslice) trimac_locallink/trimac_block/trimac_core/al_bd2b6d05_syn_4.clk;
+ |    |    |    45: (lslice) trimac_locallink/trimac_block/trimac_core/al_22f890a4_syn_3.clk;
+ |    |    |    46: (lslice) trimac_locallink/trimac_block/trimac_core/al_e80e8480_syn_4.clk;
+ |    |    |    47: (lslice) trimac_locallink/trimac_block/trimac_core/al_e1095791_syn_4.clk;
+ |    |    |    48: (lslice) trimac_locallink/trimac_block/trimac_core/al_d00dfd58_syn_3.clk;
+ |    |    |    49: (lslice) trimac_locallink/trimac_block/trimac_core/al_a643ae3_syn_4.clk;
+ |    |    |    50: (lslice) trimac_locallink/trimac_block/trimac_core/al_fb89143b_syn_4.clk;
+ |    |    |    51: (lslice) trimac_locallink/trimac_block/trimac_core/al_e4fb78e2_syn_4.clk;
+ |    |    |    52: (lslice) trimac_locallink/trimac_block/trimac_core/al_d2adfb5b_syn_4.clk;
+ |    |    |    53: (lslice) trimac_locallink/trimac_block/trimac_core/al_ceb2b8c3_syn_4.clk;
+ |    |    |    54: (lslice) trimac_locallink/trimac_block/trimac_core/al_9df69309_syn_4.clk;
+ |    |    |    55: (lslice) trimac_locallink/trimac_block/trimac_core/al_1b46f63_syn_4.clk;
+ |    |    |    56: (lslice) trimac_locallink/trimac_block/trimac_core/al_59f2d056_syn_3.clk;
+ |    |    |    57: (lslice) trimac_locallink/trimac_block/trimac_core/al_1fd0276a_syn_4.clk;
+ |    |    |    58: (lslice) trimac_locallink/trimac_block/trimac_core/al_a161f34c_syn_4.clk;
+ |    |    |    59: (lslice) trimac_locallink/trimac_block/trimac_core/al_ee326c34_syn_4.clk;
+ |    |    |    60: (lslice) trimac_locallink/trimac_block/trimac_core/al_faaca9ca_syn_4.clk;
+ |    |    |    61: (lslice) trimac_locallink/trimac_block/trimac_core/al_202cba8c_syn_3.clk;
+ |    |    |    62: (lslice) trimac_locallink/trimac_block/trimac_core/al_6eefe3b5_syn_10.clk;
+ |    |    |    63: (lslice) trimac_locallink/trimac_block/trimac_core/al_12f13fa5_syn_3.clk;
+ |    |    |    64: (lslice) trimac_locallink/trimac_block/trimac_core/al_485cc5fb_syn_3.clk;
+ |    |    |    65: (lslice) trimac_locallink/trimac_block/trimac_core/al_7b6bbdee_syn_4.clk;
+ |    |    |    66: (lslice) trimac_locallink/trimac_block/trimac_core/al_c35e88c2_syn_4.clk;
+ |    |    |    67: (lslice) trimac_locallink/trimac_block/trimac_core/al_2fea96b1_syn_3.clk;
+ |    |    |    68: (lslice) trimac_locallink/trimac_block/trimac_core/al_cabbf2bc_syn_4.clk;
+ |    |    |    69: (lslice) trimac_locallink/trimac_block/trimac_core/al_be8f3415_syn_4.clk;
+ |    |    |    70: (lslice) trimac_locallink/trimac_block/trimac_core/al_94e94a6_syn_4.clk;
+ |    |    |    71: (lslice) trimac_locallink/trimac_block/trimac_core/al_dbc8358a_syn_4.clk;
+ |    |    |    72: (lslice) trimac_locallink/trimac_block/trimac_core/al_b7d88b91_syn_4.clk;
+ |    |    |    73: (lslice) trimac_locallink/trimac_block/trimac_core/al_b0d7a40a_syn_4.clk;
+ |    |    |    74: (lslice) trimac_locallink/trimac_block/trimac_core/al_e7d35e9e_syn_4.clk;
+ |    |    |    75: (lslice) trimac_locallink/trimac_block/trimac_core/al_742529f6_syn_4.clk;
+ |    |    |    76: (lslice) trimac_locallink/trimac_block/trimac_core/al_8852ca24_syn_4.clk;
+ |    |    |    77: (lslice) trimac_locallink/trimac_block/trimac_core/al_d572d894_syn_4.clk;
+ |    |    |    78: (lslice) trimac_locallink/trimac_block/trimac_core/al_40acceaa_syn_3.clk;
+ |    |    |    79: (lslice) trimac_locallink/trimac_block/trimac_core/al_66e6d68d_syn_3.clk;
+ |    |    |    80: (lslice) trimac_locallink/trimac_block/trimac_core/al_db440685_syn_4.clk;
+ |    |    |    81: (lslice) trimac_locallink/trimac_block/trimac_core/al_fe9e922a_syn_4.clk;
+ |    |    |    82: (lslice) trimac_locallink/trimac_block/trimac_core/al_5b277c0a_syn_4.clk;
+ |    |    |    83: (lslice) trimac_locallink/trimac_block/trimac_core/al_f3c55d31_syn_4.clk;
+ |    |    |    84: (lslice) trimac_locallink/trimac_block/trimac_core/al_f4cf992f_syn_4.clk;
+ |    |    |    85: (lslice) trimac_locallink/trimac_block/trimac_core/al_6e6d04f2_syn_4.clk;
+ |    |    |    86: (lslice) trimac_locallink/trimac_block/client_rxc_en_int_reg_syn_23.clk;
+ |    |    |    87: (lslice) trimac_locallink/trimac_block/trimac_core/al_cc463cd_syn_3.clk;
+ |    |    |    88: (lslice) trimac_locallink/trimac_block/trimac_core/al_d05026a2_syn_4.clk;
+ |    |    |    89: (lslice) trimac_locallink/trimac_block/trimac_core/al_8c2f5f2d_syn_3.clk;
+ |    |    |    90: (lslice) trimac_locallink/trimac_block/trimac_core/al_c91766c8_syn_3.clk;
+ |    |    |    91: (lslice) trimac_locallink/trimac_block/trimac_core/al_585cfabe_syn_4.clk;
+ |    |    |    92: (lslice) trimac_locallink/trimac_block/trimac_core/al_50abd803_syn_3.clk;
+ |    |    |    93: (lslice) trimac_locallink/trimac_block/trimac_core/al_33cc04e9_syn_3.clk;
+ |    |    |    94: (lslice) trimac_locallink/trimac_block/trimac_core/al_c9748131_syn_4.clk;
+ |    |    |    95: (lslice) trimac_locallink/trimac_block/trimac_core/al_1839851a_syn_3.clk;
+ |    |    |    96: (lslice) trimac_locallink/trimac_block/reg3_syn_36.clk;
+ |    |    |    97: (lslice) trimac_locallink/trimac_block/trimac_core/al_317123aa_syn_3.clk;
+ |    |    |    98: (lslice) trimac_locallink/trimac_block/trimac_core/al_84169261_syn_4.clk;
+ |    |    |    99: (lslice) trimac_locallink/trimac_block/trimac_core/al_c1e58cd3_syn_4.clk;
+ |    |    |    100: (lslice) trimac_locallink/trimac_block/trimac_core/al_f2772ae_syn_4.clk;
+ |    |    |    101: (lslice) trimac_locallink/trimac_block/trimac_core/al_66db8d6c_syn_3.clk;
+ |    |    |    102: (lslice) trimac_locallink/trimac_block/trimac_core/al_725f362_syn_3.clk;
+ |    |    |    103: (lslice) trimac_locallink/trimac_block/trimac_core/al_c17312fc_syn_4.clk;
+ |    |    |    104: (lslice) trimac_locallink/trimac_block/trimac_core/al_9542fc4_syn_4.clk;
+ |    |    |    105: (lslice) trimac_locallink/trimac_block/trimac_core/al_8f915940_syn_4.clk;
+ |    |    |    106: (lslice) trimac_locallink/trimac_block/trimac_core/al_6eefe3b5_syn_16.clk;
+ |    |    |    107: (lslice) trimac_locallink/trimac_block/trimac_core/al_fd6d5ae_syn_4.clk;
+ |    |    |    108: (lslice) trimac_locallink/trimac_block/trimac_core/al_70f44633_syn_4.clk;
+ |    |    |    109: (lslice) trimac_locallink/trimac_block/trimac_core/al_affeee8c_syn_4.clk;
+ |    |    |    110: (lslice) trimac_locallink/trimac_block/trimac_core/al_60c07466_syn_4.clk;
+ |    |    |    111: (lslice) trimac_locallink/trimac_block/trimac_core/al_72609d39_syn_3.clk;
+ |    |    |    112: (lslice) trimac_locallink/trimac_block/trimac_core/al_45f4b890_syn_3.clk;
+ |    |    |    113: (lslice) trimac_locallink/trimac_block/trimac_core/al_332aad13_syn_4.clk;
+ |    |    |    114: (lslice) trimac_locallink/trimac_block/trimac_core/al_967b3f63_syn_4.clk;
+ |    |    |    115: (lslice) trimac_locallink/trimac_block/trimac_core/al_60e40fe6_syn_4.clk;
+ |    |    |    116: (lslice) trimac_locallink/trimac_block/reg3_syn_34.clk;
+ |    |    |    117: (lslice) trimac_locallink/trimac_block/trimac_core/al_a36db9a3_syn_3.clk;
+ |    |    |    118: (lslice) trimac_locallink/trimac_block/trimac_core/al_d65767b_syn_4.clk;
+ |    |    |    119: (lslice) trimac_locallink/trimac_block/trimac_core/al_6f6c052e_syn_3.clk;
+ |    |    |    120: (lslice) trimac_locallink/trimac_block/trimac_core/al_c17314cc_syn_4.clk;
+ |    |    |    121: (lslice) trimac_locallink/trimac_block/trimac_core/al_a0342538_syn_3.clk;
+ |    |    |    122: (lslice) trimac_locallink/trimac_block/trimac_core/al_a4df6c7f_syn_4.clk;
+ |    |    |    123: (lslice) trimac_locallink/trimac_block/trimac_core/al_728bd1f1_syn_3.clk;
+ |    |    |    124: (lslice) trimac_locallink/trimac_block/trimac_core/al_da56e0a9_syn_4.clk;
+ |    |    |    125: (lslice) trimac_locallink/trimac_block/trimac_core/al_9fbf18f5_syn_4.clk;
+ |    |    |    126: (lslice) trimac_locallink/trimac_block/trimac_core/al_73bf3bee_syn_4.clk;
+ |    |    |    127: (lslice) trimac_locallink/trimac_block/trimac_core/al_5b259a9c_syn_4.clk;
+ |    |    |    128: (lslice) trimac_locallink/trimac_block/trimac_core/al_e51337de_syn_4.clk;
+ |    |    |    129: (lslice) trimac_locallink/trimac_block/trimac_core/al_a6d6d77f_syn_4.clk;
+ |    |    |    130: (lslice) trimac_locallink/trimac_block/trimac_core/al_e3299273_syn_4.clk;
+ |    |    |    131: (lslice) trimac_locallink/trimac_block/trimac_core/al_a87f8afe_syn_4.clk;
+ |    |    |    132: (lslice) trimac_locallink/trimac_block/trimac_core/al_eca9de50_syn_4.clk;
+ |    |    |    133: (lslice) trimac_locallink/trimac_block/trimac_core/al_36a0d24a_syn_3.clk;
+ |    |    |    134: (lslice) trimac_locallink/trimac_block/trimac_core/al_852c4583_syn_4.clk;
+ |    |    |    135: (lslice) trimac_locallink/trimac_block/trimac_core/al_4d9128ea_syn_3.clk;
+ |    |    |    136: (lslice) trimac_locallink/trimac_block/trimac_core/al_ec2fe39f_syn_4.clk;
+ |    |    |    137: (lslice) trimac_locallink/trimac_block/trimac_core/al_37f44914_syn_3.clk;
+ |    |    |    138: (lslice) trimac_locallink/trimac_block/rx_error_frame_reg_reg_syn_4.clk;
+ |    |    |    139: (lslice) trimac_locallink/trimac_block/trimac_core/al_5f19ff7_syn_3.clk;
+ |    |    |    140: (lslice) trimac_locallink/trimac_block/trimac_core/al_7c7c44cf_syn_4.clk;
+ |    |    |    141: (lslice) trimac_locallink/trimac_block/trimac_core/al_79006f4f_syn_4.clk;
+ |    |    |    142: (lslice) trimac_locallink/trimac_block/trimac_core/al_34582806_syn_4.clk;
+ |    |    |    143: (lslice) trimac_locallink/trimac_block/trimac_core/al_f1c0b0e_syn_4.clk;
+ |    |    |    144: (lslice) trimac_locallink/trimac_block/trimac_core/al_cad329bf_syn_7.clk;
+ |    |    |    145: (lslice) trimac_locallink/trimac_block/trimac_core/al_7180eafe_syn_4.clk;
+ |    |    |    146: (lslice) trimac_locallink/trimac_block/trimac_core/al_9ffc6f9f_syn_3.clk;
+ |    |    |    147: (lslice) trimac_locallink/trimac_block/trimac_core/al_e717b2b8_syn_3.clk;
+ |    |    |    148: (lslice) trimac_locallink/trimac_block/trimac_core/al_cad329bf_syn_8.clk;
+ |    |    |    149: (lslice) trimac_locallink/trimac_block/trimac_core/al_f2d5653e_syn_4.clk;
+ |    |    |    150: (lslice) trimac_locallink/trimac_block/trimac_core/al_fa6c9597_syn_3.clk;
+ |    |    |    151: (lslice) trimac_locallink/trimac_block/trimac_core/al_efe7003c_syn_4.clk;
+ |    |    |    152: (lslice) trimac_locallink/trimac_block/trimac_core/al_9e2a5d83_syn_3.clk;
+ |    |    |    153: (lslice) trimac_locallink/trimac_block/trimac_core/al_b9328f65_syn_4.clk;
+ |    |    |    154: (lslice) trimac_locallink/trimac_block/trimac_core/al_d43f759a_syn_4.clk;
+ |    |    |    155: (lslice) trimac_locallink/trimac_block/trimac_core/al_6813e772_syn_4.clk;
+ |    |    |    156: (lslice) trimac_locallink/trimac_block/trimac_core/al_c953fa3d_syn_4.clk;
+ |    |    |    157: (lslice) trimac_locallink/trimac_block/client_rxc_en_int_reg_syn_25.clk;
+ |    |    |    158: (lslice) trimac_locallink/trimac_block/trimac_core/al_e49140c5_syn_4.clk;
+ |    |    |    159: (lslice) trimac_locallink/trimac_block/trimac_core/al_ac073428_syn_4.clk;
+ |    |    |    160: (lslice) trimac_locallink/trimac_block/trimac_core/al_364014d5_syn_4.clk;
+ |    |    |    161: (lslice) trimac_locallink/trimac_block/trimac_core/al_4f23830b_syn_4.clk;
+ |    |    |    162: (lslice) trimac_locallink/trimac_block/trimac_core/al_c2067d51_syn_4.clk;
+ |    |    |    163: (lslice) trimac_locallink/trimac_block/trimac_core/al_445d7aae_syn_4.clk;
+ |    |    |    164: (lslice) trimac_locallink/trimac_block/trimac_core/al_c271bc99_syn_3.clk;
+ |    |    |    165: (lslice) trimac_locallink/trimac_block/trimac_core/al_76fb5176_syn_3.clk;
+ |    |    |    166: (lslice) trimac_locallink/trimac_block/trimac_core/al_e38a1f28_syn_3.clk;
+ |    |    |    167: (lslice) trimac_locallink/trimac_block/trimac_core/al_a0cd6e4e_syn_4.clk;
+ |    |    |    168: (lslice) trimac_locallink/trimac_block/rx_data_valid_reg_reg_syn_4.clk;
+ |    |    |    169: (lslice) trimac_locallink/trimac_block/trimac_core/al_7e629447_syn_3.clk;
+ |    |    |    170: (lslice) trimac_locallink/trimac_block/trimac_core/al_b51c20dd_syn_4.clk;
+ |    |    |    171: (lslice) trimac_locallink/trimac_block/trimac_core/al_f312af84_syn_4.clk;
+ |    |    |    172: (lslice) trimac_locallink/trimac_block/client_rxc_en_int_reg_syn_18.clk;
+ |    |    |    173: (lslice) trimac_locallink/trimac_block/trimac_core/al_f45bd9a8_syn_4.clk;
+ |    |    |    174: (lslice) trimac_locallink/trimac_block/trimac_core/al_8008ec9d_syn_3.clk;
+ |    |    |    175: (lslice) trimac_locallink/trimac_block/trimac_core/al_f8901edb_syn_3.clk;
+ |    |    |    176: (lslice) trimac_locallink/trimac_block/trimac_core/al_59b8947d_syn_3.clk;
+ |    |    |    177: (lslice) trimac_locallink/trimac_block/trimac_core/al_f1a94863_syn_4.clk;
+ |    |    |    178: (lslice) trimac_locallink/trimac_block/trimac_core/al_b191982a_syn_3.clk;
+ |    |    |    179: (lslice) trimac_locallink/trimac_block/trimac_core/al_26980342_syn_3.clk;
+ |    |    |    180: (lslice) trimac_locallink/trimac_block/trimac_core/al_862a74b5_syn_3.clk;
+ |    |    |    181: (lslice) trimac_locallink/trimac_block/trimac_core/al_f15b8e07_syn_4.clk;
+ |    |    |    182: (lslice) trimac_locallink/trimac_block/trimac_core/al_b07a3ff1_syn_4.clk;
+ |    |    |    183: (lslice) trimac_locallink/trimac_block/trimac_core/al_b7a123bc_syn_3.clk;
+ |    |    |    184: (lslice) trimac_locallink/trimac_block/trimac_core/al_d6674ea9_syn_3.clk;
+ |    |    |    185: (lslice) trimac_locallink/trimac_block/client_rxc_en_int_reg_syn_21.clk;
+ |    |    |    186: (lslice) trimac_locallink/trimac_block/trimac_core/al_dc853c99_syn_3.clk;
+ |    |    |    187: (lslice) trimac_locallink/trimac_block/trimac_core/al_85a91f7_syn_4.clk;
+ |    |    |    188: (lslice) trimac_locallink/trimac_block/trimac_core/al_e2b2ebf2_syn_3.clk;
+ |    |    |    189: (lslice) trimac_locallink/trimac_block/trimac_core/al_ea98976b_syn_4.clk;
+ |    |    |    190: (lslice) trimac_locallink/trimac_block/client_rxc_en_int_reg_syn_15.clk;
+ |    |    |    191: (lslice) trimac_locallink/trimac_block/trimac_core/al_60716a49_syn_4.clk;
+ |    |    |    192: (lslice) trimac_locallink/trimac_block/trimac_core/al_d5042958_syn_4.clk;
+ |    |    |    193: (lslice) trimac_locallink/trimac_block/trimac_core/al_5af58cdc_syn_3.clk;
+ |    |    |    194: (lslice) trimac_locallink/trimac_block/trimac_core/al_80374e42_syn_3.clk;
+ |    |    |    195: (lslice) trimac_locallink/trimac_block/trimac_core/al_ddc3d729_syn_3.clk;
+ |    |    |    196: (lslice) trimac_locallink/trimac_block/trimac_core/al_d9f3e59a_syn_4.clk;
+ |    |    |    197: (lslice) trimac_locallink/trimac_block/trimac_core/al_5a13c9f6_syn_4.clk;
+ |    |    |    198: (lslice) trimac_locallink/trimac_block/trimac_core/al_e4c08a39_syn_3.clk;
+ |    |    |    199: (lslice) trimac_locallink/trimac_block/trimac_core/al_5d2f7bc7_syn_4.clk;
+ |    |    |    200: (lslice) trimac_locallink/trimac_block/trimac_core/al_5427dc42_syn_4.clk;
+ |    |    |    201: (lslice) trimac_locallink/trimac_block/trimac_core/al_656af615_syn_4.clk;
+ |    |    |    202: (lslice) trimac_locallink/trimac_block/trimac_core/al_3577737c_syn_3.clk;
+ |    |    |    203: (lslice) trimac_locallink/trimac_block/trimac_core/al_4bb7e3f3_syn_3.clk;
+ |    |    |    204: (lslice) trimac_locallink/trimac_block/trimac_core/al_798ec84b_syn_3.clk;
+ |    |    |    205: (lslice) trimac_locallink/trimac_block/trimac_core/al_590dc1e3_syn_4.clk;
+ |    |    |    206: (lslice) trimac_locallink/trimac_block/trimac_core/al_bad2054b_syn_4.clk;
+ |    |    |    207: (lslice) trimac_locallink/trimac_block/trimac_core/al_4bc6b914_syn_3.clk;
+ |    |    |    208: (lslice) trimac_locallink/trimac_block/trimac_core/al_a4ad5075_syn_4.clk;
+ |    |    |    209: (lslice) trimac_locallink/trimac_block/trimac_core/al_b633309b_syn_4.clk;
+ |    |    |    210: (lslice) trimac_locallink/trimac_block/trimac_core/al_76a0d527_syn_4.clk;
+ |    |    |    211: (lslice) trimac_locallink/trimac_block/trimac_core/al_dbc6a958_syn_4.clk;
+ |    |    |    212: (lslice) trimac_locallink/trimac_block/trimac_core/al_7c99a03b_syn_4.clk;
+ |    |    |    213: (lslice) trimac_locallink/trimac_block/trimac_core/al_cd181601_syn_4.clk;
+ |    |    |    214: (lslice) trimac_locallink/trimac_block/trimac_core/al_fd4f17d_syn_4.clk;
+ |    |    |    215: (lslice) trimac_locallink/trimac_block/trimac_core/al_aadf7880_syn_4.clk;
+ |    |    |    216: (lslice) trimac_locallink/trimac_block/trimac_core/al_e02bb120_syn_4.clk;
+ |    |    |    217: (lslice) trimac_locallink/trimac_block/trimac_core/al_d2a185b2_syn_4.clk;
+ |    |    |    218: (lslice) trimac_locallink/trimac_block/trimac_core/al_f047df1a_syn_4.clk;
+ |    |    |    219: (lslice) trimac_locallink/trimac_block/trimac_core/al_9a903262_syn_3.clk;
+ |    |    |    220: (lslice) trimac_locallink/trimac_block/trimac_core/al_e3ecf00d_syn_3.clk;
+ |    |    |    221: (lslice) trimac_locallink/trimac_block/trimac_core/al_35cc110e_syn_4.clk;
+ |    |    |    222: (lslice) trimac_locallink/trimac_block/trimac_core/al_f98d189c_syn_4.clk;
+ |    |    |    223: (lslice) trimac_locallink/trimac_block/trimac_core/al_aee85b3c_syn_4.clk;
+ |    |    |    224: (lslice) trimac_locallink/trimac_block/trimac_core/al_3194821d_syn_4.clk;
+ |    |    |    225: (lslice) trimac_locallink/trimac_block/trimac_core/al_8c7c204_syn_4.clk;
+ |    |    |    226: (lslice) trimac_locallink/trimac_block/trimac_core/al_227dd9f2_syn_3.clk;
+ |    |    |    227: (lslice) trimac_locallink/trimac_block/trimac_core/al_f6c44eb_syn_4.clk;
+ |    |    |    228: (lslice) trimac_locallink/trimac_block/trimac_core/al_31d2684d_syn_3.clk;
+ |    |    |    229: (lslice) trimac_locallink/trimac_block/trimac_core/al_6bb0e19e_syn_4.clk;
+ |    |    |    230: (lslice) trimac_locallink/trimac_block/trimac_core/al_4f31b55d_syn_4.clk;
+ |    |    |    231: (lslice) trimac_locallink/trimac_block/trimac_core/al_6ca7503f_syn_4.clk;
+ |    |    |    232: (lslice) trimac_locallink/trimac_block/trimac_core/al_8f181c69_syn_4.clk;
+ |    |    |    233: (lslice) trimac_locallink/trimac_block/trimac_core/al_8cab8790_syn_4.clk;
+ |    |    |    234: (lslice) trimac_locallink/trimac_block/trimac_core/al_e6f90e56_syn_4.clk;
+ |    |    |    235: (lslice) trimac_locallink/trimac_block/trimac_core/al_5f12d685_syn_4.clk;
+ |    |    |    236: (lslice) trimac_locallink/trimac_block/trimac_core/al_9b59c0a7_syn_3.clk;
+ |    |    |    237: (lslice) trimac_locallink/trimac_block/trimac_core/al_b0a3a642_syn_4.clk;
+ |    |    |    238: (lslice) trimac_locallink/trimac_block/trimac_core/al_a2a8bbff_syn_4.clk;
+ |    |    |    239: (lslice) trimac_locallink/trimac_block/trimac_core/al_e0cf31ac_syn_4.clk;
+ |    Bank 3:
+ |    |    Net trimac_locallink/trimac_block/trimac_core/al_6aaeddf4_syn_1: 25(25)  out of 25(25)
+ |    |    |    1: (lslice) trimac_locallink/trimac_block/trimac_core/al_526d020c_syn_2.clk;
+ |    |    |    2: (lslice) trimac_locallink/trimac_block/trimac_core/al_d9e939be_syn_2.clk;
+ |    |    |    3: (lslice) trimac_locallink/trimac_block/trimac_core/al_3360ded3_syn_2.clk;
+ |    |    |    4: (lslice) trimac_locallink/trimac_block/trimac_core/al_c7f66efb_syn_2.clk;
+ |    |    |    5: (lslice) trimac_locallink/trimac_block/trimac_core/al_e0b7082a_syn_2.clk;
+ |    |    |    6: (lslice) trimac_locallink/trimac_block/trimac_core/al_66761479_syn_2.clk;
+ |    |    |    7: (lslice) trimac_locallink/trimac_block/trimac_core/al_b6bb6ae6_syn_2.clk;
+ |    |    |    8: (lslice) trimac_locallink/trimac_block/trimac_core/al_f1e7f594_syn_2.clk;
+ |    |    |    9: (lslice) trimac_locallink/trimac_block/trimac_core/al_32ba3cda_syn_2.clk;
+ |    |    |    10: (lslice) trimac_locallink/trimac_block/trimac_core/al_f807612b_syn_2.clk;
+ |    |    |    11: (lslice) trimac_locallink/trimac_block/trimac_core/al_162714cb_syn_2.clk;
+ |    |    |    12: (lslice) trimac_locallink/trimac_block/trimac_core/al_84f8c05c_syn_2.clk;
+ |    |    |    13: (lslice) trimac_locallink/trimac_block/trimac_core/al_9e4693c2_syn_2.clk;
+ |    |    |    14: (lslice) trimac_locallink/trimac_block/trimac_core/al_4ffe8138_syn_2.clk;
+ |    |    |    15: (lslice) trimac_locallink/trimac_block/trimac_core/al_e87298d_syn_2.clk;
+ |    |    |    16: (lslice) trimac_locallink/trimac_block/trimac_core/al_690c493d_syn_2.clk;
+ |    |    |    17: (lslice) trimac_locallink/trimac_block/trimac_core/al_ad7985cf_syn_2.clk;
+ |    |    |    18: (lslice) trimac_locallink/trimac_block/trimac_core/al_730dcc_syn_2.clk;
+ |    |    |    19: (lslice) trimac_locallink/trimac_block/trimac_core/al_50543807_syn_3.clk;
+ |    |    |    20: (lslice) trimac_locallink/trimac_block/trimac_core/al_508f02a4_syn_2.clk;
+ |    |    |    21: (lslice) trimac_locallink/trimac_block/trimac_core/al_cef9af15_syn_2.clk;
+ |    |    |    22: (lslice) trimac_locallink/trimac_block/trimac_core/al_f8eee492_syn_3.clk;
+ |    |    |    23: (lslice) trimac_locallink/trimac_block/trimac_core/al_1aa78c58_syn_2.clk;
+ |    |    |    24: (lslice) trimac_locallink/trimac_block/trimac_core/al_89b3ed75_syn_2.clk;
+ |    |    |    25: (lslice) trimac_locallink/trimac_block/trimac_core/al_1ac8a80_syn_2.clk;
+ |    Bank 4:
+ |    |    Net u_test_send/u_fake_top/u_top_fir/u_AD7266/spi_clk_syn_3: 11(11)  out of 23(23)
+ |    |    |    1: (lslice) u_test_send/u_fake_top/u_top_fir/u_AD7266/reg23_syn_29.clk;
+ |    |    |    2: (lslice) u_test_send/u_fake_top/u_top_fir/u_AD7266/reg19_syn_36.clk;
+ |    |    |    3: (lslice) u_test_send/u_fake_top/u_top_fir/u_AD7266/reg23_syn_25.clk;
+ |    |    |    4: (lslice) u_test_send/u_fake_top/u_top_fir/u_AD7266/reg19_syn_44.clk;
+ |    |    |    5: (lslice) u_test_send/u_fake_top/u_top_fir/u_AD7266/reg19_syn_46.clk;
+ |    |    |    6: (lslice) u_test_send/u_fake_top/u_top_fir/u_AD7266/READY_FLAG_reg_syn_3.clk;
+ |    |    |    7: (lslice) u_test_send/u_fake_top/u_top_fir/u_AD7266/reg23_syn_27.clk;
+ |    |    |    8: (lslice) u_test_send/u_fake_top/u_top_fir/u_AD7266/reg23_syn_22.clk;
+ |    |    |    9: (lslice) u_test_send/u_fake_top/u_top_fir/u_AD7266/reg19_syn_42.clk;
+ |    |    |    10: (lslice) u_test_send/u_fake_top/u_top_fir/u_AD7266/CS_reg_syn_3.clk;
+ |    |    |    11: (lslice) u_test_send/u_fake_top/u_top_fir/u_AD7266/reg19_syn_39.clk;
+ |    Bank 5:
+ |    Bank 6:
+ |    Bank 7:
+ |    Bank 8:
+ |    Bank 9:
+ |    Bank 10:
+ |    Bank 11:
+
+
+Clock Region s_2_l
+ |    Bank 0:
+ |    |    Net trimac_locallink/trimac_block/trimac_core/tx_mac_clk: 119(119)  out of 791(791)
+ |    |    |    1: (lslice) u_test_send/u_fake_top/u_top_fir/reg0_syn_43.clk;
+ |    |    |    2: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_da4d991f_syn_1.clk;
+ |    |    |    3: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_4c65cb8e_syn_1.clk;
+ |    |    |    4: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_7cbb1b5f_syn_7.clk;
+ |    |    |    5: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_f44b6762_syn_7.clk;
+ |    |    |    6: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_f04e2943_syn_1.clk;
+ |    |    |    7: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_14fcc43a_syn_1.clk;
+ |    |    |    8: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_18d03100_syn_7.clk;
+ |    |    |    9: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_39b541bd_syn_1.clk;
+ |    |    |    10: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_4e97fc42_syn_1.clk;
+ |    |    |    11: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_ef8ca7a_syn_1.clk;
+ |    |    |    12: (shifterhardcon) u_client_loopback/data_sr_content[0][0]_syn_13.sclk;
+ |    |    |    13: (lslice) u_client_loopback/reg1_syn_90.clk;
+ |    |    |    14: (mslice) u_client_loopback/data_sr_content[0][0]_syn_12.clk;
+ |    |    |    15: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_e3895fe2_syn_7.clk;
+ |    |    |    16: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_f0a7793e_syn_1.clk;
+ |    |    |    17: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_2a369922_syn_1.clk;
+ |    |    |    18: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_9fa29e14_syn_1.clk;
+ |    |    |    19: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_dc5daab3_syn_7.clk;
+ |    |    |    20: (mslice) u_client_loopback/data_sr_content[0][0]_syn_7.clk;
+ |    |    |    21: (mslice) u_client_loopback/data_sr_content[0][0]_syn_6.clk;
+ |    |    |    22: (mslice) u_client_loopback/data_sr_content[0][0]_syn_10.clk;
+ |    |    |    23: (mslice) u_client_loopback/data_sr_content[0][0]_syn_8.clk;
+ |    |    |    24: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_5e1cc0db_syn_1.clk;
+ |    |    |    25: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_bf3dee16_syn_1.clk;
+ |    |    |    26: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_99027a6d_syn_1.clk;
+ |    |    |    27: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_b168a924_syn_1.clk;
+ |    |    |    28: (lslice) u_client_loopback/reg2_syn_34.clk;
+ |    |    |    29: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_6eb318e4_syn_7.clk;
+ |    |    |    30: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_f27e26c4_syn_7.clk;
+ |    |    |    31: (mslice) u_client_loopback/data_sr_content[0][0]_syn_9.clk;
+ |    |    |    32: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_71b1275f_syn_7.clk;
+ |    |    |    33: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_2ca84eaf_syn_1.clk;
+ |    |    |    34: (mslice) u_client_loopback/data_sr_content[0][0]_syn_11.clk;
+ |    |    |    35: (lslice) u_client_loopback/reg1_syn_105.clk;
+ |    |    |    36: (mslice) u_client_loopback/data_sr_content[0][0]_syn_5.clk;
+ |    |    |    37: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_7e86e513_syn_6.clk;
+ |    |    |    38: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_ffbcf3_syn_7.clk;
+ |    |    |    39: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_5fb1cf51_syn_7.clk;
+ |    |    |    40: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_5e4e1242_syn_1.clk;
+ |    |    |    41: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_3918e059_syn_7.clk;
+ |    |    |    42: (lslice) u_test_send/sof_reg_syn_7.clk;
+ |    |    |    43: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_eeda67cf_syn_7.clk;
+ |    |    |    44: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_90b1a19d_syn_1.clk;
+ |    |    |    45: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_33f9013e_syn_1.clk;
+ |    |    |    46: (lslice) u_client_loopback/reg1_syn_93.clk;
+ |    |    |    47: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_f1db63d4_syn_7.clk;
+ |    |    |    48: (lslice) u_client_loopback/reg4_syn_28.clk;
+ |    |    |    49: (lslice) u_client_loopback/reg4_syn_22.clk;
+ |    |    |    50: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_2e8a2570_syn_7.clk;
+ |    |    |    51: (lslice) u_client_loopback/reg1_syn_96.clk;
+ |    |    |    52: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_7625712c_syn_7.clk;
+ |    |    |    53: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_29111b42_syn_7.clk;
+ |    |    |    54: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_29d0fe45_syn_1.clk;
+ |    |    |    55: (lslice) u_client_loopback/reg5_syn_31.clk;
+ |    |    |    56: (lslice) u_test_send/u_fake_top/u_top_fir/reg0_syn_49.clk;
+ |    |    |    57: (lslice) u_client_loopback/reg5_syn_33.clk;
+ |    |    |    58: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_6480eafb_syn_1.clk;
+ |    |    |    59: (lslice) u_client_loopback/reg0_syn_32.clk;
+ |    |    |    60: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_d574702c_syn_7.clk;
+ |    |    |    61: (lslice) u_client_loopback/reg1_syn_84.clk;
+ |    |    |    62: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_99027a6d_syn_1.clk;
+ |    |    |    63: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_f0a7793e_syn_1.clk;
+ |    |    |    64: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_9fa29e14_syn_1.clk;
+ |    |    |    65: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_41d36f2b_syn_1.clk;
+ |    |    |    66: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_8abb1dc0_syn_7.clk;
+ |    |    |    67: (lslice) u_client_loopback/reg5_syn_28.clk;
+ |    |    |    68: (lslice) u_test_send/u_fake_top/u_top_fir/reg0_syn_46.clk;
+ |    |    |    69: (lslice) u_client_loopback/reg1_syn_87.clk;
+ |    |    |    70: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_b8e89d08_syn_1.clk;
+ |    |    |    71: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_d38326ed_syn_7.clk;
+ |    |    |    72: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_d15fb662_syn_7.clk;
+ |    |    |    73: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_43230675_syn_1.clk;
+ |    |    |    74: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_e3fe9e39_syn_1.clk;
+ |    |    |    75: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_2c75845_syn_1.clk;
+ |    |    |    76: (lslice) u_client_loopback/reg1_syn_102.clk;
+ |    |    |    77: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_cbbb4490_syn_7.clk;
+ |    |    |    78: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_e7cc423c_syn_7.clk;
+ |    |    |    79: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_3bbe2c91_syn_1.clk;
+ |    |    |    80: (lslice) u_client_loopback/reg3_syn_22.clk;
+ |    |    |    81: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_9e5c600b_syn_6.clk;
+ |    |    |    82: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_ffbcf3_syn_7.clk;
+ |    |    |    83: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_30153836_syn_6.clk;
+ |    |    |    84: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_75e15d70_syn_1.clk;
+ |    |    |    85: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_95276817_syn_7.clk;
+ |    |    |    86: (lslice) u_client_loopback/reg1_syn_99.clk;
+ |    |    |    87: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_6480eafb_syn_1.clk;
+ |    |    |    88: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_14fcc43a_syn_1.clk;
+ |    |    |    89: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_458a0a0f_syn_1.clk;
+ |    |    |    90: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_87d9fb8e_syn_1.clk;
+ |    |    |    91: (lslice) u_client_loopback/reg0_syn_30.clk;
+ |    |    |    92: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_2fc4812b_syn_1.clk;
+ |    |    |    93: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_eeda67cf_syn_7.clk;
+ |    |    |    94: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_e27d67aa_syn_7.clk;
+ |    |    |    95: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_e27d67aa_syn_7.clk;
+ |    |    |    96: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_339f6b0e_syn_7.clk;
+ |    |    |    97: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_ef8ca7a_syn_1.clk;
+ |    |    |    98: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_aad3402e_syn_1.clk;
+ |    |    |    99: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_10074c95_syn_7.clk;
+ |    |    |    100: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_f44b6762_syn_7.clk;
+ |    |    |    101: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_5e1cc0db_syn_1.clk;
+ |    |    |    102: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_b8e89d08_syn_1.clk;
+ |    |    |    103: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_d574702c_syn_7.clk;
+ |    |    |    104: (lslice) u_test_send/u_fake_top/u_top_fir/reg0_syn_51.clk;
+ |    |    |    105: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_18d03100_syn_7.clk;
+ |    |    |    106: (lslice) u_test_send/u_fake_top/u_top_fir/reg0_syn_40.clk;
+ |    |    |    107: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_252ea06e_syn_7.clk;
+ |    |    |    108: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_4c05617e_syn_7.clk;
+ |    |    |    109: (lslice) u_test_send/u_fake_top/u_top_fir/reg0_syn_53.clk;
+ |    |    |    110: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_a8ce422_syn_7.clk;
+ |    |    |    111: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_b89d9b42_syn_7.clk;
+ |    |    |    112: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_4566af8_syn_1.clk;
+ |    |    |    113: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_87d9fb8e_syn_1.clk;
+ |    |    |    114: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_7d5110c4_syn_1.clk;
+ |    |    |    115: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_8b54afaf_syn_1.clk;
+ |    |    |    116: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_dc93576e_syn_7.clk;
+ |    |    |    117: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_e3fe9e39_syn_1.clk;
+ |    |    |    118: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_e56607bb_syn_1.clk;
+ |    |    |    119: (lslice) u_client_loopback/reg2_syn_31.clk;
+ |    Bank 1:
+ |    |    Net config_inst_syn_10: 56(56)  out of 189(189)
+ |    |    |    1: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_670.clk;
+ |    |    |    2: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_71.clk;
+ |    |    |    3: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/tap_inst/jscan_1_r2_reg_syn_4.clk;
+ |    |    |    4: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_750.clk;
+ |    |    |    5: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_748.clk;
+ |    |    |    6: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_667.clk;
+ |    |    |    7: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_743.clk;
+ |    |    |    8: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_740.clk;
+ |    |    |    9: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_61.clk;
+ |    |    |    10: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_719.clk;
+ |    |    |    11: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_758.clk;
+ |    |    |    12: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_69.clk;
+ |    |    |    13: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_716.clk;
+ |    |    |    14: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_713.clk;
+ |    |    |    15: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_710.clk;
+ |    |    |    16: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_77.clk;
+ |    |    |    17: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_538.clk;
+ |    |    |    18: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_679.clk;
+ |    |    |    19: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_631.clk;
+ |    |    |    20: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_67.clk;
+ |    |    |    21: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_541.clk;
+ |    |    |    22: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_520.clk;
+ |    |    |    23: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_65.clk;
+ |    |    |    24: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_57.clk;
+ |    |    |    25: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_694.clk;
+ |    |    |    26: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_753.clk;
+ |    |    |    27: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_502.clk;
+ |    |    |    28: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_760.clk;
+ |    |    |    29: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_73.clk;
+ |    |    |    30: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_574.clk;
+ |    |    |    31: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_83.clk;
+ |    |    |    32: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_571.clk;
+ |    |    |    33: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_568.clk;
+ |    |    |    34: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_79.clk;
+ |    |    |    35: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_565.clk;
+ |    |    |    36: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_81.clk;
+ |    |    |    37: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_63.clk;
+ |    |    |    38: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_562.clk;
+ |    |    |    39: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_676.clk;
+ |    |    |    40: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_673.clk;
+ |    |    |    41: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_85.clk;
+ |    |    |    42: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_87.clk;
+ |    |    |    43: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_514.clk;
+ |    |    |    44: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_511.clk;
+ |    |    |    45: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_508.clk;
+ |    |    |    46: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_732.clk;
+ |    |    |    47: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_730.clk;
+ |    |    |    48: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_505.clk;
+ |    |    |    49: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_496.clk;
+ |    |    |    50: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_493.clk;
+ |    |    |    51: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_75.clk;
+ |    |    |    52: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_59.clk;
+ |    |    |    53: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_517.clk;
+ |    |    |    54: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_514.clk;
+ |    |    |    55: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_523.clk;
+ |    |    |    56: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg2_syn_89.clk;
+ |    Bank 2:
+ |    |    Net u_test_send/u_data_fifo/clkw_syn_3: 19(19)  out of 160(160)
+ |    |    |    1: (mult18) u_test_send/u_fake_top/u_top_fir/u_fir_filter/mult29_syn_49.clk;
+ |    |    |    2: (mult18) u_test_send/u_fake_top/u_top_fir/u_fir_filter/mult34_syn_50.clk;
+ |    |    |    3: (mult18) u_test_send/u_fake_top/u_top_fir/u_fir_filter/mult10_syn_49.clk;
+ |    |    |    4: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1693.clk;
+ |    |    |    5: (mult18) u_test_send/u_fake_top/u_top_fir/u_fir_filter/mult7_syn_49.clk;
+ |    |    |    6: (mult18) u_test_send/u_fake_top/u_top_fir/u_fir_filter/mult31_syn_50.clk;
+ |    |    |    7: (mult18) u_test_send/u_fake_top/u_top_fir/u_fir_filter/mult36_syn_50.clk;
+ |    |    |    8: (mult18) u_test_send/u_fake_top/u_top_fir/u_fir_filter/mult9_syn_50.clk;
+ |    |    |    9: (mult18) u_test_send/u_fake_top/u_top_fir/u_fir_filter/mult37_syn_50.clk;
+ |    |    |    10: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1684.clk;
+ |    |    |    11: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1687.clk;
+ |    |    |    12: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1690.clk;
+ |    |    |    13: (mult18) u_test_send/u_fake_top/u_top_fir/u_fir_filter/mult30_syn_49.clk;
+ |    |    |    14: (mult18) u_test_send/u_fake_top/u_top_fir/u_fir_filter/mult35_syn_49.clk;
+ |    |    |    15: (mult18) u_test_send/u_fake_top/u_top_fir/u_fir_filter/mult33_syn_49.clk;
+ |    |    |    16: (mult18) u_test_send/u_fake_top/u_top_fir/u_fir_filter/mult8_syn_49.clk;
+ |    |    |    17: (mult18) u_test_send/u_fake_top/u_top_fir/u_fir_filter/mult32_syn_50.clk;
+ |    |    |    18: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1696.clk;
+ |    |    |    19: (lslice) u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1698.clk;
+ |    Bank 3:
+ |    |    Net u_test_send/u_fake_top/u_top_fir/u_AD7266/spi_clk_syn_3: 1(1)  out of 23(23)
+ |    |    |    1: (lslice) u_test_send/u_fake_top/u_top_fir/u_AD7266/SCK_reg_syn_3.clk;
+ |    Bank 4:
+ |    Bank 5:
+ |    Bank 6:
+ |    Bank 7:
+ |    Bank 8:
+ |    Bank 9:
+ |    Bank 10:
+ |    Bank 11:
+
+
+Clock Region s_2_r
+ |    Bank 0:
+ |    |    Net trimac_locallink/trimac_block/trimac_core/tx_mac_clk: 31(31)  out of 791(791)
+ |    |    |    1: (lslice) u_test_send/u_fake_top/u_singal_gen/add0_syn_54.clk;
+ |    |    |    2: (lslice) u_test_send/u_fake_top/u_singal_gen/add0_syn_53.clk;
+ |    |    |    3: (lslice) u_test_send/u_fake_top/u_singal_gen/add0_syn_52.clk;
+ |    |    |    4: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg17_syn_64.clk;
+ |    |    |    5: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg17_syn_70.clk;
+ |    |    |    6: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg17_syn_67.clk;
+ |    |    |    7: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg9_syn_54.clk;
+ |    |    |    8: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_4376c392_syn_7.clk;
+ |    |    |    9: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_cd459a96_syn_6.clk;
+ |    |    |    10: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_549078f7_syn_7.clk;
+ |    |    |    11: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg15_syn_12.clk;
+ |    |    |    12: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg17_syn_73.clk;
+ |    |    |    13: (lslice) trimac_locallink/u_client_FIFO/tx_fifo/reg22_syn_9.clk;
+ |    |    |    14: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_286967dc_syn_7.clk;
+ |    |    |    15: (lslice) u_test_send/u_fake_top/u_singal_gen/add0_syn_50.clk;
+ |    |    |    16: (lslice) u_test_send/u_fake_top/u_singal_gen/add0_syn_49.clk;
+ |    |    |    17: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_116f1db3_syn_6.clk;
+ |    |    |    18: (lslice) u_client_loopback/sof_sr_content_out_reg_syn_8.clk;
+ |    |    |    19: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_f488aa32_syn_7.clk;
+ |    |    |    20: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_7625712c_syn_7.clk;
+ |    |    |    21: (lslice) u_test_send/u_fake_top/u_singal_gen/add0_syn_55.clk;
+ |    |    |    22: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_cbbb4490_syn_7.clk;
+ |    |    |    23: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_549078f7_syn_7.clk;
+ |    |    |    24: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_cd459a96_syn_6.clk;
+ |    |    |    25: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_2c62c395_syn_6.clk;
+ |    |    |    26: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_25e9fff5_syn_7.clk;
+ |    |    |    27: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_9f40c8_syn_6.clk;
+ |    |    |    28: (lslice) u_test_send/u_fake_top/u_singal_gen/add0_syn_51.clk;
+ |    |    |    29: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_286967dc_syn_7.clk;
+ |    |    |    30: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_2531de5d_syn_7.clk;
+ |    |    |    31: (lslice) u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_9f40c8_syn_6.clk;
+ |    Bank 1:
+ |    |    Net config_inst_syn_10: 120(120)  out of 189(189)
+ |    |    |    1: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_610.clk;
+ |    |    |    2: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_604.clk;
+ |    |    |    3: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_607.clk;
+ |    |    |    4: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_700.clk;
+ |    |    |    5: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_658.clk;
+ |    |    |    6: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_640.clk;
+ |    |    |    7: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_529.clk;
+ |    |    |    8: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_601.clk;
+ |    |    |    9: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_598.clk;
+ |    |    |    10: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_622.clk;
+ |    |    |    11: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_756.clk;
+ |    |    |    12: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_634.clk;
+ |    |    |    13: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_707.clk;
+ |    |    |    14: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_568.clk;
+ |    |    |    15: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_705.clk;
+ |    |    |    16: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_613.clk;
+ |    |    |    17: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_702.clk;
+ |    |    |    18: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_699.clk;
+ |    |    |    19: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_619.clk;
+ |    |    |    20: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_595.clk;
+ |    |    |    21: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_696.clk;
+ |    |    |    22: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_693.clk;
+ |    |    |    23: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_532.clk;
+ |    |    |    24: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_690.clk;
+ |    |    |    25: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_687.clk;
+ |    |    |    26: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_721.clk;
+ |    |    |    27: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_684.clk;
+ |    |    |    28: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_592.clk;
+ |    |    |    29: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_697.clk;
+ |    |    |    30: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_526.clk;
+ |    |    |    31: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_681.clk;
+ |    |    |    32: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_556.clk;
+ |    |    |    33: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_678.clk;
+ |    |    |    34: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_703.clk;
+ |    |    |    35: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_652.clk;
+ |    |    |    36: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_628.clk;
+ |    |    |    37: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_675.clk;
+ |    |    |    38: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_553.clk;
+ |    |    |    39: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_672.clk;
+ |    |    |    40: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_669.clk;
+ |    |    |    41: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_547.clk;
+ |    |    |    42: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_709.clk;
+ |    |    |    43: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_666.clk;
+ |    |    |    44: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_589.clk;
+ |    |    |    45: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_649.clk;
+ |    |    |    46: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_663.clk;
+ |    |    |    47: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_586.clk;
+ |    |    |    48: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_660.clk;
+ |    |    |    49: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_712.clk;
+ |    |    |    50: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_657.clk;
+ |    |    |    51: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_654.clk;
+ |    |    |    52: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_651.clk;
+ |    |    |    53: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_648.clk;
+ |    |    |    54: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_645.clk;
+ |    |    |    55: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_642.clk;
+ |    |    |    56: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_550.clk;
+ |    |    |    57: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_646.clk;
+ |    |    |    58: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_691.clk;
+ |    |    |    59: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_639.clk;
+ |    |    |    60: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_636.clk;
+ |    |    |    61: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_633.clk;
+ |    |    |    62: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_706.clk;
+ |    |    |    63: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_630.clk;
+ |    |    |    64: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_627.clk;
+ |    |    |    65: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_624.clk;
+ |    |    |    66: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_583.clk;
+ |    |    |    67: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_621.clk;
+ |    |    |    68: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_618.clk;
+ |    |    |    69: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_544.clk;
+ |    |    |    70: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_580.clk;
+ |    |    |    71: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_615.clk;
+ |    |    |    72: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_616.clk;
+ |    |    |    73: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_625.clk;
+ |    |    |    74: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_612.clk;
+ |    |    |    75: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_577.clk;
+ |    |    |    76: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_609.clk;
+ |    |    |    77: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_606.clk;
+ |    |    |    78: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_603.clk;
+ |    |    |    79: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_600.clk;
+ |    |    |    80: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_597.clk;
+ |    |    |    81: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_594.clk;
+ |    |    |    82: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_661.clk;
+ |    |    |    83: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_643.clk;
+ |    |    |    84: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_688.clk;
+ |    |    |    85: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_591.clk;
+ |    |    |    86: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_588.clk;
+ |    |    |    87: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_718.clk;
+ |    |    |    88: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_585.clk;
+ |    |    |    89: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_582.clk;
+ |    |    |    90: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_579.clk;
+ |    |    |    91: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_664.clk;
+ |    |    |    92: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_576.clk;
+ |    |    |    93: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_571.clk;
+ |    |    |    94: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_682.clk;
+ |    |    |    95: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_685.clk;
+ |    |    |    96: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_562.clk;
+ |    |    |    97: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_655.clk;
+ |    |    |    98: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_559.clk;
+ |    |    |    99: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_574.clk;
+ |    |    |    100: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_556.clk;
+ |    |    |    101: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_553.clk;
+ |    |    |    102: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_715.clk;
+ |    |    |    103: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_550.clk;
+ |    |    |    104: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_547.clk;
+ |    |    |    105: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_544.clk;
+ |    |    |    106: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_565.clk;
+ |    |    |    107: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_541.clk;
+ |    |    |    108: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_538.clk;
+ |    |    |    109: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_559.clk;
+ |    |    |    110: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_535.clk;
+ |    |    |    111: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_535.clk;
+ |    |    |    112: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_532.clk;
+ |    |    |    113: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_529.clk;
+ |    |    |    114: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_526.clk;
+ |    |    |    115: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_727.clk;
+ |    |    |    116: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_523.clk;
+ |    |    |    117: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_520.clk;
+ |    |    |    118: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg0_syn_517.clk;
+ |    |    |    119: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_637.clk;
+ |    |    |    120: (lslice) cw_top/wrapper_cwc_top/cfg_int_inst/reg_inst/reg1_syn_724.clk;
+ |    Bank 2:
+ |    |    Net u_test_send/u_fake_top/u_top_fir/u_AD7266/SCK_syn_3: 3(3)  out of 18(17)
+ |    |    |    1: (lslice) u_test_send/u_fake_top/u_singal_gen/reg0_syn_22.clk;
+ |    |    |    2: (lslice) u_test_send/u_fake_top/u_singal_gen/reg0_syn_17.clk;
+ |    |    |    3: (lslice) u_test_send/u_fake_top/u_singal_gen/reg0_syn_19.clk;
+ |    Bank 3:
+ |    Bank 4:
+ |    Bank 5:
+ |    Bank 6:
+ |    Bank 7:
+ |    Bank 8:
+ |    Bank 9:
+ |    Bank 10:
+ |    Bank 11:
+
+
+Clock Region s_3_l
+ |    Bank 0:
+ |    Bank 1:
+ |    Bank 2:
+ |    Bank 3:
+ |    Bank 4:
+ |    Bank 5:
+ |    Bank 6:
+ |    Bank 7:
+ |    Bank 8:
+ |    Bank 9:
+ |    Bank 10:
+ |    Bank 11:
+
+
+Clock Region s_3_r
+ |    Bank 0:
+ |    Bank 1:
+ |    Bank 2:
+ |    Bank 3:
+ |    Bank 4:
+ |    Bank 5:
+ |    Bank 6:
+ |    Bank 7:
+ |    Bank 8:
+ |    Bank 9:
+ |    Bank 10:
+ |    Bank 11:

@@ -1,0 +1,94 @@
+standard
+***Report Model: al_temac_example_design Device: PH1A90SBG484***
+
+IO Statistics
+#IO                        16
+  #input                    8
+  #output                   7
+  #inout                    1
+
+Utilization Statistics
+#lut                     3409
+  #lut1                    14
+  #lut2                   268
+  #lut3                   899
+  #lut4                   391
+  #lut5                   489
+  #lut6                   503
+  #1-bit adder            845
+#reg                     2407   out of 128640    1.87%
+  #dff                   2407
+  #latch                    0
+#f7mux                      0   out of  32160    0.00%
+#f8mux                      0   out of  16080    0.00%
+#dsp                       47   out of    240   19.58%
+#eram                       4   out of    272    1.47%
+  #eram20k                  4
+  #fifo20k                  0
+#shifter                    3
+#pad                       16   out of    260    6.15%
+  #ireg                     0
+  #oreg                     6
+  #treg                     0
+#pll                        2   out of     12   16.67%
+#pcie                       0   out of      1    0.00%
+#serdes                     0   out of      2    0.00%
+
+Report Hierarchy Area:
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Instance                                      |Module                                      |lut     |ripple  |seq     |eram    |dsp     |dram    |shifter |f7mux   |f8mux   |pll     |serdes  |pcie    |ddr     |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|top                                           |al_temac_example_design                     |2564    |845     |2413    |4       |47      |0       |3       |0       |0       |2       |0       |0       |0       |
+|  trimac_locallink                            |temac_locallink                             |1611    |140     |1654    |2       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|    trimac_block                              |temac_block                                 |1466    |88      |1433    |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|      rx_reset_gen                            |reset_sync                                  |0       |0       |2       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|        reset_sync1                           |FDPE                                        |0       |0       |1       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|        reset_sync2                           |FDPE                                        |0       |0       |1       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|      speed_10_100_rx_sync                    |sync_block                                  |0       |0       |2       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|        data_sync                             |FD                                          |0       |0       |1       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|        data_sync_reg                         |FD                                          |0       |0       |1       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|      trimac_core                             |TEMAC_CORE                                  |1414    |67      |1345    |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|      tx_reset_gen                            |reset_sync                                  |0       |0       |2       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|        reset_sync1                           |FDPE                                        |0       |0       |1       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|        reset_sync2                           |FDPE                                        |0       |0       |1       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|      u1_rgmii_interface                      |rgmii_interface                             |8       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|      u_tx_clk_en_gen                         |tx_clk_en_gen                               |18      |0       |17      |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|        speed_100_sync                        |sync_block                                  |0       |0       |2       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|          data_sync                           |FD                                          |0       |0       |1       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|          data_sync_reg                       |FD                                          |0       |0       |1       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|        speed_10_100_sync                     |sync_block                                  |0       |0       |2       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|          data_sync                           |FD                                          |0       |0       |1       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|          data_sync_reg                       |FD                                          |0       |0       |1       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|    u_client_FIFO                             |client_FIFO                                 |145     |52      |221     |2       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|      tx_fifo                                 |tx_client_fifo                              |145     |52      |221     |2       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|        gen_hd_count$resync_rd_tran_frame_tog |sync_block                                  |0       |0       |2       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|          data_sync                           |FD                                          |0       |0       |1       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|          data_sync_reg                       |FD                                          |0       |0       |1       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|        ramgen_l                              |RAMB16_S9_S9                                |1       |0       |0       |1       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|        ramgen_u                              |RAMB16_S9_S9                                |1       |0       |0       |1       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|        resync_rd_tran_frame_tog              |sync_block                                  |0       |0       |2       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|          data_sync                           |FD                                          |0       |0       |1       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|          data_sync_reg                       |FD                                          |0       |0       |1       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|        resync_rd_txfer_tog                   |sync_block                                  |0       |0       |2       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|          data_sync                           |FD                                          |0       |0       |1       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|          data_sync_reg                       |FD                                          |0       |0       |1       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|        resync_wr_frame_in_fifo               |sync_block                                  |0       |0       |2       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|          data_sync                           |FD                                          |0       |0       |1       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|          data_sync_reg                       |FD                                          |0       |0       |1       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|  u_axi_master_cfg                            |axi_master_cfg                              |115     |0       |97      |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|  u_client_loopback                           |client_loopback                             |18      |0       |48      |0       |0       |0       |1       |0       |0       |0       |0       |0       |0       |
+|  u_pll                                       |pll                                         |1       |0       |0       |0       |0       |0       |0       |0       |0       |1       |0       |0       |0       |
+|  u_rx_pll                                    |rx_pll                                      |0       |0       |0       |0       |0       |0       |0       |0       |0       |1       |0       |0       |0       |
+|  u_test_send                                 |test_send                                   |818     |693     |598     |2       |47      |0       |2       |0       |0       |0       |0       |0       |0       |
+|    u_data_fifo                               |data_fifo                                   |60      |10      |104     |1       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|      ram_inst                                |ram_infer_data_fifo                         |0       |0       |0       |1       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|      rd_to_wr_cross_inst                     |fifo_cross_domain_addr_process_al_data_fifo |18      |0       |40      |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|      wr_to_rd_cross_inst                     |fifo_cross_domain_addr_process_al_data_fifo |16      |0       |36      |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|    u_fake_top                                |fake_top                                    |708     |683     |464     |1       |47      |0       |2       |0       |0       |0       |0       |0       |0       |
+|      u_singal_gen                            |singal_gen                                  |100     |73      |284     |1       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|        u_dds_gen                             |dds_gen                                     |34      |33      |136     |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|        u_dds_gen1                            |dds_gen1                                    |35      |30      |134     |1       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|      u_top_fir                               |top_fir                                     |608     |610     |180     |0       |47      |0       |2       |0       |0       |0       |0       |0       |0       |
+|        u_AD7266                              |AD7266_Read                                 |69      |0       |56      |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|        u_fir_filter                          |fir_filter                                  |525     |610     |114     |0       |47      |0       |2       |0       |0       |0       |0       |0       |0       |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

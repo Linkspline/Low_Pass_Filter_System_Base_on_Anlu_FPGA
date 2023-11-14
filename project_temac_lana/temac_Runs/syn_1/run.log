@@ -1,0 +1,1670 @@
+============================================================
+   Tang Dynasty, V5.6.71036
+      Copyright (c) 2012-2023 Anlogic Inc.
+   Executable = V:/Anlogic/bin/td.exe
+   Built at =   20:34:38 Mar 21 2023
+   Run by =     LUtin
+   Run Date =   Tue Nov  7 00:41:10 2023
+
+   Run on =     DARRENLU
+============================================================
+RUN-1002 : start command "open_project temac.prj"
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        qor_monitor       |    off     |       off        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :   default_reg_initial   |    auto    |       auto       |        
+RUN-1001 :        infer_add        |     on     |        on        |        
+RUN-1001 :        infer_fsm        |    off     |       off        |        
+RUN-1001 :        infer_mult       |     on     |        on        |        
+RUN-1001 :        infer_ram        |     on     |        on        |        
+RUN-1001 :        infer_reg        |     on     |        on        |        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        |        
+RUN-1001 :        infer_rom        |     on     |        on        |        
+RUN-1001 :      infer_shifter      |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      |        
+RUN-1001 :        elf_sload        |    off     |       off        |        
+RUN-1001 :       fix_undriven      |     0      |        0         |        
+RUN-1001 :         flatten         |    off     |       off        |        
+RUN-1001 :       gate_sharing      |     on     |        on        |        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      |        
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        |        
+RUN-1001 :      impl_set_reset     |     on     |        on        |        
+RUN-1001 :        infer_gsr        |    off     |       off        |        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       |        
+RUN-1001 :        max_fanout       |    9999    |       9999       |        
+RUN-1001 :      max_oh2bin_len     |     10     |        10        |        
+RUN-1001 :       merge_equal       |     on     |        on        |        
+RUN-1001 :       merge_equiv       |     on     |        on        |        
+RUN-1001 :        merge_mux        |    off     |       off        |        
+RUN-1001 :     min_control_set     |     8      |        8         |        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       |        
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       |        
+RUN-1001 :     opt_adder_fanout    |     on     |        on        |        
+RUN-1001 :        opt_arith        |     on     |        on        |        
+RUN-1001 :       opt_big_gate      |    off     |       off        |        
+RUN-1001 :        opt_const        |     on     |        on        |        
+RUN-1001 :      opt_const_mult     |     on     |        on        |        
+RUN-1001 :       opt_lessthan      |     on     |        on        |        
+RUN-1001 :         opt_mux         |    off     |       off        |        
+RUN-1001 :         opt_ram         |    high    |       high       |        
+RUN-1001 :      rtl_sim_model      |    off     |       off        |        
+RUN-1001 :         seq_syn         |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+HDL-1007 : analyze verilog file ../../al_ip/pll.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in ../../al_ip/pll.v(106)
+HDL-1007 : analyze verilog file ../../al_ip/trimac_core_gate.v
+HDL-1007 : undeclared symbol 'open_n2', assumed default net type 'wire' in ../../al_ip/trimac_core_gate.v(4344)
+HDL-1007 : undeclared symbol 'open_n3', assumed default net type 'wire' in ../../al_ip/trimac_core_gate.v(4456)
+HDL-1007 : undeclared symbol 'open_n6', assumed default net type 'wire' in ../../al_ip/trimac_core_gate.v(12531)
+HDL-1007 : undeclared symbol 'open_n7', assumed default net type 'wire' in ../../al_ip/trimac_core_gate.v(12636)
+HDL-1007 : undeclared symbol 'open_n10', assumed default net type 'wire' in ../../al_ip/trimac_core_gate.v(16610)
+HDL-1007 : undeclared symbol 'open_n11', assumed default net type 'wire' in ../../al_ip/trimac_core_gate.v(16701)
+HDL-1007 : undeclared symbol 'open_n14', assumed default net type 'wire' in ../../al_ip/trimac_core_gate.v(18743)
+HDL-1007 : undeclared symbol 'open_n15', assumed default net type 'wire' in ../../al_ip/trimac_core_gate.v(18848)
+HDL-1007 : undeclared symbol 'open_n18', assumed default net type 'wire' in ../../al_ip/trimac_core_gate.v(23883)
+HDL-1007 : undeclared symbol 'open_n19', assumed default net type 'wire' in ../../al_ip/trimac_core_gate.v(24016)
+HDL-1007 : undeclared symbol 'open_n22', assumed default net type 'wire' in ../../al_ip/trimac_core_gate.v(24021)
+HDL-1007 : undeclared symbol 'open_n23', assumed default net type 'wire' in ../../al_ip/trimac_core_gate.v(24126)
+HDL-1007 : analyze verilog file ../../al_ip/rx_pll.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in ../../al_ip/rx_pll.v(96)
+HDL-1007 : analyze verilog file ../../al_ip/data_fifo.v
+HDL-1007 : analyze verilog file ../../src/axi4_lite/axi_master_cfg.v
+HDL-1007 : undeclared symbol 'init_txn_pulse', assumed default net type 'wire' in ../../src/axi4_lite/axi_master_cfg.v(158)
+HDL-5007 WARNING: parameter 'IDLE' becomes localparam in 'axi_master_cfg' with formal parameter declaration list in ../../src/axi4_lite/axi_master_cfg.v(94)
+HDL-5007 WARNING: parameter 'INIT_WRITE' becomes localparam in 'axi_master_cfg' with formal parameter declaration list in ../../src/axi4_lite/axi_master_cfg.v(95)
+HDL-5007 WARNING: parameter 'INIT_READ' becomes localparam in 'axi_master_cfg' with formal parameter declaration list in ../../src/axi4_lite/axi_master_cfg.v(96)
+HDL-1007 : analyze verilog file ../../src/client_loopback/client_loopback.v
+HDL-1007 : analyze verilog file ../../src/clk_en_gen/tx_clk_en_gen.v
+HDL-1007 : analyze verilog file ../../src/fifo/RAMB16_S9_S9.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in ../../src/fifo/RAMB16_S9_S9.v(79)
+HDL-1007 : analyze verilog file ../../src/fifo/client_fifo.v
+HDL-1007 : analyze verilog file ../../src/fifo/rx_client_fifo.v
+HDL-1007 : analyze verilog file ../../src/fifo/tx_client_fifo.v
+HDL-5007 WARNING: parameter 'IDLE_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../src/fifo/tx_client_fifo.v(52)
+HDL-5007 WARNING: parameter 'QUEUE1_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../src/fifo/tx_client_fifo.v(53)
+HDL-5007 WARNING: parameter 'QUEUE2_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../src/fifo/tx_client_fifo.v(54)
+HDL-5007 WARNING: parameter 'QUEUE3_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../src/fifo/tx_client_fifo.v(55)
+HDL-5007 WARNING: parameter 'QUEUE_ACK_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../src/fifo/tx_client_fifo.v(56)
+HDL-5007 WARNING: parameter 'WAIT_ACK_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../src/fifo/tx_client_fifo.v(57)
+HDL-5007 WARNING: parameter 'FRAME_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../src/fifo/tx_client_fifo.v(58)
+HDL-5007 WARNING: parameter 'DROP_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../src/fifo/tx_client_fifo.v(59)
+HDL-5007 WARNING: parameter 'RETRANSMIT_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../src/fifo/tx_client_fifo.v(60)
+HDL-5007 WARNING: parameter 'WAIT_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../src/fifo/tx_client_fifo.v(66)
+HDL-5007 Similar messages will be suppressed.
+HDL-1007 : analyze verilog file ../../src/physical/rgmii_interface.v
+HDL-1007 : analyze verilog file ../../src/sync/reset_sync.v
+HDL-1007 : analyze verilog file ../../src/sync/sync_block.v
+HDL-1007 : analyze verilog file ../../src/temac_block.v
+HDL-1007 : undeclared symbol 'tx_reset90', assumed default net type 'wire' in ../../src/temac_block.v(187)
+HDL-1007 : analyze verilog file ../../src/temac_locallink.v
+HDL-1007 : analyze verilog file ../../src/al_temac_example_design.v
+HDL-1007 : undeclared symbol 'reset', assumed default net type 'wire' in ../../src/al_temac_example_design.v(187)
+HDL-1007 : undeclared symbol 'inband_link_status', assumed default net type 'wire' in ../../src/al_temac_example_design.v(537)
+HDL-1007 : undeclared symbol 'inband_clock_speed', assumed default net type 'wire' in ../../src/al_temac_example_design.v(538)
+HDL-1007 : undeclared symbol 'inband_duplex_status', assumed default net type 'wire' in ../../src/al_temac_example_design.v(539)
+HDL-1007 : analyze verilog file ../../src/test_send.v
+HDL-5007 WARNING: empty statement in sequential block in ../../src/test_send.v(115)
+HDL-1007 : analyze verilog file ../../al_ip/dds1_ip/dds_gen1_gate.v
+HDL-1007 : undeclared symbol 'open_n2', assumed default net type 'wire' in ../../al_ip/dds1_ip/dds_gen1_gate.v(92)
+HDL-1007 : undeclared symbol 'open_n3', assumed default net type 'wire' in ../../al_ip/dds1_ip/dds_gen1_gate.v(295)
+HDL-1007 : analyze verilog file ../../al_ip/dds_ip/dds_gen_gate.v
+HDL-1007 : undeclared symbol 'open_n2', assumed default net type 'wire' in ../../al_ip/dds_ip/dds_gen_gate.v(94)
+HDL-1007 : undeclared symbol 'open_n3', assumed default net type 'wire' in ../../al_ip/dds_ip/dds_gen_gate.v(318)
+HDL-1007 : analyze verilog file ../../src/ad7266.v
+HDL-1007 : analyze verilog file ../../src/fake_top.v
+HDL-1007 : analyze verilog file ../../src/fir_filter.v
+HDL-1007 : analyze verilog file ../../src/singal_gen.v
+HDL-1007 : analyze verilog file ../../src/top_fir.v
+HDL-1007 : analyze verilog file ../../src/primitive/demo_primitive.v
+RUN-1001 : Project manager successfully analyzed 26 source files.
+RUN-1002 : start command "import_device ph1_90.db -package PH1A90SBG484 -speed 2"
+ARC-1001 : Device Initialization.
+ARC-1001 : -----------------------------------------------------------
+ARC-1001 :           OPTION          |        IO        |   SETTING   
+ARC-1001 : -----------------------------------------------------------
+ARC-1001 :   non_jtag_persist(none)  |      36 IOs      |    gpio    
+ARC-1001 :            jtag           |  M7/K7/L6/K6/J6  |  dedicate  
+ARC-1001 : -----------------------------------------------------------
+RUN-1003 : finish command "import_device ph1_90.db -package PH1A90SBG484 -speed 2" in  16.255603s wall, 14.984375s user + 0.250000s system = 15.234375s CPU (93.7%)
+
+RUN-1004 : used memory is 825 MB, reserved memory is 826 MB, peak memory is 825 MB
+RUN-1002 : start command "elaborate -top al_temac_example_design"
+RUN-1001 : Print Design Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :   default_reg_initial   |    auto    |       auto       |        
+RUN-1001 :        infer_add        |     on     |        on        |        
+RUN-1001 :        infer_fsm        |    off     |       off        |        
+RUN-1001 :        infer_mult       |     on     |        on        |        
+RUN-1001 :        infer_ram        |     on     |        on        |        
+RUN-1001 :        infer_reg        |     on     |        on        |        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        |        
+RUN-1001 :        infer_rom        |     on     |        on        |        
+RUN-1001 :      infer_shifter      |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      |        
+RUN-1001 :        elf_sload        |    off     |       off        |        
+RUN-1001 :       fix_undriven      |     0      |        0         |        
+RUN-1001 :         flatten         |    off     |       off        |        
+RUN-1001 :       gate_sharing      |     on     |        on        |        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      |        
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        |        
+RUN-1001 :      impl_set_reset     |     on     |        on        |        
+RUN-1001 :        infer_gsr        |    off     |       off        |        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       |        
+RUN-1001 :        max_fanout       |    9999    |       9999       |        
+RUN-1001 :      max_oh2bin_len     |     10     |        10        |        
+RUN-1001 :       merge_equal       |     on     |        on        |        
+RUN-1001 :       merge_equiv       |     on     |        on        |        
+RUN-1001 :        merge_mux        |    off     |       off        |        
+RUN-1001 :     min_control_set     |     8      |        8         |        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       |        
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       |        
+RUN-1001 :     opt_adder_fanout    |     on     |        on        |        
+RUN-1001 :        opt_arith        |     on     |        on        |        
+RUN-1001 :       opt_big_gate      |    off     |       off        |        
+RUN-1001 :        opt_const        |     on     |        on        |        
+RUN-1001 :      opt_const_mult     |     on     |        on        |        
+RUN-1001 :       opt_lessthan      |     on     |        on        |        
+RUN-1001 :         opt_mux         |    off     |       off        |        
+RUN-1001 :         opt_ram         |    high    |       high       |        
+RUN-1001 :      rtl_sim_model      |    off     |       off        |        
+RUN-1001 :         seq_syn         |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        qor_monitor       |    off     |       off        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :   default_reg_initial   |    auto    |       auto       |        
+RUN-1001 :        infer_add        |     on     |        on        |        
+RUN-1001 :        infer_fsm        |    off     |       off        |        
+RUN-1001 :        infer_mult       |     on     |        on        |        
+RUN-1001 :        infer_ram        |     on     |        on        |        
+RUN-1001 :        infer_reg        |     on     |        on        |        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        |        
+RUN-1001 :        infer_rom        |     on     |        on        |        
+RUN-1001 :      infer_shifter      |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+HDL-5007 WARNING: port 'reset' is not connected on this instance in ../../src/al_temac_example_design.v(190)
+HDL-1007 : elaborate module al_temac_example_design in ../../src/al_temac_example_design.v(14)
+HDL-1007 : elaborate module pll in ../../al_ip/pll.v(24)
+HDL-1007 : elaborate module PH1_LOGIC_BUFG in V:/Anlogic/arch/ph1_macro.v(10602)
+HDL-1007 : elaborate module PH1_PHY_PLL(FBCLK_DIV=5,CLKC1_FPHASE=4,CLKC0_CPHASE=9,CLKC1_CPHASE=1,CLKC2_CPHASE=24,CLKC0_DIV=10,CLKC1_DIV=10,CLKC2_DIV=25,CLKC0_DUTY_INT=5,CLKC1_DUTY_INT=5,CLKC2_DUTY_INT=13,CLKC0_ENABLE="ENABLE",CLKC1_ENABLE="ENABLE",CLKC2_ENABLE="ENABLE",FIN="25.000",PLL_USR_RST="ENABLE",PLL_FEED_TYPE="EXTERNAL",LPF_RES=3,ICP_CUR=11,GMC_GAIN=1,CLKC1_FPHASE_RSTSEL=1,INTPI=1,SSC_RNGE=0) in V:/Anlogic/arch/ph1_macro.v(624)
+HDL-1007 : elaborate module rx_pll in ../../al_ip/rx_pll.v(23)
+HDL-1007 : elaborate module PH1_PHY_PLL(CLKC1_FPHASE=3,CLKC0_CPHASE=8,CLKC1_CPHASE=8,CLKC0_DIV=9,CLKC1_DIV=9,CLKC0_DUTY_INT=5,CLKC1_DUTY_INT=5,CLKC0_ENABLE="ENABLE",CLKC1_ENABLE="ENABLE",FIN="125.000",PLL_USR_RST="ENABLE",PLL_FEED_TYPE="EXTERNAL",LPF_RES=1,ICP_CUR=13,GMC_GAIN=3,INTPI=1,SSC_RNGE=0) in V:/Anlogic/arch/ph1_macro.v(624)
+HDL-1007 : elaborate module axi_master_cfg(tx_cfg=32'b0101010,rx_cfg=32'b0101010,pause_srcad_cfg=48'b111101101111010111110100111100111111001001011010,speed_cfg=32'b010,flow_ctrl_cfg=32'b0,ad_filter_mode_cfg=32'b0,mdio_clk_cfg=32'b01001001,mdio_we1_data_cfg=32'b01001001101000000,mdio_we1_ctrl_cfg=32'b01011,mdio_rd1_ctrl_cfg=32'b01101) in ../../src/axi4_lite/axi_master_cfg.v(14)
+HDL-1007 : elaborate module reset_sync in ../../src/sync/reset_sync.v(15)
+HDL-1007 : elaborate module FDPE in ../../src/primitive/demo_primitive.v(19)
+HDL-5007 WARNING: specify block is ignored for synthesis in ../../src/primitive/demo_primitive.v(40)
+HDL-1007 : port 'full_flag' remains unconnected for this instance in ../../src/test_send.v(63)
+HDL-1007 : port 'empty_flag' remains unconnected for this instance in ../../src/test_send.v(63)
+HDL-1007 : port 'wrusedw' remains unconnected for this instance in ../../src/test_send.v(63)
+HDL-1007 : port 'rdusedw' remains unconnected for this instance in ../../src/test_send.v(63)
+HDL-1007 : elaborate module test_send in ../../src/test_send.v(4)
+HDL-5007 WARNING: using initial value of 'HEAD' since it is never assigned in ../../src/test_send.v(91)
+HDL-1007 : elaborate module fake_top in ../../src/fake_top.v(1)
+HDL-1007 : elaborate module singal_gen in ../../src/singal_gen.v(1)
+HDL-5007 WARNING: port 'b' is not connected on this instance in ../../al_ip/dds_ip/dds_gen_gate.v(90)
+HDL-5007 WARNING: port 'ecc_sbiterrinj' is not connected on this instance in ../../al_ip/dds_ip/dds_gen_gate.v(545)
+HDL-1007 : port 'dob' remains unconnected for this instance in ../../al_ip/dds_ip/dds_gen_gate.v(545)
+HDL-1007 : port 'ecc_sbiterr' remains unconnected for this instance in ../../al_ip/dds_ip/dds_gen_gate.v(545)
+HDL-1007 : port 'ecc_dbiterr' remains unconnected for this instance in ../../al_ip/dds_ip/dds_gen_gate.v(545)
+HDL-1007 : elaborate module dds_gen in ../../al_ip/dds_ip/dds_gen_gate.v(5)
+HDL-1007 : elaborate module AL_MAP_ADDER(ALUTYPE="ADD_CARRY") in V:/Anlogic/arch/al_lmacro.v(72)
+HDL-1007 : elaborate module AL_MAP_ADDER(ALUTYPE="ADD") in V:/Anlogic/arch/al_lmacro.v(72)
+HDL-1007 : elaborate module AL_MAP_LUT2(INIT=4'b1110,EQN="~(~B*~A)") in V:/Anlogic/arch/al_lmacro.v(48)
+HDL-1007 : elaborate module AL_MAP_LUT2(INIT=4'b0110,EQN="(B@A)") in V:/Anlogic/arch/al_lmacro.v(48)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1001001101101100,EQN="(D@B@(C*A))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1110000111000011100001110000111100011110001111000111100011110000,EQN="(F@C@(B*(D*A)*~(E)+B*~((D*A))*E+~(B)*(D*A)*E+B*(D*A)*E))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b01101001,EQN="~(C@B@A)") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b010110110110100,EQN="(C@(~(A)*B*~(D)+~(A)*~(B)*D+~(A)*B*D+A*B*D))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b0100000011000001110000111100011111001111110111111111111111,EQN="(~(B)*~(C)*~((D*A))*~(E)*~(F)+B*~(C)*~((D*A))*~(E)*~(F)+~(B)*C*~((D*A))*~(E)*~(F)+B*C*~((D*A))*~(E)*~(F)+~(B)*~(C)*(D*A)*~(E)*~(F)+B*~(C)*(D*A)*~(E)*~(F)+~(B)*C*(D*A)*~(E)*~(F)+~(B)*~(C)*~((D*A))*E*~(F)+B*~(C)*~((D*A))*E*~(F)+~(B)*C*~((D*A))*E*~(F)+~(B)*~(C)*(D*A)*E*~(F)+B*~(C)*(D*A)*E*~(F)+~(B)*~(C)*~((D*A))*~(E)*F+B*~(C)*~((D*A))*~(E)*F+~(B)*~(C)*(D*A)*~(E)*F+~(B)*~(C)*~((D*A))*E*F)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b0101111110100001011111101000000,EQN="(D@(C*(~(A)*B*~(E)+~(A)*~(B)*E+~(A)*B*E+A*B*E)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b011110,EQN="~(C@(~B*~A))") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0111111110,EQN="~(D@(~C*~B*~A))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b011111111111111110,EQN="~(E@(~D*~C*~B*~A))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b0111111111111111111111111111111110,EQN="~(F@(~E*~D*~C*~B*~A))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b11100010,EQN="(A*~(C)*~(B)+A*C*~(B)+~(A)*C*B+A*C*B)") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b01,EQN="(~D*~C*~B*~A)") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b01000000000,EQN="(D*~C*~B*A)") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_DFF_X in V:/Anlogic/arch/al_lmacro.v(236)
+HDL-1007 : elaborate module PH1_LOGIC_ERAM(DATA_WIDTH_A=5,DATA_WIDTH_B=5,ADDR_WIDTH_A=6,ADDR_WIDTH_B=6,DATA_DEPTH_A=64,DATA_DEPTH_B=64,BYTE_A=1,BYTE_B=1,MODE="SP",OREGSET_A="RESET",OREGSET_B="RESET",ASYNC_RESET_RELEASE_A="ASYNC",ASYNC_RESET_RELEASE_B="ASYNC",INIT_FILE="init_str:00000 10000 01000 11000 00100 01100 11100 00010 10010 01010 11010 00110 10110 01110 11110 00001 10001 10001 01001 11001 00101 10101 10101 01101 11101 11101 00011 00011 10011 10011 10011 01011 01011 01011 01011 01011 01011 01011 01011 01011 01011 10011 10011 10011 00011 11101 11101 01101 10101 00101 00101 11001 01001 00001 11110 01110 10110 11010 01010 00010 01100 10100 11000 10000") in V:/Anlogic/arch/ph1_macro.v(22)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b01111000,EQN="(C@(B*A))") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0101011110101000,EQN="(D@(A*~(~C*~B)))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b10110100,EQN="(C@(B*~A))") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b011101111000100,EQN="(D@(B*~(~C*A)))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b0110011001110111100110011000100,EQN="(E@(B*~(~D*~C*A)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b011001100110011001100110011101111001100110011001100110011000100,EQN="(F@(B*~(~E*~D*~C*A)))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b01,EQN="(~C*~B*~A)") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1100110011001100110011001100110011001100110011001100110011000100,EQN="(B*~(~F*~E*~D*~C*A))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-5007 WARNING: input port 'b' is not connected on this instance in ../../al_ip/dds_ip/dds_gen_gate.v(92)
+HDL-5007 WARNING: input port 'ecc_sbiterrinj' is not connected on this instance in ../../al_ip/dds_ip/dds_gen_gate.v(571)
+HDL-5007 WARNING: port 'b' is not connected on this instance in ../../al_ip/dds1_ip/dds_gen1_gate.v(88)
+HDL-5007 WARNING: port 'ecc_sbiterrinj' is not connected on this instance in ../../al_ip/dds1_ip/dds_gen1_gate.v(522)
+HDL-1007 : port 'dob' remains unconnected for this instance in ../../al_ip/dds1_ip/dds_gen1_gate.v(522)
+HDL-1007 : port 'ecc_sbiterr' remains unconnected for this instance in ../../al_ip/dds1_ip/dds_gen1_gate.v(522)
+HDL-1007 : port 'ecc_dbiterr' remains unconnected for this instance in ../../al_ip/dds1_ip/dds_gen1_gate.v(522)
+HDL-1007 : elaborate module dds_gen1 in ../../al_ip/dds1_ip/dds_gen1_gate.v(5)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b10111000,EQN="(C*~(A)*~(B)+C*A*~(B)+~(C)*A*B+C*A*B)") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b010,EQN="(~D*~C*~B*A)") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b01101100,EQN="(B@(C*A))") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b01111011110000,EQN="(C@(D*~(~B*~A)))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b10011100,EQN="(B@(C*~A))") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b010110111110000,EQN="(C@(D*~(~B*A)))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b010111111011111111100000000,EQN="(D@(E*~(~C*~B*A)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b010111111111111110111111111111111110000000000000000,EQN="(E@(F*~(~D*~C*~B*A)))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1111111111111111111111111111110100000000000000000000000000000000,EQN="(F*~(~E*~D*~C*~B*A))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-5007 WARNING: input port 'b' is not connected on this instance in ../../al_ip/dds1_ip/dds_gen1_gate.v(90)
+HDL-5007 WARNING: input port 'ecc_sbiterrinj' is not connected on this instance in ../../al_ip/dds1_ip/dds_gen1_gate.v(548)
+HDL-1007 : port 'AD_RANGE' remains unconnected for this instance in ../../src/top_fir.v(63)
+HDL-1007 : port 'AD_DIFF' remains unconnected for this instance in ../../src/top_fir.v(63)
+HDL-1007 : port 'B1_Result' remains unconnected for this instance in ../../src/top_fir.v(63)
+HDL-1007 : port 'A2_Result' remains unconnected for this instance in ../../src/top_fir.v(63)
+HDL-1007 : port 'B2_Result' remains unconnected for this instance in ../../src/top_fir.v(63)
+HDL-1007 : port 'A3_Result' remains unconnected for this instance in ../../src/top_fir.v(63)
+HDL-1007 : port 'B3_Result' remains unconnected for this instance in ../../src/top_fir.v(63)
+HDL-1007 : port 'A4_Result' remains unconnected for this instance in ../../src/top_fir.v(63)
+HDL-1007 : port 'B4_Result' remains unconnected for this instance in ../../src/top_fir.v(63)
+HDL-1007 : port 'A5_Result' remains unconnected for this instance in ../../src/top_fir.v(63)
+HDL-1007 : port 'B5_Result' remains unconnected for this instance in ../../src/top_fir.v(63)
+HDL-1007 : port 'A6_Result' remains unconnected for this instance in ../../src/top_fir.v(63)
+HDL-1007 : port 'B6_Result' remains unconnected for this instance in ../../src/top_fir.v(63)
+HDL-1007 : elaborate module top_fir in ../../src/top_fir.v(3)
+HDL-1007 : elaborate module AD7266_Read in ../../src/ad7266.v(1)
+HDL-1007 : elaborate module fir_filter in ../../src/fir_filter.v(6)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 1 for port 'i_fir_en' in ../../src/top_fir.v(78)
+HDL-5007 WARNING: actual bit length 8 differs from formal bit length 12 for port 'A1_Result' in ../../src/fake_top.v(56)
+HDL-1007 : port 'doa' remains unconnected for this instance in ../../al_ip/data_fifo.v(261)
+HDL-1007 : port 'dib' remains unconnected for this instance in ../../al_ip/data_fifo.v(261)
+HDL-1007 : elaborate module data_fifo in ../../al_ip/data_fifo.v(26)
+HDL-1007 : elaborate module fifo_cross_domain_addr_process_al_data_fifo(ADDR_WIDTH=11) in ../../al_ip/data_fifo.v(290)
+HDL-1007 : elaborate module fifo_cross_domain_addr_process_al_data_fifo in ../../al_ip/data_fifo.v(290)
+HDL-1007 : elaborate module ram_infer_data_fifo(ADDRWIDTH_A=9,DATAWIDTH_B=8,ADDRWIDTH_B=11) in ../../al_ip/data_fifo.v(378)
+HDL-1007 : extracting RAM for identifier 'memory' in ../../al_ip/data_fifo.v(443)
+HDL-5007 WARNING: input port 'dib[7]' is not connected on this instance in ../../al_ip/data_fifo.v(266)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 1 for port 'we' in ../../src/test_send.v(68)
+HDL-1007 : elaborate module client_loopback in ../../src/client_loopback/client_loopback.v(25)
+HDL-1007 : port 'tx_fifo_status' remains unconnected for this instance in ../../src/temac_locallink.v(240)
+HDL-1007 : port 'tx_overflow' remains unconnected for this instance in ../../src/temac_locallink.v(240)
+HDL-1007 : port 'rx_overflow' remains unconnected for this instance in ../../src/temac_locallink.v(240)
+HDL-1007 : port 'rx_fifo_status' remains unconnected for this instance in ../../src/temac_locallink.v(240)
+HDL-1007 : elaborate module temac_locallink(P_HOST_EN=1'b0) in ../../src/temac_locallink.v(14)
+HDL-1007 : elaborate module client_FIFO in ../../src/fifo/client_fifo.v(14)
+HDL-1007 : elaborate module tx_client_fifo in ../../src/fifo/tx_client_fifo.v(14)
+HDL-1007 : elaborate module sync_block in ../../src/sync/sync_block.v(14)
+HDL-1007 : elaborate module FD in ../../src/primitive/demo_primitive.v(50)
+HDL-5007 WARNING: specify block is ignored for synthesis in ../../src/primitive/demo_primitive.v(65)
+HDL-5007 WARNING: port 'ecc_sbiterrinj' is not connected on this instance in ../../src/fifo/RAMB16_S9_S9.v(37)
+HDL-1007 : elaborate module RAMB16_S9_S9 in ../../src/fifo/RAMB16_S9_S9.v(16)
+HDL-1007 : elaborate module PH1_LOGIC_ERAM(DATA_WIDTH_A=9,DATA_WIDTH_B=9,ADDR_WIDTH_A=11,ADDR_WIDTH_B=11,DATA_DEPTH_A=2048,DATA_DEPTH_B=2048,WRITEMODE_A="WRITETHROUGH",WRITEMODE_B="WRITETHROUGH",RESETMODE_A="SYNC",RESETMODE_B="SYNC",SSROVERCE="DISABLE") in V:/Anlogic/arch/ph1_macro.v(22)
+HDL-5007 WARNING: input port 'ecc_sbiterrinj' is not connected on this instance in ../../src/fifo/RAMB16_S9_S9.v(61)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 1 for port 'cea' in ../../src/fifo/tx_client_fifo.v(1281)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 1 for port 'web' in ../../src/fifo/tx_client_fifo.v(1291)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 1 for port 'cea' in ../../src/fifo/tx_client_fifo.v(1299)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 1 for port 'web' in ../../src/fifo/tx_client_fifo.v(1309)
+HDL-5007 WARNING: input port 'dib[8]' remains unconnected for this instance in ../../src/fifo/tx_client_fifo.v(1279)
+HDL-5007 WARNING: input port 'dib[8]' remains unconnected for this instance in ../../src/fifo/tx_client_fifo.v(1297)
+HDL-1007 : elaborate module rx_client_fifo in ../../src/fifo/rx_client_fifo.v(14)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 1 for port 'cea' in ../../src/fifo/rx_client_fifo.v(854)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 1 for port 'web' in ../../src/fifo/rx_client_fifo.v(864)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 1 for port 'cea' in ../../src/fifo/rx_client_fifo.v(872)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 1 for port 'web' in ../../src/fifo/rx_client_fifo.v(882)
+HDL-5007 WARNING: input port 'dib[8]' remains unconnected for this instance in ../../src/fifo/rx_client_fifo.v(852)
+HDL-5007 WARNING: input port 'dib[8]' remains unconnected for this instance in ../../src/fifo/rx_client_fifo.v(870)
+HDL-1007 : elaborate module temac_block(P_HOST_EN=1'b0) in ../../src/temac_block.v(14)
+HDL-1007 : elaborate module tx_clk_en_gen in ../../src/clk_en_gen/tx_clk_en_gen.v(16)
+HDL-1007 : elaborate module rgmii_interface in ../../src/physical/rgmii_interface.v(14)
+HDL-1007 : elaborate module PH1_LOGIC_ODDR in V:/Anlogic/arch/ph1_macro.v(10705)
+HDL-1007 : elaborate module PH1_LOGIC_IDDR in V:/Anlogic/arch/ph1_macro.v(10690)
+HDL-5007 WARNING: port 'b' is not connected on this instance in ../../al_ip/trimac_core_gate.v(4340)
+HDL-5007 WARNING: port 'b' is not connected on this instance in ../../al_ip/trimac_core_gate.v(12527)
+HDL-5007 WARNING: port 'b' is not connected on this instance in ../../al_ip/trimac_core_gate.v(16606)
+HDL-5007 WARNING: port 'b' is not connected on this instance in ../../al_ip/trimac_core_gate.v(18739)
+HDL-5007 WARNING: port 'b' is not connected on this instance in ../../al_ip/trimac_core_gate.v(23879)
+HDL-5007 WARNING: port 'b' is not connected on this instance in ../../al_ip/trimac_core_gate.v(24017)
+HDL-1007 : elaborate module TEMAC_CORE(P_ADD_FILT_LIST=16,P_HOST_EN=1'b0) in ../../al_ip/trimac_core_gate.v(5)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b0100000000000000000000000,EQN="(~F*E*~D*C*B*A)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1010101010101110101010101010101001010101010101010101010101010101,EQN="(~(A)*~((E*~D*~C*B))*~(F)+~(A)*(E*~D*~C*B)*~(F)+A*~((E*~D*~C*B))*F+~(A)*(E*~D*~C*B)*F+A*(E*~D*~C*B)*F)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT2(INIT=4'b0100,EQN="(B*~A)") in V:/Anlogic/arch/al_lmacro.v(48)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b010100010100000,EQN="(A*(C@(D*B)))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b0101010100000001010101000000000,EQN="(A*(D@(E*C*B)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b010101010101010100000000000000010101010101010100000000000000000,EQN="(A*(E@(F*D*C*B)))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT2(INIT=4'b01,EQN="(~B*~A)") in V:/Anlogic/arch/al_lmacro.v(48)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b010,EQN="(~C*~B*A)") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1111000010000000,EQN="(C*~(~D*~(B*A)))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT2(INIT=4'b1000,EQN="(B*A)") in V:/Anlogic/arch/al_lmacro.v(48)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b010000000,EQN="(~D*C*B*A)") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b010,EQN="(~F*~E*~D*~C*~B*A)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b01000,EQN="(~F*~E*~D*~C*B*A)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1100100001000000,EQN="(B*(C*~(D)*~(A)+C*D*~(A)+~(C)*D*A+C*D*A))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b0100000000000000000,EQN="(E*~D*~C*~B*A)") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b010000000000000000,EQN="(E*~D*~C*~B*~A)") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1111000001000000,EQN="(C*~(~D*~(B*~A)))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11111111001000001111111100000000,EQN="~(~D*~(E*C*~B*A))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1101000011110000,EQN="(C*~(D*~B*A))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b11111110,EQN="~(~C*~B*~A)") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b0110011000000000011101100,EQN="(~D*~(~B*~(~E*C*A)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b01000100010001001100110001000100010001000100010001000100010001,EQN="(~B*~(A*~(F*~E*D)))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b01000000000000000100000001000000010000000100000001000000010000,EQN="(C*~B*~A*~(F*E*~D))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b0100010001100100010001000100010,EQN="(~B*~(~A*~(E*~D*C)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b0111111110000000011111011,EQN="(~D*~(~E*~C*B*~A))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01000000000000110100,EQN="(~D*(~(A)*B*~(C)*~(E)+~(A)*~(B)*C*~(E)+A*~(B)*C*~(E)+~(A)*B*~(C)*E))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11110101111101011111000011000101,EQN="(~(A)*~(B)*~(C)*~(D)*~(E)+~(A)*B*~(C)*~(D)*~(E)+~(A)*B*C*~(D)*~(E)+A*B*C*~(D)*~(E)+~(A)*~(B)*C*D*~(E)+A*~(B)*C*D*~(E)+~(A)*B*C*D*~(E)+A*B*C*D*~(E)+~(A)*~(B)*~(C)*~(D)*E+~(A)*B*~(C)*~(D)*E+~(A)*~(B)*C*~(D)*E+A*~(B)*C*~(D)*E+~(A)*B*C*~(D)*E+A*B*C*~(D)*E+~(A)*~(B)*~(C)*D*E+~(A)*B*~(C)*D*E+~(A)*~(B)*C*D*E+A*~(B)*C*D*E+~(A)*B*C*D*E+A*B*C*D*E)") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b10000000,EQN="(C*B*A)") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1111011111111111,EQN="~(D*~C*B*A)") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b01110000,EQN="(~D*C*~(B*A))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b0101010101011101000000000000000001010101010101010000000000000000,EQN="(E*~(A*~(F*~D*~C*B)))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1111111111111111111111111111111110111111101111111011111110101010,EQN="~(~F*~A*~(~(~E*~D)*~(C*B)))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b11010000,EQN="(C*~(~B*A))") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1111100000000000111110001111100011111000111110001111100011111000,EQN="(~(F*E*~D)*~(~C*~(B*A)))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b0111010,EQN="~(~A*~(B)*~(C)+~A*B*~(C)+~(~A)*B*C+~A*B*C)") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b011101110100000,EQN="(A*~(B)*C*~(D)+A*B*C*~(D)+~(A)*~(B)*~(C)*D+A*~(B)*~(C)*D+A*B*~(C)*D+~(A)*~(B)*C*D+A*~(B)*C*D)") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b0111011101110111010000000000000,EQN="(A*~(B)*(D*C)*~(E)+A*B*(D*C)*~(E)+~(A)*~(B)*~((D*C))*E+A*~(B)*~((D*C))*E+A*B*~((D*C))*E+~(A)*~(B)*(D*C)*E+A*~(B)*(D*C)*E)") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b011101110111011101110111011101110100000000000000000000000000000,EQN="(A*~(B)*(E*D*C)*~(F)+A*B*(E*D*C)*~(F)+~(A)*~(B)*~((E*D*C))*F+A*~(B)*~((E*D*C))*F+A*B*~((E*D*C))*F+~(A)*~(B)*(E*D*C)*F+A*~(B)*(E*D*C)*F)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b010000000000000000000,EQN="(E*~D*~C*B*A)") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01010000010000000000000000000000,EQN="(E*C*~A*~(~D*~B))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1000000000000000,EQN="(D*C*B*A)") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b010111110001000,EQN="(A*B*~(C)*~(D)+A*B*C*~(D)+~(A)*~(B)*~(C)*D+A*~(B)*~(C)*D+~(A)*B*~(C)*D+A*B*~(C)*D+A*~(B)*C*D)") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1111111100000000111100001111000011001100110011001010101010101010,EQN="(A*~(B)*~(C)*~(D)*~(E)*~(F)+A*B*~(C)*~(D)*~(E)*~(F)+A*~(B)*C*~(D)*~(E)*~(F)+A*B*C*~(D)*~(E)*~(F)+A*~(B)*~(C)*D*~(E)*~(F)+A*B*~(C)*D*~(E)*~(F)+A*~(B)*C*D*~(E)*~(F)+A*B*C*D*~(E)*~(F)+~(A)*B*~(C)*~(D)*E*~(F)+A*B*~(C)*~(D)*E*~(F)+~(A)*B*C*~(D)*E*~(F)+A*B*C*~(D)*E*~(F)+~(A)*B*~(C)*D*E*~(F)+A*B*~(C)*D*E*~(F)+~(A)*B*C*D*E*~(F)+A*B*C*D*E*~(F)+~(A)*~(B)*C*~(D)*~(E)*F+A*~(B)*C*~(D)*~(E)*F+~(A)*B*C*~(D)*~(E)*F+A*B*C*~(D)*~(E)*F+~(A)*~(B)*C*D*~(E)*F+A*~(B)*C*D*~(E)*F+~(A)*B*C*D*~(E)*F+A*B*C*D*~(E)*F+~(A)*~(B)*~(C)*D*E*F+A*~(B)*~(C)*D*E*F+~(A)*B*~(C)*D*E*F+A*B*~(C)*D*E*F+~(A)*~(B)*C*D*E*F+A*~(B)*C*D*E*F+~(A)*B*C*D*E*F+A*B*C*D*E*F)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b0110101,EQN="~(A*~(B)*~(C)+A*B*~(C)+~(A)*B*C+A*B*C)") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1111000000000000101010101010101000110011111100000000000000001111,EQN="(~(A)*~(B)*~(C)*~(D)*~(E)*~(F)+A*~(B)*~(C)*~(D)*~(E)*~(F)+~(A)*B*~(C)*~(D)*~(E)*~(F)+A*B*~(C)*~(D)*~(E)*~(F)+~(A)*~(B)*C*~(D)*E*~(F)+A*~(B)*C*~(D)*E*~(F)+~(A)*B*C*~(D)*E*~(F)+A*B*C*~(D)*E*~(F)+~(A)*~(B)*~(C)*D*E*~(F)+A*~(B)*~(C)*D*E*~(F)+~(A)*~(B)*C*D*E*~(F)+A*~(B)*C*D*E*~(F)+A*~(B)*~(C)*~(D)*~(E)*F+A*B*~(C)*~(D)*~(E)*F+A*~(B)*C*~(D)*~(E)*F+A*B*C*~(D)*~(E)*F+A*~(B)*~(C)*D*~(E)*F+A*B*~(C)*D*~(E)*F+A*~(B)*C*D*~(E)*F+A*B*C*D*~(E)*F+~(A)*~(B)*C*D*E*F+A*~(B)*C*D*E*F+~(A)*B*C*D*E*F+A*B*C*D*E*F)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1100000011000000110011000000000011101010111010101110111010101010,EQN="~(~((D*~(C)*~(E)+D*C*~(E)+~(D)*C*E+D*C*E)*B)*~(~F*A))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11001010000000000000111100000000,EQN="(D*(~(A)*~(B)*~(C)*~(E)+A*~(B)*~(C)*~(E)+~(A)*B*~(C)*~(E)+A*B*~(C)*~(E)+A*~(B)*~(C)*E+A*B*~(C)*E+~(A)*B*C*E+A*B*C*E))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b0101011001100,EQN="(~E*(B*~((~C*A))*~(D)+B*(~C*A)*~(D)+~(B)*(~C*A)*D+B*(~C*A)*D))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11101010111010101110111010101010,EQN="~(~A*~(B*(D*~(C)*~(E)+D*C*~(E)+~(D)*C*E+D*C*E)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b01001100010011010111110101111100010011010111110001001101011111,EQN="(~((D*~(E)*~(F)+D*E*~(F)+~(D)*E*F+D*E*F)*B)*~(C*A))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1100000011000000110011000000000011010101110101011101110101010101,EQN="~(~((D*~(C)*~(E)+D*C*~(E)+~(D)*C*E+D*C*E)*B)*~(~F*~A))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b11001010,EQN="(A*~(B)*~(C)+A*B*~(C)+~(A)*B*C+A*B*C)") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11110000010101010011111111111111,EQN="(~(A)*~(B)*~(C)*~(D)*~(E)+A*~(B)*~(C)*~(D)*~(E)+~(A)*B*~(C)*~(D)*~(E)+A*B*~(C)*~(D)*~(E)+~(A)*~(B)*C*~(D)*~(E)+A*~(B)*C*~(D)*~(E)+~(A)*B*C*~(D)*~(E)+A*B*C*~(D)*~(E)+~(A)*~(B)*~(C)*D*~(E)+A*~(B)*~(C)*D*~(E)+~(A)*B*~(C)*D*~(E)+A*B*~(C)*D*~(E)+~(A)*~(B)*C*D*~(E)+A*~(B)*C*D*~(E)+~(A)*~(B)*~(C)*~(D)*E+~(A)*B*~(C)*~(D)*E+~(A)*~(B)*C*~(D)*E+~(A)*B*C*~(D)*E+~(A)*~(B)*C*D*E+A*~(B)*C*D*E+~(A)*B*C*D*E+A*B*C*D*E)") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b01000,EQN="(~C*B*A)") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0100000000,EQN="(D*~C*~B*~A)") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b011010111110000,EQN="(~(A)*~(B)*C*~(D)+A*~(B)*C*~(D)+~(A)*B*C*~(D)+A*B*C*~(D)+~(A)*~(B)*~(C)*D+~(A)*B*~(C)*D+~(A)*~(B)*C*D+A*~(B)*C*D)") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11111111010101011100111111001111,EQN="~((C*~B)*~((~D*A))*~(E)+(C*~B)*(~D*A)*~(E)+~((C*~B))*(~D*A)*E+(C*~B)*(~D*A)*E)") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1000100010100000,EQN="(A*(C*~(B)*~(D)+C*B*~(D)+~(C)*B*D+C*B*D))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1111111111110000111111111111111100110101111111111111000000001111,EQN="(~(A)*~(B)*~(C)*~(D)*~(E)*~(F)+A*~(B)*~(C)*~(D)*~(E)*~(F)+~(A)*B*~(C)*~(D)*~(E)*~(F)+A*B*~(C)*~(D)*~(E)*~(F)+~(A)*~(B)*C*D*~(E)*~(F)+A*~(B)*C*D*~(E)*~(F)+~(A)*B*C*D*~(E)*~(F)+A*B*C*D*~(E)*~(F)+~(A)*~(B)*~(C)*~(D)*E*~(F)+A*~(B)*~(C)*~(D)*E*~(F)+~(A)*B*~(C)*~(D)*E*~(F)+A*B*~(C)*~(D)*E*~(F)+~(A)*~(B)*C*~(D)*E*~(F)+A*~(B)*C*~(D)*E*~(F)+~(A)*B*C*~(D)*E*~(F)+A*B*C*~(D)*E*~(F)+~(A)*~(B)*~(C)*D*E*~(F)+~(A)*B*~(C)*D*E*~(F)+~(A)*~(B)*C*D*E*~(F)+A*~(B)*C*D*E*~(F)+~(A)*~(B)*~(C)*~(D)*~(E)*F+A*~(B)*~(C)*~(D)*~(E)*F+~(A)*B*~(C)*~(D)*~(E)*F+A*B*~(C)*~(D)*~(E)*F+~(A)*~(B)*C*~(D)*~(E)*F+A*~(B)*C*~(D)*~(E)*F+~(A)*B*C*~(D)*~(E)*F+A*B*C*~(D)*~(E)*F+~(A)*~(B)*~(C)*D*~(E)*F+A*~(B)*~(C)*D*~(E)*F+~(A)*B*~(C)*D*~(E)*F+A*B*~(C)*D*~(E)*F+~(A)*~(B)*C*D*~(E)*F+A*~(B)*C*D*~(E)*F+~(A)*B*C*D*~(E)*F+A*B*C*D*~(E)*F+~(A)*~(B)*C*~(D)*E*F+A*~(B)*C*~(D)*E*F+~(A)*B*C*~(D)*E*F+A*B*C*~(D)*E*F+~(A)*~(B)*~(C)*D*E*F+A*~(B)*~(C)*D*E*F+~(A)*B*~(C)*D*E*F+A*B*~(C)*D*E*F+~(A)*~(B)*C*D*E*F+A*~(B)*C*D*E*F+~(A)*B*C*D*E*F+A*B*C*D*E*F)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b10101010101010101110111110101111,EQN="~(~A*~(~E*~(C*~(D*B))))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b011111111111111111100000000000000111111111111111110,EQN="(~((~D*~C*~B))*~(E)*~((~F*~A))+(~D*~C*~B)*~(E)*~((~F*~A))+(~D*~C*~B)*E*~((~F*~A))+~((~D*~C*~B))*~(E)*(~F*~A)+(~D*~C*~B)*E*(~F*~A))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b010,EQN="(~E*~D*~C*~B*A)") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0100010001110100,EQN="~(~(~D*C)*~(A)*~(B)+~(~D*C)*A*~(B)+~(~(~D*C))*A*B+~(~D*C)*A*B)") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b01,EQN="(~F*~E*~D*~C*~B*~A)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0101010101000000,EQN="(~A*~(~D*~(C*B)))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b0111,EQN="(~C*~(B*A))") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b011101110000,EQN="((D@C)*~(B*A))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b0111011101110111000000000000,EQN="((E@(D*C))*~(B*A))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b011101110111011101110111011101110000000000000000000000000000,EQN="((F@(E*D*C))*~(B*A))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b01010100101010,EQN="(~(C*B)*(D@A))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b010101001111110010101000000000,EQN="(~(C*B)*(E@(D*A)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11110011111000101101000111000000,EQN="((D*~(E)*~(A)+D*E*~(A)+~(D)*E*A+D*E*A)*~(C)*~(B)+(D*~(E)*~(A)+D*E*~(A)+~(D)*E*A+D*E*A)*C*~(B)+~((D*~(E)*~(A)+D*E*~(A)+~(D)*E*A+D*E*A))*C*B+(D*~(E)*~(A)+D*E*~(A)+~(D)*E*A+D*E*A)*C*B)") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b0100000,EQN="(C*~B*A)") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01000000000000000000000,EQN="(E*~D*C*~B*A)") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_ADDER(ALUTYPE="SUB_CARRY") in V:/Anlogic/arch/al_lmacro.v(72)
+HDL-1007 : elaborate module AL_MAP_ADDER(ALUTYPE="SUB") in V:/Anlogic/arch/al_lmacro.v(72)
+HDL-1007 : elaborate module AL_DFF_0 in V:/Anlogic/arch/al_lmacro.v(206)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01011101010101010,EQN="(~E*~(~A*~(D*C*~B)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT2(INIT=4'b010,EQN="(~B*A)") in V:/Anlogic/arch/al_lmacro.v(48)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b010000000000000,EQN="(D*C*~B*A)") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b0100000000000,EQN="(~E*D*~C*B*A)") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b01000000,EQN="(~D*C*B*~A)") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b011000000010000,EQN="(C*~B*~(~D*A))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1111111111111111111101011111110100000000110011000000000011001100,EQN="~(~(~D*B)*~(F*~(~E*~C*A)))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11111111000000001100101011001010,EQN="((A*~(B)*~(C)+A*B*~(C)+~(A)*B*C+A*B*C)*~(D)*~(E)+(A*~(B)*~(C)+A*B*~(C)+~(A)*B*C+A*B*C)*D*~(E)+~((A*~(B)*~(C)+A*B*~(C)+~(A)*B*C+A*B*C))*D*E+(A*~(B)*~(C)+A*B*~(C)+~(A)*B*C+A*B*C)*D*E)") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11110011111100001111101111111010,EQN="~(~C*~(D*~B)*~(~E*A))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0101000001100,EQN="(~C*(B*~(A)*~(D)+B*A*~(D)+~(B)*A*D+B*A*D))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01,EQN="(~E*~D*~C*~B*~A)") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b10100010,EQN="(A*~(~C*B))") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b0101010001010100010101000101010001010101010101010101010100000000,EQN="(~A*~((~E*~D)*~((~C*~B))*~(F)+(~E*~D)*(~C*~B)*~(F)+~((~E*~D))*(~C*~B)*F+(~E*~D)*(~C*~B)*F))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1111001111111011111100001111101011110000111110101111000011111010,EQN="~(~C*~(F*E*~B)*~(~D*A))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b11110111,EQN="~(~C*B*A)") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b10101100,EQN="(B*~(A)*~(C)+B*A*~(C)+~(B)*A*C+B*A*C)") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b01110101011000000001010101000000000101010100000000010101010,EQN="~(~(F*E*~C*~B)*~(~D*A))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b10111011101010101011101010101010,EQN="~(~A*~(D*~B*~(~E*~C)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b010001000000000001010100000101,EQN="(~A*~(~(~E*~C)*~(D*~B)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b01101,EQN="(~C*~(~B*A))") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b01000101,EQN="(~A*~(C*~B))") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0101010001000101,EQN="(~A*~(~B*(D@C)))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11111110101010111111111010101010,EQN="~(~A*(~((~C*~B))*~(D)*~(E)+(~C*~B)*~(D)*~(E)+(~C*~B)*D*~(E)+~((~C*~B))*~(D)*E+(~C*~B)*D*E))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b0101010101010100000000000000000011111111111111101010101010101010,EQN="~(~(E*~(~D*~C*~B))*~(F)*~(A)+~(E*~(~D*~C*~B))*F*~(A)+~(~(E*~(~D*~C*~B)))*F*A+~(E*~(~D*~C*~B))*F*A)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b010010,EQN="(~B*(C@A))") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b011000100000010,EQN="(~B*(D@(~C*A)))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0100000000000,EQN="(D*~C*B*A)") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1111111111111101110011001100111000110011001100010000000000000010,EQN="((E@(~D*~C*A))*~(F)*~(B)+(E@(~D*~C*A))*F*~(B)+~((E@(~D*~C*A)))*F*B+(E@(~D*~C*A))*F*B)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b010011000000001101111111001100,EQN="~(~(D*~(C*A))*~(E)*~(B)+~(D*~(C*A))*E*~(B)+~(~(D*~(C*A)))*E*B+~(D*~(C*A))*E*B)") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b010100,EQN="(~A*(C@B))") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0101000100000100,EQN="(~A*(D@(~C*B)))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b010000000000000000000000000000000000000000000000,EQN="(F*~E*D*C*B*~A)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1111111111111011101010101010111001010101010100010000000000000100,EQN="((E@(~D*~C*B))*~(F)*~(A)+(E@(~D*~C*B))*F*~(A)+~((E@(~D*~C*B)))*F*A+(E@(~D*~C*B))*F*A)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01010001000000001111101110101010,EQN="~(~(D*~(~C*B))*~(E)*~(A)+~(D*~(~C*B))*E*~(A)+~(~(D*~(~C*B)))*E*A+~(D*~(~C*B))*E*A)") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b010101,EQN="(~D*~A*~(C*B))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1100110011001100110011001100110001010101010101011111010101010101,EQN="(~(A*~(~E*D*C))*~(B)*~(F)+~(A*~(~E*D*C))*B*~(F)+~(~(A*~(~E*D*C)))*B*F+~(A*~(~E*D*C))*B*F)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1000000000000000000010000000000000000000100000000000000000001000,EQN="(B*A*~(F@D)*~(E@C))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0100000010,EQN="(~C*~B*(D@A))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1000010000100001,EQN="(~(D@B)*~(C@A))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11101100101000001110110011101100,EQN="~(~(~(E*~D)*B)*~(C*A))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b0101000,EQN="(A*(C@B))") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b010101010000000,EQN="(A*(D@(C*B)))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b0101010101010101000000000000000,EQN="(A*(E@(D*C*B)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b010101010101010101010101010101010000000000000000000000000000000,EQN="(A*(F@(E*D*C*B)))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b0111111111111111111111111111111110000000000000000000000000000000,EQN="(F@(E*D*C*B*A))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b0100000,EQN="(~E*~D*C*~B*A)") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01000,EQN="(~E*~D*~C*B*A)") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11110011110100011110001011000000,EQN="((E*~(D)*~(A)+E*D*~(A)+~(E)*D*A+E*D*A)*~(C)*~(B)+(E*~(D)*~(A)+E*D*~(A)+~(E)*D*A+E*D*A)*C*~(B)+~((E*~(D)*~(A)+E*D*~(A)+~(E)*D*A+E*D*A))*C*B+(E*~(D)*~(A)+E*D*~(A)+~(E)*D*A+E*D*A)*C*B)") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b010000000,EQN="(~E*~D*C*B*A)") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01000000000,EQN="(~E*D*~C*~B*A)") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b010000000000000000000000000,EQN="(E*D*~C*~B*A)") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1000100011011000,EQN="((~D*C)*~(B)*~(A)+(~D*C)*B*~(A)+~((~D*C))*B*A+(~D*C)*B*A)") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b0111101000100101011111110111000001111010001000000111101000100,EQN="(~(A)*B*~(C)*~(D)*~((F*~E))+~(A)*B*C*~(D)*~((F*~E))+~(A)*~(B)*~(C)*D*~((F*~E))+A*~(B)*~(C)*D*~((F*~E))+~(A)*B*~(C)*D*~((F*~E))+A*B*~(C)*D*~((F*~E))+A*~(B)*~(C)*~(D)*(F*~E)+~(A)*B*~(C)*~(D)*(F*~E)+A*B*~(C)*~(D)*(F*~E)+A*~(B)*C*~(D)*(F*~E)+~(A)*B*C*~(D)*(F*~E)+A*B*C*~(D)*(F*~E)+~(A)*~(B)*~(C)*D*(F*~E)+A*~(B)*~(C)*D*(F*~E)+~(A)*B*~(C)*D*(F*~E)+A*B*~(C)*D*(F*~E)+A*~(B)*C*D*(F*~E)+A*B*C*D*(F*~E))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b0100111101000100111011111110111001001111010001000100111101000100,EQN="~(~(D*~C)*~(B*~((F*~E))*~(A)+B*(F*~E)*~(A)+~(B)*(F*~E)*A+B*(F*~E)*A))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01000000000000000,EQN="(~E*D*C*B*A)") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1111110111111000,EQN="~(~C*~(D*~(B)*~(A)+D*B*~(A)+~(D)*B*A+D*B*A))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b11011000,EQN="(C*~(B)*~(A)+C*B*~(A)+~(C)*B*A+C*B*A)") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b010000000000000,EQN="(~E*D*C*~B*A)") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0110100001000,EQN="(~C*(D*~(B)*~(A)+D*B*~(A)+~(D)*B*A+D*B*A))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b01000,EQN="(~D*~C*B*A)") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01111001100110101010111111111,EQN="(~(A)*~(B)*~(C)*~(D)*~(E)+A*~(B)*~(C)*~(D)*~(E)+~(A)*B*~(C)*~(D)*~(E)+A*B*~(C)*~(D)*~(E)+~(A)*~(B)*C*~(D)*~(E)+A*~(B)*C*~(D)*~(E)+~(A)*B*C*~(D)*~(E)+A*B*C*~(D)*~(E)+~(A)*~(B)*~(C)*D*~(E)+~(A)*B*~(C)*D*~(E)+~(A)*~(B)*C*D*~(E)+~(A)*B*C*D*~(E)+~(A)*~(B)*~(C)*~(D)*E+A*~(B)*~(C)*~(D)*E+~(A)*~(B)*C*~(D)*E+A*~(B)*C*~(D)*E+~(A)*~(B)*~(C)*D*E+A*~(B)*~(C)*D*E+~(A)*B*~(C)*D*E+A*B*~(C)*D*E)") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1111111111110011000011110101111111111111111100111111111101011111,EQN="(~(A)*~(B)*~(C)*~(D)*~(E)*~(F)+A*~(B)*~(C)*~(D)*~(E)*~(F)+~(A)*B*~(C)*~(D)*~(E)*~(F)+A*B*~(C)*~(D)*~(E)*~(F)+~(A)*~(B)*C*~(D)*~(E)*~(F)+~(A)*B*C*~(D)*~(E)*~(F)+~(A)*~(B)*~(C)*D*~(E)*~(F)+A*~(B)*~(C)*D*~(E)*~(F)+~(A)*B*~(C)*D*~(E)*~(F)+A*B*~(C)*D*~(E)*~(F)+~(A)*~(B)*C*D*~(E)*~(F)+A*~(B)*C*D*~(E)*~(F)+~(A)*B*C*D*~(E)*~(F)+A*B*C*D*~(E)*~(F)+~(A)*~(B)*~(C)*~(D)*E*~(F)+A*~(B)*~(C)*~(D)*E*~(F)+~(A)*~(B)*C*~(D)*E*~(F)+A*~(B)*C*~(D)*E*~(F)+~(A)*B*C*~(D)*E*~(F)+A*B*C*~(D)*E*~(F)+~(A)*~(B)*~(C)*D*E*~(F)+A*~(B)*~(C)*D*E*~(F)+~(A)*B*~(C)*D*E*~(F)+A*B*~(C)*D*E*~(F)+~(A)*~(B)*C*D*E*~(F)+A*~(B)*C*D*E*~(F)+~(A)*B*C*D*E*~(F)+A*B*C*D*E*~(F)+~(A)*~(B)*~(C)*~(D)*~(E)*F+A*~(B)*~(C)*~(D)*~(E)*F+~(A)*B*~(C)*~(D)*~(E)*F+A*B*~(C)*~(D)*~(E)*F+~(A)*~(B)*C*~(D)*~(E)*F+~(A)*B*C*~(D)*~(E)*F+~(A)*~(B)*~(C)*D*~(E)*F+A*~(B)*~(C)*D*~(E)*F+~(A)*B*~(C)*D*~(E)*F+A*B*~(C)*D*~(E)*F+~(A)*~(B)*~(C)*~(D)*E*F+A*~(B)*~(C)*~(D)*E*F+~(A)*~(B)*C*~(D)*E*F+A*~(B)*C*~(D)*E*F+~(A)*B*C*~(D)*E*F+A*B*C*~(D)*E*F+~(A)*~(B)*~(C)*D*E*F+A*~(B)*~(C)*D*E*F+~(A)*B*~(C)*D*E*F+A*B*~(C)*D*E*F+~(A)*~(B)*C*D*E*F+A*~(B)*C*D*E*F+~(A)*B*C*D*E*F+A*B*C*D*E*F)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b011001100000000001100110000000010101010000000000000111100000000,EQN="(D*~(~(~C*~(A)*~(E)+~C*A*~(E)+~(~C)*A*E+~C*A*E)*~(B)*~(F)+~(~C*~(A)*~(E)+~C*A*~(E)+~(~C)*A*E+~C*A*E)*B*~(F)+~(~(~C*~(A)*~(E)+~C*A*~(E)+~(~C)*A*E+~C*A*E))*B*F+~(~C*~(A)*~(E)+~C*A*~(E)+~(~C)*A*E+~C*A*E)*B*F))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b011110000110011001010101000000000,EQN="(~F*(A*~(B)*~(C)*D*~(E)+A*B*~(C)*D*~(E)+A*~(B)*C*D*~(E)+A*B*C*D*~(E)+~(A)*B*~(C)*~(D)*E+A*B*~(C)*~(D)*E+~(A)*B*C*~(D)*E+A*B*C*~(D)*E+~(A)*~(B)*C*D*E+A*~(B)*C*D*E+~(A)*B*C*D*E+A*B*C*D*E))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11111101001111111111110111111111,EQN="(~(A)*~(B)*~(C)*~(D)*~(E)+A*~(B)*~(C)*~(D)*~(E)+~(A)*B*~(C)*~(D)*~(E)+A*B*~(C)*~(D)*~(E)+~(A)*~(B)*C*~(D)*~(E)+A*~(B)*C*~(D)*~(E)+~(A)*B*C*~(D)*~(E)+A*B*C*~(D)*~(E)+~(A)*~(B)*~(C)*D*~(E)+~(A)*B*~(C)*D*~(E)+A*B*~(C)*D*~(E)+~(A)*~(B)*C*D*~(E)+A*~(B)*C*D*~(E)+~(A)*B*C*D*~(E)+A*B*C*D*~(E)+~(A)*~(B)*~(C)*~(D)*E+A*~(B)*~(C)*~(D)*E+~(A)*B*~(C)*~(D)*E+A*B*~(C)*~(D)*E+~(A)*~(B)*C*~(D)*E+A*~(B)*C*~(D)*E+~(A)*~(B)*~(C)*D*E+~(A)*B*~(C)*D*E+A*B*~(C)*D*E+~(A)*~(B)*C*D*E+A*~(B)*C*D*E+~(A)*B*C*D*E+A*B*C*D*E)") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b011000000110000001100000011000011110000101000001010000010100000,EQN="(C*~((~A*~(E*D))*~(B)*~(F)+(~A*~(E*D))*B*~(F)+~((~A*~(E*D)))*B*F+(~A*~(E*D))*B*F))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1010101000000000101000001010000010001000100010000000000000000000,EQN="(A*(B*~(C)*~(D)*E*~(F)+B*C*~(D)*E*~(F)+B*~(C)*D*E*~(F)+B*C*D*E*~(F)+~(B)*C*~(D)*~(E)*F+B*C*~(D)*~(E)*F+~(B)*C*D*~(E)*F+B*C*D*~(E)*F+~(B)*~(C)*D*E*F+B*~(C)*D*E*F+~(B)*C*D*E*F+B*C*D*E*F))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11111111000011110011001101010101,EQN="(~(A)*~(B)*~(C)*~(D)*~(E)+~(A)*B*~(C)*~(D)*~(E)+~(A)*~(B)*C*~(D)*~(E)+~(A)*B*C*~(D)*~(E)+~(A)*~(B)*~(C)*D*~(E)+A*~(B)*~(C)*D*~(E)+~(A)*~(B)*C*D*~(E)+A*~(B)*C*D*~(E)+~(A)*~(B)*~(C)*~(D)*E+A*~(B)*~(C)*~(D)*E+~(A)*B*~(C)*~(D)*E+A*B*~(C)*~(D)*E+~(A)*~(B)*~(C)*D*E+A*~(B)*~(C)*D*E+~(A)*B*~(C)*D*E+A*B*~(C)*D*E+~(A)*~(B)*C*D*E+A*~(B)*C*D*E+~(A)*B*C*D*E+A*B*C*D*E)") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b0101010100000000010101010000000000110011000000000000111100000000,EQN="(D*~((C*~(B)*~(E)+C*B*~(E)+~(C)*B*E+C*B*E)*~(A)*~(F)+(C*~(B)*~(E)+C*B*~(E)+~(C)*B*E+C*B*E)*A*~(F)+~((C*~(B)*~(E)+C*B*~(E)+~(C)*B*E+C*B*E))*A*F+(C*~(B)*~(E)+C*B*~(E)+~(C)*B*E+C*B*E)*A*F))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b0101000001010000010100000101000011110000110000001100000011000000,EQN="(C*~((~B*~(E*D))*~(A)*~(F)+(~B*~(E*D))*A*~(F)+~((~B*~(E*D)))*A*F+(~B*~(E*D))*A*F))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b010000,EQN="(C*~B*~A)") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b011001000000010001100110000000000110011000000000011001100000000,EQN="(~B*(D*~(A)*~((F*E*~C))+D*A*~((F*E*~C))+~(D)*A*(F*E*~C)+D*A*(F*E*~C)))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1010101010101010110011001100110011110000111100001111111100000000,EQN="(~(A)*~(B)*~(C)*D*~(E)*~(F)+A*~(B)*~(C)*D*~(E)*~(F)+~(A)*B*~(C)*D*~(E)*~(F)+A*B*~(C)*D*~(E)*~(F)+~(A)*~(B)*C*D*~(E)*~(F)+A*~(B)*C*D*~(E)*~(F)+~(A)*B*C*D*~(E)*~(F)+A*B*C*D*~(E)*~(F)+~(A)*~(B)*C*~(D)*E*~(F)+A*~(B)*C*~(D)*E*~(F)+~(A)*B*C*~(D)*E*~(F)+A*B*C*~(D)*E*~(F)+~(A)*~(B)*C*D*E*~(F)+A*~(B)*C*D*E*~(F)+~(A)*B*C*D*E*~(F)+A*B*C*D*E*~(F)+~(A)*B*~(C)*~(D)*~(E)*F+A*B*~(C)*~(D)*~(E)*F+~(A)*B*C*~(D)*~(E)*F+A*B*C*~(D)*~(E)*F+~(A)*B*~(C)*D*~(E)*F+A*B*~(C)*D*~(E)*F+~(A)*B*C*D*~(E)*F+A*B*C*D*~(E)*F+A*~(B)*~(C)*~(D)*E*F+A*B*~(C)*~(D)*E*F+A*~(B)*C*~(D)*E*F+A*B*C*~(D)*E*F+A*~(B)*~(C)*D*E*F+A*B*~(C)*D*E*F+A*~(B)*C*D*E*F+A*B*C*D*E*F)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1111000011110000101010101010101011001100110011000000000011111111,EQN="(~(A)*~(B)*~(C)*~(D)*~(E)*~(F)+A*~(B)*~(C)*~(D)*~(E)*~(F)+~(A)*B*~(C)*~(D)*~(E)*~(F)+A*B*~(C)*~(D)*~(E)*~(F)+~(A)*~(B)*C*~(D)*~(E)*~(F)+A*~(B)*C*~(D)*~(E)*~(F)+~(A)*B*C*~(D)*~(E)*~(F)+A*B*C*~(D)*~(E)*~(F)+~(A)*B*~(C)*~(D)*E*~(F)+A*B*~(C)*~(D)*E*~(F)+~(A)*B*C*~(D)*E*~(F)+A*B*C*~(D)*E*~(F)+~(A)*B*~(C)*D*E*~(F)+A*B*~(C)*D*E*~(F)+~(A)*B*C*D*E*~(F)+A*B*C*D*E*~(F)+A*~(B)*~(C)*~(D)*~(E)*F+A*B*~(C)*~(D)*~(E)*F+A*~(B)*C*~(D)*~(E)*F+A*B*C*~(D)*~(E)*F+A*~(B)*~(C)*D*~(E)*F+A*B*~(C)*D*~(E)*F+A*~(B)*C*D*~(E)*F+A*B*C*D*~(E)*F+~(A)*~(B)*C*~(D)*E*F+A*~(B)*C*~(D)*E*F+~(A)*B*C*~(D)*E*F+A*B*C*~(D)*E*F+~(A)*~(B)*C*D*E*F+A*~(B)*C*D*E*F+~(A)*B*C*D*E*F+A*B*C*D*E*F)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1100110011001100111111110000000010101010101010101111000011110000,EQN="(~(A)*~(B)*C*~(D)*~(E)*~(F)+A*~(B)*C*~(D)*~(E)*~(F)+~(A)*B*C*~(D)*~(E)*~(F)+A*B*C*~(D)*~(E)*~(F)+~(A)*~(B)*C*D*~(E)*~(F)+A*~(B)*C*D*~(E)*~(F)+~(A)*B*C*D*~(E)*~(F)+A*B*C*D*~(E)*~(F)+A*~(B)*~(C)*~(D)*E*~(F)+A*B*~(C)*~(D)*E*~(F)+A*~(B)*C*~(D)*E*~(F)+A*B*C*~(D)*E*~(F)+A*~(B)*~(C)*D*E*~(F)+A*B*~(C)*D*E*~(F)+A*~(B)*C*D*E*~(F)+A*B*C*D*E*~(F)+~(A)*~(B)*~(C)*D*~(E)*F+A*~(B)*~(C)*D*~(E)*F+~(A)*B*~(C)*D*~(E)*F+A*B*~(C)*D*~(E)*F+~(A)*~(B)*C*D*~(E)*F+A*~(B)*C*D*~(E)*F+~(A)*B*C*D*~(E)*F+A*B*C*D*~(E)*F+~(A)*B*~(C)*~(D)*E*F+A*B*~(C)*~(D)*E*F+~(A)*B*C*~(D)*E*F+A*B*C*~(D)*E*F+~(A)*B*~(C)*D*E*F+A*B*~(C)*D*E*F+~(A)*B*C*D*E*F+A*B*C*D*E*F)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0101001100000000,EQN="(D*~(B*~(A)*~(C)+B*A*~(C)+~(B)*A*C+B*A*C))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b0110001000000010011001100000000,EQN="(~B*~(~D*~(A)*~((E*~C))+~D*A*~((E*~C))+~(~D)*A*(E*~C)+~D*A*(E*~C)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1100110011001100111100001111000011111111000000001010101010101010,EQN="(A*~(B)*~(C)*~(D)*~(E)*~(F)+A*B*~(C)*~(D)*~(E)*~(F)+A*~(B)*C*~(D)*~(E)*~(F)+A*B*C*~(D)*~(E)*~(F)+A*~(B)*~(C)*D*~(E)*~(F)+A*B*~(C)*D*~(E)*~(F)+A*~(B)*C*D*~(E)*~(F)+A*B*C*D*~(E)*~(F)+~(A)*~(B)*~(C)*D*E*~(F)+A*~(B)*~(C)*D*E*~(F)+~(A)*B*~(C)*D*E*~(F)+A*B*~(C)*D*E*~(F)+~(A)*~(B)*C*D*E*~(F)+A*~(B)*C*D*E*~(F)+~(A)*B*C*D*E*~(F)+A*B*C*D*E*~(F)+~(A)*~(B)*C*~(D)*~(E)*F+A*~(B)*C*~(D)*~(E)*F+~(A)*B*C*~(D)*~(E)*F+A*B*C*~(D)*~(E)*F+~(A)*~(B)*C*D*~(E)*F+A*~(B)*C*D*~(E)*F+~(A)*B*C*D*~(E)*F+A*B*C*D*~(E)*F+~(A)*B*~(C)*~(D)*E*F+A*B*~(C)*~(D)*E*F+~(A)*B*C*~(D)*E*F+A*B*C*~(D)*E*F+~(A)*B*~(C)*D*E*F+A*B*~(C)*D*E*F+~(A)*B*C*D*E*F+A*B*C*D*E*F)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0111110101100,EQN="(~(A)*B*~(C)*~(D)+A*B*~(C)*~(D)+A*~(B)*C*~(D)+A*B*C*~(D)+~(A)*~(B)*~(C)*D+A*~(B)*~(C)*D+~(A)*B*~(C)*D+A*B*~(C)*D)") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0101001100001111,EQN="(~(A)*~(B)*~(C)*~(D)+A*~(B)*~(C)*~(D)+~(A)*B*~(C)*~(D)+A*B*~(C)*~(D)+~(A)*~(B)*~(C)*D+A*~(B)*~(C)*D+~(A)*~(B)*C*D+~(A)*B*C*D)") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1010101010101010100000000000000000000000000000000000000000000000,EQN="(F*A*~(~E*~(D*C*B)))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1111111111001111111111101100111011111111110011001111111111001100,EQN="~(~B*(~D*~((~E*~A))*~((F*~C))+~D*(~E*~A)*~((F*~C))+~(~D)*(~E*~A)*(F*~C)+~D*(~E*~A)*(F*~C)))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1111101111111111111111111111111111111000111110001111100011111000,EQN="~(~C*(~(A)*~(B)*~((E*D))*~(F)+A*~(B)*~((E*D))*~(F)+~(A)*B*~((E*D))*~(F)+~(A)*~(B)*(E*D)*~(F)+A*~(B)*(E*D)*~(F)+~(A)*B*(E*D)*~(F)+~(A)*B*(E*D)*F))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b010001000100110000001000000000,EQN="(~B*(A*~(C)*D*~(E)+~(A)*~(C)*~(D)*E+A*~(C)*~(D)*E+~(A)*C*~(D)*E+~(A)*~(C)*D*E+~(A)*C*D*E))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b01000100000010,EQN="(~B*(A*~(C)*~(D)+~(A)*~(C)*D+~(A)*C*D))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b01000100010011000100110001001100000010000000000000000000000000,EQN="(~B*(A*~(C)*(E*D)*~(F)+~(A)*~(C)*~((E*D))*F+A*~(C)*~((E*D))*F+~(A)*C*~((E*D))*F+~(A)*~(C)*(E*D)*F+~(A)*C*(E*D)*F))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b011000001110000000000001000,EQN="(~C*(A*B*~(D)*~(E)+~(A)*~(B)*~(D)*E+A*~(B)*~(D)*E+~(A)*B*~(D)*E+~(A)*~(B)*D*E+A*~(B)*D*E))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b01100000111000000110000111100000000000010000000000000000000,EQN="(~C*(B*~(D)*(E*A)*~(F)+~(B)*~(D)*~((E*A))*F+B*~(D)*~((E*A))*F+~(B)*D*~((E*A))*F+~(B)*~(D)*(E*A)*F+~(B)*D*(E*A)*F))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b011001100110011001100010011001100000000000000000010000000000000,EQN="(~B*(F*~(C)*~((~E*D*A))+F*C*~((~E*D*A))+~(F)*C*(~E*D*A)+F*C*(~E*D*A)))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b011001100110001001100110011001100000000001000000000000000000000,EQN="(~B*(F*~(C)*~((E*~D*A))+F*C*~((E*~D*A))+~(F)*C*(E*~D*A)+F*C*(E*~D*A)))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b011000100110011001100110011001100100000000000000000000000000000,EQN="(~B*(F*~(C)*~((E*D*A))+F*C*~((E*D*A))+~(F)*C*(E*D*A)+F*C*(E*D*A)))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01111000001110000100000000000,EQN="(~C*(E*~(D)*~((B*A))+E*D*~((B*A))+~(E)*D*(B*A)+E*D*(B*A)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b10000000000000000000000000000000,EQN="(E*D*C*B*A)") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b011001100110011001100110011000100000000000000000000000000100000,EQN="(~B*(F*~(C)*~((~E*~D*A))+F*C*~((~E*~D*A))+~(F)*C*(~E*~D*A)+F*C*(~E*~D*A)))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b0100000000000000000000000000000,EQN="(E*D*C*~B*A)") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01000000000000000000000000000,EQN="(E*D*~C*B*A)") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01111000010000000011100000000,EQN="(~C*(D*~(E)*~((B*A))+D*E*~((B*A))+~(D)*E*(B*A)+D*E*(B*A)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b01011100,EQN="~(~B*~(A)*~(C)+~B*A*~(C)+~(~B)*A*C+~B*A*C)") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01101111100100001001111101100000,EQN="(D@(C*(E@B@A)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1001011011111111011010010000000001101001111111111001011000000000,EQN="(E@(D*(F@C@B@A)))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1001011001101001111111111111111101101001100101100000000000000000,EQN="(F@(E*(D@C@B@A)))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0110100110010110,EQN="(D@C@B@A)") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b10010110,EQN="(C@B@A)") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b10010110111111110110100100000000,EQN="(E@(D*~(C@B@A)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01101001111111111001011000000000,EQN="(E@(D*(C@B@A)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b10011111011000000110111110010000,EQN="(D@(C*~(E@B@A)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0110111110010000,EQN="(D@(C*~(B@A)))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1001111101100000,EQN="(D@(C*(B@A)))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0111100010110100,EQN="(C@(B*~(D@A)))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0110011011110000,EQN="(C*~((B@A))*~(D)+C*(B@A)*~(D)+~(C)*(B@A)*D+C*(B@A)*D)") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01101001011010011111111100000000,EQN="~(~D*~((C@B@A))*~(E)+~D*(C@B@A)*~(E)+~(~D)*(C@B@A)*E+~D*(C@B@A)*E)") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b10010110100101101111111100000000,EQN="(D*~((C@B@A))*~(E)+D*(C@B@A)*~(E)+~(D)*(C@B@A)*E+D*(C@B@A)*E)") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b0110100110010110111111110000000010010110011010011111111100000000,EQN="(D@(E*~(F@C@B@A)))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01101001111100001001011011110000,EQN="(C@(D*(E@B@A)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01000000000000000000000001,EQN="(~C*~B*~A*~(E@D))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b010000000000000000000000010000000000010000000000000000000000010,EQN="(~B*A*~(E@D)*~(F@C))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0111000011010000,EQN="(C*~(A*~(D@B)))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b0111011110000000011101110,EQN="(~D*~(~B*~A*~(E*~C)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b011001100110010,EQN="(~B*~(~D*~C*~A))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b0100,EQN="(~E*~D*~C*B*~A)") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11001100110011001100110011001000,EQN="(B*~(~E*~D*~C*~A))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b0111001101010000011100110101000000000000000000000111001101010000,EQN="(~(~F*E)*~(~(D*~B)*~(C*~A)))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1010000010100000101000001010000010100000101000001010000010110000,EQN="(C*~(~A*~(~F*~E*~D*~B)))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b0110011001100110010001000110010,EQN="(~B*~(~E*~A*~(~D*C)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b01010100,EQN="(~A*~(~C*~B))") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b0100000000000000000000000000000001010000000000000000,EQN="(E*~D*~C*~A*~(F*~B))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b011111111111111111111011111111111,EQN="(~F*~(~E*D*~C*B*A))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0100000,EQN="(~D*C*~B*A)") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b10111110,EQN="~(~A*~(C@B))") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b01010101000000,EQN="(~A*(D@(C*B)))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b010101010101010100000000000000,EQN="(~A*(E@(D*C*B)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b0101010101010101010101010101010101000000000000000000000000000000,EQN="(~A*~(~F*~(E*D*C*B)))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b011001100110011001100110001000100110011001100110011001100110001,EQN="(~B*~(~E*~D*A*~(~F*C)))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1011111110101010,EQN="~(~A*~(D*~(C*B)))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b011101101111111111111111111111100000000000000000000000000000000,EQN="(F*~(E*B*(D*~(C)*~(A)+D*C*~(A)+~(D)*C*A+D*C*A)))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1110111001000100101011100000010011101110010001001110111001000100,EQN="((B*~(F*~E*C))*~(D)*~(A)+(B*~(F*~E*C))*D*~(A)+~((B*~(F*~E*C)))*D*A+(B*~(F*~E*C))*D*A)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b0101100001111000011110000111100001000000010000000100000001000,EQN="(~C*(A*B*~((E*D))*~(F)+A*B*(E*D)*~(F)+~(A)*~(B)*~((E*D))*F+A*~(B)*~((E*D))*F+~(A)*B*~((E*D))*F+A*B*~((E*D))*F+~(A)*~(B)*(E*D)*F+A*~(B)*(E*D)*F+A*B*(E*D)*F))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11111111100000000000000000000000,EQN="(E*~(~D*~(C*B*A)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b0100000000000000000000000000000000000000000000000000000000,EQN="(F*E*D*~C*~B*~A)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0100010101000000,EQN="(~A*(D*~(B)*~(C)+D*B*~(C)+~(D)*B*C+D*B*C))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b10001000100010001000110110001000,EQN="((~E*D*~C)*~(B)*~(A)+(~E*D*~C)*B*~(A)+~((~E*D*~C))*B*A+(~E*D*~C)*B*A)") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11101111111111111110101010101010,EQN="~(~A*~(E*~(B)*~((D*C))+E*B*~((D*C))+~(E)*B*(D*C)+E*B*(D*C)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1111101111101010,EQN="~(~A*~(D*~(C)*~(B)+D*C*~(B)+~(D)*C*B+D*C*B))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b010000000,EQN="(~F*~E*~D*C*B*A)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1010001100110011000000110011001110100000000000000000000000000000,EQN="((F*~B)*~((E*A))*~((D*C))+(F*~B)*(E*A)*~((D*C))+~((F*~B))*(E*A)*(D*C)+(F*~B)*(E*A)*(D*C))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b0100001,EQN="(~B*~(C@A))") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b01000000,EQN="(C*B*~A)") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b0111000011110000100000000000,EQN="(~C*(E@(D*B*A)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b010001100010000,EQN="(~B*(D@(C*~A)))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b01001100100000,EQN="(~B*(D@(C*A)))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b010011001100110010000000000000,EQN="(~B*(E@(D*C*A)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b01001100110011001100110011001100100000000000000000000000000000,EQN="(~B*(F@(E*D*C*A)))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b011100001000,EQN="(~C*(D@(B*A)))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b010001100000011001000110010001100100000000000000010000000100000,EQN="(~B*(F*~((A*~(E*~D)))*~(C)+F*(A*~(E*~D))*~(C)+~(F)*(A*~(E*~D))*C+F*(A*~(E*~D))*C))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1111000001010000001100000001000000001111000001010000001100000001,EQN="(~(F@C)*~(~E*B)*~(~D*A))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1000100011001100001000100011001100001000000011000000001000000011,EQN="(~(~F*C)*~(E@B)*~(D*~A))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1010000011110000001000000011000000001010000011110000001000000011,EQN="(~(F@C)*~(~E*B)*~(D*~A))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b01000000000000000000000000000000010000000000000001000,EQN="(~D*~C*B*A*~(F*~E))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0100000000000000,EQN="(D*C*B*~A)") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b011111100101010,EQN="(~(C*B)*~(~D*~A))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1010101110101010,EQN="~(~A*~(D*~C*~B))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b01010100000000000000000000000000000000,EQN="(F*~E*~D*~A*~(C*B))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11101110111011101110110011101110,EQN="~(~B*~(A*~(~E*D*~C)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1010101010101011000000000000000110101010101010100000000000000000,EQN="((F*~D*~C*~B)*~(E)*~(A)+(F*~D*~C*~B)*E*~(A)+~((F*~D*~C*~B))*E*A+(F*~D*~C*~B)*E*A)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1111111101011111010111110101111111111100010111000101110001011100,EQN="~((~F*~B)*~((A*~(E*D)))*~(C)+(~F*~B)*(A*~(E*D))*~(C)+~((~F*~B))*(A*~(E*D))*C+(~F*~B)*(A*~(E*D))*C)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1010001110100000101000111010000010100011101000000000001100000000,EQN="((D*~B)*~((A*~(~F*~E)))*~(C)+(D*~B)*(A*~(~F*~E))*~(C)+~((D*~B))*(A*~(~F*~E))*C+(D*~B)*(A*~(~F*~E))*C)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11111111111110001111011111110000,EQN="~(~C*~(D*~(E)*~((B*A))+D*E*~((B*A))+~(D)*E*(B*A)+D*E*(B*A)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b0111011110000000000000000,EQN="(E*~D*~(C*~B*~A))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b01010101010101010000000100000000,EQN="(~F*~A*~(~E*~(D*~C*~B)))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b01000000110000001100000011000000110000001100000011000000010000,EQN="(C*~B*~(A*(~(D)*~(E)*~(F)+D*E*F)))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1100110111001100,EQN="~(~B*~(D*~C*~A))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01000110011000000100000001000,EQN="(B*~(~(E*~D)*~(~C*A)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b010101010101010101010000000100000,EQN="(~F*A*~(~E*~(C*~(~D*B))))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b0101010000000000010100000,EQN="(~D*A*~(~C*~(E*B)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01010100010100000,EQN="(~E*A*~(~C*~(D*B)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b11110100,EQN="~(~C*~(B*~A))") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b010000000000000001000000000000000100000000000000000,EQN="(~D*~C*~B*A*~(~F*~E))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1111111111111111111111111111111110101010101010101010101010101011,EQN="~(~F*~A*~(~E*~D*~C*~B))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b0101010101010101010101010101010000000000000000000000000000000000,EQN="(F*~A*~(~E*~D*~C*~B))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b0111000000000000111100001000,EQN="(~C*~(~D*~(E)*~((B*A))+~D*E*~((B*A))+~(~D)*E*(B*A)+~D*E*(B*A)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b011111111111111111111111111111101,EQN="(~F*~(~E*~D*~C*~B*A))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b011101100,EQN="(~E*~D*~(~B*~(C*A)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b11100000,EQN="(C*~(~B*~A))") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT1(INIT=2'b01,EQN="(~A)") in V:/Anlogic/arch/al_lmacro.v(60)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1011000110100000,EQN="((D*~B)*~(C)*~(A)+(D*~B)*C*~(A)+~((D*~B))*C*A+(D*~B)*C*A)") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0101010101011101,EQN="~(A*~(~D*~C*B))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b10011001100110011001100100001001,EQN="(~(~E*~D*C)*~(B@A))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1110000111100001111000011110000111100001111000011111111111100001,EQN="~(~(~F*~E*D)*~(C@(~B*~A)))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0101010101010001,EQN="(~A*~(~D*~C*B))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b011111111111101111,EQN="~(E*~(C)*~((~D*~B*~A))+E*C*~((~D*~B*~A))+~(E)*C*(~D*~B*~A)+E*C*(~D*~B*~A))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b010111011100110000000000000000000101010100000000,EQN="(~E*(~(A)*~(C)*D*~((F*B))+~(A)*C*D*~((F*B))+~(A)*~(C)*~(D)*(F*B)+A*~(C)*~(D)*(F*B)+~(A)*C*~(D)*(F*B)+A*C*~(D)*(F*B)+~(A)*~(C)*D*(F*B)+A*~(C)*D*(F*B)+~(A)*C*D*(F*B)))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b010100110011000000000000000000000101111111110000,EQN="(~E*(~(A)*C*~(D)*~((F*B))+A*C*~(D)*~((F*B))+~(A)*~(C)*D*~((F*B))+A*~(C)*D*~((F*B))+~(A)*C*D*~((F*B))+~(A)*C*D*(F*B)))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b011001010000000000000,EQN="(A*~(B)*C*D*~(E)+A*B*C*D*~(E)+~(A)*B*~(C)*~(D)*E+A*B*~(C)*~(D)*E)") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b010100001100,EQN="(~E*~C*~(~B*~(A)*~(D)+~B*A*~(D)+~(~B)*A*D+~B*A*D))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b0110010101010101010100000000000000000,EQN="(A*~((~D*~C*B))*E*~(F)+A*(~D*~C*B)*E*~(F)+~(A)*(~D*~C*B)*~(E)*F+A*(~D*~C*B)*~(E)*F)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1010000010110000,EQN="(C*~(~A*~(~D*~B)))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1111111100000000111111110000000011111110000100001111111111111111,EQN="(~((~B*~A))*~(C)*~(D)*~(E)*~(F)+(~B*~A)*~(C)*~(D)*~(E)*~(F)+~((~B*~A))*C*~(D)*~(E)*~(F)+(~B*~A)*C*~(D)*~(E)*~(F)+~((~B*~A))*~(C)*D*~(E)*~(F)+(~B*~A)*~(C)*D*~(E)*~(F)+~((~B*~A))*C*D*~(E)*~(F)+(~B*~A)*C*D*~(E)*~(F)+(~B*~A)*C*~(D)*E*~(F)+~((~B*~A))*~(C)*D*E*~(F)+~((~B*~A))*C*D*E*~(F)+(~B*~A)*C*D*E*~(F)+~((~B*~A))*~(C)*D*~(E)*F+(~B*~A)*~(C)*D*~(E)*F+~((~B*~A))*C*D*~(E)*F+(~B*~A)*C*D*~(E)*F+~((~B*~A))*~(C)*D*E*F+(~B*~A)*~(C)*D*E*F+~((~B*~A))*C*D*E*F+(~B*~A)*C*D*E*F)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b0100000001000000010000000100000001000000010000000100010101000,EQN="(A*(B*~((~F*~E*~D))*~(C)+B*(~F*~E*~D)*~(C)+~(B)*(~F*~E*~D)*C+B*(~F*~E*~D)*C))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b10111010,EQN="~(~A*~(C*~B))") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b01110100,EQN="~(~C*~(A)*~(B)+~C*A*~(B)+~(~C)*A*B+~C*A*B)") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01101001100101101001011001101001,EQN="~(E@D@C@B@A)") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b10110111010010000111101110000100,EQN="(D@(B*~(E@C@A)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0111100011010010,EQN="(C@(A*~(D@B)))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0110111101100000,EQN="(D*~((B@A))*~(C)+D*(B@A)*~(C)+~(D)*(B@A)*C+D*(B@A)*C)") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01111011100001001011011101001000,EQN="(D@(B*(E@C@A)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01101001111111110110100100000000,EQN="~(~E*~((C@B@A))*~(D)+~E*(C@B@A)*~(D)+~(~E)*(C@B@A)*D+~E*(C@B@A)*D)") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b10010110111111111001011000000000,EQN="(E*~((C@B@A))*~(D)+E*(C@B@A)*~(D)+~(E)*(C@B@A)*D+E*(C@B@A)*D)") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b0110100111111111100101100000000010010110111111110110100100000000,EQN="(E@(D*~(F@C@B@A)))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1001011001101001011010011001011001101001100101101001011001101001,EQN="~(F@E@D@C@B@A)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1001111110010000,EQN="~(~D*~((B@A))*~(C)+~D*(B@A)*~(C)+~(~D)*(B@A)*C+~D*(B@A)*C)") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1000010001001000010010001000010001001000100001001000010001001000,EQN="(B*(F@E@D@C@A))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1001111101101111011000001001000001101111100111111001000001100000,EQN="(E@(C*(F@D@B@A)))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1111111000110010,EQN="(~(~C*~A)*~(D)*~(B)+~(~C*~A)*D*~(B)+~(~(~C*~A))*D*B+~(~C*~A)*D*B)") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1100111000000010,EQN="((~C*A)*~(D)*~(B)+(~C*A)*D*~(B)+~((~C*A))*D*B+(~C*A)*D*B)") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b0101100000011000000110000001100001000000000000000000000000000,EQN="(~C*(F*~((E*D*A))*~(B)+F*(E*D*A)*~(B)+~(F)*(E*D*A)*B+F*(E*D*A)*B))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1000000000000000000000000000000000000000000000000000000000000000,EQN="(F*E*D*C*B*A)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0101100001000,EQN="(~C*(D*~(A)*~(B)+D*A*~(B)+~(D)*A*B+D*A*B))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01011000011110000100000000000,EQN="(~C*(E*~(A)*~((D*B))+E*A*~((D*B))+~(E)*A*(D*B)+E*A*(D*B)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b011000100100000,EQN="(~B*(D*~(C)*~(A)+D*C*~(A)+~(D)*C*A+D*C*A))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b011000100100000001100010010000000110001001000000011001100000000,EQN="(~B*(D*~(C)*~((~(~F*~E)*A))+D*C*~((~(~F*~E)*A))+~(D)*C*(~(~F*~E)*A)+D*C*(~(~F*~E)*A)))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b01100001111000000000000000000001011000011110000100000000000,EQN="(~C*(E*~((~F*A))*~((D*B))+E*(~F*A)*~((D*B))+~(E)*(~F*A)*(D*B)+E*(~F*A)*(D*B)))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1010111010101010,EQN="~(~A*~(D*~C*B))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1110111011100000110011001100000000000000000000000000000000000000,EQN="(F*~(~D*~C)*~(~B*~(E*A)))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b010101110,EQN="(~D*~(~A*~(~C*B)))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1110111011101110111011101110111011111111111110101111111110101010,EQN="~(~A*~(~(~D*~(E*C))*~(B)*~(F)+~(~D*~(E*C))*B*~(F)+~(~(~D*~(E*C)))*B*F+~(~D*~(E*C))*B*F))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1111111101010101010101010101010100111111001111110011111100111111,EQN="~((C*B)*~((A*~(E*D)))*~(F)+(C*B)*(A*~(E*D))*~(F)+~((C*B))*(A*~(E*D))*F+(C*B)*(A*~(E*D))*F)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01010101010101010101010111010101,EQN="~(A*~(~E*~D*C*B))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b0111111111110111000000000000000001111111111111110,EQN="(~E*~(~D*~B*~A*~(~F*C)))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b0100000,EQN="(~F*~E*~D*C*~B*A)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11001100111111011100010011110101,EQN="(~(B)*~((~C*A))*~(D)*~(E)+B*~((~C*A))*~(D)*~(E)+B*~((~C*A))*D*~(E)+~(B)*~((~C*A))*~(D)*E+B*~((~C*A))*~(D)*E+B*(~C*A)*~(D)*E+B*~((~C*A))*D*E+B*(~C*A)*D*E)") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1011101010101010,EQN="~(~A*~(D*C*~B))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01000000,EQN="(~E*~D*C*B*~A)") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1100111011101110,EQN="~(~B*~(A*~(D*C)))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11101010101010101010101010101010,EQN="~(~A*~(E*D*C*B))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11001100110010001100110010001000,EQN="(B*~(~D*~A*~(E*C)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1000000011001100100000001000000011000000110011001100000011000000,EQN="(B*~(~(E*~D)*~(C*~(F*~A))))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11111111111111110111001101010000,EQN="~(~E*~(D*~B)*~(C*~A))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b10101011111111111010101110101011,EQN="~(~A*~(E*~D)*~(~C*~B))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b010001000100010000010111111111,EQN="(~(A)*~(B)*~(C)*~(D)*~(E)+A*~(B)*~(C)*~(D)*~(E)+~(A)*B*~(C)*~(D)*~(E)+A*B*~(C)*~(D)*~(E)+~(A)*~(B)*C*~(D)*~(E)+A*~(B)*C*~(D)*~(E)+~(A)*B*C*~(D)*~(E)+A*B*C*~(D)*~(E)+~(A)*~(B)*~(C)*D*~(E)+~(A)*B*~(C)*D*~(E)+~(A)*~(B)*~(C)*~(D)*E+~(A)*~(B)*C*~(D)*E+~(A)*~(B)*~(C)*D*E+~(A)*~(B)*C*D*E)") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1100110000000100110011000000000011001100000001001100110000000100,EQN="(B*~(~D*~(~C*~A*~(F*~E))))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b011111111000000001111111100000000111111110000000011111011,EQN="(~D*~(~F*~E*~C*B*~A))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b11001000,EQN="(B*~(~C*~A))") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1010101010101010101010101010101010101010101010101010100010101010,EQN="(A*~(~F*~E*D*~C*~B))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b0101010101010101010100000101000001010101010101010101010101010100,EQN="(~A*~(~E*~C*~(~F*~(~D*~B))))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1111101000000000111110101100100000000000000000001100100011001000,EQN="(~(~(F*D)*~(~E*B))*~(~C*~A))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b0110011001100110011001100110001,EQN="(~B*~(~E*~D*~C*A))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b010101000,EQN="(~D*A*~(~C*~B))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT2(INIT=4'b1101,EQN="~(~B*A)") in V:/Anlogic/arch/al_lmacro.v(48)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b10000010,EQN="(A*~(C@B))") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b0101010101010101010,EQN="(A*~(E*~(~D*~C*~B)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1010100000000010,EQN="(A*(D@(~C*~B)))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b10101010101010000000000000000010,EQN="(A*(E@(~D*~C*~B)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1010101010101010101010101010100000000000000000000000000000000000,EQN="(F*A*~(~E*~D*~C*~B))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b0101010100000000000101010,EQN="(~D*A*~(~E*C*B))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b10101010101010111010101010101010,EQN="~(~A*~(E*~D*~C*~B))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b0110011001101110111001101110111,EQN="~(B*~(~A*~(D*~(E)*~(C)+D*E*~(C)+~(D)*E*C+D*E*C)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT2(INIT=4'b1011,EQN="~(B*~A)") in V:/Anlogic/arch/al_lmacro.v(48)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11111011001100111111101000000000,EQN="~(~(E*~B)*~(D*~(~C*~A)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b011100000000000000000000,EQN="(E*~D*C*~(B*A))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b0111111110000000010101110,EQN="(~D*~(~E*~A*~(~C*B)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b11100100,EQN="(B*~(C)*~(A)+B*C*~(A)+~(B)*C*A+B*C*A)") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b10101010000000001010101010000000,EQN="(A*~(~D*~(~E*C*B)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1000101010001000101010101000100000000010000000000010001000000000,EQN="(A*((D*~(E*C))*~(F)*~(B)+(D*~(E*C))*F*~(B)+~((D*~(E*C)))*F*B+(D*~(E*C))*F*B))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT2(INIT=4'b0111,EQN="~(B*A)") in V:/Anlogic/arch/al_lmacro.v(48)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b11010111,EQN="~(A*(C@B))") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1111110101010111,EQN="~(A*~(D@(~C*~B)))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b0101000101000000010101010101010111111011111010101010101010101010,EQN="(A*~((D*~(C)*~(B)+D*C*~(B)+~(D)*C*B+D*C*B))*~(E)*~(F)+A*(D*~(C)*~(B)+D*C*~(B)+~(D)*C*B+D*C*B)*~(E)*~(F)+A*~((D*~(C)*~(B)+D*C*~(B)+~(D)*C*B+D*C*B))*E*~(F)+~(A)*(D*~(C)*~(B)+D*C*~(B)+~(D)*C*B+D*C*B)*E*~(F)+A*(D*~(C)*~(B)+D*C*~(B)+~(D)*C*B+D*C*B)*E*~(F)+~(A)*~((D*~(C)*~(B)+D*C*~(B)+~(D)*C*B+D*C*B))*~(E)*F+~(A)*(D*~(C)*~(B)+D*C*~(B)+~(D)*C*B+D*C*B)*~(E)*F+~(A)*(D*~(C)*~(B)+D*C*~(B)+~(D)*C*B+D*C*B)*E*F)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1010111110001101,EQN="~(C*~((~D*~B))*~(A)+C*(~D*~B)*~(A)+~(C)*(~D*~B)*A+C*(~D*~B)*A)") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b10111111000101010001000010111010,EQN="(A*~(B)*~(C)*~(D)*~(E)+A*B*~(C)*~(D)*~(E)+~(A)*~(B)*C*~(D)*~(E)+A*~(B)*C*~(D)*~(E)+A*B*C*~(D)*~(E)+~(A)*~(B)*C*D*~(E)+~(A)*~(B)*~(C)*~(D)*E+~(A)*B*~(C)*~(D)*E+~(A)*~(B)*C*~(D)*E+~(A)*~(B)*~(C)*D*E+A*~(B)*~(C)*D*E+~(A)*B*~(C)*D*E+A*B*~(C)*D*E+~(A)*~(B)*C*D*E+A*~(B)*C*D*E+A*B*C*D*E)") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1000110110101111,EQN="~(C*~((D*~B))*~(A)+C*(D*~B)*~(A)+~(C)*(D*~B)*A+C*(D*~B)*A)") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1011111110111111101111110001010100010000000100000001000010111010,EQN="(~(A)*~(B)*C*~((~E*~D))*~(F)+A*~(B)*~(C)*(~E*~D)*~(F)+A*B*~(C)*(~E*~D)*~(F)+~(A)*~(B)*C*(~E*~D)*~(F)+A*~(B)*C*(~E*~D)*~(F)+A*B*C*(~E*~D)*~(F)+~(A)*~(B)*~(C)*~((~E*~D))*F+A*~(B)*~(C)*~((~E*~D))*F+~(A)*B*~(C)*~((~E*~D))*F+A*B*~(C)*~((~E*~D))*F+~(A)*~(B)*C*~((~E*~D))*F+A*~(B)*C*~((~E*~D))*F+A*B*C*~((~E*~D))*F+~(A)*~(B)*~(C)*(~E*~D)*F+~(A)*B*~(C)*(~E*~D)*F+~(A)*~(B)*C*(~E*~D)*F)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b0111001011111111011100100000000001010000111111110101000000000000,EQN="(E*~((C*~((F*~B))*~(A)+C*(F*~B)*~(A)+~(C)*(F*~B)*A+C*(F*~B)*A))*~(D)+E*(C*~((F*~B))*~(A)+C*(F*~B)*~(A)+~(C)*(F*~B)*A+C*(F*~B)*A)*~(D)+~(E)*(C*~((F*~B))*~(A)+C*(F*~B)*~(A)+~(C)*(F*~B)*A+C*(F*~B)*A)*D+E*(C*~((F*~B))*~(A)+C*(F*~B)*~(A)+~(C)*(F*~B)*A+C*(F*~B)*A)*D)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1110111011101110111011101110010001000100010001000100010001001110,EQN="(B*~((F@(~E*~D*~C)))*~(A)+B*(F@(~E*~D*~C))*~(A)+~(B)*(F@(~E*~D*~C))*A+B*(F@(~E*~D*~C))*A)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b010011100100010011101110111011110001101100010001000100010001000,EQN="(A*B*~((D*~C))*~(E)*~(F)+A*B*(D*~C)*~(E)*~(F)+A*B*~((D*~C))*E*~(F)+~(A)*~(B)*(D*~C)*E*~(F)+~(A)*B*(D*~C)*E*~(F)+A*B*(D*~C)*E*~(F)+~(A)*~(B)*~((D*~C))*~(E)*F+A*~(B)*~((D*~C))*~(E)*F+~(A)*B*~((D*~C))*~(E)*F+~(A)*~(B)*(D*~C)*~(E)*F+A*~(B)*(D*~C)*~(E)*F+~(A)*B*(D*~C)*~(E)*F+A*~(B)*~((D*~C))*E*F+~(A)*~(B)*(D*~C)*E*F+A*~(B)*(D*~C)*E*F+~(A)*B*(D*~C)*E*F)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b0110000000000000001,EQN="(~D*~C*~B*~(~E*A))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b010011100100010011101110111011100000101000000000000000000000000,EQN="(~(A)*~(B)*(D*~C)*E*~(F)+~(A)*B*(D*~C)*E*~(F)+~(A)*~(B)*~((D*~C))*~(E)*F+A*~(B)*~((D*~C))*~(E)*F+~(A)*B*~((D*~C))*~(E)*F+~(A)*~(B)*(D*~C)*~(E)*F+A*~(B)*(D*~C)*~(E)*F+~(A)*B*(D*~C)*~(E)*F+A*~(B)*~((D*~C))*E*F+~(A)*~(B)*(D*~C)*E*F+A*~(B)*(D*~C)*E*F+~(A)*B*(D*~C)*E*F)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1101110111110101,EQN="~(A*~(C*~(B)*~(D)+C*B*~(D)+~(C)*B*D+C*B*D))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b011111100011101000111010001110100111111001111110011111100111111,EQN="~((F*A*~(E*D))*~(C)*~(B)+(F*A*~(E*D))*C*~(B)+~((F*A*~(E*D)))*C*B+(F*A*~(E*D))*C*B)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b0101010101011101010101010101110111111111010111010000000001011101,EQN="(~(A)*~((~C*B))*~(D)*~(E)*~(F)+~(A)*(~C*B)*~(D)*~(E)*~(F)+A*(~C*B)*~(D)*~(E)*~(F)+~(A)*~((~C*B))*~(D)*E*~(F)+~(A)*(~C*B)*~(D)*E*~(F)+A*(~C*B)*~(D)*E*~(F)+~(A)*~((~C*B))*D*E*~(F)+A*~((~C*B))*D*E*~(F)+~(A)*(~C*B)*D*E*~(F)+A*(~C*B)*D*E*~(F)+~(A)*~((~C*B))*~(D)*~(E)*F+~(A)*(~C*B)*~(D)*~(E)*F+A*(~C*B)*~(D)*~(E)*F+~(A)*~((~C*B))*D*~(E)*F+~(A)*(~C*B)*D*~(E)*F+~(A)*~((~C*B))*~(D)*E*F+~(A)*(~C*B)*~(D)*E*F+A*(~C*B)*~(D)*E*F+~(A)*~((~C*B))*D*E*F+~(A)*(~C*B)*D*E*F)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0111111100000000,EQN="(D*~(C*B*A))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b0111111111110000000000000000,EQN="(E*~(D*~(~C*~(B*A))))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b01010011,EQN="~(B*~(A)*~(C)+B*A*~(C)+~(B)*A*C+B*A*C)") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11010001110100011101110100010001,EQN="(~A*~((D*~(C)*~(E)+D*C*~(E)+~(D)*C*E+D*C*E))*~(B)+~A*(D*~(C)*~(E)+D*C*~(E)+~(D)*C*E+D*C*E)*~(B)+~(~A)*(D*~(C)*~(E)+D*C*~(E)+~(D)*C*E+D*C*E)*B+~A*(D*~(C)*~(E)+D*C*~(E)+~(D)*C*E+D*C*E)*B)") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0111011101011111,EQN="~(A*(C*~(B)*~(D)+C*B*~(D)+~(C)*B*D+C*B*D))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01111000011111100111110101111,EQN="~(C*~(~E*(A*~(B)*~(D)+A*B*~(D)+~(A)*B*D+A*B*D)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b10110000,EQN="(C*~(B*~A))") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b011111100101110001011100010111000111111001111110011111100111111,EQN="~((F*~A*~(E*D))*~(C)*~(B)+(F*~A*~(E*D))*C*~(B)+~((F*~A*~(E*D)))*C*B+(F*~A*~(E*D))*C*B)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b011001110110011001100111011001111111111101100110000000010110011,EQN="(~(B)*~((C*A))*~(D)*~(E)*~(F)+~(B)*(C*A)*~(D)*~(E)*~(F)+B*(C*A)*~(D)*~(E)*~(F)+~(B)*~((C*A))*~(D)*E*~(F)+~(B)*(C*A)*~(D)*E*~(F)+B*(C*A)*~(D)*E*~(F)+~(B)*~((C*A))*D*E*~(F)+B*~((C*A))*D*E*~(F)+~(B)*(C*A)*D*E*~(F)+B*(C*A)*D*E*~(F)+~(B)*~((C*A))*~(D)*~(E)*F+~(B)*(C*A)*~(D)*~(E)*F+B*(C*A)*~(D)*~(E)*F+~(B)*~((C*A))*D*~(E)*F+~(B)*(C*A)*D*~(E)*F+~(B)*~((C*A))*~(D)*E*F+~(B)*(C*A)*~(D)*E*F+B*(C*A)*~(D)*E*F+~(B)*~((C*A))*D*E*F+~(B)*(C*A)*D*E*F)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1101000111011101,EQN="~(A*~((D*~C))*~(B)+A*(D*~C)*~(B)+~(A)*(D*~C)*B+A*(D*~C)*B)") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b011111110000000000000000,EQN="(E*~D*~(C*B*A))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b01111100000000,EQN="(D*~(C*~(~B*~A)))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1111001000000010111100100000001011110010111100100000001000000010,EQN="((~B*A)*~((E*~(D)*~(F)+E*D*~(F)+~(E)*D*F+E*D*F))*~(C)+(~B*A)*(E*~(D)*~(F)+E*D*~(F)+~(E)*D*F+E*D*F)*~(C)+~((~B*A))*(E*~(D)*~(F)+E*D*~(F)+~(E)*D*F+E*D*F)*C+(~B*A)*(E*~(D)*~(F)+E*D*~(F)+~(E)*D*F+E*D*F)*C)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01010000010100110101000001010000,EQN="~(~(E*~D*~B)*~(A)*~(C)+~(E*~D*~B)*A*~(C)+~(~(E*~D*~B))*A*C+~(E*~D*~B)*A*C)") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1111001111110011111111110011001111010001110100011101110100010001,EQN="(~(~F*A)*~((D*~(C)*~(E)+D*C*~(E)+~(D)*C*E+D*C*E))*~(B)+~(~F*A)*(D*~(C)*~(E)+D*C*~(E)+~(D)*C*E+D*C*E)*~(B)+~(~(~F*A))*(D*~(C)*~(E)+D*C*~(E)+~(D)*C*E+D*C*E)*B+~(~F*A)*(D*~(C)*~(E)+D*C*~(E)+~(D)*C*E+D*C*E)*B)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01111111111111110000000000000000,EQN="(E*~(D*C*B*A))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1111101100001011111110110000101111111011111110110000101100001011,EQN="(~(B*~A)*~((E*~(D)*~(F)+E*D*~(F)+~(E)*D*F+E*D*F))*~(C)+~(B*~A)*(E*~(D)*~(F)+E*D*~(F)+~(E)*D*F+E*D*F)*~(C)+~(~(B*~A))*(E*~(D)*~(F)+E*D*~(F)+~(E)*D*F+E*D*F)*C+~(B*~A)*(E*~(D)*~(F)+E*D*~(F)+~(E)*D*F+E*D*F)*C)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b011111111111110000000000000000,EQN="(E*~(D*C*~(~B*~A)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b01000111,EQN="~(C*~(A)*~(B)+C*A*~(B)+~(C)*A*B+C*A*B)") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1111101110101110,EQN="~(~A*~(D@(~C*B)))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11111111111110111010101010101110,EQN="~(~A*~(E@(~D*~C*B)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b0111110,EQN="(A*~(B)*~(C)+~(A)*B*~(C)+A*B*~(C)+~(A)*~(B)*C+A*~(B)*C)") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1111001110100010,EQN="(~(~C*B)*~(~D*~A))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b011111111101010,EQN="(A*~((C*B))*~(D)+~(A)*(C*B)*~(D)+A*(C*B)*~(D)+~(A)*~((C*B))*D+A*~((C*B))*D)") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11101111111010100100010101000000,EQN="((D*~(B)*~(C)+D*B*~(C)+~(D)*B*C+D*B*C)*~(E)*~(A)+(D*~(B)*~(C)+D*B*~(C)+~(D)*B*C+D*B*C)*E*~(A)+~((D*~(B)*~(C)+D*B*~(C)+~(D)*B*C+D*B*C))*E*A+(D*~(B)*~(C)+D*B*~(C)+~(D)*B*C+D*B*C)*E*A)") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11110111101100111111010110100000,EQN="~(~(E*~B)*~(D*~(C)*~(A)+D*C*~(A)+~(D)*C*A+D*C*A))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b11011100,EQN="~(~B*~(C*~A))") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b10000000000100000000100000000001,EQN="(~(E@C)*(~(A)*~(B)*~(D)+A*B*D))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b01000000000000000000000000000000000000000000000000000000000000,EQN="(F*E*D*C*~B*~A)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01110000011110000101000001010,EQN="(~C*~(~A*~(E*~(D*~B))))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b0100000000000000000000000000000000,EQN="(F*~E*~D*~C*~B*~A)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1111000111110000,EQN="~(~C*~(D*~B*~A))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b0100,EQN="(~F*~E*~D*~C*B*~A)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01111000011010000011100001111,EQN="(~C*~(A*(B*D*~(E)+~(B)*~(D)*E)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b010101000101,EQN="(~A*~(C*~(~D*B)))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1000100000001000111111110000111111111111000011111111111100001111,EQN="(~(~D*C)*~(F*E*~(B*A)))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1111111101110101010101010101010101010101010101010101010101010101,EQN="~(A*~(F*E*~(~D*~(C*~B))))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b0100,EQN="(~C*B*~A)") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0100,EQN="(~D*~C*B*~A)") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b0101010001111110011111100,EQN="(~(~C*~B)*~(E*~(~D*A)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b01110000000000000111000000000000011110000000000001110,EQN="(~D*~C*~(~B*~A*~(~F*E)))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1111111000010000,EQN="(D*~(C)*~((~B*~A))+D*C*~((~B*~A))+~(D)*C*(~B*~A)+D*C*(~B*~A))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1111011111110101,EQN="~(~C*A*~(D*~B))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b10101010101011101010101010101010,EQN="~(~A*~(E*~D*~C*B))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b01100000010,EQN="(~C*~B*~(~D*~A))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b01111111100000000000000000000000010100010,EQN="(~E*~D*~(~F*~(A*~(~C*B))))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b011000000000000001100000000000011110000000000000111000000000000,EQN="(D*C*~(B*~(~F*~(~E*A))))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1100000010000000110000001000000011111111111111111100000010000000,EQN="~(~(~F*E)*~(C*B*~(~D*~A)))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0101110100001100,EQN="~(~(~C*B)*~(D*~A))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b10101010101010101000100010001010,EQN="(A*~(~E*~B*~(~D*~C)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1010101010101010111111101111101010101010101010101111101011111010,EQN="~(~A*~(~E*~(~C*~(F*D*B))))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1010101011111100,EQN="(~(~C*~B)*~(A)*~(D)+~(~C*~B)*A*~(D)+~(~(~C*~B))*A*D+~(~C*~B)*A*D)") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01000111111110000100000001000,EQN="~(~(E*~D)*~(~C*B*A))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0100111101000100,EQN="~(~(D*~C)*~(B*~A))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01010001111111110000000000001100,EQN="(~(A)*(~C*B)*~(D)*~(E)+A*(~C*B)*~(D)*~(E)+~(A)*~((~C*B))*~(D)*E+A*~((~C*B))*~(D)*E+~(A)*(~C*B)*~(D)*E+A*(~C*B)*~(D)*E+~(A)*~((~C*B))*D*E)") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11011101110100001111111111110000,EQN="(~(~D*~C)*~(E*~B*A))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b01001100,EQN="(B*~(C*A))") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1010001010000000,EQN="(A*(D*~(C)*~(B)+D*C*~(B)+~(D)*C*B+D*C*B))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1011001100010011,EQN="(~B*~(D)*~((C*A))+~B*D*~((C*A))+~(~B)*D*(C*A)+~B*D*(C*A))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1110110001001100,EQN="(B*~(D)*~((C*A))+B*D*~((C*A))+~(B)*D*(C*A)+B*D*(C*A))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1010101000000000101010100000000010101110000011001010101000000000,EQN="~(~(~F*E*~C*B)*~(D*A))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b01010101010101010101010101010101000000000000000000000000000000,EQN="(~A*(F@(E*D*C*B)))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b01000011100000,EQN="(C*~(D@(~B*~A)))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b10101000101010100000000000000000,EQN="(E*A*~(D*~C*~B))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0100110010000000,EQN="(B*(D@(C*A)))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b010000111100001110000000000000,EQN="(C*(E@(D*~(~B*~A))))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b01000011110000111100001111000011100000000000000000000000000000,EQN="(C*(F@(E*D*~(~B*~A))))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b01001000,EQN="(B*(C@A))") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01001100110011001000000000000000,EQN="(B*(E@(D*C*A)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1110111100000000,EQN="(D*~(C*~B*~A))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b0100110011001100110011001100110010000000000000000000000000000000,EQN="(B*(F@(E*D*C*A)))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b0110111000000001100100000000000,EQN="(D*(E@(B*~(~C*~A))))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1111111111111111111111111101010100000000000000000000000000000000,EQN="(F*~(~E*~D*A*~(C*B)))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11111100111111111010100010101010,EQN="(~(D*~C*~B)*~(~E*~A))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11111111110011111111111110001111,EQN="~(~D*C*~(B*~(~E*~A)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01010101010101000101010101010101,EQN="(~A*~(E*~D*~C*~B))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b10101010101010101111101110101010,EQN="~(~A*~(~E*D*~(~C*B)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b01000100010,EQN="(~F*~E*~B*A*~(D*C))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1111111111000000010101010100000000111111000000000001010100000000,EQN="((D*~(F)*~((C*B))+D*F*~((C*B))+~(D)*F*(C*B)+D*F*(C*B))*~(~E*A))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b011001011110011001101101111011100111010111110110011111011111111,EQN="(~(A)*~(B)*~(C)*~(D)*~(E)*~(F)+A*~(B)*~(C)*~(D)*~(E)*~(F)+~(A)*B*~(C)*~(D)*~(E)*~(F)+A*B*~(C)*~(D)*~(E)*~(F)+~(A)*~(B)*C*~(D)*~(E)*~(F)+A*~(B)*C*~(D)*~(E)*~(F)+~(A)*B*C*~(D)*~(E)*~(F)+A*B*C*~(D)*~(E)*~(F)+A*~(B)*~(C)*D*~(E)*~(F)+~(A)*B*~(C)*D*~(E)*~(F)+A*B*~(C)*D*~(E)*~(F)+~(A)*~(B)*C*D*~(E)*~(F)+A*~(B)*C*D*~(E)*~(F)+~(A)*~(B)*~(C)*~(D)*E*~(F)+A*~(B)*~(C)*~(D)*E*~(F)+A*B*~(C)*~(D)*E*~(F)+~(A)*~(B)*C*~(D)*E*~(F)+A*~(B)*C*~(D)*E*~(F)+~(A)*B*C*~(D)*E*~(F)+A*B*C*~(D)*E*~(F)+A*~(B)*~(C)*D*E*~(F)+A*B*~(C)*D*E*~(F)+~(A)*~(B)*C*D*E*~(F)+A*~(B)*C*D*E*~(F)+~(A)*~(B)*~(C)*~(D)*~(E)*F+A*~(B)*~(C)*~(D)*~(E)*F+~(A)*B*~(C)*~(D)*~(E)*F+~(A)*~(B)*C*~(D)*~(E)*F+A*~(B)*C*~(D)*~(E)*F+~(A)*B*C*~(D)*~(E)*F+A*B*C*~(D)*~(E)*F+A*~(B)*~(C)*D*~(E)*F+~(A)*B*~(C)*D*~(E)*F+~(A)*~(B)*C*D*~(E)*F+A*~(B)*C*D*~(E)*F+~(A)*~(B)*~(C)*~(D)*E*F+A*~(B)*~(C)*~(D)*E*F+~(A)*~(B)*C*~(D)*E*F+A*~(B)*C*~(D)*E*F+~(A)*B*C*~(D)*E*F+A*B*C*~(D)*E*F+A*~(B)*~(C)*D*E*F+~(A)*~(B)*C*D*E*F+A*~(B)*C*D*E*F)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b011011,EQN="~(B*~(C)*~(A)+B*C*~(A)+~(B)*C*A+B*C*A)") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1111111011011100101110101001100001110110010101000011001000010000,EQN="(~(A)*~(B)*C*~(D)*~(E)*~(F)+A*~(B)*~(C)*D*~(E)*~(F)+~(A)*~(B)*C*D*~(E)*~(F)+A*~(B)*C*D*~(E)*~(F)+~(A)*B*~(C)*~(D)*E*~(F)+~(A)*~(B)*C*~(D)*E*~(F)+~(A)*B*C*~(D)*E*~(F)+A*~(B)*~(C)*D*E*~(F)+~(A)*B*~(C)*D*E*~(F)+~(A)*~(B)*C*D*E*~(F)+A*~(B)*C*D*E*~(F)+~(A)*B*C*D*E*~(F)+A*B*~(C)*~(D)*~(E)*F+~(A)*~(B)*C*~(D)*~(E)*F+A*B*C*~(D)*~(E)*F+A*~(B)*~(C)*D*~(E)*F+A*B*~(C)*D*~(E)*F+~(A)*~(B)*C*D*~(E)*F+A*~(B)*C*D*~(E)*F+A*B*C*D*~(E)*F+~(A)*B*~(C)*~(D)*E*F+A*B*~(C)*~(D)*E*F+~(A)*~(B)*C*~(D)*E*F+~(A)*B*C*~(D)*E*F+A*B*C*~(D)*E*F+A*~(B)*~(C)*D*E*F+~(A)*B*~(C)*D*E*F+A*B*~(C)*D*E*F+~(A)*~(B)*C*D*E*F+A*~(B)*C*D*E*F+~(A)*B*C*D*E*F+A*B*C*D*E*F)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1111111100111111101011111010111100000000001100001010000010100000,EQN="(A*~(B)*C*~(D)*~(E)*~(F)+A*B*C*~(D)*~(E)*~(F)+A*~(B)*C*D*~(E)*~(F)+A*B*C*D*~(E)*~(F)+~(A)*~(B)*C*~(D)*E*~(F)+A*~(B)*C*~(D)*E*~(F)+~(A)*~(B)*~(C)*~(D)*~(E)*F+A*~(B)*~(C)*~(D)*~(E)*F+~(A)*B*~(C)*~(D)*~(E)*F+A*B*~(C)*~(D)*~(E)*F+A*~(B)*C*~(D)*~(E)*F+A*B*C*~(D)*~(E)*F+~(A)*~(B)*~(C)*D*~(E)*F+A*~(B)*~(C)*D*~(E)*F+~(A)*B*~(C)*D*~(E)*F+A*B*~(C)*D*~(E)*F+A*~(B)*C*D*~(E)*F+A*B*C*D*~(E)*F+~(A)*~(B)*~(C)*~(D)*E*F+A*~(B)*~(C)*~(D)*E*F+~(A)*B*~(C)*~(D)*E*F+A*B*~(C)*~(D)*E*F+~(A)*~(B)*C*~(D)*E*F+A*~(B)*C*~(D)*E*F+~(A)*~(B)*~(C)*D*E*F+A*~(B)*~(C)*D*E*F+~(A)*B*~(C)*D*E*F+A*B*~(C)*D*E*F+~(A)*~(B)*C*D*E*F+A*~(B)*C*D*E*F+~(A)*B*C*D*E*F+A*B*C*D*E*F)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b011001000110000001000100010000000010010000100000000001000000000,EQN="(~B*(A*~(C)*D*~(E)*~(F)+~(A)*C*~(D)*E*~(F)+A*~(C)*D*E*~(F)+~(A)*C*D*E*~(F)+A*C*~(D)*~(E)*F+A*~(C)*D*~(E)*F+A*C*D*~(E)*F+~(A)*C*~(D)*E*F+A*C*~(D)*E*F+A*~(C)*D*E*F+~(A)*C*D*E*F+A*C*D*E*F))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01100000010000000010000000000,EQN="(~C*B*(D*~(E)*~(A)+D*E*~(A)+~(D)*E*A+D*E*A))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11110101010101110000000000000000,EQN="(E*~(A*(B*~(C)*~(D)+~(B)*C*~(D)+B*C*~(D)+~(B)*~(C)*D+B*~(C)*D)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1111000001010101111100110101010111111100010101011111111101010101,EQN="~(A*~((~C*(E*~(F)*~(B)+E*F*~(B)+~(E)*F*B+E*F*B)))*~(D)+A*(~C*(E*~(F)*~(B)+E*F*~(B)+~(E)*F*B+E*F*B))*~(D)+~(A)*(~C*(E*~(F)*~(B)+E*F*~(B)+~(E)*F*B+E*F*B))*D+A*(~C*(E*~(F)*~(B)+E*F*~(B)+~(E)*F*B+E*F*B))*D)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01010101011111111010101010,EQN="~(E@(~A*~(D*~(~C*~B))))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b0111110000111100001111000011110110100101101001011010010110100,EQN="(C@(~(A)*B*~((E*D))*~(F)+~(A)*B*(E*D)*~(F)+~(A)*~(B)*~((E*D))*F+A*~(B)*~((E*D))*F+~(A)*B*~((E*D))*F+~(A)*~(B)*(E*D)*F+A*~(B)*(E*D)*F+~(A)*B*(E*D)*F+A*B*(E*D)*F))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b10111111010000001011000001001111,EQN="(D@(~E*~((B*~A))*~(C)+~E*(B*~A)*~(C)+~(~E)*(B*~A)*C+~E*(B*~A)*C))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1000000001000000000010000000010000100000000100000000001000000001,EQN="(~(E@C)*~(F@B)*~(D@A))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b10010000,EQN="(C*~(B@A))") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1000101010101010001000000000000010001010000000000010000010101010,EQN="(A*(E@(~F*~((C*~B))*~(D)+~F*(C*~B)*~(D)+~(~F)*(C*~B)*D+~F*(C*~B)*D)))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1111111111111111111111111111111100000000000000000000100000000000,EQN="~(~F*~(~E*D*~C*B*A))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b011000000010100000101000011111111110011110101111101011111,EQN="(~(A)*~(B)*~(C)*~(D)*~(E)*~(F)+A*~(B)*~(C)*~(D)*~(E)*~(F)+~(A)*B*~(C)*~(D)*~(E)*~(F)+A*B*~(C)*~(D)*~(E)*~(F)+~(A)*~(B)*C*~(D)*~(E)*~(F)+~(A)*B*C*~(D)*~(E)*~(F)+~(A)*~(B)*~(C)*D*~(E)*~(F)+A*~(B)*~(C)*D*~(E)*~(F)+~(A)*B*~(C)*D*~(E)*~(F)+A*B*~(C)*D*~(E)*~(F)+~(A)*~(B)*C*D*~(E)*~(F)+~(A)*B*C*D*~(E)*~(F)+~(A)*~(B)*~(C)*~(D)*E*~(F)+A*~(B)*~(C)*~(D)*E*~(F)+~(A)*B*~(C)*~(D)*E*~(F)+A*B*~(C)*~(D)*E*~(F)+~(A)*B*C*~(D)*E*~(F)+A*B*C*~(D)*E*~(F)+~(A)*~(B)*~(C)*D*E*~(F)+A*~(B)*~(C)*D*E*~(F)+~(A)*B*~(C)*D*E*~(F)+A*B*~(C)*D*E*~(F)+~(A)*~(B)*C*D*E*~(F)+A*~(B)*C*D*E*~(F)+~(A)*B*C*D*E*~(F)+A*B*C*D*E*~(F)+~(A)*~(B)*C*~(D)*~(E)*F+~(A)*B*C*~(D)*~(E)*F+~(A)*~(B)*C*D*~(E)*F+~(A)*B*C*D*~(E)*F+~(A)*B*C*~(D)*E*F+A*B*C*~(D)*E*F)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT2(INIT=4'b1001,EQN="~(B@A)") in V:/Anlogic/arch/al_lmacro.v(48)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b010000000010000000000100000000100000000000000000000000000000000,EQN="(F*~B*~(E@C)*~(D@A))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1111111111111111111111111111111100000000000000001000000000000000,EQN="~(~F*~(~E*D*C*B*A))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b011000011001111010100001010111100111111110000000101111110100000,EQN="(D@(F*~((A*~(B)*~(E)+A*B*~(E)+~(A)*B*E+A*B*E))*~(C)+F*(A*~(B)*~(E)+A*B*~(E)+~(A)*B*E+A*B*E)*~(C)+~(F)*(A*~(B)*~(E)+A*B*~(E)+~(A)*B*E+A*B*E)*C+F*(A*~(B)*~(E)+A*B*~(E)+~(A)*B*E+A*B*E)*C))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01001100111111111011001100,EQN="~(E@(~B*~(D*~(~C*~A))))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1111111101110111011101110111111100000000000000000000000000000000,EQN="(F*~(B*A*(C*~(D)*~(E)+~(C)*D*~(E)+C*D*~(E)+~(C)*~(D)*E+C*~(D)*E)))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1111111110101010111111001010101011110011101010101111000010101010,EQN="~(~A*~((~C*~(E*~(F)*~(B)+E*F*~(B)+~(E)*F*B+E*F*B)))*~(D)+~A*(~C*~(E*~(F)*~(B)+E*F*~(B)+~(E)*F*B+E*F*B))*~(D)+~(~A)*(~C*~(E*~(F)*~(B)+E*F*~(B)+~(E)*F*B+E*F*B))*D+~A*(~C*~(E*~(F)*~(B)+E*F*~(B)+~(E)*F*B+E*F*B))*D)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1011010010110100101101001011010000001111100001111000011110000111,EQN="(C@(~(A)*~(B)*~((E*D))*~(F)+A*~(B)*~((E*D))*~(F)+~(A)*B*~((E*D))*~(F)+~(A)*~(B)*(E*D)*~(F)+A*~(B)*(E*D)*~(F)+~(A)*B*(E*D)*~(F)+A*B*(E*D)*~(F)+~(A)*B*~((E*D))*F+~(A)*B*(E*D)*F))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b01000000000000000000000001000000000001000000000000000000000001,EQN="(~B*~A*~(E@D)*~(F@C))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b01100000,EQN="(C*(B@A))") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1111111111111111111111111111111100100000000000000000000000000000,EQN="~(~F*~(E*D*C*~B*A))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b10001000000000001000100010000000,EQN="(B*A*~(~D*~(~E*C)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1111111100111111110000000000000001010101000101010100000000000000,EQN="((E*~(D)*~((C*B))+E*D*~((C*B))+~(E)*D*(C*B)+E*D*(C*B))*~(~F*A))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b01000000,EQN="(~F*~E*~D*C*B*~A)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1111111111111111001100000000000011111111111111010011000000000000,EQN="(~(B)*C*D*~(E)*~((~F*A))+~(B)*~(C)*~(D)*E*~((~F*A))+B*~(C)*~(D)*E*~((~F*A))+~(B)*C*~(D)*E*~((~F*A))+B*C*~(D)*E*~((~F*A))+~(B)*~(C)*D*E*~((~F*A))+B*~(C)*D*E*~((~F*A))+~(B)*C*D*E*~((~F*A))+B*C*D*E*~((~F*A))+~(B)*C*D*~(E)*(~F*A)+B*~(C)*~(D)*E*(~F*A)+~(B)*C*~(D)*E*(~F*A)+B*C*~(D)*E*(~F*A)+~(B)*~(C)*D*E*(~F*A)+B*~(C)*D*E*(~F*A)+~(B)*C*D*E*(~F*A)+B*C*D*E*(~F*A))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1010101010101010101010101010101010101010101010101010101010100010,EQN="(A*~(~F*~E*~D*~C*B))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b10000000001000000000100000000010,EQN="(A*~(E@C)*~(D@B))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11110000110111011111000010001000,EQN="((E*~(B)*~(A)+E*B*~(A)+~(E)*B*A+E*B*A)*~(C)*~(D)+(E*~(B)*~(A)+E*B*~(A)+~(E)*B*A+E*B*A)*C*~(D)+~((E*~(B)*~(A)+E*B*~(A)+~(E)*B*A+E*B*A))*C*D+(E*~(B)*~(A)+E*B*~(A)+~(E)*B*A+E*B*A)*C*D)") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b0100010001000001011101110111010,EQN="(A*~((~(~D*~C)*~B))*~(E)+~(A)*(~(~D*~C)*~B)*~(E)+A*(~(~D*~C)*~B)*~(E)+A*(~(~D*~C)*~B)*E)") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b010100000010100,EQN="((C@B)*~(D@A))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b0101010100000000001010101000000,EQN="((D@(C*B))*~(E@A))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b010000000000000000000000000000000000000000000000000,EQN="(F*E*~D*~C*~B*A)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b0100001,EQN="(~A*~B*~C+A*~B*C)") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b0110,EQN="(A*~B*~C+~A*B*~C)") in V:/Anlogic/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b01000000000000000000000000000000000000000000000001,EQN="(~D*~C*~B*~A*~(F@E))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01010100000000000001,EQN="(~A*(~(C)*~(D)*~((~E*B))+C*D*(~E*B)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1000000000001000,EQN="(B*A*~(D@C))") in V:/Anlogic/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b10001100101011101001110110111111,EQN="(~(A)*~(B)*~(C)*~(D)*~(E)+A*~(B)*~(C)*~(D)*~(E)+~(A)*B*~(C)*~(D)*~(E)+A*B*~(C)*~(D)*~(E)+~(A)*~(B)*C*~(D)*~(E)+A*~(B)*C*~(D)*~(E)+A*B*C*~(D)*~(E)+~(A)*~(B)*~(C)*D*~(E)+~(A)*B*~(C)*D*~(E)+A*B*~(C)*D*~(E)+~(A)*~(B)*C*D*~(E)+A*B*C*D*~(E)+A*~(B)*~(C)*~(D)*E+~(A)*B*~(C)*~(D)*E+A*B*~(C)*~(D)*E+A*~(B)*C*~(D)*E+A*B*C*~(D)*E+~(A)*B*~(C)*D*E+A*B*~(C)*D*E+A*B*C*D*E)") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b010000000000000,EQN="(~F*~E*D*C*~B*A)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b0100010001000000000001000000000,EQN="(~B*A*(D*~(E)*~(C)+D*E*~(C)+~(D)*E*C+D*E*C))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1111110011111110111111001111111011111111111111110000000000000000,EQN="~(~E*~((~C*~B*~(~D*A)))*~(F)+~E*(~C*~B*~(~D*A))*~(F)+~(~E)*(~C*~B*~(~D*A))*F+~E*(~C*~B*~(~D*A))*F)") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b0111100000011000001010000000111111111001100110101010100010001,EQN="(~(F*C)*~(~D*B)*~(~E*A))") in V:/Anlogic/arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01110111111100110100010011000000,EQN="~(~E*~((~C*~(A)*~(D)+~C*A*~(D)+~(~C)*A*D+~C*A*D))*~(B)+~E*(~C*~(A)*~(D)+~C*A*~(D)+~(~C)*A*D+~C*A*D)*~(B)+~(~E)*(~C*~(A)*~(D)+~C*A*~(D)+~(~C)*A*D+~C*A*D)*B+~E*(~C*~(A)*~(D)+~C*A*~(D)+~(~C)*A*D+~C*A*D)*B)") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01011101,EQN="(~E*~D*~(A*~(~C*B)))") in V:/Anlogic/arch/al_lmacro.v(13)
+HDL-5007 WARNING: input port 'b' is not connected on this instance in ../../al_ip/trimac_core_gate.v(4342)
+HDL-5007 WARNING: input port 'b' is not connected on this instance in ../../al_ip/trimac_core_gate.v(12529)
+HDL-5007 WARNING: input port 'b' is not connected on this instance in ../../al_ip/trimac_core_gate.v(16608)
+HDL-5007 WARNING: input port 'b' is not connected on this instance in ../../al_ip/trimac_core_gate.v(18741)
+HDL-5007 WARNING: input port 'b' is not connected on this instance in ../../al_ip/trimac_core_gate.v(23881)
+HDL-5007 WARNING: input port 'b' is not connected on this instance in ../../al_ip/trimac_core_gate.v(24019)
+HDL-5007 WARNING: actual bit length 1 differs from formal bit length 2 for port 'inband_clock_speed' in ../../src/al_temac_example_design.v(538)
+HDL-5007 WARNING: input port 'reset' remains unconnected for this instance in ../../src/al_temac_example_design.v(190)
+HDL-1200 : Current top model is al_temac_example_design
+HDL-1100 : Inferred 1 RAMs.
+RUN-1002 : start command "export_db temac_elaborate.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported flow parameters
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1002 : start command "read_adc ../../mac_pins.adc"
+RUN-1002 : start command "set_pin_assignment  sysclk_P 	     LOCATION = N18; "
+RUN-1002 : start command "set_pin_assignment  reset_n        LOCATION = K4; IOSTANDARD = SSTL15; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  rgmii_rxc      LOCATION = H20; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  rgmii_rx_ctl   LOCATION = K17; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  rgmii_rxd[0]   LOCATION = E21; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  rgmii_rxd[1]   LOCATION = E22; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  rgmii_rxd[2]   LOCATION = H22; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  rgmii_rxd[3]   LOCATION = G22; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  rgmii_txc      LOCATION = L19; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  rgmii_tx_ctl   LOCATION = G21; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  rgmii_txd[0]   LOCATION = F21; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  rgmii_txd[1]   LOCATION = J21; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  rgmii_txd[2]   LOCATION = J22; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  rgmii_txd[3]   LOCATION = J20; IOSTANDARD = LVCMOS33; "
+RUN-1001 : Starting of IO setups legality check.
+RUN-1001 : Starting of IO setups legality check.
+RUN-1001 : Starting of IO setups legality check.
+RUN-1001 : Starting of IO setups legality check.
+USR-6010 WARNING: ADC constraints: top model pin mdc has no constraint.
+USR-6010 WARNING: ADC constraints: top model pin mdio has no constraint.
+RUN-1002 : start command "optimize_rtl"
+RUN-1001 : Open license file V:/Anlogic/license/Anlogic.lic
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        qor_monitor       |    off     |       off        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      |        
+RUN-1001 :        elf_sload        |    off     |       off        |        
+RUN-1001 :       fix_undriven      |     0      |        0         |        
+RUN-1001 :         flatten         |    off     |       off        |        
+RUN-1001 :       gate_sharing      |     on     |        on        |        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      |        
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        |        
+RUN-1001 :      impl_set_reset     |     on     |        on        |        
+RUN-1001 :        infer_gsr        |    off     |       off        |        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       |        
+RUN-1001 :        max_fanout       |    9999    |       9999       |        
+RUN-1001 :      max_oh2bin_len     |     10     |        10        |        
+RUN-1001 :       merge_equal       |     on     |        on        |        
+RUN-1001 :       merge_equiv       |     on     |        on        |        
+RUN-1001 :        merge_mux        |    off     |       off        |        
+RUN-1001 :     min_control_set     |     8      |        8         |        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       |        
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       |        
+RUN-1001 :     opt_adder_fanout    |     on     |        on        |        
+RUN-1001 :        opt_arith        |     on     |        on        |        
+RUN-1001 :       opt_big_gate      |    off     |       off        |        
+RUN-1001 :        opt_const        |     on     |        on        |        
+RUN-1001 :      opt_const_mult     |     on     |        on        |        
+RUN-1001 :       opt_lessthan      |     on     |        on        |        
+RUN-1001 :         opt_mux         |    off     |       off        |        
+RUN-1001 :         opt_ram         |    high    |       high       |        
+RUN-1001 :      rtl_sim_model      |    off     |       off        |        
+RUN-1001 :         seq_syn         |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+SYN-1012 : SanityCheck: Model "al_temac_example_design"
+SYN-1012 : SanityCheck: Model "temac_locallink(P_HOST_EN=1'b0)"
+SYN-1012 : SanityCheck: Model "reset_sync"
+SYN-1012 : SanityCheck: Model "FDPE"
+SYN-1012 : SanityCheck: Model "temac_block(P_HOST_EN=1'b0)"
+SYN-1012 : SanityCheck: Model "sync_block"
+SYN-1012 : SanityCheck: Model "FD"
+SYN-1012 : SanityCheck: Model "TEMAC_CORE(P_ADD_FILT_LIST=16,P_HOST_EN=1'b0)"
+SYN-1012 : SanityCheck: Model "AL_DFF_X"
+SYN-1012 : SanityCheck: Model "AL_DFF_0"
+SYN-1012 : SanityCheck: Model "rgmii_interface"
+SYN-1012 : SanityCheck: Model "tx_clk_en_gen"
+SYN-1012 : SanityCheck: Model "client_FIFO"
+SYN-1012 : SanityCheck: Model "rx_client_fifo"
+SYN-1012 : SanityCheck: Model "RAMB16_S9_S9"
+SYN-1012 : SanityCheck: Model "tx_client_fifo"
+SYN-1012 : SanityCheck: Model "axi_master_cfg(tx_cfg=32'b0101010,rx_cfg=32'b0101010,pause_srcad_cfg=48'b111101101111010111110100111100111111001001011010,speed_cfg=32'b010,flow_ctrl_cfg=32'b0,ad_filter_mode_cfg=32'b0,mdio_clk_cfg=32'b01001001,mdio_we1_data_cfg=32'b01001001101000000,mdio_we1_ctrl_cfg=32'b01011,mdio_rd1_ctrl_cfg=32'b01101)"
+SYN-1012 : SanityCheck: Model "client_loopback"
+SYN-1012 : SanityCheck: Model "pll"
+SYN-1012 : SanityCheck: Model "rx_pll"
+SYN-1012 : SanityCheck: Model "test_send"
+SYN-1012 : SanityCheck: Model "data_fifo"
+SYN-1012 : SanityCheck: Model "ram_infer_data_fifo(ADDRWIDTH_A=9,DATAWIDTH_B=8,ADDRWIDTH_B=11)"
+SYN-1012 : SanityCheck: Model "fifo_cross_domain_addr_process_al_data_fifo(ADDR_WIDTH=11)"
+SYN-1012 : SanityCheck: Model "fifo_cross_domain_addr_process_al_data_fifo"
+SYN-1012 : SanityCheck: Model "fake_top"
+SYN-1012 : SanityCheck: Model "singal_gen"
+SYN-1012 : SanityCheck: Model "dds_gen"
+SYN-1012 : SanityCheck: Model "dds_gen1"
+SYN-1012 : SanityCheck: Model "top_fir"
+SYN-1012 : SanityCheck: Model "AD7266_Read"
+SYN-1012 : SanityCheck: Model "fir_filter"
+SYN-1043 : Mark rx_pll as IO macro for instance bufg_feedback
+SYN-1043 : Mark pll as IO macro for instance bufg_feedback
+SYN-1043 : Mark rgmii_interface as IO macro for instance ctl_output
+SYN-1043 : Mark temac_block(P_HOST_EN=1'b0) as IO macro for instance u1_rgmii_interface
+SYN-1043 : Mark temac_locallink(P_HOST_EN=1'b0) as IO macro for instance trimac_block
+SYN-1011 : Flatten model al_temac_example_design
+SYN-1032 : 16433/4189 useful/useless nets, 5199/1173 useful/useless insts
+SYN-1001 : Optimize 1 decoder instances
+SYN-1016 : Merged 337 instances.
+SYN-1025 : Merged 3 RAM ports.
+SYN-1026 : Infer Logic BRAM(u_test_send/u_data_fifo/ram_inst/ramread0_syn_6)
+	 port mode: single dual port
+	 port a size: 2048 x 8	 write mode: NORMAL
+	 port b size: 512 x 32	 write mode: READBEFOREWRITE
+SYN-1023 : Infer 0 Logic DRAMs, 1 Logic BRAMs.
+SYN-1032 : 13177/3036 useful/useless nets, 4658/192 useful/useless insts
+SYN-1016 : Merged 1316 instances.
+SYN-5011 WARNING: Undriven pin: model "al_temac_example_design" / inst "trimac_locallink/u_client_FIFO/tx_fifo/reg13_syn_2" in ../../src/fifo/tx_client_fifo.v(1161) / pin "d"
+SYN-5011 WARNING: Undriven pin: model "al_temac_example_design" / inst "trimac_locallink/u_client_FIFO/tx_fifo/ramgen_l/inst" in ../../src/fifo/RAMB16_S9_S9.v(61) / pin "ecc_dbiterrinj"
+SYN-5011 WARNING: Undriven pin: model "al_temac_example_design" / inst "trimac_locallink/u_client_FIFO/tx_fifo/ramgen_l/inst" in ../../src/fifo/RAMB16_S9_S9.v(61) / pin "ecc_sbiterrinj"
+SYN-5011 WARNING: Undriven pin: model "al_temac_example_design" / inst "trimac_locallink/u_client_FIFO/tx_fifo/ramgen_u/inst" in ../../src/fifo/RAMB16_S9_S9.v(61) / pin "ecc_dbiterrinj"
+SYN-5011 WARNING: Undriven pin: model "al_temac_example_design" / inst "trimac_locallink/u_client_FIFO/tx_fifo/ramgen_u/inst" in ../../src/fifo/RAMB16_S9_S9.v(61) / pin "ecc_sbiterrinj"
+SYN-5011 WARNING: Undriven pin: model "al_temac_example_design" / inst "u_test_send/u_data_fifo/rd_to_wr_cross_inst/reg1_syn_2" in ../../al_ip/data_fifo.v(347) / pin "d"
+SYN-5011 WARNING: Undriven pin: model "al_temac_example_design" / inst "u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_82f1a528" in ../../al_ip/dds_ip/dds_gen_gate.v(571) / pin "ecc_dbiterrinj"
+SYN-5011 WARNING: Undriven pin: model "al_temac_example_design" / inst "u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_82f1a528" in ../../al_ip/dds_ip/dds_gen_gate.v(571) / pin "ecc_sbiterrinj"
+SYN-5011 WARNING: Undriven pin: model "al_temac_example_design" / inst "u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_82f1a528" in ../../al_ip/dds1_ip/dds_gen1_gate.v(548) / pin "ecc_dbiterrinj"
+SYN-5011 WARNING: Undriven pin: model "al_temac_example_design" / inst "u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_82f1a528" in ../../al_ip/dds1_ip/dds_gen1_gate.v(548) / pin "ecc_sbiterrinj"
+SYN-5011 Similar messages will be suppressed.
+SYN-5013 WARNING: Undriven net: model "al_temac_example_design" / net "trimac_locallink/u_client_FIFO/tx_fifo/ramgen_l/dib[8]" in ../../src/fifo/RAMB16_S9_S9.v(25)
+SYN-5014 WARNING: the net's pin: pin "dib[8]" in ../../src/fifo/RAMB16_S9_S9.v(61)
+SYN-5013 WARNING: Undriven net: model "al_temac_example_design" / net "trimac_locallink/u_client_FIFO/tx_fifo/ramgen_l/dib[7]" in ../../src/fifo/RAMB16_S9_S9.v(25)
+SYN-5014 WARNING: the net's pin: pin "dib[7]" in ../../src/fifo/RAMB16_S9_S9.v(61)
+SYN-5013 WARNING: Undriven net: model "al_temac_example_design" / net "trimac_locallink/u_client_FIFO/tx_fifo/ramgen_l/dib[6]" in ../../src/fifo/RAMB16_S9_S9.v(25)
+SYN-5014 WARNING: the net's pin: pin "dib[6]" in ../../src/fifo/RAMB16_S9_S9.v(61)
+SYN-5013 WARNING: Undriven net: model "al_temac_example_design" / net "trimac_locallink/u_client_FIFO/tx_fifo/ramgen_l/dib[5]" in ../../src/fifo/RAMB16_S9_S9.v(25)
+SYN-5014 WARNING: the net's pin: pin "dib[5]" in ../../src/fifo/RAMB16_S9_S9.v(61)
+SYN-5013 WARNING: Undriven net: model "al_temac_example_design" / net "trimac_locallink/u_client_FIFO/tx_fifo/ramgen_l/dib[4]" in ../../src/fifo/RAMB16_S9_S9.v(25)
+SYN-5014 WARNING: the net's pin: pin "dib[4]" in ../../src/fifo/RAMB16_S9_S9.v(61)
+SYN-5013 WARNING: Undriven net: model "al_temac_example_design" / net "trimac_locallink/u_client_FIFO/tx_fifo/ramgen_l/dib[3]" in ../../src/fifo/RAMB16_S9_S9.v(25)
+SYN-5014 WARNING: the net's pin: pin "dib[3]" in ../../src/fifo/RAMB16_S9_S9.v(61)
+SYN-5013 WARNING: Undriven net: model "al_temac_example_design" / net "trimac_locallink/u_client_FIFO/tx_fifo/ramgen_l/dib[2]" in ../../src/fifo/RAMB16_S9_S9.v(25)
+SYN-5014 WARNING: the net's pin: pin "dib[2]" in ../../src/fifo/RAMB16_S9_S9.v(61)
+SYN-5013 WARNING: Undriven net: model "al_temac_example_design" / net "trimac_locallink/u_client_FIFO/tx_fifo/ramgen_l/dib[1]" in ../../src/fifo/RAMB16_S9_S9.v(25)
+SYN-5014 WARNING: the net's pin: pin "dib[1]" in ../../src/fifo/RAMB16_S9_S9.v(61)
+SYN-5013 WARNING: Undriven net: model "al_temac_example_design" / net "trimac_locallink/u_client_FIFO/tx_fifo/ramgen_l/dib[0]" in ../../src/fifo/RAMB16_S9_S9.v(25)
+SYN-5014 WARNING: the net's pin: pin "dib[0]" in ../../src/fifo/RAMB16_S9_S9.v(61)
+SYN-5013 WARNING: Undriven net: model "al_temac_example_design" / net "trimac_locallink/u_client_FIFO/tx_fifo/ramgen_u/dib[8]" in ../../src/fifo/RAMB16_S9_S9.v(25)
+SYN-5014 WARNING: the net's pin: pin "dib[8]" in ../../src/fifo/RAMB16_S9_S9.v(61)
+SYN-5013 WARNING: Undriven net: model "al_temac_example_design" / net "trimac_locallink/u_client_FIFO/tx_fifo/ramgen_u/dib[7]" in ../../src/fifo/RAMB16_S9_S9.v(25)
+SYN-5014 WARNING: the net's pin: pin "dib[7]" in ../../src/fifo/RAMB16_S9_S9.v(61)
+SYN-5013 WARNING: Undriven net: model "al_temac_example_design" / net "trimac_locallink/u_client_FIFO/tx_fifo/ramgen_u/dib[6]" in ../../src/fifo/RAMB16_S9_S9.v(25)
+SYN-5014 WARNING: the net's pin: pin "dib[6]" in ../../src/fifo/RAMB16_S9_S9.v(61)
+SYN-5013 WARNING: Undriven net: model "al_temac_example_design" / net "trimac_locallink/u_client_FIFO/tx_fifo/ramgen_u/dib[5]" in ../../src/fifo/RAMB16_S9_S9.v(25)
+SYN-5014 WARNING: the net's pin: pin "dib[5]" in ../../src/fifo/RAMB16_S9_S9.v(61)
+SYN-5013 WARNING: Undriven net: model "al_temac_example_design" / net "trimac_locallink/u_client_FIFO/tx_fifo/ramgen_u/dib[4]" in ../../src/fifo/RAMB16_S9_S9.v(25)
+SYN-5014 WARNING: the net's pin: pin "dib[4]" in ../../src/fifo/RAMB16_S9_S9.v(61)
+SYN-5013 WARNING: Undriven net: model "al_temac_example_design" / net "trimac_locallink/u_client_FIFO/tx_fifo/ramgen_u/dib[3]" in ../../src/fifo/RAMB16_S9_S9.v(25)
+SYN-5014 WARNING: the net's pin: pin "dib[3]" in ../../src/fifo/RAMB16_S9_S9.v(61)
+SYN-5013 WARNING: Undriven net: model "al_temac_example_design" / net "trimac_locallink/u_client_FIFO/tx_fifo/ramgen_u/dib[2]" in ../../src/fifo/RAMB16_S9_S9.v(25)
+SYN-5014 WARNING: the net's pin: pin "dib[2]" in ../../src/fifo/RAMB16_S9_S9.v(61)
+SYN-5013 WARNING: Undriven net: model "al_temac_example_design" / net "trimac_locallink/u_client_FIFO/tx_fifo/ramgen_u/dib[1]" in ../../src/fifo/RAMB16_S9_S9.v(25)
+SYN-5014 WARNING: the net's pin: pin "dib[1]" in ../../src/fifo/RAMB16_S9_S9.v(61)
+SYN-5013 WARNING: Undriven net: model "al_temac_example_design" / net "trimac_locallink/u_client_FIFO/tx_fifo/ramgen_u/dib[0]" in ../../src/fifo/RAMB16_S9_S9.v(25)
+SYN-5014 WARNING: the net's pin: pin "dib[0]" in ../../src/fifo/RAMB16_S9_S9.v(61)
+SYN-5013 WARNING: Undriven net: model "al_temac_example_design" / net "u_rx_pll/reset" in ../../al_ip/rx_pll.v(32)
+SYN-5014 WARNING: the net's pin: pin "pllreset" in ../../al_ip/rx_pll.v(85)
+SYN-5025 WARNING: Using 0 for all undriven pins and nets
+SYN-1032 : 11821/139 useful/useless nets, 8286/200 useful/useless insts
+SYN-1014 : Optimize round 1
+SYN-1017 : Remove 55 const input seq instances
+SYN-1002 :     trimac_locallink/trimac_block/trimac_core/al_14467148
+SYN-1002 :     trimac_locallink/trimac_block/trimac_core/al_55487ece
+SYN-1002 :     trimac_locallink/trimac_block/trimac_core/al_91dacff9
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_AD7266/reg19_syn_10
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_14
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_30
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_46
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_62
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_78
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_94
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_110
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_126
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_142
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_158
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_174
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_190
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_206
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_222
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_238
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_254
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_270
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_286
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_302
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_318
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_334
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_350
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_366
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_382
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_398
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_414
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_430
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_446
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_462
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_478
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_494
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_510
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_526
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_542
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_558
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_574
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_590
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_606
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_622
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_638
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_654
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_670
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_686
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_702
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_718
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_734
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_750
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_766
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_782
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_798
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg1_syn_814
+SYN-1021 : Optimized 9 onehot mux instances.
+SYN-1020 : Optimized 151 distributor mux.
+SYN-1001 : Optimize 2 less-than instances
+SYN-1019 : Optimized 8 mux instances.
+SYN-1016 : Merged 239 instances.
+SYN-1015 : Optimize round 1, 1274 better
+SYN-1014 : Optimize round 2
+SYN-1044 : Optimized 2 inv instances.
+SYN-1032 : 10974/5 useful/useless nets, 7441/310 useful/useless insts
+SYN-1017 : Remove 132 const input seq instances
+SYN-1002 :     u_test_send/u_fake_top/u_singal_gen/reg1_syn_10
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_AD7266/reg12_syn_2
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_2
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_3
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_4
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_5
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_6
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_66
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_98
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_99
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_130
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_131
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_132
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_162
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_163
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_164
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_165
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_194
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_290
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_354
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_355
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_356
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_357
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_358
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_359
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_360
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_361
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_362
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_363
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_364
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_365
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_366
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_367
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_368
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_369
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_370
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_371
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_372
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_373
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_374
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_375
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_376
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_377
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_378
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_379
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_380
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_381
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_382
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_383
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_384
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_385
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_386
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_418
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_419
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_450
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_451
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_452
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_514
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_578
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_610
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_611
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_612
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_738
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_739
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_770
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_802
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_803
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_804
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_805
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_834
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_866
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_867
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_994
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_995
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_996
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1026
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1090
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1154
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1155
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1156
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1186
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1187
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1218
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1250
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1251
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1252
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1253
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1254
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1255
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1256
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1257
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1258
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1259
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1260
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1261
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1262
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1263
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1264
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1265
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1266
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1267
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1268
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1269
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1270
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1271
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1272
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1273
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1274
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1275
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1276
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1277
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1278
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1279
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1280
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1281
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1314
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1410
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1442
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1443
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1444
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1445
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1474
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1475
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1476
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1506
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1507
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1538
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1602
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1603
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1604
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1605
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1606
+SYN-1015 : Optimize round 2, 516 better
+SYN-1032 : 10694/143 useful/useless nets, 7289/16 useful/useless insts
+SYN-3004 : Optimized 10 const0 DFF(s)
+SYN-3004 : Optimized 15 const0 DFF(s)
+SYN-3004 : Optimized 1 const0 DFF(s)
+SYN-1032 : 10650/44 useful/useless nets, 7261/2 useful/useless insts
+SYN-1014 : Optimize round 1
+SYN-1016 : Merged 1 instances.
+SYN-1015 : Optimize round 1, 22 better
+SYN-1014 : Optimize round 2
+SYN-1015 : Optimize round 2, 0 better
+RUN-1003 : finish command "optimize_rtl" in  6.004201s wall, 5.156250s user + 0.609375s system = 5.765625s CPU (96.0%)
+
+RUN-1004 : used memory is 940 MB, reserved memory is 940 MB, peak memory is 986 MB
+RUN-1002 : start command "report_area -file temac_rtl.area"
+RUN-1001 : standard
+***Report Model: al_temac_example_design Device: PH1A90SBG484***
+
+IO Statistics
+#IO                        16
+  #input                    8
+  #output                   7
+  #inout                    1
+
+Gate Statistics
+#Basic gates             4818
+  #and                    132
+  #nand                     0
+  #or                      23
+  #nor                      0
+  #xor                     39
+  #xnor                     0
+  #buf                      0
+  #not                     90
+  #bufif1                   1
+  #MX21                    76
+  #FADD                     0
+  #DFF                   4457
+  #LATCH                    0
+#MACRO_ADD                 88
+#MACRO_EQ                  37
+#MACRO_MULT                49
+#MACRO_MUX                347
+#MACRO_OTHERS              18
+
+LUT Statistics
+#Total_luts              1606
+  #lut4                   694
+  #lut5                   417
+  #lut6                   365
+  #lut5_mx41                0
+  #lut4_alu1b             130
+
+Report Hierarchy Area:
++-------------------------------------------------------------------------------------------------------------------+
+|Instance                                      |Module                                      |gates  |seq    |macros |
++-------------------------------------------------------------------------------------------------------------------+
+|top                                           |al_temac_example_design                     |361    |4457   |192    |
+|  trimac_locallink                            |temac_locallink                             |114    |1654   |47     |
+|    trimac_block                              |temac_block                                 |41     |1433   |16     |
+|      rx_reset_gen                            |reset_sync                                  |0      |2      |0      |
+|        reset_sync1                           |FDPE                                        |0      |1      |0      |
+|        reset_sync2                           |FDPE                                        |0      |1      |0      |
+|      speed_10_100_rx_sync                    |sync_block                                  |0      |2      |0      |
+|        data_sync                             |FD                                          |0      |1      |0      |
+|        data_sync_reg                         |FD                                          |0      |1      |0      |
+|      trimac_core                             |TEMAC_CORE                                  |2      |1345   |0      |
+|      tx_reset_gen                            |reset_sync                                  |1      |2      |0      |
+|        reset_sync1                           |FDPE                                        |0      |1      |0      |
+|        reset_sync2                           |FDPE                                        |1      |1      |0      |
+|      u1_rgmii_interface                      |rgmii_interface                             |11     |0      |11     |
+|      u_tx_clk_en_gen                         |tx_clk_en_gen                               |15     |17     |4      |
+|        speed_100_sync                        |sync_block                                  |0      |2      |0      |
+|          data_sync                           |FD                                          |0      |1      |0      |
+|          data_sync_reg                       |FD                                          |0      |1      |0      |
+|        speed_10_100_sync                     |sync_block                                  |0      |2      |0      |
+|          data_sync                           |FD                                          |0      |1      |0      |
+|          data_sync_reg                       |FD                                          |0      |1      |0      |
+|    u_client_FIFO                             |client_FIFO                                 |73     |221    |31     |
+|      tx_fifo                                 |tx_client_fifo                              |73     |221    |31     |
+|        gen_hd_count$resync_rd_tran_fram....  |sync_block                                  |0      |2      |0      |
+|          data_sync                           |FD                                          |0      |1      |0      |
+|          data_sync_reg                       |FD                                          |0      |1      |0      |
+|        ramgen_l                              |RAMB16_S9_S9                                |0      |0      |1      |
+|        ramgen_u                              |RAMB16_S9_S9                                |0      |0      |1      |
+|        resync_rd_tran_frame_tog              |sync_block                                  |0      |2      |0      |
+|          data_sync                           |FD                                          |0      |1      |0      |
+|          data_sync_reg                       |FD                                          |0      |1      |0      |
+|        resync_rd_txfer_tog                   |sync_block                                  |0      |2      |0      |
+|          data_sync                           |FD                                          |0      |1      |0      |
+|          data_sync_reg                       |FD                                          |0      |1      |0      |
+|        resync_wr_frame_in_fifo               |sync_block                                  |0      |2      |0      |
+|          data_sync                           |FD                                          |0      |1      |0      |
+|          data_sync_reg                       |FD                                          |0      |1      |0      |
+|  u_axi_master_cfg                            |axi_master_cfg                              |100    |97     |4      |
+|  u_client_loopback                           |client_loopback                             |4      |80     |0      |
+|  u_pll                                       |pll                                         |0      |0      |1      |
+|  u_rx_pll                                    |rx_pll                                      |0      |0      |1      |
+|  u_test_send                                 |test_send                                   |135    |2616   |139    |
+|    u_data_fifo                               |data_fifo                                   |39     |104    |9      |
+|      ram_inst                                |ram_infer_data_fifo                         |0      |0      |1      |
+|      rd_to_wr_cross_inst                     |fifo_cross_domain_addr_process_al_data_fifo |18     |40     |0      |
+|      wr_to_rd_cross_inst                     |fifo_cross_domain_addr_process_al_data_fifo |16     |36     |0      |
+|    u_fake_top                                |fake_top                                    |82     |2482   |123    |
+|      u_singal_gen                            |singal_gen                                  |5      |284    |9      |
+|        u_dds_gen                             |dds_gen                                     |0      |136    |1      |
+|        u_dds_gen1                            |dds_gen1                                    |0      |134    |1      |
+|      u_top_fir                               |top_fir                                     |77     |2198   |114    |
+|        u_AD7266                              |AD7266_Read                                 |76     |56     |13     |
+|        u_fir_filter                          |fir_filter                                  |0      |2132   |99     |
++-------------------------------------------------------------------------------------------------------------------+
+
+RUN-1002 : start command "export_db temac_rtl.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported flow parameters
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1002 : start command "read_sdc ../../mac_timing.sdc"
+RUN-1002 : start command "get_ports sysclk_P"
+RUN-1002 : start command "create_clock -name clkin -period 10 -waveform 0 5 "
+RUN-1102 : create_clock: clock name: clkin, type: 0, period: 10000, rise: 0, fall: 5000.
+RUN-1002 : start command "get_ports rgmii_rxc"
+RUN-1002 : start command "create_clock -name rgmii_rx_clk -period 8 -waveform 0 4 "
+RUN-1102 : create_clock: clock name: rgmii_rx_clk, type: 0, period: 8000, rise: 0, fall: 4000.
+RUN-1002 : start command "get_ports sysclk_P"
+RUN-1002 : start command "get_nets gtx_clk"
+RUN-1002 : start command "create_generated_clock -name CLK125 -source  -master_clock clkin -phase 0 -multiply_by 1.25 "
+RUN-1002 : start command "get_ports sysclk_P"
+RUN-1002 : start command "get_nets s_axi_aclk"
+RUN-1002 : start command "create_generated_clock -name CLK50 -source  -master_clock clkin -phase 0 -multiply_by 0.5 "
+RUN-1002 : start command "get_clocks CLK125"
+RUN-1002 : start command "get_clocks CLK50"
+RUN-1002 : start command "get_clocks rgmii_rx_clk"
+RUN-1002 : start command "get_clocks clkin"
+RUN-1002 : start command "set_clock_groups -exclusive -group  -group  -group  -group "
+RUN-1002 : start command "read_sdc -ip data_fifo ../../al_ip/data_fifo.tcl"
+RUN-1002 : start command "get_ports clkw"
+RUN-1002 : start command "get_nets  clkw  "
+RUN-1002 : start command "get_clocks -nowarn -of nets 61280593379328"
+RUN-1002 : start command "get_ports clkr"
+RUN-1002 : start command "get_nets  clkr  "
+RUN-1002 : start command "get_clocks -nowarn -of nets 39741332389888"
+RUN-1002 : start command "get_property -nowarn -max PERIOD "
+RUN-1002 : start command "get_property -nowarn -max PERIOD "
+RUN-1002 : start command "get_regs rd_to_wr_cross_inst/primary_addr_gray_reg[*]"
+RUN-1002 : start command "get_regs rd_to_wr_cross_inst/sync_r1[*]"
+RUN-1002 : start command "set_max_delay -from  -to  7.7000000000000002 -datapath_only"
+RUN-1002 : start command "get_regs rd_to_wr_cross_inst/primary_addr_gray_reg[*]"
+RUN-1002 : start command "get_regs rd_to_wr_cross_inst/sync_r1[*]"
+RUN-1002 : start command "set_false_path -from  -to  -hold 7.7000000000000002"
+USR-1002 : set_false_path -help -setup -hold -from <list> -rise_from <list> -fall_from <list> -to <list> -rise_to <list> -fall_to <list> -through <list>
+RUN-1002 : start command "get_regs wr_to_rd_cross_inst/primary_addr_gray_reg[*]"
+RUN-1002 : start command "get_regs wr_to_rd_cross_inst/sync_r1[*]"
+RUN-1002 : start command "set_max_delay -from  -to  7.7000000000000002 -datapath_only"
+RUN-1002 : start command "get_regs wr_to_rd_cross_inst/primary_addr_gray_reg[*]"
+RUN-1002 : start command "get_regs wr_to_rd_cross_inst/sync_r1[*]"
+RUN-1002 : start command "set_false_path -from  -to  -hold 7.7000000000000002"
+USR-1002 : set_false_path -help -setup -hold -from <list> -rise_from <list> -fall_from <list> -to <list> -rise_to <list> -fall_to <list> -through <list>
+RUN-1002 : start command "optimize_gate -maparea temac_gate.area"
+RUN-1001 : Open license file V:/Anlogic/license/Anlogic.lic
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        qor_monitor       |    off     |       off        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Gate Property
+RUN-1001 : ------------------------------------------------------------------
+RUN-1001 :          Parameters         |  Settings  |  Default Values  |  Note  
+RUN-1001 : ------------------------------------------------------------------
+RUN-1001 :         cascade_dsp         |    off     |       off        |        
+RUN-1001 :         cascade_eram        |    off     |       off        |        
+RUN-1001 :        gate_sim_model       |    off     |       off        |        
+RUN-1001 :        map_sim_model        |    off     |       off        |        
+RUN-1001 :         map_strategy        |     1      |        1         |        
+RUN-1001 :           opt_area          |   medium   |      medium      |        
+RUN-1001 :          opt_timing         |    auto    |       auto       |        
+RUN-1001 :         pack_effort         |   medium   |      medium      |        
+RUN-1001 :      pack_lslice_ripple     |     on     |        on        |        
+RUN-1001 :   pack_lslice_ripple_ratio  |    0.5     |       0.5        |        
+RUN-1001 :        pack_seq_in_io       |    auto    |       auto       |        
+RUN-1001 :        ph1_mux_ratio        |    1.0     |       1.0        |        
+RUN-1001 :            report           |  standard  |     standard     |        
+RUN-1001 :           retiming          |    off     |       off        |        
+RUN-1001 : ------------------------------------------------------------------
+SYN-6019 WARNING: None clock-capable pad connect with clk net rgmii_rxc, will suffer from clock performance degradation.
+SYN-2001 : Map 16 IOs to PADs
+SYN-1032 : 10638/12 useful/useless nets, 7248/13 useful/useless insts
+RUN-1002 : start command "update_pll_param -module al_temac_example_design"
+SYN-2501 : Processed 0 LOGIC_BUF instances.
+SYN-2501 : 2 BUFG to GCLK
+SYN-2595 : bram inst: trimac_locallink/u_client_FIFO/tx_fifo/ramgen_l/inst is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: trimac_locallink/u_client_FIFO/tx_fifo/ramgen_u/inst is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: u_test_send/u_data_fifo/ram_inst/ramread0_syn_6 is set to PDPW/SP from DP for resource saving
+SYN-2511 : Pack BRAM "u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_82f1a528"(64x5) and "u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_82f1a528"(64x5) into "u_test_send/u_fake_top/u_singal_gen/u_dds_gen/al_82f1a528_u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_82f1a528"(128x8_128x8)
+SYN-2512 : LOGIC BRAM "trimac_locallink/u_client_FIFO/tx_fifo/ramgen_l/inst"
+SYN-2512 : LOGIC BRAM "trimac_locallink/u_client_FIFO/tx_fifo/ramgen_u/inst"
+SYN-2512 : LOGIC BRAM "u_test_send/u_data_fifo/ram_inst/ramread0_syn_8"
+SYN-2512 : LOGIC BRAM "u_test_send/u_fake_top/u_singal_gen/u_dds_gen1/al_82f1a528_syn_1"
+SYN-2571 : Map 49 macro multiplier
+SYN-2571 : Optimize after map_dsp, round 1
+SYN-1032 : 10116/1747 useful/useless nets, 7248/0 useful/useless insts
+SYN-1016 : Merged 522 instances.
+SYN-2571 : Optimize after map_dsp, round 1, 1747 better
+SYN-2571 : Optimize after map_dsp, round 2
+SYN-2571 : Optimize after map_dsp, round 2, 0 better
+SYN-2571 : Map 2 macro multiplier
+SYN-2571 : Map 2 macro multiplier
+SYN-1032 : 8202/1362 useful/useless nets, 5732/974 useful/useless insts
+SYN-1017 : Remove 6 const input seq instances
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_399
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_400
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_401
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1231
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1232
+SYN-1002 :     u_test_send/u_fake_top/u_top_fir/u_fir_filter/reg0_syn_1233
+SYN-1032 : 9237/120 useful/useless nets, 5606/120 useful/useless insts
+SYN-1053 : Infer FIXED Logic Shifter(u_client_loopback/data_sr_content[0][0]_syn_3) depth 4, width 8, sel 1
+SYN-1053 : Infer FIXED Logic Shifter(u_test_send/u_fake_top/u_top_fir/u_fir_filter/buffer[0][0]_syn_3) depth 24, width 12, sel 1
+SYN-1053 : Infer FIXED Logic Shifter(u_test_send/u_fake_top/u_top_fir/u_fir_filter/buffer[0][0]_syn_4) depth 10, width 12, sel 1
+SYN-1032 : 8887/408 useful/useless nets, 5227/440 useful/useless insts
+SYN-2531 : Shifter(u_client_loopback/data_sr_content[0][0]_syn_3) width 8, depth 4
+SYN-2531 : Shifter u_client_loopback/data_sr_content[0][0]_syn_3 has no init file
+SYN-2531 : Shifter(u_test_send/u_fake_top/u_top_fir/u_fir_filter/buffer[0][0]_syn_3) width 12, depth 24
+SYN-2531 : Shifter u_test_send/u_fake_top/u_top_fir/u_fir_filter/buffer[0][0]_syn_3 has no init file
+SYN-2531 : Shifter(u_test_send/u_fake_top/u_top_fir/u_fir_filter/buffer[0][0]_syn_4) width 12, depth 10
+SYN-2531 : Shifter u_test_send/u_fake_top/u_top_fir/u_fir_filter/buffer[0][0]_syn_4 has no init file
+SYN-1001 : Throwback 113 control mux instances
+RUN-1002 : start command "start_timer -prepack"
+USR-1006 : Generating FPGA-IP Autogen constraints ...
+SYN-2501 : Optimize round 1
+SYN-1032 : 8805/251 useful/useless nets, 5557/0 useful/useless insts
+SYN-1016 : Merged 70 instances.
+SYN-2501 : Optimize round 1, 281 better
+SYN-2501 : Optimize round 2
+SYN-2501 : Optimize round 2, 0 better
+SYN-1030 : Map 7 macro adder
+SYN-2501 : Map 51 macro adder
+SYN-3001 : Mapper mapped 63 instances into 5 LUTs, name keeping = 40%.
+SYN-3001 : Mapper mapped 63 instances into 3 LUTs, name keeping = 33%.
+SYN-3001 : Mapper mapped 63 instances into 3 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 63 instances into 3 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 63 instances into 3 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 63 instances into 3 LUTs, name keeping = 33%.
+SYN-3001 : Mapper mapped 63 instances into 5 LUTs, name keeping = 40%.
+SYN-3001 : Mapper mapped 63 instances into 5 LUTs, name keeping = 40%.
+SYN-3001 : Mapper mapped 63 instances into 5 LUTs, name keeping = 40%.
+SYN-3001 : Mapper mapped 63 instances into 5 LUTs, name keeping = 20%.
+SYN-3001 : Mapper mapped 63 instances into 5 LUTs, name keeping = 40%.
+SYN-3001 : Mapper mapped 63 instances into 5 LUTs, name keeping = 40%.
+SYN-3001 : Mapper mapped 63 instances into 5 LUTs, name keeping = 20%.
+SYN-3001 : Mapper mapped 63 instances into 3 LUTs, name keeping = 33%.
+SYN-3001 : Mapper mapped 63 instances into 3 LUTs, name keeping = 33%.
+SYN-3001 : Mapper mapped 63 instances into 5 LUTs, name keeping = 40%.
+SYN-3001 : Mapper mapped 63 instances into 5 LUTs, name keeping = 20%.
+SYN-3001 : Mapper mapped 63 instances into 5 LUTs, name keeping = 40%.
+SYN-3001 : Mapper mapped 63 instances into 5 LUTs, name keeping = 40%.
+SYN-3001 : Mapper mapped 63 instances into 5 LUTs, name keeping = 40%.
+SYN-3001 : Mapper mapped 63 instances into 5 LUTs, name keeping = 20%.
+SYN-3001 : Mapper mapped 63 instances into 5 LUTs, name keeping = 20%.
+SYN-3001 : Mapper mapped 63 instances into 2 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 63 instances into 2 LUTs, name keeping = 50%.
+SYN-3001 : Mapper mapped 63 instances into 5 LUTs, name keeping = 60%.
+SYN-3001 : Mapper mapped 63 instances into 5 LUTs, name keeping = 60%.
+SYN-3001 : Mapper mapped 63 instances into 5 LUTs, name keeping = 40%.
+SYN-3001 : Mapper mapped 63 instances into 3 LUTs, name keeping = 33%.
+SYN-3001 : Mapper mapped 63 instances into 5 LUTs, name keeping = 20%.
+SYN-3001 : Mapper mapped 7 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 7 instances into 1 LUTs, name keeping = 100%.
+SYN-2501 : Inferred 14 ROM instances
+SYN-1019 : Optimized 435 mux instances.
+SYN-1016 : Merged 895 instances.
+SYN-1032 : 10349/130 useful/useless nets, 7132/30 useful/useless insts
+RUN-1002 : start command "start_timer -prepack"
+TMR-2505 : Start building timing graph for model al_temac_example_design.
+TMR-2506 : Build timing graph completely. Port num: 10, tpin num: 34410, tnet num: 10349, tinst num: 7131, tnode num: 42563, tedge num: 69458.
+TMR-2508 : Levelizing timing graph completed, there are 795 levels in total.
+TMR-2501 : Timing graph initialized successfully.
+TMR-2503 : Start to update net delay, extr mode = 2.
+TMR-2504 : Update delay of 10349 nets completely.
+TMR-2502 : Annotate delay completely, extr mode = 2.
+TMR-3001 : Initiate 4 clocks from SDC.
+TMR-3004 : Map sdc constraints, there are 4 constraints in total.
+TMR-3003 : Constraints initiated successfully.
+TMR-3501 : Forward propagation: start to calculate arrival time...
+TMR-3502 : Backward propagation: start to calculate required time...
+TMR-3503 : Timing propagation completes.
+SYN-3001 : Running gate level optimization.
+SYN-2581 : Mapping with K=6, #lut = 589 (4.01), #lev = 8 (2.01)
+SYN-2551 : Post LUT mapping optimization.
+SYN-2581 : Mapping with K=6, #lut = 561 (3.93), #lev = 8 (1.94)
+SYN-3001 : Logic optimization runtime opt =   0.07 sec, map =   0.00 sec
+SYN-3001 : Mapper mapped 1536 instances into 574 LUTs, name keeping = 86%.
+SYN-3001 : Mapper removed 1 lut buffers
+RUN-1002 : start command "report_area -file temac_gate.area"
+RUN-1001 : standard
+***Report Model: al_temac_example_design Device: PH1A90SBG484***
+
+IO Statistics
+#IO                        16
+  #input                    8
+  #output                   7
+  #inout                    1
+
+Utilization Statistics
+#lut                     3409
+  #lut1                    14
+  #lut2                   268
+  #lut3                   899
+  #lut4                   391
+  #lut5                   489
+  #lut6                   503
+  #1-bit adder            845
+#reg                     2407   out of 128640    1.87%
+  #dff                   2407
+  #latch                    0
+#f7mux                      0   out of  32160    0.00%
+#f8mux                      0   out of  16080    0.00%
+#dsp                       47   out of    240   19.58%
+#eram                       4   out of    272    1.47%
+  #eram20k                  4
+  #fifo20k                  0
+#shifter                    3
+#pad                       16   out of    260    6.15%
+  #ireg                     0
+  #oreg                     6
+  #treg                     0
+#pll                        2   out of     12   16.67%
+#pcie                       0   out of      1    0.00%
+#serdes                     0   out of      2    0.00%
+
+Report Hierarchy Area:
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Instance                                      |Module                                      |lut     |ripple  |seq     |eram    |dsp     |dram    |shifter |f7mux   |f8mux   |pll     |serdes  |pcie    |ddr     |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|top                                           |al_temac_example_design                     |2564    |845     |2413    |4       |47      |0       |3       |0       |0       |2       |0       |0       |0       |
+|  trimac_locallink                            |temac_locallink                             |1611    |140     |1654    |2       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|    trimac_block                              |temac_block                                 |1466    |88      |1433    |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|      rx_reset_gen                            |reset_sync                                  |0       |0       |2       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|        reset_sync1                           |FDPE                                        |0       |0       |1       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|        reset_sync2                           |FDPE                                        |0       |0       |1       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|      speed_10_100_rx_sync                    |sync_block                                  |0       |0       |2       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|        data_sync                             |FD                                          |0       |0       |1       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|        data_sync_reg                         |FD                                          |0       |0       |1       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|      trimac_core                             |TEMAC_CORE                                  |1414    |67      |1345    |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|      tx_reset_gen                            |reset_sync                                  |0       |0       |2       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|        reset_sync1                           |FDPE                                        |0       |0       |1       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|        reset_sync2                           |FDPE                                        |0       |0       |1       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|      u1_rgmii_interface                      |rgmii_interface                             |8       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|      u_tx_clk_en_gen                         |tx_clk_en_gen                               |18      |0       |17      |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|        speed_100_sync                        |sync_block                                  |0       |0       |2       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|          data_sync                           |FD                                          |0       |0       |1       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|          data_sync_reg                       |FD                                          |0       |0       |1       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|        speed_10_100_sync                     |sync_block                                  |0       |0       |2       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|          data_sync                           |FD                                          |0       |0       |1       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|          data_sync_reg                       |FD                                          |0       |0       |1       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|    u_client_FIFO                             |client_FIFO                                 |145     |52      |221     |2       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|      tx_fifo                                 |tx_client_fifo                              |145     |52      |221     |2       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|        gen_hd_count$resync_rd_tran_fram....  |sync_block                                  |0       |0       |2       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|          data_sync                           |FD                                          |0       |0       |1       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|          data_sync_reg                       |FD                                          |0       |0       |1       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|        ramgen_l                              |RAMB16_S9_S9                                |1       |0       |0       |1       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|        ramgen_u                              |RAMB16_S9_S9                                |1       |0       |0       |1       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|        resync_rd_tran_frame_tog              |sync_block                                  |0       |0       |2       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|          data_sync                           |FD                                          |0       |0       |1       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|          data_sync_reg                       |FD                                          |0       |0       |1       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|        resync_rd_txfer_tog                   |sync_block                                  |0       |0       |2       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|          data_sync                           |FD                                          |0       |0       |1       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|          data_sync_reg                       |FD                                          |0       |0       |1       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|        resync_wr_frame_in_fifo               |sync_block                                  |0       |0       |2       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|          data_sync                           |FD                                          |0       |0       |1       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|          data_sync_reg                       |FD                                          |0       |0       |1       |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|  u_axi_master_cfg                            |axi_master_cfg                              |115     |0       |97      |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|  u_client_loopback                           |client_loopback                             |18      |0       |48      |0       |0       |0       |1       |0       |0       |0       |0       |0       |0       |
+|  u_pll                                       |pll                                         |1       |0       |0       |0       |0       |0       |0       |0       |0       |1       |0       |0       |0       |
+|  u_rx_pll                                    |rx_pll                                      |0       |0       |0       |0       |0       |0       |0       |0       |0       |1       |0       |0       |0       |
+|  u_test_send                                 |test_send                                   |818     |693     |598     |2       |47      |0       |2       |0       |0       |0       |0       |0       |0       |
+|    u_data_fifo                               |data_fifo                                   |60      |10      |104     |1       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|      ram_inst                                |ram_infer_data_fifo                         |0       |0       |0       |1       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|      rd_to_wr_cross_inst                     |fifo_cross_domain_addr_process_al_data_fifo |18      |0       |40      |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|      wr_to_rd_cross_inst                     |fifo_cross_domain_addr_process_al_data_fifo |16      |0       |36      |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|    u_fake_top                                |fake_top                                    |708     |683     |464     |1       |47      |0       |2       |0       |0       |0       |0       |0       |0       |
+|      u_singal_gen                            |singal_gen                                  |100     |73      |284     |1       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|        u_dds_gen                             |dds_gen                                     |34      |33      |136     |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|        u_dds_gen1                            |dds_gen1                                    |35      |30      |134     |1       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|      u_top_fir                               |top_fir                                     |608     |610     |180     |0       |47      |0       |2       |0       |0       |0       |0       |0       |0       |
+|        u_AD7266                              |AD7266_Read                                 |69      |0       |56      |0       |0       |0       |0       |0       |0       |0       |0       |0       |0       |
+|        u_fir_filter                          |fir_filter                                  |525     |610     |114     |0       |47      |0       |2       |0       |0       |0       |0       |0       |0       |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+SYN-1001 : Packing model "al_temac_example_design" ...
+SYN-4010 : Pack lib has 84 rtl pack models with 57 top pack blocks
+SYN-1014 : Optimize round 1
+SYN-1015 : Optimize round 1, 0 better
+SYN-4002 : Packing 2407 DFF/LATCH to SEQ ...
+SYN-1001 : Remove 35 carry adders
+SYN-4009 : Pack 34 carry chain into lslice
+SYN-4012 : Packed 0 FxMUX
+RUN-1003 : finish command "optimize_gate -maparea temac_gate.area" in  5.579944s wall, 5.140625s user + 0.109375s system = 5.250000s CPU (94.1%)
+
+RUN-1004 : used memory is 1063 MB, reserved memory is 1064 MB, peak memory is 1068 MB
+RUN-1002 : start command "legalize_phy_inst"
+SYN-1011 : Flatten model al_temac_example_design
+SYN-1032 : 9526/0 useful/useless nets, 5660/498 useful/useless insts
+RUN-1002 : start command "export_db temac_gate.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported flow parameters
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported timing constraints
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1003 : finish command "export_db temac_gate.db" in  1.250396s wall, 1.921875s user + 0.000000s system = 1.921875s CPU (153.7%)
+
+RUN-1004 : used memory is 1063 MB, reserved memory is 1064 MB, peak memory is 1116 MB
+RUN-1002 : start command "backup_run_log run.log ../.logs/syn_1/td_20231107_004110.log"
+RUN-1001 : Backing up run's log file succeed.
