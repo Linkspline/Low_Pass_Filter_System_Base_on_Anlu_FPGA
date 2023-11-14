@@ -1,0 +1,211 @@
+│  .gitignore
+│  .wave_bak.cwc
+│  mac_pins.adc
+│  mac_timing.sdc
+│  td_2023-11-06_01-36-23.log
+│  td_2023-11-06_01-49-22.log
+│  td_2023-11-06_01-54-12.log
+│  td_2023-11-06_09-00-27.log
+│  td_2023-11-06_10-42-02.log
+│  td_2023-11-06_13-58-10.log
+│  td_2023-11-06_15-49-44.log
+│  td_2023-11-06_19-21-27.log
+│  td_2023-11-06_23-35-50.log
+│  td_2023-11-07_00-33-45.log
+│  td_2023-11-07_22-03-50.log
+│  td_20231106_013605.log
+│  td_20231106_014902.log
+│  td_20231106_015119.log
+│  td_20231106_015353.log
+│  td_20231106_090007.log
+│  td_20231106_104143.log
+│  td_20231106_135752.log
+│  td_20231106_154925.log
+│  td_20231106_192107.log
+│  td_20231107_003327.log
+│  td_20231107_220332.log
+│  temac.al
+│  wave.cwc
+│
+├─al_ip
+│  │  data_fifo.ipc
+│  │  data_fifo.tcl
+│  │  data_fifo.v
+│  │  pll.ipc
+│  │  pll.v
+│  │  pll.vhd
+│  │  pll_sim.v
+│  │  rx_pll.ipc
+│  │  rx_pll.v
+│  │  rx_pll.vhd
+│  │  TEMAC_CORE.ipc
+│  │  TEMAC_CORE_gate.v
+│  │  trimac_core.ipc
+│  │  trimac_core_gate.v
+│  │
+│  ├─al_ip
+│  │      mypll.ipc
+│  │      mypll.v
+│  │      mypll.vhd
+│  │
+│  ├─dds1_ip
+│  │      dds_gen1.ipc
+│  │      dds_gen1_gate.v
+│  │
+│  ├─dds_ip
+│  │      dds_gen.ipc
+│  │      dds_gen_gate.v
+│  │
+│  ├─fir_ip
+│  ├─pll_ip
+│  └─rom_ip
+│          singal_rom.ipc
+│          singal_rom.v
+│          singal_rom.v.bak
+│          singal_rom.vhd
+│
+├─script
+│  │  data.txt
+│  │  recv_ether.py
+│  │  send_ether.py
+│  │  tmp.txt
+│  │
+│  └─past
+│          line_chart.html
+│          recv_ether copy.py
+│          recv_ether.py
+│          send_ether.py
+│          test_tk.py
+│
+├─src
+│  │  ad7266.v
+│  │  al_temac_example_design.v
+│  │  fake_top.v
+│  │  fir_filter.v
+│  │  pll_test.v.bak
+│  │  singal_gen.v
+│  │  singal_gen.v.bak
+│  │  temac_block.v
+│  │  temac_locallink.v
+│  │  test_send.v
+│  │  test_send_bak.v
+│  │  test_send_bak2.v
+│  │  top_fir.v
+│  │  uart_top.v
+│  │  uiuart_rx.v
+│  │  uiuart_tx.v
+│  │
+│  ├─axi4_lite
+│  │      axi_master_cfg.v
+│  │
+│  ├─client_loopback
+│  │      client_loopback.v
+│  │
+│  ├─clk_en_gen
+│  │      tx_clk_en_gen.v
+│  │
+│  ├─fifo
+│  │      client_fifo.v
+│  │      RAMB16_S9_S9.v
+│  │      rx_client_fifo.v
+│  │      tx_client_fifo.v
+│  │
+│  ├─physical
+│  │      rgmii_interface.v
+│  │
+│  ├─primitive
+│  │      demo_primitive.v
+│  │
+│  └─sync
+│          reset_sync.v
+│          sync_block.v
+│
+└─temac_Runs
+    ├─.logs
+    │  ├─phy_1
+    │  │      td_20231106_015452.log
+    │  │      td_20231106_091044.log
+    │  │      td_20231106_091512.log
+    │  │      td_20231106_092704.log
+    │  │      td_20231106_093352.log
+    │  │      td_20231106_104322.log
+    │  │      td_20231106_133023.log
+    │  │      td_20231106_133226.log
+    │  │      td_20231106_140022.log
+    │  │      td_20231106_140313.log
+    │  │      td_20231106_155025.log
+    │  │      td_20231106_160802.log
+    │  │      td_20231106_163317.log
+    │  │      td_20231106_170241.log
+    │  │      td_20231106_180315.log
+    │  │      td_20231106_182235.log
+    │  │      td_20231106_231837.log
+    │  │      td_20231106_233723.log
+    │  │      td_20231107_004143.log
+    │  │      td_20231107_004226.log
+    │  │
+    │  └─syn_1
+    │          td_20231106_013626.log
+    │          td_20231106_015046.log
+    │          td_20231106_015248.log
+    │          td_20231106_015420.log
+    │          td_20231106_021748.log
+    │          td_20231106_093135.log
+    │          td_20231106_131401.log
+    │          td_20231106_131926.log
+    │          td_20231106_135449.log
+    │          td_20231106_135823.log
+    │          td_20231106_135956.log
+    │          td_20231106_154959.log
+    │          td_20231106_160736.log
+    │          td_20231106_163252.log
+    │          td_20231106_170215.log
+    │          td_20231106_180248.log
+    │          td_20231106_182208.log
+    │          td_20231106_233657.log
+    │          td_20231107_002947.log
+    │          td_20231107_003037.log
+    │          td_20231107_003222.log
+    │          td_20231107_003350.log
+    │          td_20231107_004110.log
+    │
+    ├─phy_1
+    │  │  .bitgen.begin.f
+    │  │  .bitgen.end.f
+    │  │  .opt_place.begin.f
+    │  │  .opt_place.end.f
+    │  │  .opt_route.begin.f
+    │  │  .opt_route.end.f
+    │  │  al_temac_example_design_postroute_clock_analysis.rpt
+    │  │  al_temac_example_design_preroute_clock_analysis.rpt
+    │  │  run.log
+    │  │  temac.bit
+    │  │  temac.prj
+    │  │  temac.tcl
+    │  │  temac_compress.bit
+    │  │  temac_inst.bid
+    │  │  temac_phy.area
+    │  │  temac_phy.timing
+    │  │  temac_phy.tsm
+    │  │  temac_place.db
+    │  │  temac_pr.db
+    │  │  temac_watcherInst.sv
+    │  │
+    │  └─simulation
+    └─syn_1
+        │  .opt_gate.begin.f
+        │  .opt_gate.end.f
+        │  .opt_rtl.begin.f
+        │  .opt_rtl.end.f
+        │  .read_design.begin.f
+        │  .read_design.end.f
+        │  run.log
+        │  temac.prj
+        │  temac.tcl
+        │  temac_elaborate.db
+        │  temac_gate.area
+        │  temac_gate.db
+        │  temac_rtl.area
+        │  temac_rtl.db
+        │
+        └─simulation
