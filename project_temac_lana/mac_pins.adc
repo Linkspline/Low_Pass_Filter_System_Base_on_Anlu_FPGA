@@ -1,0 +1,15 @@
+set_pin_assignment	{ sysclk_P 	   }	{ LOCATION = N18; }
+set_pin_assignment	{ reset_n      }	{ LOCATION = K4; IOSTANDARD = SSTL15; PULLTYPE = PULLUP; }
+
+set_pin_assignment	{ rgmii_rxc    }	{ LOCATION = H20; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ rgmii_rx_ctl }	{ LOCATION = K17; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ rgmii_rxd[0] }	{ LOCATION = E21; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ rgmii_rxd[1] }	{ LOCATION = E22; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ rgmii_rxd[2] }	{ LOCATION = H22; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ rgmii_rxd[3] }	{ LOCATION = G22; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ rgmii_txc    }	{ LOCATION = L19; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ rgmii_tx_ctl }	{ LOCATION = G21; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ rgmii_txd[0] }	{ LOCATION = F21; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ rgmii_txd[1] }	{ LOCATION = J21; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ rgmii_txd[2] }	{ LOCATION = J22; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ rgmii_txd[3] }	{ LOCATION = J20; IOSTANDARD = LVCMOS33; }
