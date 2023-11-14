@@ -1,0 +1,28 @@
+`timescale 1ns/1ps
+
+module pll_test( 
+input        I_sysclk_p,
+output [1:0] O_up_led
+);
+wire        clk0;
+wire        pll_lock;
+reg  [25:0] cnt;
+
+//pll instance
+mypll u_mypll(
+.reset       (1'b0),
+.refclk      (I_sysclk_p),
+.clk0_out    (clk0),
+.lock        (pll_lock)
+);
+
+assign O_up_led = {cnt[25:24]};//输出计数器的高位用于驱动 LED
+
+always @ (posedge clk0 or negedge pll_lock)begin
+    if(pll_lock==1'b0)
+        cnt <= 26'd0;
+    else
+        cnt <= cnt + 1'b1; //cnt power on initial value is all 1
+end
+
+endmodule

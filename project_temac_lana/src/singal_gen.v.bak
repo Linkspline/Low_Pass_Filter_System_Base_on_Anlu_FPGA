@@ -1,0 +1,43 @@
+module singal_gen(
+    input clk, // 时钟输入
+    input rst_n,
+    output DOUTA,
+    output DOUTB
+);
+parameter WIDTH = 8;
+parameter DEPTH = 1024;
+wire [7:0] signal_out;
+reg [3:0] count14;
+//地址寄存器
+reg [9:0] addr = 10'd0;
+
+singal_rom u_singal_rom(
+    .clka(clk),
+    .addra(addr),
+    .doa(signal_out)
+);
+
+//地址控制
+always @(posedge clk or negedge rst_n)
+begin
+    if(!rst_n) begin
+        addr <= 10'd0;
+        count14<=0;
+    end
+    else if (count14==13) begin
+        count14<=0;
+        if(addr == DEPTH-1) begin
+            addr <= 10'd0;
+        end
+        else begin
+            addr <= addr + 1'b1;
+        end
+    end
+    else count14<=count14+1;
+end
+wire [13:0] shift_reg={6'b000000,signal_out};
+
+assign DOUTA=shift_reg[count14];
+assign DOUTB=~DOUTA;
+
+endmodule
